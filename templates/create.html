@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel-Editor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <div class="flex h-screen">
+
+    <aside class="w-64 bg-white border-r border-gray-200 p-4 overflow-y-auto">
+      <h2 class="text-lg font-semibold mb-3">Artikel-History</h2>
+      <ul class="space-y-2 text-sm">
+      <ul id="historyList" class="space-y-2 text-sm">
+      </ul>
+    </aside>
+
+    <main class="flex-1 flex flex-col items-center overflow-y-auto p-6">
+      <div class="w-full max-w-3xl bg-white p-6 rounded-lg shadow">
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Stichpunkte</label>
+          <textarea id="bulletpoints" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500" rows="3"></textarea>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Dachzeile</label>
+          <input id="roofline" type="text" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500" >
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Titel</label>
+          <input id="headline" type="text" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500" >
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Untertitel</label>
+          <input id="subline" type="text" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Paywall-Teaser</label>
+          <input id="teaser" type="text" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Text</label>
+          <textarea id="text" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500" rows="8"></textarea>
+        </div>
+
+        <div class="mt-4 flex justify-end">
+          <button id="saveBtn" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Speichern</button>
+        </div>
+    </main>
+
+    <aside id="chatSidebar" class="w-64 bg-white border-l border-gray-200 p-4 overflow-y-auto fixed right-0 top-0 h-full transform translate-x-full transition-transform duration-300">
+      <h2 class="text-lg font-semibold mb-3">KI</h2>
+      <div class="space-y-3 text-sm">
+      </div>
+    </aside>
+
+    <button id="chatToggle" class="fixed top-1/2 right-0 transform -translate-y-1/2 bg-blue-600 text-white rounded-l-lg px-2 py-2 hover:bg-blue-700 transition">
+      < >
+    </button>
+
+  </div>
+
+  <script src="{{ url_for('static', filename='js/create.js') }}"></script>
+
+</body>
+</html>

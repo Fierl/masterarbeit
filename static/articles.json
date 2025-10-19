@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "bulletpoints": "Punkt A\nPunkt B\nPunkt C",
+    "roofline": "Kurze Dachzeile 1",
+    "headline": "Erster Test-Artikel",
+    "subline": "Untertitel 1",
+    "teaser": "Knapper Teaser 1",
+    "text": "Das ist der Text des ersten Test-Artikels.",
+    "created_at": "2025-10-18T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "bulletpoints": "Punkt X\nPunkt Y",
+    "roofline": "Dachzeile 2",
+    "headline": "Zweiter Test-Artikel",
+    "subline": "Untertitel 2",
+    "teaser": "Knapper Teaser 2",
+    "text": "Text des zweiten Artikels. Längerer Inhalt...",
+    "created_at": "2025-10-17T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "bulletpoints": "Nur ein Punkt",
+    "roofline": "Dachzeile 3",
+    "headline": "Dritter Test-Artikel",
+    "subline": "Untertitel 3",
+    "teaser": "Knapper Teaser 3",
+    "text": "Dritter Artikel-Text.",
+    "created_at": "2025-10-16T09:00:00Z"
+  }
+]
