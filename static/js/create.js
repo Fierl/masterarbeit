@@ -9,6 +9,80 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('generieren-btn')) {
+      const field = e.target.getAttribute('data-field');
+      openChatAndGenerate(field);
+    } else if (e.target.classList.contains('umschreiben-btn')) {
+      const field = e.target.getAttribute('data-field');
+      openChatAndRewrite(field);
+    }
+  });
+
+  function openChatAndGenerate(field) {
+    if (chatSidebar.classList.contains('translate-x-full')) {
+      chatSidebar.classList.remove('translate-x-full');
+    }
+    
+    console.log(`Generiere Inhalt für Feld: ${field}`);
+    
+    const chatContent = chatSidebar.querySelector('.space-y-3');
+    chatContent.innerHTML = `
+      <div class="bg-blue-50 p-3 rounded">
+        <strong>Generiere ${getFieldLabel(field)}</strong>
+        <p class="text-sm mt-1">KI generiert Inhalt für dieses Feld...</p>
+      </div>
+    `;
+  }
+
+  function openChatAndRewrite(field) {
+    if (chatSidebar.classList.contains('translate-x-full')) {
+      chatSidebar.classList.remove('translate-x-full');
+    }
+    
+    console.log(`Schreibe Inhalt um für Feld: ${field}`);
+
+    const chatContent = chatSidebar.querySelector('.space-y-3');
+    const currentValue = document.getElementById(field).value;
+    
+    if (!currentValue.trim()) {
+      chatContent.innerHTML = `
+        <div class="bg-yellow-50 p-3 rounded">
+          <strong>Umschreiben ${getFieldLabel(field)}</strong>
+          <p class="text-sm mt-1">Bitte geben Sie zuerst Text ein, der umgeschrieben werden soll.</p>
+        </div>
+      `;
+    } else {
+      chatContent.innerHTML = `
+        <div class="bg-orange-50 p-3 rounded">
+          <strong>Schreibe ${getFieldLabel(field)} um</strong>
+          <p class="text-sm mt-1">KI schreibt den vorhandenen Text um...</p>
+          <div class="text-xs mt-2 p-2 bg-white rounded border">
+            <strong>Aktueller Text:</strong><br>
+            ${currentValue}
+          </div>
+        </div>
+      `;
+    }
+  }
+
+  function getFieldLabel(field) {
+    const labels = {
+      'roofline': 'Dachzeile',
+      'headline': 'Titel',
+      'subline': 'Untertitel',
+      'teaser': 'Paywall-Teaser',
+      'text': 'Text'
+    };
+    return labels[field] || field;
+  }
+
+  if (chatToggle && chatSidebar) {
+    chatToggle.addEventListener('click', () => {
+      chatSidebar.classList.toggle('translate-x-full');
+    });
+  }
+
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
       e.preventDefault();
@@ -56,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     text: document.getElementById('text')
   };
 
-  const SOURCE_URL = '/static/articles.json';
+  const SOURCE_URL = '/api/articles';
 
   fetch(SOURCE_URL)
     .then(res => {

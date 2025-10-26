@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anmeldung</title>
+    <title>Registrierung - Artikel Generator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
             padding: 20px;
             background-color: #f5f5f5;
         }
-        .login-container {
+        .register-container {
             background: white;
             padding: 30px;
             border-radius: 10px;
@@ -42,12 +42,12 @@
         }
         input[type="text"]:focus, input[type="password"]:focus {
             outline: none;
-            border-color: #007bff;
+            border-color: #28a745;
         }
         .btn {
             width: 100%;
             padding: 12px;
-            background-color: #007bff;
+            background-color: #28a745;
             color: white;
             border: none;
             border-radius: 5px;
@@ -56,17 +56,17 @@
             margin-bottom: 10px;
         }
         .btn:hover {
-            background-color: #0056b3;
+            background-color: #218838;
         }
-        .register-link {
+        .login-link {
             text-align: center;
             margin-top: 20px;
         }
-        .register-link a {
+        .login-link a {
             color: #007bff;
             text-decoration: none;
         }
-        .register-link a:hover {
+        .login-link a:hover {
             text-decoration: underline;
         }
         .alert {
@@ -84,12 +84,18 @@
             color: #155724;
             border: 1px solid #c3e6cb;
         }
+        .requirements {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h1>Anmeldung</h1>
+    <div class="register-container">
+        <h1>Registrierung</h1>
         
+        <!-- Flash Messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
@@ -100,24 +106,55 @@
             {% endif %}
         {% endwith %}
         
-        <form method="POST" id="loginForm">
+        <form method="POST" id="registerForm">
             <div class="form-group">
                 <label for="username">Benutzername:</label>
                 <input type="text" id="username" name="username" required>
+                <div class="requirements">Mindestens 3 Zeichen</div>
             </div>
             
             <div class="form-group">
                 <label for="password">Passwort:</label>
                 <input type="password" id="password" name="password" required>
+                <div class="requirements">Mindestens 6 Zeichen</div>
             </div>
             
-            <button type="submit" class="btn">Anmelden</button>
+            <div class="form-group">
+                <label for="confirm_password">Passwort bestätigen:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            
+            <button type="submit" class="btn">Registrieren</button>
         </form>
         
+        <div class="login-link">
+            <p>Bereits ein Konto? <a href="{{ url_for('auth.login') }}">Hier anmelden</a></p>
+        </div>
     </div>
 
     <script>
-        document.getElementById('loginForm').addEventListener('submit', function(e) {
+        // Password validation
+        document.getElementById('registerForm').addEventListener('submit', function(e) {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm_password').value;
+            
+            if (password !== confirmPassword) {
+                e.preventDefault();
+                alert('Passwörter stimmen nicht überein');
+                return;
+            }
+            
+            if (password.length < 6) {
+                e.preventDefault();
+                alert('Passwort muss mindestens 6 Zeichen lang sein');
+                return;
+            }
+            
+            if (document.getElementById('username').value.trim().length < 3) {
+                e.preventDefault();
+                alert('Username muss mindestens 3 Zeichen lang sein');
+                return;
+            }
         });
     </script>
 </body>
