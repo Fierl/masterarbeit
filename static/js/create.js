@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
     text: document.getElementById('text')
   };
 
-  // Aktuell: Mock-Datei. Später: '/api/articles' oder ähnliches
   const SOURCE_URL = '/static/articles.json';
 
   fetch(SOURCE_URL)
