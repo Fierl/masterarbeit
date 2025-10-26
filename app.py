@@ -12,10 +12,8 @@ import src.models.Chat as _c
 app = Flask(__name__, template_folder='templates')
 app.config.from_object(Config)
 
-# Initialize database
 db.init_app(app)
 
-# Initialize Flask-Login
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'auth.login'
@@ -27,7 +25,6 @@ def load_user(user_id):
     from src.services.auth_service import AuthService
     return AuthService.get_user_by_id(user_id)
 
-# Register blueprints
 app.register_blueprint(articles_bp)
 app.register_blueprint(auth_bp)
 
