@@ -40,7 +40,6 @@ def register():
         password = data.get('password', '')
         confirm_password = data.get('confirm_password', '')
         
-        # Validate password confirmation
         if password != confirm_password:
             message = "Passwörter stimmen nicht überein"
             if request.is_json:
