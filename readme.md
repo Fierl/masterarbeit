@@ -8,3 +8,8 @@ sudo htpasswd /etc/nginx/.htpasswd anderer_user
 pip install -r requirements.txt
 sudo systemctl restart masterarbeit
 sudo systemctl status masterarbeit
+
+# database
+sudo -u postgres psql
+\c test
+ALTER TABLE chats ADD COLUMN chat_type VARCHAR(10) DEFAULT 'generate' NOT NULL;

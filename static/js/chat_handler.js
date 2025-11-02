@@ -106,7 +106,7 @@ async function handleGenerate(field) {
       chatSidebar.classList.remove('translate-x-full');
     }
     
-    await loadChatHistory(field, chatContent);
+    await loadChatHistory(field, chatContent, 'generate');
     
   } catch (err) {
     console.error('Fehler beim Generieren:', err);
@@ -132,7 +132,7 @@ async function openChatAndGenerate(field) {
   currentField = field;
   
   if (currentArticleId) {
-    await loadChatHistory(field, chatContent);
+    await loadChatHistory(field, chatContent, 'generate');
   } else {
     chatContent.innerHTML = `
       <div class="bg-yellow-50 p-3 rounded">
@@ -166,7 +166,7 @@ async function openChatAndRewrite(field) {
   const currentValue = document.getElementById(field).value;
   
   if (currentArticleId) {
-    await loadChatHistory(field, chatContent);
+    await loadChatHistory(field, chatContent, 'edit');
   } else {
     chatContent.innerHTML = `
       <div class="bg-yellow-50 p-3 rounded">
@@ -213,9 +213,14 @@ async function openChatAndRewrite(field) {
   }
 }
 
-async function loadChatHistory(field, chatContent) {
+async function loadChatHistory(field, chatContent, chatType = null) {
   try {
-    const res = await fetch(`/api/chats?article_id=${currentArticleId}&field_name=${field}`);
+    let url = `/api/chats?article_id=${currentArticleId}&field_name=${field}`;
+    if (chatType) {
+      url += `&chat_type=${chatType}`;
+    }
+    
+    const res = await fetch(url);
     
     if (!res.ok) {
       throw new Error('Fehler beim Laden der Chat-Historie');
@@ -223,9 +228,12 @@ async function loadChatHistory(field, chatContent) {
     
     const chats = await res.json();
     
+    const typeLabel = chatType === 'generate' ? 'Generiert' : chatType === 'edit' ? 'Bearbeitet' : 'Alle';
+    
     chatContent.innerHTML = `
       <div class="mb-3">
         <strong class="text-sm">Historie für ${getFieldLabel(field)}</strong>
+        ${chatType ? `<span class="text-xs text-gray-500 ml-2">(${typeLabel})</span>` : ''}
       </div>
     `;
     
@@ -237,9 +245,14 @@ async function loadChatHistory(field, chatContent) {
     } else {
       chats.forEach(chat => {
         const chatItem = document.createElement('div');
-        chatItem.className = 'bg-gray-50 p-2 rounded mb-2 cursor-pointer hover:bg-gray-100';
+        const bgColor = chat.chat_type === 'generate' ? 'bg-blue-50' : 'bg-orange-50';
+        const typeIcon = chat.chat_type === 'generate' ? '🤖' : '✏️';
+        
+        chatItem.className = `${bgColor} p-2 rounded mb-2 cursor-pointer hover:opacity-80`;
         chatItem.innerHTML = `
-          <div class="text-xs text-gray-500">${new Date(chat.created_at).toLocaleString()}</div>
+          <div class="text-xs text-gray-500">
+            ${typeIcon} ${new Date(chat.created_at).toLocaleString()}
+          </div>
           <div class="text-sm mt-1">${chat.content}</div>
         `;
         chatItem.addEventListener('click', () => {
@@ -288,7 +301,7 @@ async function generateContent(field, prompt, chatContent) {
     
     document.getElementById(field).value = data.content;
     
-    await loadChatHistory(field, chatContent);
+    await loadChatHistory(field, chatContent, 'generate');
     
     alert('Text wurde erfolgreich generiert!');
   } catch (err) {
@@ -318,7 +331,7 @@ async function editContent(field, content, chatContent) {
     
     document.getElementById(field).value = data.content;
     
-    await loadChatHistory(field, chatContent);
+    await loadChatHistory(field, chatContent, 'edit');
     
     alert('Text wurde erfolgreich gespeichert!');
   } catch (err) {

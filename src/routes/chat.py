@@ -27,11 +27,10 @@ def generate_chat():
     chat = Chat(
         article_id=article_id,
         field_name=field_name,
+        chat_type='generate',
         content=generated_content
     )
     
-    db.session.add(chat)
-    db.session.add(chat)
     db.session.add(chat)
     db.session.commit()
     
@@ -39,6 +38,7 @@ def generate_chat():
         'id': chat.id,
         'article_id': chat.article_id,
         'field_name': chat.field_name,
+        'chat_type': chat.chat_type,
         'content': chat.content,
         'created_at': chat.created_at.isoformat()
     }), 201
@@ -60,6 +60,7 @@ def edit_chat():
     chat = Chat(
         article_id=article_id,
         field_name=field_name,
+        chat_type='edit',
         content=content
     )
     
@@ -70,6 +71,7 @@ def edit_chat():
         'id': chat.id,
         'article_id': chat.article_id,
         'field_name': chat.field_name,
+        'chat_type': chat.chat_type,
         'content': chat.content,
         'created_at': chat.created_at.isoformat()
     }), 201
@@ -79,6 +81,7 @@ def edit_chat():
 def list_chats():
     article_id = request.args.get('article_id', type=int)
     field_name = request.args.get('field_name')
+    chat_type = request.args.get('chat_type')
     
     if not article_id or not field_name:
         return jsonify({'error': 'article_id und field_name sind erforderlich'}), 400
@@ -86,15 +89,24 @@ def list_chats():
     if field_name not in ['headline', 'subline', 'roofline', 'text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
     
-    chats = Chat.query.filter_by(
+    if chat_type and chat_type not in ['generate', 'edit']:
+        return jsonify({'error': 'Ungültiger chat_type'}), 400
+    
+    query = Chat.query.filter_by(
         article_id=article_id,
         field_name=field_name
-    ).order_by(Chat.created_at.desc()).all()
+    )
+    
+    if chat_type:
+        query = query.filter_by(chat_type=chat_type)
+    
+    chats = query.order_by(Chat.created_at.desc()).all()
     
     return jsonify([{
         'id': chat.id,
         'article_id': chat.article_id,
         'field_name': chat.field_name,
+        'chat_type': chat.chat_type,
         'content': chat.content,
         'created_at': chat.created_at.isoformat()
     } for chat in chats]), 200
