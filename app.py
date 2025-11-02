@@ -4,6 +4,7 @@ from src.config.config import Config
 from src.database import db
 from src.routes.articles import bp as articles_bp
 from src.routes.auth import bp as auth_bp
+from src.routes.chat import bp as chat_bp
 import src.models.User as _u
 import src.models.Article as _a
 import src.models.Chat as _c
@@ -27,6 +28,7 @@ def load_user(user_id):
 
 app.register_blueprint(articles_bp)
 app.register_blueprint(auth_bp)
+app.register_blueprint(chat_bp)
 
 
 with app.app_context():
