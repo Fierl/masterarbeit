@@ -8,7 +8,9 @@ from src.routes.chat import bp as chat_bp
 import src.models.User as _u
 import src.models.Article as _a
 import src.models.Chat as _c
+import mimetypes
 
+mimetypes.add_type('application/javascript', '.js')
 
 app = Flask(__name__, template_folder='templates')
 app.config.from_object(Config)

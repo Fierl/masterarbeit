@@ -22,7 +22,7 @@ Guidelines:
 - Add value by giving the reader more reason to read the article
 - Use clear and straightforward language
 - 2-3 Sentences summarizing the article's key points
-- Only Alphabetic characters, no special characters or emojis
+- Only Alphabetic characters, no special characters, stars or emojis
 - The text has to be in German language."""
 
     ROOFLINE = """You are an expert roofline (kicker) writer for journalistic articles.
