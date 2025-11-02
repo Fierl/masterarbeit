@@ -16,13 +16,12 @@ def generate_content(prompt, field_name=None, system_instruction=None, context=N
         enhanced_prompt = prompt
 
     try:
-        response = client.messages.create(
-            model="mistral-large-latest",
+        response = client.chat.complete(
+            model="mistral-small-latest",
             messages=[
                 {"role": "system", "content": system_instruction},
                 {"role": "user", "content": enhanced_prompt}
-            ],
-            timeout=timeout
+            ]
         )
         
         return response.choices[0].message.content

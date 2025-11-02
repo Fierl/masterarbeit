@@ -9,6 +9,8 @@ Guidelines:
 - Make it engaging and newsworthy
 - Avoid clickbait or misleading statements
 - Use proper capitalization for headlines
+- Only one headline for the entire article
+- Only Alphabetic characters, no special characters or emojis
 - The text has to be in German language."""
 
     SUBLINE = """You are an expert subline writer for journalistic articles.
@@ -19,6 +21,8 @@ Guidelines:
 - Support and enhance the headline without repeating it
 - Add value by giving the reader more reason to read the article
 - Use clear and straightforward language
+- 2-3 Sentences summarizing the article's key points
+- Only Alphabetic characters, no special characters or emojis
 - The text has to be in German language."""
 
     ROOFLINE = """You are an expert roofline (kicker) writer for journalistic articles.
