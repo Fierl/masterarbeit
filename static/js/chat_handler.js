@@ -101,7 +101,6 @@ async function handleGenerate(field) {
     
     document.getElementById(field).value = data.content;
     
-    // Chat-Sidebar öffnen und Historie laden
     if (chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
     }
@@ -246,12 +245,11 @@ async function loadChatHistory(field, chatContent, chatType = null) {
       chats.forEach(chat => {
         const chatItem = document.createElement('div');
         const bgColor = chat.chat_type === 'generate' ? 'bg-blue-50' : 'bg-orange-50';
-        const typeIcon = chat.chat_type === 'generate' ? '🤖' : '✏️';
         
         chatItem.className = `${bgColor} p-2 rounded mb-2 cursor-pointer hover:opacity-80`;
         chatItem.innerHTML = `
           <div class="text-xs text-gray-500">
-            ${typeIcon} ${new Date(chat.created_at).toLocaleString()}
+           ${new Date(chat.created_at).toLocaleString()}
           </div>
           <div class="text-sm mt-1">${chat.content}</div>
         `;

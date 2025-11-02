@@ -23,7 +23,6 @@ def generate_chat():
         return jsonify({'error': 'Ungültiger field_name'}), 400
 
     generated_content = generate_content(prompt, field_name=field_name, context=context)
-
     chat = Chat(
         article_id=article_id,
         field_name=field_name,

@@ -14,7 +14,6 @@ def generate_content(prompt, field_name=None, system_instruction=None, context=N
         enhanced_prompt = f"Kontext:\n{context}\n\nAufgabe:\n{prompt}"
     else:
         enhanced_prompt = prompt
-
     try:
         response = client.chat.complete(
             model="mistral-small-latest",
