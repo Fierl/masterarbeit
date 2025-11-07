@@ -7,6 +7,10 @@ export function setCurrentArticleId(articleId) {
   currentArticleId = articleId;
 }
 
+export function getCurrentArticleId() {
+  return currentArticleId;
+}
+
 export function initChatHandler() {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatToggle = document.getElementById('chatToggle');

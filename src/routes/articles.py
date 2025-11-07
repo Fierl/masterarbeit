@@ -12,19 +12,16 @@ def create():
     else:
         data = request.form.to_dict()
     
-    # Get user_id from authenticated user
-    user_id = current_user.id
-    article = create_article(data, user_id=user_id)
+    article = create_article(data, user_id=current_user.id)
     return jsonify({
+        'id': article.id,
         'created_at': article.created_at.isoformat() if article.created_at else None
     }), 201
 
 @bp.route('/api/articles', methods=['GET'])
 @login_required
 def list_articles():
-    # Get user_id from authenticated user
-    user_id = current_user.id
-    articles = get_articles(user_id=user_id)
+    articles = get_articles(user_id=current_user.id)
     result = []
     for a in articles:
         result.append({
@@ -37,3 +34,29 @@ def list_articles():
             'created_at': a.created_at.isoformat() if a.created_at else None
         })
     return jsonify(result), 200
+
+@bp.route('/api/articles/<int:article_id>', methods=['PUT'])
+@login_required
+def update(article_id):
+    if request.is_json:
+        data = request.get_json()
+    else:
+        data = request.form.to_dict()
+    
+    article = update_article(article_id, data, user_id=current_user.id)
+    if not article:
+        return jsonify({'error': 'Article not found'}), 404
+    
+    return jsonify({
+        'id': article.id,
+        'created_at': article.created_at.isoformat() if article.created_at else None,
+        'updated_at': article.updated_at.isoformat() if article.updated_at else None
+    }), 200
+
+@bp.route('/api/articles/<int:article_id>', methods=['DELETE'])
+@login_required
+def delete_article(article_id):
+    article = hide_article(article_id, user_id=current_user.id)
+    if not article:
+        return jsonify({'error': 'Article not found'}), 404
+    return jsonify({'message': 'Article hidden successfully'}), 200

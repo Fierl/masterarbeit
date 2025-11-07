@@ -1,4 +1,4 @@
-import { setCurrentArticleId } from './chat_handler.js';
+import { setCurrentArticleId, getCurrentArticleId } from './chat_handler.js';
 
 export function initArticleHandler() {
   const saveBtn = document.getElementById('saveBtn');
@@ -32,16 +32,32 @@ async function saveArticle(saveBtn) {
   };
   
   try {
-    const res = await fetch('/api/articles', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
+    const currentId = getCurrentArticleId();
+    let res;
+    
+    if (currentId) {
+      // Update existing article
+      res = await fetch(`/api/articles/${currentId}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+    } else {
+      // Create new article
+      res = await fetch('/api/articles', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+    }
     
     if (res.ok) {
       const body = await res.json();
       setCurrentArticleId(body.id);
       alert('Artikel gespeichert!');
+      
+      const historyEvent = new CustomEvent('reloadHistory');
+      document.dispatchEvent(historyEvent);
     } else {
       const txt = await res.text();
       console.error('Save error', res.status, txt);

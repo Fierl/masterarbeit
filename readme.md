@@ -16,3 +16,5 @@ console.mistral.ai
 sudo -u postgres psql
 \c test
 ALTER TABLE chats ADD COLUMN chat_type VARCHAR(10) DEFAULT 'generate' NOT NULL;
+ALTER TABLE articles ADD COLUMN is_hidden BOOLEAN DEFAULT FALSE;
+ALTER TABLE articles ADD COLUMN IF NOT EXISTS teaser TEXT;
