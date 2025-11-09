@@ -30,6 +30,75 @@ export function initChatHandler() {
       openChatAndRewrite(field);
     }
   });
+
+  // Close chat when clicking outside or interacting with other elements
+  setupCloseChatOnInteraction();
+}
+
+export async function generateField(field) {
+  return await handleGenerate(field);
+}
+
+function setupCloseChatOnInteraction() {
+  const chatSidebar = document.getElementById('chatSidebar');
+  const chatToggle = document.getElementById('chatToggle');
+  
+  if (!chatSidebar) return;
+
+  document.addEventListener('click', (e) => {
+    const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
+    
+    if (!isChatOpen) return;
+
+    const isClickInsideChat = chatSidebar.contains(e.target);
+    const isClickOnToggle = chatToggle && chatToggle.contains(e.target);
+    const isClickOnChatButtons = e.target.classList.contains('generieren-btn') || 
+                                   e.target.classList.contains('umschreiben-btn');
+
+    if (!isClickInsideChat && !isClickOnToggle && !isClickOnChatButtons) {
+      chatSidebar.classList.add('translate-x-full');
+    }
+  });
+
+  const inputFields = document.querySelectorAll('input, textarea');
+  inputFields.forEach(field => {
+    field.addEventListener('focus', () => {
+      const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
+      if (isChatOpen) {
+        chatSidebar.classList.add('translate-x-full');
+      }
+    });
+  });
+
+  const saveBtn = document.getElementById('saveBtn');
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
+      if (isChatOpen) {
+        chatSidebar.classList.add('translate-x-full');
+      }
+    });
+  }
+
+  const newChatBtn = document.getElementById('newChatBtn');
+  if (newChatBtn) {
+    newChatBtn.addEventListener('click', () => {
+      const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
+      if (isChatOpen) {
+        chatSidebar.classList.add('translate-x-full');
+      }
+    });
+  }
+
+  const historyList = document.getElementById('historyList');
+  if (historyList) {
+    historyList.addEventListener('click', () => {
+      const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
+      if (isChatOpen) {
+        chatSidebar.classList.add('translate-x-full');
+      }
+    });
+  }
 }
 
 async function handleGenerate(field) {
@@ -69,7 +138,7 @@ async function handleGenerate(field) {
         `;
         return;
       }
-    } else if (field === 'roofline' || field === 'headline' || field === 'subline') {
+    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser') {
       contextContent = document.getElementById('text').value;
       if (!contextContent.trim()) {
         if (chatSidebar.classList.contains('translate-x-full')) {
@@ -279,7 +348,7 @@ async function generateContent(field, prompt, chatContent) {
     
     if (field === 'text') {
       contextContent = document.getElementById('bulletpoints').value;
-    } else if (field === 'roofline' || field === 'headline' || field === 'subline') {
+    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser') {
       contextContent = document.getElementById('text').value;
     }
     

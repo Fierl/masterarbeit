@@ -1,8 +1,9 @@
-import { setCurrentArticleId, getCurrentArticleId } from './chat_handler.js';
+import { setCurrentArticleId, getCurrentArticleId, generateField } from './chat_handler.js';
 
 export function initArticleHandler() {
   const saveBtn = document.getElementById('saveBtn');
   const newChatBtn = document.getElementById('newChatBtn');
+  const generateAllBtn = document.getElementById('generateAllBtn');
 
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
@@ -15,6 +16,13 @@ export function initArticleHandler() {
     newChatBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       await createNewChat();
+    });
+  }
+
+  if (generateAllBtn) {
+    generateAllBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      await generateAllFields(generateAllBtn);
     });
   }
 }
@@ -121,4 +129,61 @@ async function createNewChat() {
     console.error(err);
     alert('Netzwerkfehler beim Erstellen des neuen Chats');
   }
+}
+
+async function generateAllFields(generateAllBtn) {
+  const bulletpoints = document.getElementById('bulletpoints').value;
+  
+  if (!bulletpoints.trim()) {
+    alert('Bitte geben Sie zuerst Stichpunkte ein.');
+    return;
+  }
+  
+  if (!getCurrentArticleId()) {
+    alert('Bitte speichern Sie zuerst den Artikel.');
+    return;
+  }
+  
+  generateAllBtn.disabled = true;
+  const originalText = generateAllBtn.textContent;
+  
+  try {
+    // Generate text first
+    generateAllBtn.textContent = 'Generiere Text...';
+    await generateField('text');
+    
+    // Wait a bit to ensure text is saved
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
+    // Generate other fields
+    const fields = ['roofline', 'headline', 'subline', 'teaser'];
+    for (const field of fields) {
+      generateAllBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
+      await generateField(field);
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+    
+    generateAllBtn.textContent = 'Fertig!';
+    setTimeout(() => {
+      generateAllBtn.textContent = originalText;
+    }, 2000);
+    
+  } catch (err) {
+    console.error('Fehler beim Generieren aller Felder:', err);
+    alert('Fehler beim Generieren: ' + err.message);
+    generateAllBtn.textContent = originalText;
+  } finally {
+    generateAllBtn.disabled = false;
+  }
+}
+
+function getFieldLabel(field) {
+  const labels = {
+    'roofline': 'Dachzeile',
+    'headline': 'Titel',
+    'subline': 'Untertitel',
+    'teaser': 'Paywall-Teaser',
+    'text': 'Text'
+  };
+  return labels[field] || field;
 }
