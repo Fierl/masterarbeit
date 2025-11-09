@@ -14,10 +14,14 @@ export function getCurrentArticleId() {
 export function initChatHandler() {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatToggle = document.getElementById('chatToggle');
+  const mainContent = document.getElementById('mainContent');
 
   if (chatToggle && chatSidebar) {
     chatToggle.addEventListener('click', () => {
       chatSidebar.classList.toggle('translate-x-full');
+      if (mainContent) {
+        mainContent.classList.toggle('mr-[650px]');
+      }
     });
   }
 
@@ -42,6 +46,7 @@ export async function generateField(field) {
 function setupCloseChatOnInteraction() {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatToggle = document.getElementById('chatToggle');
+  const mainContent = document.getElementById('mainContent');
   
   if (!chatSidebar) return;
 
@@ -57,6 +62,9 @@ function setupCloseChatOnInteraction() {
 
     if (!isClickInsideChat && !isClickOnToggle && !isClickOnChatButtons) {
       chatSidebar.classList.add('translate-x-full');
+      if (mainContent) {
+        mainContent.classList.remove('mr-[650px]');
+      }
     }
   });
 
@@ -66,6 +74,9 @@ function setupCloseChatOnInteraction() {
       const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
       if (isChatOpen) {
         chatSidebar.classList.add('translate-x-full');
+        if (mainContent) {
+          mainContent.classList.remove('mr-[650px]');
+        }
       }
     });
   });
@@ -76,6 +87,9 @@ function setupCloseChatOnInteraction() {
       const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
       if (isChatOpen) {
         chatSidebar.classList.add('translate-x-full');
+        if (mainContent) {
+          mainContent.classList.remove('mr-[650px]');
+        }
       }
     });
   }
@@ -86,6 +100,9 @@ function setupCloseChatOnInteraction() {
       const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
       if (isChatOpen) {
         chatSidebar.classList.add('translate-x-full');
+        if (mainContent) {
+          mainContent.classList.remove('mr-[650px]');
+        }
       }
     });
   }
@@ -96,6 +113,9 @@ function setupCloseChatOnInteraction() {
       const isChatOpen = !chatSidebar.classList.contains('translate-x-full');
       if (isChatOpen) {
         chatSidebar.classList.add('translate-x-full');
+        if (mainContent) {
+          mainContent.classList.remove('mr-[650px]');
+        }
       }
     });
   }
@@ -104,10 +124,14 @@ function setupCloseChatOnInteraction() {
 async function handleGenerate(field) {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatContent = chatSidebar.querySelector('.space-y-3');
+  const mainContent = document.getElementById('mainContent');
   
   if (!currentArticleId) {
     if (chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
+      if (mainContent) {
+        mainContent.classList.add('mr-[650px]');
+      }
     }
     chatContent.innerHTML = `
       <div class="bg-yellow-50 p-3 rounded">
@@ -129,6 +153,9 @@ async function handleGenerate(field) {
       if (!contextContent.trim()) {
         if (chatSidebar.classList.contains('translate-x-full')) {
           chatSidebar.classList.remove('translate-x-full');
+          if (mainContent) {
+            mainContent.classList.add('mr-[650px]');
+          }
         }
         chatContent.innerHTML = `
           <div class="bg-yellow-50 p-3 rounded">
@@ -143,6 +170,9 @@ async function handleGenerate(field) {
       if (!contextContent.trim()) {
         if (chatSidebar.classList.contains('translate-x-full')) {
           chatSidebar.classList.remove('translate-x-full');
+          if (mainContent) {
+            mainContent.classList.add('mr-[650px]');
+          }
         }
         chatContent.innerHTML = `
           <div class="bg-yellow-50 p-3 rounded">
@@ -176,6 +206,9 @@ async function handleGenerate(field) {
     
     if (chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
+      if (mainContent) {
+        mainContent.classList.add('mr-[650px]');
+      }
     }
     
     await loadChatHistory(field, chatContent, 'generate');
@@ -184,6 +217,9 @@ async function handleGenerate(field) {
     console.error('Fehler beim Generieren:', err);
     if (chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
+      if (mainContent) {
+        mainContent.classList.add('mr-[650px]');
+      }
     }
     chatContent.innerHTML = `
       <div class="bg-red-50 p-3 rounded text-sm text-red-700">
@@ -196,9 +232,13 @@ async function handleGenerate(field) {
 async function openChatAndGenerate(field) {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatContent = chatSidebar.querySelector('.space-y-3');
+  const mainContent = document.getElementById('mainContent');
   
   if (chatSidebar.classList.contains('translate-x-full')) {
     chatSidebar.classList.remove('translate-x-full');
+    if (mainContent) {
+      mainContent.classList.add('mr-[650px]');
+    }
   }
   
   currentField = field;
@@ -229,9 +269,13 @@ async function openChatAndGenerate(field) {
 async function openChatAndRewrite(field) {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatContent = chatSidebar.querySelector('.space-y-3');
+  const mainContent = document.getElementById('mainContent');
   
   if (chatSidebar.classList.contains('translate-x-full')) {
     chatSidebar.classList.remove('translate-x-full');
+    if (mainContent) {
+      mainContent.classList.add('mr-[650px]');
+    }
   }
   
   currentField = field;
