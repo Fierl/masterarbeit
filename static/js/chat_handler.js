@@ -35,7 +35,6 @@ export function initChatHandler() {
     }
   });
 
-  // Close chat when clicking outside or interacting with other elements
   setupCloseChatOnInteraction();
 }
 
@@ -368,7 +367,7 @@ async function loadChatHistory(field, chatContent, chatType = null) {
           <div class="text-xs text-gray-500">
            ${new Date(chat.created_at).toLocaleString()}
           </div>
-          <div class="text-sm mt-1">${chat.content}</div>
+          <div class="text-sm mt-1 whitespace-pre-wrap">${chat.content}</div>
         `;
         chatItem.addEventListener('click', () => {
           document.getElementById(field).value = chat.content;

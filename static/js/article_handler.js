@@ -44,14 +44,12 @@ async function saveArticle(saveBtn) {
     let res;
     
     if (currentId) {
-      // Update existing article
       res = await fetch(`/api/articles/${currentId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
     } else {
-      // Create new article
       res = await fetch('/api/articles', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -148,14 +146,11 @@ async function generateAllFields(generateAllBtn) {
   const originalText = generateAllBtn.textContent;
   
   try {
-    // Generate text first
     generateAllBtn.textContent = 'Generiere Text...';
     await generateField('text');
     
-    // Wait a bit to ensure text is saved
     await new Promise(resolve => setTimeout(resolve, 500));
     
-    // Generate other fields
     const fields = ['roofline', 'headline', 'subline', 'teaser'];
     for (const field of fields) {
       generateAllBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
