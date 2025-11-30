@@ -4,6 +4,7 @@ export function initArticleHandler() {
   const saveBtn = document.getElementById('saveBtn');
   const newChatBtn = document.getElementById('newChatBtn');
   const generateAllBtn = document.getElementById('generateAllBtn');
+  const generateTextBtn = document.getElementById('generateTextBtn');
 
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
@@ -25,6 +26,19 @@ export function initArticleHandler() {
       await generateAllFields(generateAllBtn);
     });
   }
+
+  if (generateTextBtn) {
+    generateTextBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      await generateTextOnly(generateTextBtn);
+    });
+  }
+
+  // Initialize tab functionality
+  initTabs();
+  
+  // Initialize preview update listeners
+  initPreviewUpdates();
 }
 
 async function saveArticle(saveBtn) {
@@ -172,6 +186,40 @@ async function generateAllFields(generateAllBtn) {
   }
 }
 
+async function generateTextOnly(generateTextBtn) {
+  const bulletpoints = document.getElementById('bulletpoints').value;
+  
+  if (!bulletpoints.trim()) {
+    alert('Bitte geben Sie zuerst Stichpunkte ein.');
+    return;
+  }
+  
+  if (!getCurrentArticleId()) {
+    alert('Bitte speichern Sie zuerst den Artikel.');
+    return;
+  }
+  
+  generateTextBtn.disabled = true;
+  const originalText = generateTextBtn.textContent;
+  
+  try {
+    generateTextBtn.textContent = 'Generiere...';
+    await generateField('text');
+    
+    generateTextBtn.textContent = 'Fertig!';
+    setTimeout(() => {
+      generateTextBtn.textContent = originalText;
+    }, 2000);
+    
+  } catch (err) {
+    console.error('Fehler beim Generieren des Textes:', err);
+    alert('Fehler beim Generieren: ' + err.message);
+    generateTextBtn.textContent = originalText;
+  } finally {
+    generateTextBtn.disabled = false;
+  }
+}
+
 function getFieldLabel(field) {
   const labels = {
     'roofline': 'Dachzeile',
@@ -181,4 +229,71 @@ function getFieldLabel(field) {
     'text': 'Text'
   };
   return labels[field] || field;
+}
+
+function initTabs() {
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const tabContents = document.querySelectorAll('.tab-content');
+  
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetTab = button.getAttribute('data-tab');
+      
+      // Remove active class from all buttons
+      tabButtons.forEach(btn => {
+        btn.classList.remove('active', 'border-blue-600', 'text-blue-600');
+        btn.classList.add('border-transparent', 'text-gray-600');
+      });
+      
+      // Add active class to clicked button
+      button.classList.add('active', 'border-blue-600', 'text-blue-600');
+      button.classList.remove('border-transparent', 'text-gray-600');
+      
+      // Hide all tab contents
+      tabContents.forEach(content => {
+        content.classList.add('hidden');
+      });
+      
+      // Show target tab content
+      const targetContent = document.getElementById(`tab-${targetTab}`);
+      if (targetContent) {
+        targetContent.classList.remove('hidden');
+      }
+      
+      // Update preview if switching to overview tab
+      if (targetTab === 'uebersicht') {
+        updatePreview();
+      }
+    });
+  });
+}
+
+function initPreviewUpdates() {
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text'];
+  
+  fields.forEach(fieldName => {
+    const field = document.getElementById(fieldName);
+    if (field) {
+      field.addEventListener('input', () => {
+        updatePreviewField(fieldName);
+      });
+    }
+  });
+}
+
+function updatePreview() {
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text'];
+  fields.forEach(fieldName => {
+    updatePreviewField(fieldName);
+  });
+}
+
+function updatePreviewField(fieldName) {
+  const field = document.getElementById(fieldName);
+  const preview = document.getElementById(`preview-${fieldName}`);
+  
+  if (field && preview) {
+    const value = field.value.trim();
+    preview.textContent = value || '—';
+  }
 }

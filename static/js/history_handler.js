@@ -96,6 +96,22 @@ function loadArticleIntoForm(article) {
   fields.text.value = article.text || '';
   
   setCurrentArticleId(article.id);
+  
+  // Update preview fields
+  updatePreviewFields();
+}
+
+function updatePreviewFields() {
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text'];
+  fields.forEach(fieldName => {
+    const field = document.getElementById(fieldName);
+    const preview = document.getElementById(`preview-${fieldName}`);
+    
+    if (field && preview) {
+      const value = field.value.trim();
+      preview.textContent = value || '—';
+    }
+  });
 }
 
 async function deleteArticle(articleId) {
