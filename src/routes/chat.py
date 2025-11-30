@@ -48,7 +48,17 @@ def edit_chat():
     data = request.get_json()
     article_id = data.get('article_id')
     field_name = data.get('field_name')
-    content = data.get('content')
+    current_content = data.get('current_content')
+    user_prompt = data.get('user_prompt')
+    
+    # Support both old format (direct content) and new format (current_content + user_prompt)
+    if current_content and user_prompt:
+        # New format: AI-assisted rewriting
+        combined_prompt = f"Aktueller Text:\n{current_content}\n\nÄnderungswunsch:\n{user_prompt}"
+        content = generate_content(combined_prompt, field_name=field_name, user=current_user)
+    else:
+        # Old format: direct content
+        content = data.get('content')
     
     if not all([article_id, field_name, content]):
         return jsonify({'error': 'article_id, field_name und content sind erforderlich'}), 400

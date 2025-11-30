@@ -302,28 +302,28 @@ async function openChatAndRewrite(field) {
     chatContent.appendChild(warningSection);
   } else {
     const editSection = document.createElement('div');
-    editSection.className = 'bg-orange-50 p-3 rounded mt-3';
+    editSection.className = 'bg-green-50 p-3 rounded mt-3';
     editSection.innerHTML = `
       <strong>Schreibe ${getFieldLabel(field)} um</strong>
       <div class="text-xs mt-2 p-2 bg-white rounded border">
         <strong>Aktueller Text:</strong><br>
         ${currentValue}
       </div>
-      <textarea id="chatEdit" class="w-full mt-2 p-2 border rounded text-sm" rows="3" placeholder="Bearbeiteter Text...">${currentValue}</textarea>
-      <button id="editBtn" class="mt-2 bg-orange-600 text-white px-3 py-1 text-sm rounded hover:bg-orange-700">
-        Speichern
+      <textarea id="chatRewritePrompt" class="w-full mt-2 p-2 border rounded text-sm" rows="3" placeholder="Wie möchten Sie den Text ändern? (z.B. 'schreib das noch dramatischer')"></textarea>
+      <button id="rewriteBtn" class="mt-2 bg-green-600 text-white px-3 py-1 text-sm rounded hover:bg-green-700">
+        Umschreiben
       </button>
     `;
     chatContent.appendChild(editSection);
     
-    document.getElementById('editBtn').addEventListener('click', async () => {
-      const content = document.getElementById('chatEdit').value;
-      if (!content.trim()) {
-        alert('Der Text darf nicht leer sein.');
+    document.getElementById('rewriteBtn').addEventListener('click', async () => {
+      const userPrompt = document.getElementById('chatRewritePrompt').value;
+      if (!userPrompt.trim()) {
+        alert('Bitte geben Sie eine Anweisung ein, wie der Text geändert werden soll.');
         return;
       }
       
-      await editContent(field, content, chatContent);
+      await editContent(field, currentValue, userPrompt, chatContent);
     });
   }
 }
@@ -343,7 +343,11 @@ async function loadChatHistory(field, chatContent, chatType = null) {
     
     const chats = await res.json();
     
-    const typeLabel = chatType === 'generate' ? 'Generiert' : chatType === 'edit' ? 'Bearbeitet' : 'Alle';
+    const typeLabels = {
+      'generate': 'Generiert',
+      'edit': 'Bearbeitet'
+    };
+    const typeLabel = chatType ? typeLabels[chatType] || 'Alle' : 'Alle';
     
     chatContent.innerHTML = `
       <div class="mb-3">
@@ -360,7 +364,11 @@ async function loadChatHistory(field, chatContent, chatType = null) {
     } else {
       chats.forEach(chat => {
         const chatItem = document.createElement('div');
-        const bgColor = chat.chat_type === 'generate' ? 'bg-blue-50' : 'bg-orange-50';
+        const bgColors = {
+          'generate': 'bg-blue-50',
+          'edit': 'bg-green-50'
+        };
+        const bgColor = bgColors[chat.chat_type] || 'bg-gray-50';
         
         chatItem.className = `${bgColor} p-2 rounded mb-2 cursor-pointer hover:opacity-80`;
         chatItem.innerHTML = `
@@ -424,16 +432,26 @@ async function generateContent(field, prompt, chatContent) {
   }
 }
 
-async function editContent(field, content, chatContent) {
+async function editContent(field, currentContent, userPrompt, chatContent) {
   try {
+    const payload = {
+      article_id: currentArticleId,
+      field_name: field
+    };
+    
+    // If userPrompt is provided, use AI-assisted editing
+    if (userPrompt) {
+      payload.current_content = currentContent;
+      payload.user_prompt = userPrompt;
+    } else {
+      // Otherwise, direct content (old behavior for compatibility)
+      payload.content = currentContent;
+    }
+    
     const res = await fetch('/api/chats/edit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        article_id: currentArticleId,
-        field_name: field,
-        content: content
-      })
+      body: JSON.stringify(payload)
     });
     
     if (!res.ok) {
@@ -446,10 +464,8 @@ async function editContent(field, content, chatContent) {
     document.getElementById(field).value = data.content;
     
     await loadChatHistory(field, chatContent, 'edit');
-    
-    alert('Text wurde erfolgreich gespeichert!');
   } catch (err) {
-    console.error('Fehler beim Speichern:', err);
-    alert('Fehler beim Speichern: ' + err.message);
+    console.error('Fehler beim Umschreiben:', err);
+    alert('Fehler beim Umschreiben: ' + err.message);
   }
 }
