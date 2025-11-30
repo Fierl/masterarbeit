@@ -4,9 +4,17 @@ from mistralai import Mistral
 
 client = Mistral(api_key=Config.MISTRAL_API_KEY)
 
-def generate_content(prompt, field_name=None, system_instruction=None, context=None, timeout=30):
+def generate_content(prompt, field_name=None, system_instruction=None, context=None, user=None, timeout=30):
+    """Generate content using Mistral AI with optional user-specific system prompts"""
     if system_instruction is None and field_name:
-        system_instruction = SystemPrompts.get_prompt(field_name)
+        if user and hasattr(user, 'get_custom_prompt'):
+            custom_prompt = user.get_custom_prompt(field_name)
+            if custom_prompt is not None and custom_prompt.strip():
+                system_instruction = custom_prompt
+            else:
+                system_instruction = SystemPrompts.get_prompt(field_name)
+        else:
+            system_instruction = SystemPrompts.get_prompt(field_name)
     elif system_instruction is None:
         system_instruction = SystemPrompts.DEFAULT
     
@@ -14,6 +22,7 @@ def generate_content(prompt, field_name=None, system_instruction=None, context=N
         enhanced_prompt = f"Kontext:\n{context}\n\nAufgabe:\n{prompt}"
     else:
         enhanced_prompt = prompt
+    
     try:
         response = client.chat.complete(
             model="mistral-small-latest",

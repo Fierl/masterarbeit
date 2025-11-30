@@ -23,12 +23,10 @@ def get_articles(user_id=None):
     return articles
 
 def update_article(article_id, payload, user_id):
-    """Update an existing article"""
     article = Article.query.filter_by(id=article_id, user_id=user_id).first()
     if not article:
         return None
     
-    # Update fields if provided in payload
     if 'bulletpoints' in payload:
         article.bulletpoints = payload['bulletpoints']
     if 'roofline' in payload:
@@ -46,7 +44,6 @@ def update_article(article_id, payload, user_id):
     return article
 
 def hide_article(article_id, user_id):
-    """Soft delete an article by marking it as hidden"""
     article = Article.query.filter_by(id=article_id, user_id=user_id).first()
     if not article:
         return None
