@@ -18,4 +18,7 @@ sudo -u postgres psql
 ALTER TABLE chats ADD COLUMN chat_type VARCHAR(10) DEFAULT 'generate' NOT NULL;
 ALTER TABLE articles ADD COLUMN is_hidden BOOLEAN DEFAULT FALSE;
 ALTER TABLE articles ADD COLUMN IF NOT EXISTS teaser TEXT;
-ALTER TABLE users ADD COLUMN custom_system_prompts TEXT
+ALTER TABLE users ADD COLUMN custom_system_prompts TEXT;
+
+# logs
+sudo journalctl -u masterarbeit --since today

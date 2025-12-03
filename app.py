@@ -33,7 +33,7 @@ def load_user(user_id):
 app.register_blueprint(articles_bp)
 app.register_blueprint(auth_bp) 
 app.register_blueprint(chat_bp)
-app.register_blueprint(settings_bp, name='settings')
+app.register_blueprint(settings_bp)
 
 # Datenbank initialisieren
 with app.app_context():
