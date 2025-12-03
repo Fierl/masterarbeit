@@ -29,12 +29,13 @@ def load_user(user_id):
     from src.services.auth_service import AuthService
     return AuthService.get_user_by_id(user_id)
 
+# Blueprint-Registrierung
 app.register_blueprint(articles_bp)
-app.register_blueprint(auth_bp)
+app.register_blueprint(auth_bp) 
 app.register_blueprint(chat_bp)
-app.register_blueprint(settings_bp)
+app.register_blueprint(settings_bp, name='settings')
 
-
+# Datenbank initialisieren
 with app.app_context():
     db.create_all()
 
