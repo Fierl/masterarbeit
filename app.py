@@ -5,7 +5,7 @@ from src.database import db
 from src.routes.articles import bp as articles_bp
 from src.routes.auth import bp as auth_bp
 from src.routes.chat import bp as chat_bp
-from src.routes.settings import settings_bp
+from src.routes.settings import bp as settings_bp
 import src.models.User as _u
 import src.models.Article as _a
 import src.models.Chat as _c

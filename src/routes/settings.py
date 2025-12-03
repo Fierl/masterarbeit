@@ -3,16 +3,16 @@ from flask_login import login_required, current_user
 from src.database import db
 from src.prompts import SystemPrompts
 
-settings_bp = Blueprint('settings', __name__, url_prefix='/settings')
+bp = Blueprint('settings', __name__, url_prefix='/settings')
 
 
-@settings_bp.route('/')
+@bp.route('/')
 @login_required
 def settings_page():
     return render_template('settings.html', username=current_user.username)
 
 
-@settings_bp.route('/api/system-prompts', methods=['GET'])
+@bp.route('/api/system-prompts', methods=['GET'])
 @login_required
 def get_system_prompts():
     custom_prompts = current_user.get_custom_prompts()
@@ -30,7 +30,7 @@ def get_system_prompts():
     return jsonify(prompts)
 
 
-@settings_bp.route('/api/system-prompts', methods=['POST'])
+@bp.route('/api/system-prompts', methods=['POST'])
 @login_required
 def save_system_prompts():
     try:
@@ -63,7 +63,7 @@ def save_system_prompts():
         return jsonify({'error': f'Fehler beim Speichern: {str(e)}'}), 500
 
 
-@settings_bp.route('/api/system-prompts/<field>', methods=['DELETE'])
+@bp.route('/api/system-prompts/<field>', methods=['DELETE'])
 @login_required
 def delete_system_prompt(field):
     try:

@@ -21,4 +21,14 @@ ALTER TABLE articles ADD COLUMN IF NOT EXISTS teaser TEXT;
 ALTER TABLE users ADD COLUMN custom_system_prompts TEXT;
 
 # logs
+# Aktuelle Logs anzeigen
+sudo journalctl -u masterarbeit
+
+# Live-Logs verfolgen
+sudo journalctl -u masterarbeit -f
+
+# Logs der letzten 100 Zeilen
+sudo journalctl -u masterarbeit -n 100
+
+# Logs seit heute
 sudo journalctl -u masterarbeit --since today
