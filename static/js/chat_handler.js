@@ -434,38 +434,166 @@ async function generateContent(field, prompt, chatContent) {
 
 async function editContent(field, currentContent, userPrompt, chatContent) {
   try {
-    const payload = {
-      article_id: currentArticleId,
-      field_name: field
-    };
-    
-    // If userPrompt is provided, use AI-assisted editing
-    if (userPrompt) {
-      payload.current_content = currentContent;
-      payload.user_prompt = userPrompt;
-    } else {
-      // Otherwise, direct content (old behavior for compatibility)
-      payload.content = currentContent;
-    }
-    
     const res = await fetch('/api/chats/edit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
+      body: JSON.stringify({
+        article_id: currentArticleId,
+        field_name: field,
+        current_content: currentContent,
+        user_prompt: userPrompt,
+        preview_only: true
+      })
     });
     
     if (!res.ok) {
       const errorData = await res.json();
-      throw new Error(errorData.error || 'Fehler beim Speichern');
+      throw new Error(errorData.error || 'Fehler beim Generieren');
     }
     
     const data = await res.json();
     
-    document.getElementById(field).value = data.content;
+    // Show diff preview instead of directly applying
+    showDiffPreview(field, currentContent, data.content, chatContent);
     
-    await loadChatHistory(field, chatContent, 'edit');
   } catch (err) {
     console.error('Fehler beim Umschreiben:', err);
     alert('Fehler beim Umschreiben: ' + err.message);
   }
 }
+
+// Helper function to escape HTML
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Simple word-based diff calculation
+function calculateDiff(oldText, newText) {
+  const oldWords = oldText.split(/(\s+)/);
+  const newWords = newText.split(/(\s+)/);
+  const diffs = [];
+  
+  let i = 0, j = 0;
+  while (i < oldWords.length || j < newWords.length) {
+    if (i < oldWords.length && j < newWords.length && oldWords[i] === newWords[j]) {
+      diffs.push({ type: 'equal', value: oldWords[i] });
+      i++; j++;
+    } else {
+      // Look ahead to find matches
+      let foundMatch = false;
+      for (let k = j + 1; k < Math.min(j + 10, newWords.length); k++) {
+        if (oldWords[i] === newWords[k]) {
+          // Found a match ahead in new text, mark items before as insertions
+          while (j < k) {
+            diffs.push({ type: 'insert', value: newWords[j] });
+            j++;
+          }
+          foundMatch = true;
+          break;
+        }
+      }
+      
+      if (!foundMatch) {
+        for (let k = i + 1; k < Math.min(i + 10, oldWords.length); k++) {
+          if (oldWords[k] === newWords[j]) {
+            // Found a match ahead in old text, mark items before as deletions
+            while (i < k) {
+              diffs.push({ type: 'delete', value: oldWords[i] });
+              i++;
+            }
+            foundMatch = true;
+            break;
+          }
+        }
+      }
+      
+      if (!foundMatch) {
+        if (i < oldWords.length) {
+          diffs.push({ type: 'delete', value: oldWords[i] });
+          i++;
+        }
+        if (j < newWords.length) {
+          diffs.push({ type: 'insert', value: newWords[j] });
+          j++;
+        }
+      }
+    }
+  }
+  
+  return diffs;
+}
+
+// Render diff with color coding
+function renderDiff(diffs) {
+  return diffs.map(diff => {
+    if (diff.type === 'equal') {
+      return `<span>${escapeHtml(diff.value)}</span>`;
+    } else if (diff.type === 'delete') {
+      return `<span class="bg-red-200 line-through">${escapeHtml(diff.value)}</span>`;
+    } else if (diff.type === 'insert') {
+      return `<span class="bg-green-200">${escapeHtml(diff.value)}</span>`;
+    }
+  }).join('');
+}
+
+// Show diff preview with accept/reject buttons
+function showDiffPreview(field, originalText, newText, chatContent) {
+  const diffs = calculateDiff(originalText, newText);
+  
+  const diffSection = document.createElement('div');
+  diffSection.className = 'bg-white p-3 rounded mt-3 border-2 border-green-500';
+  diffSection.innerHTML = `
+    <strong class="text-sm">Vorschau der Änderungen</strong>
+    <div class="mt-2 p-3 bg-gray-50 rounded text-sm max-h-60 overflow-y-auto">
+      ${renderDiff(diffs)}
+    </div>
+    <div class="mt-3 flex gap-2">
+      <button id="acceptChangesBtn" class="bg-green-600 text-white px-4 py-2 text-sm rounded hover:bg-green-700">
+        Übernehmen
+      </button>
+      <button id="rejectChangesBtn" class="bg-gray-500 text-white px-4 py-2 text-sm rounded hover:bg-gray-600">
+        Verwerfen
+      </button>
+    </div>
+  `;
+  chatContent.appendChild(diffSection);
+
+  document.getElementById('acceptChangesBtn').addEventListener('click', async () => {
+    document.getElementById(field).value = newText;
+    await saveEditToHistory(field, newText, chatContent);
+    diffSection.remove();
+    alert('Änderungen wurden übernommen!');
+  });
+
+  document.getElementById('rejectChangesBtn').addEventListener('click', () => {
+    diffSection.remove();
+  });
+}
+
+// Save edit to history after acceptance
+async function saveEditToHistory(field, content, chatContent) {
+  try {
+    const res = await fetch('/api/chats/edit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        article_id: currentArticleId,
+        field_name: field,
+        content: content
+      })
+    });
+    
+    if (!res.ok) {
+      throw new Error('Fehler beim Speichern in der Historie');
+    }
+    
+    await loadChatHistory(field, chatContent, 'edit');
+    
+  } catch (err) {
+    console.error('Fehler beim Speichern:', err);
+    alert('Fehler beim Speichern der Historie: ' + err.message);
+  }
+}
+

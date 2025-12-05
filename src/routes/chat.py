@@ -50,6 +50,7 @@ def edit_chat():
     field_name = data.get('field_name')
     current_content = data.get('current_content')
     user_prompt = data.get('user_prompt')
+    preview_only = data.get('preview_only', False)
     
     # Support both old format (direct content) and new format (current_content + user_prompt)
     if current_content and user_prompt:
@@ -65,6 +66,13 @@ def edit_chat():
     
     if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
+    
+    # If preview_only, return the generated content without saving
+    if preview_only:
+        return jsonify({
+            'content': content,
+            'preview': True
+        }), 200
     
     chat = Chat(
         article_id=article_id,
