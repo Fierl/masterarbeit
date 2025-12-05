@@ -305,10 +305,6 @@ async function openChatAndRewrite(field) {
     editSection.className = 'bg-green-50 p-3 rounded mt-3';
     editSection.innerHTML = `
       <strong>Schreibe ${getFieldLabel(field)} um</strong>
-      <div class="text-xs mt-2 p-2 bg-white rounded border">
-        <strong>Aktueller Text:</strong><br>
-        ${currentValue}
-      </div>
       <textarea id="chatRewritePrompt" class="w-full mt-2 p-2 border rounded text-sm" rows="3" placeholder="Wie möchten Sie den Text ändern? (z.B. 'schreib das noch dramatischer')"></textarea>
       <button id="rewriteBtn" class="mt-2 bg-green-600 text-white px-3 py-1 text-sm rounded hover:bg-green-700">
         Umschreiben
