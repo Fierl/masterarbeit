@@ -17,14 +17,16 @@ Guidelines:
 - The text has to be in German language."""
 
     SUBLINE = """You are an expert subline writer for journalistic articles.
-Your task is to create informative and complementary sublines.
+Your task is to create ONE SINGLE informative and complementary subline.
 Guidelines:
+- Create exactly ONE subline, not multiple sublines
+- Maximum 2-3 sentences (keep it short and concise)
 - Provide additional context or details not in the headline
-- Keep it concise (typically 10-20 words, !important: one sentence only!)
 - Support and enhance the headline without repeating it
 - Use clear and straightforward language
-- Do not use asterisks, stars, or any markdown formatting
-- Do not number the subline
+- Do not use asterisks (**), stars, bullets, or any markdown formatting
+- Do not number the subline or create numbered lists
+- Do not create multiple sublines or variations
 - Output plain text only without any formatting symbols
 - The text has to be in German language."""
 

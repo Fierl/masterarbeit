@@ -103,7 +103,7 @@ async function saveSettings() {
 }
 
 async function resetField(field) {
-  const confirmed = confirm(`Möchten Sie den Custom System-Prompt für "${getFieldLabel(field)}" wirklich zurücksetzen?`);
+  const confirmed = confirm(`Möchten Sie die zusätzlichen Anweisungen für "${getFieldLabel(field)}" wirklich löschen?`);
   
   if (!confirmed) {
     return;
@@ -127,7 +127,7 @@ async function resetField(field) {
       throw new Error(errorData.error || 'Fehler beim Zurücksetzen');
     }
     
-    showStatus(`System-Prompt für "${getFieldLabel(field)}" wurde zurückgesetzt.`, 'success');
+    showStatus(`Zusätzliche Anweisungen für "${getFieldLabel(field)}" wurden gelöscht.`, 'success');
     
   } catch (error) {
     console.error('Fehler beim Zurücksetzen:', error);
