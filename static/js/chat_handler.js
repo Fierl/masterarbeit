@@ -306,7 +306,7 @@ async function openChatAndRewrite(field) {
     editSection.innerHTML = `
       <strong>Schreibe ${getFieldLabel(field)} um</strong>
       <textarea id="chatRewritePrompt" class="w-full mt-2 p-2 border rounded text-sm" rows="3" placeholder="Wie möchten Sie den Text ändern? (z.B. 'schreib das noch dramatischer')"></textarea>
-      <button id="rewriteBtn" class="mt-2 bg-green-600 text-white px-3 py-1 text-sm rounded hover:bg-green-700">
+      <button id="rewriteBtn" class="mt-2 bg-blue-600 text-white px-3 py-1 text-sm rounded hover:bg-blue-700">
         Umschreiben
       </button>
     `;
@@ -546,7 +546,7 @@ function showDiffPreview(field, originalText, newText, chatContent) {
       ${renderDiff(diffs)}
     </div>
     <div class="mt-3 flex gap-2">
-      <button id="acceptChangesBtn" class="bg-green-600 text-white px-4 py-2 text-sm rounded hover:bg-green-700">
+      <button id="acceptChangesBtn" class="bg-blue-600 text-white px-4 py-2 text-sm rounded hover:bg-blue-700">
         Übernehmen
       </button>
       <button id="rejectChangesBtn" class="bg-gray-500 text-white px-4 py-2 text-sm rounded hover:bg-gray-600">
