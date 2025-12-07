@@ -9,8 +9,8 @@ import src.models.User as _u
 
 def create_user():
     with app.app_context():
-        username = "test"
-        raw_password = "test"
+        username = "ober"
+        raw_password = "sicheres_passwort_2025"
 
         if _u.User.query.filter_by(username=username).first():
             print("User already exists:", username)
