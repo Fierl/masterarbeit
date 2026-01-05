@@ -57,10 +57,8 @@
           </button>
         </div>
 
-        <!-- Tab Content -->
         <div class="p-6">
           
-          <!-- Tab 1: Stichpunkte -->
           <div id="tab-stichpunkte" class="tab-content">
             <div class="mb-4">
               <label class="block text-sm font-medium mb-1">Stichpunkte</label>
@@ -77,7 +75,6 @@
             </div>
           </div>
 
-          <!-- Tab 2: Artikel-Text -->
           <div id="tab-artikel" class="tab-content hidden">
             <div class="flex flex-col h-[calc(100vh-280px)]">
               <label class="block text-sm font-medium mb-1">Artikel-Text</label>
@@ -89,11 +86,13 @@
                 <button class="umschreiben-btn bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm rounded transition" data-field="text">
                   Umschreiben
                 </button>
+                <button id="generateOtherFieldsBtn" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm rounded transition">
+                  Weitere Felder generieren
+                </button>
               </div>
             </div>
           </div>
 
-          <!-- Tab 3: Weitere Felder -->
           <div id="tab-weitere" class="tab-content hidden">
             <div class="mb-4">
               <label class="block text-sm font-medium mb-1">Dachzeile</label>
@@ -146,7 +145,6 @@
             </div>
           </div>
 
-          <!-- Tab 4: Übersicht -->
           <div id="tab-uebersicht" class="tab-content hidden">
             <div class="space-y-6">
               <div class="border-b pb-4">
@@ -176,7 +174,6 @@
             </div>
           </div>
 
-          <!-- Save Button (visible on all tabs) -->
           <div class="mt-6 pt-4 border-t flex justify-end">
             <button id="saveBtn" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition shadow">
               Speichern

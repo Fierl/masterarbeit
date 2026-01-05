@@ -5,6 +5,7 @@ export function initArticleHandler() {
   const newChatBtn = document.getElementById('newChatBtn');
   const generateAllBtn = document.getElementById('generateAllBtn');
   const generateTextBtn = document.getElementById('generateTextBtn');
+  const generateOtherFieldsBtn = document.getElementById('generateOtherFieldsBtn');
 
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
@@ -31,6 +32,13 @@ export function initArticleHandler() {
     generateTextBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       await generateTextOnly(generateTextBtn);
+    });
+  }
+
+  if (generateOtherFieldsBtn) {
+    generateOtherFieldsBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      await generateOtherFields(generateOtherFieldsBtn);
     });
   }
 
@@ -217,6 +225,44 @@ async function generateTextOnly(generateTextBtn) {
     generateTextBtn.textContent = originalText;
   } finally {
     generateTextBtn.disabled = false;
+  }
+}
+
+async function generateOtherFields(generateOtherFieldsBtn) {
+  const text = document.getElementById('text').value;
+  
+  if (!text.trim()) {
+    alert('Bitte generieren oder geben Sie zuerst einen Artikel-Text ein.');
+    return;
+  }
+  
+  if (!getCurrentArticleId()) {
+    alert('Bitte speichern Sie zuerst den Artikel.');
+    return;
+  }
+  
+  generateOtherFieldsBtn.disabled = true;
+  const originalText = generateOtherFieldsBtn.textContent;
+  
+  try {
+    const fields = ['roofline', 'headline', 'subline', 'teaser'];
+    for (const field of fields) {
+      generateOtherFieldsBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
+      await generateField(field);
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+    
+    generateOtherFieldsBtn.textContent = 'Fertig!';
+    setTimeout(() => {
+      generateOtherFieldsBtn.textContent = originalText;
+    }, 2000);
+    
+  } catch (err) {
+    console.error('Fehler beim Generieren der anderen Felder:', err);
+    alert('Fehler beim Generieren: ' + err.message);
+    generateOtherFieldsBtn.textContent = originalText;
+  } finally {
+    generateOtherFieldsBtn.disabled = false;
   }
 }
 

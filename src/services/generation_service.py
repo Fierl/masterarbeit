@@ -5,16 +5,12 @@ from mistralai import Mistral
 client = Mistral(api_key=Config.MISTRAL_API_KEY)
 
 def generate_content(prompt, field_name=None, system_instruction=None, context=None, user=None, timeout=30):
-    """Generate content using Mistral AI with optional user-specific system prompts"""
     if system_instruction is None and field_name:
-        # Start with the default prompt
         base_prompt = SystemPrompts.get_prompt(field_name)
         
-        # Check if user has custom additions
         if user and hasattr(user, 'get_custom_prompt'):
             custom_prompt = user.get_custom_prompt(field_name)
             if custom_prompt is not None and custom_prompt.strip():
-                # Combine default and custom prompts
                 system_instruction = f"{base_prompt}\n\n--- Zusätzliche Anweisungen ---\n{custom_prompt}"
             else:
                 system_instruction = base_prompt
