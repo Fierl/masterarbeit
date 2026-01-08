@@ -42,11 +42,11 @@ export function initArticleHandler() {
     });
   }
 
-  // Initialize tab functionality
   initTabs();
   
-  // Initialize preview update listeners
   initPreviewUpdates();
+  
+  initCopyButtons();
 }
 
 async function saveArticle(saveBtn) {
@@ -342,4 +342,47 @@ function updatePreviewField(fieldName) {
     const value = field.value.trim();
     preview.textContent = value || '—';
   }
+}
+
+function initCopyButtons() {
+  const copyButtons = document.querySelectorAll('.copy-btn');
+  
+  copyButtons.forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const fieldName = btn.dataset.field;
+      const field = document.getElementById(fieldName);
+      
+      if (!field || !field.value.trim()) {
+        showCopyFeedback(btn, 'Kein Inhalt zum Kopieren', false);
+        return;
+      }
+      
+      try {
+        await navigator.clipboard.writeText(field.value);
+        showCopyFeedback(btn, '✓ Kopiert!', true);
+      } catch (err) {
+        console.error('Fehler beim Kopieren:', err);
+        showCopyFeedback(btn, '✗ Fehler', false);
+      }
+    });
+  });
+}
+
+function showCopyFeedback(button, message, success) {
+  const originalText = button.textContent;
+  const originalColor = button.className;
+  
+  button.textContent = message;
+  
+  if (success) {
+    button.className = button.className.replace('bg-gray-500 hover:bg-gray-600', 'bg-green-500 hover:bg-green-600');
+  } else {
+    button.className = button.className.replace('bg-gray-500 hover:bg-gray-600', 'bg-red-500 hover:bg-red-600');
+  }
+  
+  setTimeout(() => {
+    button.textContent = originalText;
+    button.className = originalColor;
+  }, 2000);
 }
