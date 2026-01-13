@@ -17,7 +17,7 @@ def settings_page():
 def get_system_prompts():
     custom_prompts = current_user.get_custom_prompts()
     
-    fields = ['roofline', 'headline', 'subline', 'teaser', 'text']
+    fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings']
     prompts = {}
     
     for field in fields:
@@ -39,7 +39,7 @@ def save_system_prompts():
         if not data:
             return jsonify({'error': 'Keine Daten übermittelt'}), 400
         
-        valid_fields = {'roofline', 'headline', 'subline', 'teaser', 'text'}
+        valid_fields = {'roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'}
         prompts_to_save = {}
         
         for field, prompt_text in data.items():
@@ -67,7 +67,7 @@ def save_system_prompts():
 @login_required
 def delete_system_prompt(field):
     try:
-        valid_fields = {'roofline', 'headline', 'subline', 'teaser', 'text'}
+        valid_fields = {'roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'}
         
         if field not in valid_fields:
             return jsonify({'error': f'Ungültiges Feld: {field}'}), 400

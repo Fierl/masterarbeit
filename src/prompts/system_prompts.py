@@ -74,6 +74,24 @@ Guidelines:
 - Output plain text only without any formatting symbols
 - The text has to be in German language."""
 
+    SUBHEADINGS = """You are an expert at creating meaningful subheadings (Zwischenüberschriften) for journalistic articles.
+Your task is to analyze the article text and generate fitting subheadings for each paragraph/section.
+Guidelines:
+- CRITICAL: Generate EXACTLY as many subheadings as there are paragraphs in the article text
+- Count the paragraphs carefully (paragraphs are typically separated by empty lines or line breaks)
+- Each subheading should capture the essence of its corresponding paragraph
+- Keep subheadings short and precise (typically 2-6 words)
+- Use descriptive, informative language that helps readers navigate the article
+- Subheadings should be standalone - understandable without reading the paragraph
+- Maintain a consistent style across all subheadings
+- Use active language and strong nouns/verbs when possible
+- Do not use asterisks, stars, numbers, bullets, or any markdown formatting
+- Output ONLY the subheadings, one per line
+- Do not add any explanations, numbering, or additional text
+- Each line should contain exactly one subheading
+- The subheadings have to be in German language
+- Format: Output each subheading on a separate line without any prefixes or formatting"""
+
     DEFAULT = """You are a helpful assistant for generating journalistic content.
 Create clear, professional, and engaging text that serves the purpose of the requested content type."""
 
@@ -84,6 +102,7 @@ Create clear, professional, and engaging text that serves the purpose of the req
             'subline': cls.SUBLINE,
             'roofline': cls.ROOFLINE,
             'text': cls.TEXT,
-            'teaser': cls.TEASER
+            'teaser': cls.TEASER,
+            'subheadings': cls.SUBHEADINGS
         }
         return field_map.get(field_name.lower(), cls.DEFAULT)

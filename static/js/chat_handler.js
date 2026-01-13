@@ -164,7 +164,7 @@ async function handleGenerate(field) {
         `;
         return;
       }
-    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser') {
+    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser' || field === 'subheadings') {
       contextContent = document.getElementById('text').value;
       if (!contextContent.trim()) {
         if (chatSidebar.classList.contains('translate-x-full')) {
@@ -395,7 +395,7 @@ async function generateContent(field, prompt, chatContent) {
     
     if (field === 'text') {
       contextContent = document.getElementById('bulletpoints').value;
-    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser') {
+    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser' || field === 'subheadings') {
       contextContent = document.getElementById('text').value;
     }
     

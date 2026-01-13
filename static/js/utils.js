@@ -5,7 +5,8 @@ export function getFieldLabel(field) {
     'subline': 'Untertitel',
     'teaser': 'Paywall-Teaser',
     'text': 'Text',
-    'bulletpoints': 'Bulletpoints'
+    'bulletpoints': 'Bulletpoints',
+    'subheadings': 'Zwischenüberschriften'
   };
   return labels[field] || field;
 }

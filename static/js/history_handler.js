@@ -85,7 +85,8 @@ function loadArticleIntoForm(article) {
     headline: document.getElementById('headline'),
     subline: document.getElementById('subline'),
     teaser: document.getElementById('teaser'),
-    text: document.getElementById('text')
+    text: document.getElementById('text'),
+    subheadings: document.getElementById('subheadings')
   };
 
   fields.bulletpoints.value = article.bulletpoints || '';
@@ -94,6 +95,7 @@ function loadArticleIntoForm(article) {
   fields.subline.value = article.subline || '';
   fields.teaser.value = article.teaser || '';
   fields.text.value = article.text || '';
+  fields.subheadings.value = article.subheadings || '';
   
   setCurrentArticleId(article.id);
   
@@ -102,7 +104,7 @@ function loadArticleIntoForm(article) {
 }
 
 function updatePreviewFields() {
-  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text'];
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
   fields.forEach(fieldName => {
     const field = document.getElementById(fieldName);
     const preview = document.getElementById(`preview-${fieldName}`);

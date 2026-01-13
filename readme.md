@@ -20,6 +20,8 @@ ALTER TABLE articles ADD COLUMN is_hidden BOOLEAN DEFAULT FALSE;
 ALTER TABLE articles ADD COLUMN IF NOT EXISTS teaser TEXT;
 ALTER TABLE users ADD COLUMN custom_system_prompts TEXT;
 ALTER TYPE article_field ADD VALUE IF NOT EXISTS 'teaser';
+ALTER TABLE articles ADD COLUMN IF NOT EXISTS subheadings TEXT;
+ALTER TYPE article_field ADD VALUE IF NOT EXISTS 'subheadings'
 
 # logs
 sudo journalctl -u masterarbeit

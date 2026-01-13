@@ -31,6 +31,8 @@ def list_articles():
             'headline': a.headline,
             'subline': a.subline,
             'text': a.text,
+            'teaser': a.teaser,
+            'subheadings': a.subheadings,
             'created_at': a.created_at.isoformat() if a.created_at else None
         })
     return jsonify(result), 200

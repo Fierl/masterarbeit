@@ -40,7 +40,7 @@
         <!-- Roofline -->
         <div class="border rounded-lg p-4">
           <div class="flex justify-between items-start mb-2">
-            <h3 class="text-lg font-semibold">Dachzeile (Roofline)</h3>
+            <h3 class="text-lg font-semibold">Dachzeile</h3>
             <button onclick="resetField('roofline')" class="text-sm text-red-600 hover:text-red-800">
               Zusätzliche Anweisungen löschen
             </button>
@@ -58,7 +58,7 @@
         <!-- Headline -->
         <div class="border rounded-lg p-4">
           <div class="flex justify-between items-start mb-2">
-            <h3 class="text-lg font-semibold">Titel (Headline)</h3>
+            <h3 class="text-lg font-semibold">Titel</h3>
             <button onclick="resetField('headline')" class="text-sm text-red-600 hover:text-red-800">
               Zusätzliche Anweisungen löschen
             </button>
@@ -76,7 +76,7 @@
         <!-- Subline -->
         <div class="border rounded-lg p-4">
           <div class="flex justify-between items-start mb-2">
-            <h3 class="text-lg font-semibold">Untertitel (Subline)</h3>
+            <h3 class="text-lg font-semibold">Untertitel</h3>
             <button onclick="resetField('subline')" class="text-sm text-red-600 hover:text-red-800">
               Zusätzliche Anweisungen löschen
             </button>
@@ -122,6 +122,24 @@
             <div class="mt-2 p-3 bg-gray-50 rounded text-sm whitespace-pre-wrap" id="default-text"></div>
           </details>
           <textarea id="custom-text" 
+                    class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-mono text-sm" 
+                    rows="10" 
+                    placeholder="Zusätzliche Anweisungen (werden zum Standard-Prompt hinzugefügt)"></textarea>
+        </div>
+
+        <!-- Subheadings -->
+        <div class="border rounded-lg p-4">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-lg font-semibold">Zwischenüberschriften</h3>
+            <button onclick="resetField('subheadings')" class="text-sm text-red-600 hover:text-red-800">
+              Zusätzliche Anweisungen löschen
+            </button>
+          </div>
+          <details class="mb-3">
+            <summary class="cursor-pointer text-sm text-gray-600 hover:text-gray-800">Standard-Prompt anzeigen</summary>
+            <div class="mt-2 p-3 bg-gray-50 rounded text-sm whitespace-pre-wrap" id="default-subheadings"></div>
+          </details>
+          <textarea id="custom-subheadings" 
                     class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-mono text-sm" 
                     rows="10" 
                     placeholder="Zusätzliche Anweisungen (werden zum Standard-Prompt hinzugefügt)"></textarea>

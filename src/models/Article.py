@@ -12,6 +12,7 @@ class Article(db.Model):
     subline = db.Column(db.Text)
     text = db.Column(db.Text)
     teaser = db.Column(db.Text)
+    subheadings = db.Column(db.Text)
     is_hidden = db.Column(db.Boolean, default=False, nullable=False)
     created_at = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc))
     updated_at = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))

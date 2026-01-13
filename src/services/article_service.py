@@ -8,7 +8,8 @@ def create_article(payload, user_id):
         roofline = payload.get('roofline'),
         headline = payload.get('headline'),
         subline = payload.get('subline'),
-        text = payload.get('text')
+        text = payload.get('text'),
+        subheadings = payload.get('subheadings')
     )
     db.session.add(article)
     db.session.commit()
@@ -39,6 +40,8 @@ def update_article(article_id, payload, user_id):
         article.text = payload['text']
     if 'teaser' in payload:
         article.teaser = payload['teaser']
+    if 'subheadings' in payload:
+        article.subheadings = payload['subheadings']
     
     db.session.commit()
     return article

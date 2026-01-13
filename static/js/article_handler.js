@@ -58,7 +58,8 @@ async function saveArticle(saveBtn) {
     headline: document.getElementById('headline').value,
     subline: document.getElementById('subline').value,
     text: document.getElementById('text').value,
-    teaser: document.getElementById('teaser').value
+    teaser: document.getElementById('teaser').value,
+    subheadings: document.getElementById('subheadings').value
   };
   
   try {
@@ -106,7 +107,8 @@ async function createNewChat() {
     headline: document.getElementById('headline'),
     subline: document.getElementById('subline'),
     teaser: document.getElementById('teaser'),
-    text: document.getElementById('text')
+    text: document.getElementById('text'),
+    subheadings: document.getElementById('subheadings')
   };
   
   Object.values(fields).forEach(field => {
@@ -119,7 +121,8 @@ async function createNewChat() {
     headline: '',
     subline: '',
     text: '',
-    teaser: ''
+    teaser: '',
+    subheadings: ''
   };
   
   try {
@@ -173,7 +176,7 @@ async function generateAllFields(generateAllBtn) {
     
     await new Promise(resolve => setTimeout(resolve, 500));
     
-    const fields = ['roofline', 'headline', 'subline', 'teaser'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser', 'subheadings'];
     for (const field of fields) {
       generateAllBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
       await generateField(field);
@@ -245,7 +248,7 @@ async function generateOtherFields(generateOtherFieldsBtn) {
   const originalText = generateOtherFieldsBtn.textContent;
   
   try {
-    const fields = ['roofline', 'headline', 'subline', 'teaser'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser', 'subheadings'];
     for (const field of fields) {
       generateOtherFieldsBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
       await generateField(field);
@@ -272,7 +275,8 @@ function getFieldLabel(field) {
     'headline': 'Titel',
     'subline': 'Untertitel',
     'teaser': 'Paywall-Teaser',
-    'text': 'Text'
+    'text': 'Text',
+    'subheadings': 'Zwischenüberschriften'
   };
   return labels[field] || field;
 }
@@ -315,7 +319,7 @@ function initTabs() {
 }
 
 function initPreviewUpdates() {
-  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text'];
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
   
   fields.forEach(fieldName => {
     const field = document.getElementById(fieldName);
@@ -328,7 +332,7 @@ function initPreviewUpdates() {
 }
 
 function updatePreview() {
-  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text'];
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
   fields.forEach(fieldName => {
     updatePreviewField(fieldName);
   });
