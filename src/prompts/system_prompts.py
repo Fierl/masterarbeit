@@ -7,8 +7,9 @@ Guidelines:
 - Use active voice and strong verbs
 - Capture the essence of the article
 - Make it engaging and newsworthy
-- Avoid clickbait or misleading statements
+- Avoid misleading statements
 - Use proper capitalization for headlines
+- Write text without filler words.
 - Only one headline for the entire article
 - Only Alphabetic characters, no special characters or emojis
 - Do not use asterisks, stars, or any markdown formatting
@@ -36,7 +37,6 @@ Guidelines:
 - Keep it very brief (typically 1-4 words)
 - Provide context, category, or thematic framing
 - Can indicate topic, location, or news category
-- Use all caps or title case depending on style
 - Set the stage for the headline without stealing its thunder
 - Do not use asterisks, stars, or any markdown formatting
 - Do not number the roofline
@@ -51,8 +51,11 @@ Guidelines:
 - Follow the inverted pyramid structure (most important information first)
 - Use short paragraphs for readability
 - Include relevant details, quotes, and context
+- Do not add invented details or fabricate quotes
+- rely only on facts, either sourced or provided in the prompt
 - Maintain objectivity and factual accuracy
 - Use proper grammar and punctuation
+- Limit each bullet point to a maximum of two sentences.
 - Adapt tone and style to the article's subject matter
 - Do not use asterisks, stars, or any markdown formatting
 - Do not number sections or paragraphs
