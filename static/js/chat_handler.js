@@ -593,3 +593,124 @@ async function saveEditToHistory(field, content, chatContent) {
   }
 }
 
+export async function openShortenTextChat() {
+  const chatSidebar = document.getElementById('chatSidebar');
+  const chatContent = chatSidebar.querySelector('.space-y-3');
+  const mainContent = document.getElementById('mainContent');
+  const currentText = document.getElementById('text').value;
+  
+  if (chatSidebar.classList.contains('translate-x-full')) {
+    chatSidebar.classList.remove('translate-x-full');
+    if (mainContent) {
+      mainContent.classList.add('mr-[650px]');
+    }
+  }
+  
+  if (!currentArticleId) {
+    chatContent.innerHTML = `
+      <div class="bg-yellow-50 p-3 rounded">
+        <strong>Hinweis</strong>
+        <p class="text-sm mt-1">Bitte speichern Sie zuerst den Artikel, um die KI-Funktionen zu nutzen.</p>
+      </div>
+    `;
+    return;
+  }
+  
+  if (!currentText.trim()) {
+    chatContent.innerHTML = `
+      <div class="bg-yellow-50 p-3 rounded">
+        <strong>Hinweis</strong>
+        <p class="text-sm mt-1">Bitte geben Sie zuerst einen Artikel-Text ein, der gekürzt werden soll.</p>
+      </div>
+    `;
+    return;
+  }
+  
+  chatContent.innerHTML = `
+    <div class="bg-green-50 p-3 rounded">
+      <strong>Artikeltext kürzen</strong>
+      <p class="text-xs text-gray-600 mt-1">Geben Sie die gewünschte Anzahl an Wörtern ein.</p>
+      <input 
+        type="number" 
+        id="targetWordCount" 
+        class="w-full mt-2 p-2 border rounded text-sm" 
+        placeholder="z.B. 200" 
+        min="1"
+      />
+      <button id="shortenBtn" class="mt-2 bg-blue-600 text-white px-3 py-1 text-sm rounded hover:bg-blue-700">
+        Text kürzen
+      </button>
+    </div>
+  `;
+  
+  document.getElementById('shortenBtn').addEventListener('click', async () => {
+    const targetWordCount = document.getElementById('targetWordCount').value;
+    
+    if (!targetWordCount || targetWordCount <= 0) {
+      alert('Bitte geben Sie eine gültige Anzahl an Wörtern ein.');
+      return;
+    }
+    
+    await shortenText(currentText, targetWordCount, chatContent);
+  });
+}
+
+async function shortenText(currentText, targetWordCount, chatContent) {
+  try {
+    const res = await fetch('/api/chats/shorten', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        article_id: currentArticleId,
+        current_text: currentText,
+        target_word_count: targetWordCount,
+        preview_only: true
+      })
+    });
+    
+    if (!res.ok) {
+      const errorData = await res.json();
+      throw new Error(errorData.error || 'Fehler beim Kürzen');
+    }
+    
+    const data = await res.json();
+    
+    showShortenPreview(currentText, data.content, chatContent);
+    
+  } catch (err) {
+    console.error('Fehler beim Kürzen:', err);
+    alert('Fehler beim Kürzen: ' + err.message);
+  }
+}
+
+function showShortenPreview(originalText, shortenedText, chatContent) {
+  const diffs = calculateDiff(originalText, shortenedText);
+  
+  const diffSection = document.createElement('div');
+  diffSection.className = 'bg-white p-3 rounded mt-3 border-2 border-green-500';
+  diffSection.innerHTML = `
+    <strong class="text-sm">Vorschau des gekürzten Textes</strong>
+    <div class="mt-2 p-3 bg-gray-50 rounded text-sm max-h-60 overflow-y-auto">
+      ${renderDiff(diffs)}
+    </div>
+    <div class="mt-3 flex gap-2">
+      <button id="acceptShortenBtn" class="bg-blue-600 text-white px-4 py-2 text-sm rounded hover:bg-blue-700">
+        Übernehmen
+      </button>
+      <button id="rejectShortenBtn" class="bg-gray-500 text-white px-4 py-2 text-sm rounded hover:bg-gray-600">
+        Verwerfen
+      </button>
+    </div>
+  `;
+  chatContent.appendChild(diffSection);
+
+  document.getElementById('acceptShortenBtn').addEventListener('click', async () => {
+    document.getElementById('text').value = shortenedText;
+    diffSection.remove();
+    alert('Gekürzter Text wurde übernommen!');
+  });
+
+  document.getElementById('rejectShortenBtn').addEventListener('click', () => {
+    diffSection.remove();
+  });
+}

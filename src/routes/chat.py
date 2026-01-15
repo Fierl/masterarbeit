@@ -19,7 +19,7 @@ def generate_chat():
     if not all([article_id, field_name, prompt]):
         return jsonify({'error': 'article_id, field_name und prompt sind erforderlich'}), 400
     
-    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings']:
+    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
 
     generated_content = generate_content(prompt, field_name=field_name, context=context, user=current_user)
@@ -64,7 +64,7 @@ def edit_chat():
     if not all([article_id, field_name, content]):
         return jsonify({'error': 'article_id, field_name und content sind erforderlich'}), 400
     
-    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings']:
+    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
     
     # If preview_only, return the generated content without saving
@@ -103,10 +103,10 @@ def list_chats():
     if not article_id or not field_name:
         return jsonify({'error': 'article_id und field_name sind erforderlich'}), 400
     
-    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings']:
+    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
     
-    if chat_type and chat_type not in ['generate', 'edit']:
+    if chat_type and chat_type not in ['generate', 'edit', 'shorten']:
         return jsonify({'error': 'Ungültiger chat_type'}), 400
     
     query = Chat.query.filter_by(
@@ -127,3 +127,60 @@ def list_chats():
         'content': chat.content,
         'created_at': chat.created_at.isoformat()
     } for chat in chats]), 200
+
+@bp.route('/api/chats/shorten', methods=['POST'])
+@login_required
+def shorten_text():
+    data = request.get_json()
+    article_id = data.get('article_id')
+    current_text = data.get('current_text')
+    target_word_count = data.get('target_word_count')
+    preview_only = data.get('preview_only', False)
+    
+    if not all([article_id, current_text, target_word_count]):
+        return jsonify({'error': 'article_id, current_text und target_word_count sind erforderlich'}), 400
+    
+    try:
+        target_word_count = int(target_word_count)
+        if target_word_count <= 0:
+            return jsonify({'error': 'target_word_count muss eine positive Zahl sein'}), 400
+    except ValueError:
+        return jsonify({'error': 'target_word_count muss eine Zahl sein'}), 400
+    
+    # Build the prompt for shortening the text
+    prompt = f"""Kürze den folgenden Text auf maximal {target_word_count} Wörter. 
+Behalte die wichtigsten Informationen und den Kerninhalt bei.
+Achte darauf, dass der gekürzte Text flüssig lesbar bleibt und alle wesentlichen Fakten enthält.
+
+Aktueller Text:
+{current_text}
+
+Gekürzte Version (maximal {target_word_count} Wörter):"""
+    
+    shortened_content = generate_content(prompt, field_name='shorten_text', user=current_user)
+    
+    # If preview_only, return the generated content without saving
+    if preview_only:
+        return jsonify({
+            'content': shortened_content,
+            'preview': True
+        }), 200
+    
+    chat = Chat(
+        article_id=article_id,
+        field_name='shorten_text',
+        chat_type='shorten',
+        content=shortened_content
+    )
+    
+    db.session.add(chat)
+    db.session.commit()
+    
+    return jsonify({
+        'id': chat.id,
+        'article_id': chat.article_id,
+        'field_name': chat.field_name,
+        'chat_type': chat.chat_type,
+        'content': chat.content,
+        'created_at': chat.created_at.isoformat()
+    }), 201

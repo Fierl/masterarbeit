@@ -6,7 +6,8 @@ export function getFieldLabel(field) {
     'teaser': 'Paywall-Teaser',
     'text': 'Text',
     'bulletpoints': 'Bulletpoints',
-    'subheadings': 'Zwischenüberschriften'
+    'subheadings': 'Zwischenüberschriften',
+    'shorten_text': 'Gekürzter Text'
   };
   return labels[field] || field;
 }

@@ -1,4 +1,4 @@
-import { setCurrentArticleId, getCurrentArticleId, generateField } from './chat_handler.js';
+import { setCurrentArticleId, getCurrentArticleId, generateField, openShortenTextChat } from './chat_handler.js';
 
 export function initArticleHandler() {
   const saveBtn = document.getElementById('saveBtn');
@@ -7,6 +7,7 @@ export function initArticleHandler() {
   const generateTextBtn = document.getElementById('generateTextBtn');
   const generateOtherFieldsBtn = document.getElementById('generateOtherFieldsBtn');
   const generateSubheadingsBtn = document.getElementById('generateSubheadingsBtn');
+  const shortenTextBtn = document.getElementById('shortenTextBtn');
 
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
@@ -47,6 +48,13 @@ export function initArticleHandler() {
     generateSubheadingsBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       await generateSubheadingsOnly(generateSubheadingsBtn);
+    });
+  }
+
+  if (shortenTextBtn) {
+    shortenTextBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      await openShortenTextChat();
     });
   }
 
