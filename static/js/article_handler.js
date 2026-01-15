@@ -6,6 +6,7 @@ export function initArticleHandler() {
   const generateAllBtn = document.getElementById('generateAllBtn');
   const generateTextBtn = document.getElementById('generateTextBtn');
   const generateOtherFieldsBtn = document.getElementById('generateOtherFieldsBtn');
+  const generateSubheadingsBtn = document.getElementById('generateSubheadingsBtn');
 
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
@@ -39,6 +40,13 @@ export function initArticleHandler() {
     generateOtherFieldsBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       await generateOtherFields(generateOtherFieldsBtn);
+    });
+  }
+
+  if (generateSubheadingsBtn) {
+    generateSubheadingsBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      await generateSubheadingsOnly(generateSubheadingsBtn);
     });
   }
 
@@ -214,8 +222,13 @@ async function generateTextOnly(generateTextBtn) {
   const originalText = generateTextBtn.textContent;
   
   try {
-    generateTextBtn.textContent = 'Generiere...';
+    generateTextBtn.textContent = 'Generiere Text...';
     await generateField('text');
+    
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
+    generateTextBtn.textContent = 'Generiere Zwischenüberschriften...';
+    await generateField('subheadings');
     
     generateTextBtn.textContent = 'Fertig!';
     setTimeout(() => {
@@ -248,7 +261,7 @@ async function generateOtherFields(generateOtherFieldsBtn) {
   const originalText = generateOtherFieldsBtn.textContent;
   
   try {
-    const fields = ['roofline', 'headline', 'subline', 'teaser', 'subheadings'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser'];
     for (const field of fields) {
       generateOtherFieldsBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
       await generateField(field);
@@ -266,6 +279,40 @@ async function generateOtherFields(generateOtherFieldsBtn) {
     generateOtherFieldsBtn.textContent = originalText;
   } finally {
     generateOtherFieldsBtn.disabled = false;
+  }
+}
+
+async function generateSubheadingsOnly(generateSubheadingsBtn) {
+  const text = document.getElementById('text').value;
+  
+  if (!text.trim()) {
+    alert('Bitte generieren oder geben Sie zuerst einen Artikel-Text ein.');
+    return;
+  }
+  
+  if (!getCurrentArticleId()) {
+    alert('Bitte speichern Sie zuerst den Artikel.');
+    return;
+  }
+  
+  generateSubheadingsBtn.disabled = true;
+  const originalText = generateSubheadingsBtn.textContent;
+  
+  try {
+    generateSubheadingsBtn.textContent = 'Generiere...';
+    await generateField('subheadings');
+    
+    generateSubheadingsBtn.textContent = 'Fertig!';
+    setTimeout(() => {
+      generateSubheadingsBtn.textContent = originalText;
+    }, 2000);
+    
+  } catch (err) {
+    console.error('Fehler beim Generieren der Zwischenüberschriften:', err);
+    alert('Fehler beim Generieren: ' + err.message);
+    generateSubheadingsBtn.textContent = originalText;
+  } finally {
+    generateSubheadingsBtn.disabled = false;
   }
 }
 
