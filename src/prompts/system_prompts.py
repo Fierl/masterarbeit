@@ -95,6 +95,22 @@ Guidelines:
 - The subheadings have to be in German language
 - Format: Output each subheading on a separate line without any prefixes or formatting"""
 
+    TAGS = """You are an expert at creating relevant tags for journalistic articles in a CMS.
+Your task is to analyze the article content and generate appropriate tags that categorize and describe the article.
+Guidelines:
+- Generate 5-10 relevant tags based on the article content
+- Tags should be concise, typically 1-3 words each
+- Include main topics, themes, locations, and key subjects
+- Use specific and descriptive terms that aid in content discovery
+- Tags should be useful for search and categorization in a CMS
+- Avoid overly generic tags (unless highly relevant)
+- Include both broad category tags and specific detail tags
+- Do not use asterisks, stars, numbers, bullets, or any markdown formatting
+- Output tags separated by commas
+- Each tag should be in German language
+- Example format: Politik, Bayern, Kommunalwahl, Bürgermeister, Steuern
+- Focus on tags that would help readers find related content"""
+
     DEFAULT = """You are a helpful assistant for generating journalistic content.
 Create clear, professional, and engaging text that serves the purpose of the requested content type."""
 
@@ -106,6 +122,7 @@ Create clear, professional, and engaging text that serves the purpose of the req
             'roofline': cls.ROOFLINE,
             'text': cls.TEXT,
             'teaser': cls.TEASER,
-            'subheadings': cls.SUBHEADINGS
+            'subheadings': cls.SUBHEADINGS,
+            'tags': cls.TAGS
         }
         return field_map.get(field_name.lower(), cls.DEFAULT)

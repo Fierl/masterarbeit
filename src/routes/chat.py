@@ -19,7 +19,7 @@ def generate_chat():
     if not all([article_id, field_name, prompt]):
         return jsonify({'error': 'article_id, field_name und prompt sind erforderlich'}), 400
     
-    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'shorten_text']:
+    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'tags', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
 
     generated_content = generate_content(prompt, field_name=field_name, context=context, user=current_user)
@@ -64,7 +64,7 @@ def edit_chat():
     if not all([article_id, field_name, content]):
         return jsonify({'error': 'article_id, field_name und content sind erforderlich'}), 400
     
-    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'shorten_text']:
+    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'tags', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
     
     # If preview_only, return the generated content without saving

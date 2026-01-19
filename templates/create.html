@@ -173,6 +173,22 @@
                 </button>
               </div>
             </div>
+
+            <div class="mb-4">
+              <label class="block text-sm font-medium mb-1">Tags</label>
+              <textarea id="tags" rows="3" class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none" placeholder="Generierte Tags erscheinen hier..."></textarea>
+              <div class="mt-2 flex space-x-2">
+                <button class="generieren-btn bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 text-sm rounded transition" data-field="tags">
+                  Generieren
+                </button>
+                <button class="umschreiben-btn bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 text-sm rounded transition" data-field="tags">
+                  Umschreiben
+                </button>
+                <button class="copy-btn bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded transition" data-field="tags">
+                  In die Zwischenablage kopieren
+                </button>
+              </div>
+            </div>
           </div>
 
           <div id="tab-uebersicht" class="tab-content hidden">
@@ -212,6 +228,16 @@
                 <p id="preview-teaser" class="text-gray-600 italic">—</p>
                 <div class="mt-2">
                   <button class="copy-btn bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded transition" data-field="teaser">
+                    In die Zwischenablage kopieren
+                  </button>
+                </div>
+              </div>
+
+              <div class="border-b pb-4">
+                <h3 class="text-xs font-medium text-gray-500 uppercase mb-1">Tags</h3>
+                <p id="preview-tags" class="text-gray-600">—</p>
+                <div class="mt-2">
+                  <button class="copy-btn bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded transition" data-field="tags">
                     In die Zwischenablage kopieren
                   </button>
                 </div>

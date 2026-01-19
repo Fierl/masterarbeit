@@ -7,6 +7,7 @@ export function getFieldLabel(field) {
     'text': 'Text',
     'bulletpoints': 'Bulletpoints',
     'subheadings': 'Zwischenüberschriften',
+    'tags': 'Tags',
     'shorten_text': 'Gekürzter Text'
   };
   return labels[field] || field;

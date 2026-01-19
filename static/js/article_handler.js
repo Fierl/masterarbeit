@@ -75,7 +75,8 @@ async function saveArticle(saveBtn) {
     subline: document.getElementById('subline').value,
     text: document.getElementById('text').value,
     teaser: document.getElementById('teaser').value,
-    subheadings: document.getElementById('subheadings').value
+    subheadings: document.getElementById('subheadings').value,
+    tags: document.getElementById('tags').value
   };
   
   try {
@@ -124,7 +125,8 @@ async function createNewChat() {
     subline: document.getElementById('subline'),
     teaser: document.getElementById('teaser'),
     text: document.getElementById('text'),
-    subheadings: document.getElementById('subheadings')
+    subheadings: document.getElementById('subheadings'),
+    tags: document.getElementById('tags')
   };
   
   Object.values(fields).forEach(field => {
@@ -138,7 +140,8 @@ async function createNewChat() {
     subline: '',
     text: '',
     teaser: '',
-    subheadings: ''
+    subheadings: '',
+    tags: ''
   };
   
   try {
@@ -331,7 +334,8 @@ function getFieldLabel(field) {
     'subline': 'Untertitel',
     'teaser': 'Paywall-Teaser',
     'text': 'Text',
-    'subheadings': 'Zwischenüberschriften'
+    'subheadings': 'Zwischenüberschriften',
+    'tags': 'Tags'
   };
   return labels[field] || field;
 }
@@ -374,7 +378,7 @@ function initTabs() {
 }
 
 function initPreviewUpdates() {
-  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings', 'tags'];
   
   fields.forEach(fieldName => {
     const field = document.getElementById(fieldName);
@@ -387,7 +391,7 @@ function initPreviewUpdates() {
 }
 
 function updatePreview() {
-  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
+  const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings', 'tags'];
   fields.forEach(fieldName => {
     updatePreviewField(fieldName);
   });

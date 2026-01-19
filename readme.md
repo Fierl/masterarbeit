@@ -24,6 +24,8 @@ ALTER TABLE articles ADD COLUMN IF NOT EXISTS subheadings TEXT;
 ALTER TYPE article_field ADD VALUE IF NOT EXISTS 'subheadings';
 ALTER TYPE chat_type ADD VALUE IF NOT EXISTS 'shorten';
 ALTER TYPE article_field ADD VALUE IF NOT EXISTS 'shorten_text';
+ALTER TABLE articles ADD COLUMN tags TEXT;
+ALTER TYPE article_field ADD VALUE IF NOT EXISTS 'tags';
 
 # logs
 sudo journalctl -u masterarbeit

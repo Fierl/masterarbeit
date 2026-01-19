@@ -164,7 +164,7 @@ async function handleGenerate(field) {
         `;
         return;
       }
-    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser' || field === 'subheadings') {
+    } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser' || field === 'subheadings' || field === 'tags') {
       contextContent = document.getElementById('text').value;
       if (!contextContent.trim()) {
         if (chatSidebar.classList.contains('translate-x-full')) {
