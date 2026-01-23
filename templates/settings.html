@@ -145,6 +145,24 @@
                     placeholder="Zusätzliche Anweisungen (werden zum Standard-Prompt hinzugefügt)"></textarea>
         </div>
 
+        <!-- Tags -->
+        <div class="border rounded-lg p-4">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-lg font-semibold">Tags</h3>
+            <button onclick="resetField('tags')" class="text-sm text-red-600 hover:text-red-800">
+              Zusätzliche Anweisungen löschen
+            </button>
+          </div>
+          <details class="mb-3">
+            <summary class="cursor-pointer text-sm text-gray-600 hover:text-gray-800">Standard-Prompt anzeigen</summary>
+            <div class="mt-2 p-3 bg-gray-50 rounded text-sm whitespace-pre-wrap" id="default-tags"></div>
+          </details>
+          <textarea id="custom-tags" 
+                    class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-mono text-sm" 
+                    rows="8" 
+                    placeholder="Zusätzliche Anweisungen (werden zum Standard-Prompt hinzugefügt)"></textarea>
+        </div>
+
         <!-- Save Button -->
         <div class="flex justify-end space-x-4 pt-4">
           <button id="saveBtn" 

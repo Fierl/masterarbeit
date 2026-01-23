@@ -103,7 +103,7 @@ def list_chats():
     if not article_id or not field_name:
         return jsonify({'error': 'article_id und field_name sind erforderlich'}), 400
     
-    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'shorten_text']:
+    if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'tags', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
     
     if chat_type and chat_type not in ['generate', 'edit', 'shorten']:

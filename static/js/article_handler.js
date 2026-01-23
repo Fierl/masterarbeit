@@ -195,7 +195,7 @@ async function generateAllFields(generateAllBtn) {
     
     await new Promise(resolve => setTimeout(resolve, 500));
     
-    const fields = ['roofline', 'headline', 'subline', 'teaser', 'subheadings'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser', 'subheadings', 'tags'];
     for (const field of fields) {
       generateAllBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
       await generateField(field);

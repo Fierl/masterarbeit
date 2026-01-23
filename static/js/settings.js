@@ -27,7 +27,7 @@ async function loadSettings() {
     currentPrompts = data;
     
     // Populate form with data
-    const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings', 'tags'];
     
     fields.forEach(field => {
       const fieldData = data[field];
@@ -64,7 +64,7 @@ async function saveSettings() {
   saveBtn.textContent = 'Speichere...';
   
   try {
-    const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings', 'tags'];
     const customPrompts = {};
     
     fields.forEach(field => {
@@ -160,7 +160,8 @@ function getFieldLabel(field) {
     'subline': 'Untertitel',
     'teaser': 'Paywall-Teaser',
     'text': 'Text',
-    'subheadings': 'Zwischenüberschriften'
+    'subheadings': 'Zwischenüberschriften',
+    'tags': 'Tags'
   };
   return labels[field] || field;
 }
