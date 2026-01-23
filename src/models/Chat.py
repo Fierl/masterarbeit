@@ -9,4 +9,4 @@ class Chat(db.Model):
     field_name = db.Column(db.Enum("headline", "subline", "roofline", "text", "teaser", "subheadings", "shorten_text", "tags", name="article_field"), nullable=False)
     chat_type = db.Column(db.Enum("generate", "edit", "shorten", name="chat_type"), nullable=False, default="generate")
     content = db.Column(db.Text, nullable=False)
-    created_at = db.Column(db.DateTime, default=datetime.now(timezone.utc))
+    created_at = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc))
