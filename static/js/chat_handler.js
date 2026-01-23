@@ -58,8 +58,9 @@ function setupCloseChatOnInteraction() {
     const isClickOnToggle = chatToggle && chatToggle.contains(e.target);
     const isClickOnChatButtons = e.target.classList.contains('generieren-btn') || 
                                    e.target.classList.contains('umschreiben-btn');
+    const isShortenButton = e.target.id === 'shortenTextBtn';
 
-    if (!isClickInsideChat && !isClickOnToggle && !isClickOnChatButtons) {
+    if (!isClickInsideChat && !isClickOnToggle && !isClickOnChatButtons && !isShortenButton) {
       chatSidebar.classList.add('translate-x-full');
       if (mainContent) {
         mainContent.classList.remove('mr-[650px]');

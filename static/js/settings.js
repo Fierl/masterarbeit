@@ -26,26 +26,22 @@ async function loadSettings() {
     const data = await response.json();
     currentPrompts = data;
     
-    // Populate form with data
     const fields = ['roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings', 'tags'];
     
     fields.forEach(field => {
       const fieldData = data[field];
       
-      // Show default prompt
       const defaultElement = document.getElementById(`default-${field}`);
       if (defaultElement) {
         defaultElement.textContent = fieldData.default;
       }
       
-      // Show custom prompt if exists
       const customElement = document.getElementById(`custom-${field}`);
       if (customElement) {
         customElement.value = fieldData.custom || '';
       }
     });
     
-    // Hide loading, show form
     loadingIndicator.classList.add('hidden');
     settingsForm.classList.remove('hidden');
     
@@ -90,7 +86,6 @@ async function saveSettings() {
     const result = await response.json();
     showStatus('Einstellungen erfolgreich gespeichert!', 'success');
     
-    // Reload to get updated data
     await loadSettings();
     
   } catch (error) {
@@ -110,18 +105,15 @@ async function resetField(field) {
   }
   
   try {
-    // Clear the textarea
     const customElement = document.getElementById(`custom-${field}`);
     if (customElement) {
       customElement.value = '';
     }
     
-    // Delete from backend if exists
     const response = await fetch(`/settings/api/system-prompts/${field}`, {
       method: 'DELETE'
     });
     
-    // 404 is ok - means it didn't exist
     if (!response.ok && response.status !== 404) {
       const errorData = await response.json();
       throw new Error(errorData.error || 'Fehler beim Zurücksetzen');
@@ -147,7 +139,6 @@ function showStatus(message, type = 'info') {
   statusElement.textContent = message;
   statusElement.classList.remove('hidden');
   
-  // Auto-hide after 5 seconds
   setTimeout(() => {
     statusElement.classList.add('hidden');
   }, 5000);
