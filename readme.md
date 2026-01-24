@@ -13,6 +13,7 @@ sudo systemctl status masterarbeit
 console.mistral.ai
 
 # database
+sudo -u postgres psql -d test -c "GRANT USAGE, CREATE ON SCHEMA public TO test_user;"
 sudo -u postgres psql
 \c test
 ALTER TABLE chats ADD COLUMN chat_type VARCHAR(10) DEFAULT 'generate' NOT NULL;

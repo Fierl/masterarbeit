@@ -16,7 +16,7 @@ def create_user():
             print("User already exists:", username)
             return
 
-        user = _u.User(username=username)
+        user = _u.User(username=username) # type: ignore
         user.set_password(raw_password)
         
         db.session.add(user)

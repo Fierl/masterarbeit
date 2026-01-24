@@ -24,10 +24,10 @@ def generate_chat():
 
     generated_content = generate_content(prompt, field_name=field_name, context=context, user=current_user)
     chat = Chat(
-        article_id=article_id,
-        field_name=field_name,
-        chat_type='generate',
-        content=generated_content
+        article_id=article_id, # type: ignore
+        field_name=field_name, # type: ignore
+        chat_type='generate', # type: ignore
+        content=generated_content # type: ignore
     )
     
     db.session.add(chat)
@@ -52,13 +52,10 @@ def edit_chat():
     user_prompt = data.get('user_prompt')
     preview_only = data.get('preview_only', False)
     
-    # Support both old format (direct content) and new format (current_content + user_prompt)
     if current_content and user_prompt:
-        # New format: AI-assisted rewriting
         combined_prompt = f"Aktueller Text:\n{current_content}\n\nÄnderungswunsch:\n{user_prompt}"
         content = generate_content(combined_prompt, field_name=field_name, user=current_user)
     else:
-        # Old format: direct content
         content = data.get('content')
     
     if not all([article_id, field_name, content]):
@@ -67,7 +64,6 @@ def edit_chat():
     if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'tags', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
     
-    # If preview_only, return the generated content without saving
     if preview_only:
         return jsonify({
             'content': content,
@@ -75,10 +71,10 @@ def edit_chat():
         }), 200
     
     chat = Chat(
-        article_id=article_id,
-        field_name=field_name,
-        chat_type='edit',
-        content=content
+        article_id=article_id, # type: ignore
+        field_name=field_name, # type: ignore
+        chat_type='edit', # type: ignore
+        content=content # type: ignore
     )
     
     db.session.add(chat)
@@ -147,7 +143,6 @@ def shorten_text():
     except ValueError:
         return jsonify({'error': 'target_word_count muss eine Zahl sein'}), 400
     
-    # Build the prompt for shortening the text
     prompt = f"""Kürze den folgenden Text auf maximal {target_word_count} Wörter. 
 Behalte die wichtigsten Informationen und den Kerninhalt bei.
 Achte darauf, dass der gekürzte Text flüssig lesbar bleibt und alle wesentlichen Fakten enthält.
@@ -159,7 +154,6 @@ Gekürzte Version (maximal {target_word_count} Wörter):"""
     
     shortened_content = generate_content(prompt, field_name='shorten_text', user=current_user)
     
-    # If preview_only, return the generated content without saving
     if preview_only:
         return jsonify({
             'content': shortened_content,
@@ -167,10 +161,10 @@ Gekürzte Version (maximal {target_word_count} Wörter):"""
         }), 200
     
     chat = Chat(
-        article_id=article_id,
-        field_name='shorten_text',
-        chat_type='shorten',
-        content=shortened_content
+        article_id=article_id, # type: ignore
+        field_name='shorten_text', # type: ignore
+        chat_type='shorten', # type: ignore
+        content=shortened_content # type: ignore
     )
     
     db.session.add(chat)

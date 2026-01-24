@@ -18,7 +18,7 @@ class AuthService:
             return False, "Passwort muss mindestens 6 Zeichen lang sein", None
         
         try:
-            user = User(username=username.strip())
+            user = User(username=username.strip()) # type: ignore
             user.set_password(password)
             
             db.session.add(user)
@@ -42,7 +42,7 @@ class AuthService:
         if not user or not user.check_password(password):
             return False, "Ungültige Anmeldedaten", None
         
-        login_user(user)
+        login_user(user)  # type: ignore
         return True, "Erfolgreich angemeldet", user
     
     @staticmethod

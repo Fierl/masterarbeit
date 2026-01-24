@@ -3,14 +3,14 @@ from src.models.Article import Article
 
 def create_article(payload, user_id):
     article = Article(
-        user_id = user_id,
-        bulletpoints = payload.get('bulletpoints'),
-        roofline = payload.get('roofline'),
-        headline = payload.get('headline'),
-        subline = payload.get('subline'),
-        text = payload.get('text'),
-        subheadings = payload.get('subheadings'),
-        tags = payload.get('tags')
+        user_id = user_id, # type: ignore
+        bulletpoints = payload.get('bulletpoints'), # type: ignore
+        roofline = payload.get('roofline'), # type: ignore
+        headline = payload.get('headline'), # type: ignore
+        subline = payload.get('subline'), # type: ignore
+        text = payload.get('text'), # type: ignore
+        subheadings = payload.get('subheadings'), # type: ignore
+        tags = payload.get('tags') # type: ignore
     )
     db.session.add(article)
     db.session.commit()

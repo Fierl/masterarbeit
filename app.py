@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template
 from flask_login import LoginManager, login_required, current_user
 from src.config.config import Config
 from src.database import db
@@ -6,9 +6,6 @@ from src.routes.articles import bp as articles_bp
 from src.routes.auth import bp as auth_bp
 from src.routes.chat import bp as chat_bp
 from src.routes.settings import bp as settings_bp
-import src.models.User as _u
-import src.models.Article as _a
-import src.models.Chat as _c
 import mimetypes
 
 mimetypes.add_type('application/javascript', '.js')
@@ -20,7 +17,7 @@ db.init_app(app)
 
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = 'auth.login'
+login_manager.login_view = 'auth.login'  # type: ignore
 login_manager.login_message = ''
 login_manager.login_message_category = 'info'
 
