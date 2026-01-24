@@ -606,7 +606,14 @@ function renderDiff(diffs) {
 function showDiffPreview(field, originalText, newText, chatContent) {
   const diffs = calculateDiff(originalText, newText);
   
+  // Entferne vorhandene Diff-Vorschau falls vorhanden
+  const existingDiff = document.getElementById('diffPreviewSection');
+  if (existingDiff) {
+    existingDiff.remove();
+  }
+  
   const diffSection = document.createElement('div');
+  diffSection.id = 'diffPreviewSection';
   diffSection.className = 'bg-white p-3 rounded mb-3 border-2 border-green-500';
   diffSection.innerHTML = `
     <strong class="text-sm">Neuer Text</strong>
@@ -763,7 +770,14 @@ async function shortenText(currentText, targetWordCount, chatContent) {
 function showShortenPreview(originalText, shortenedText, chatContent) {
   const diffs = calculateDiff(originalText, shortenedText);
   
+  // Entferne vorhandene Diff-Vorschau falls vorhanden
+  const existingDiff = document.getElementById('shortenPreviewSection');
+  if (existingDiff) {
+    existingDiff.remove();
+  }
+  
   const diffSection = document.createElement('div');
+  diffSection.id = 'shortenPreviewSection';
   diffSection.className = 'bg-white p-3 rounded mb-3 border-2 border-green-500';
   diffSection.innerHTML = `
     <strong class="text-sm">Gekürzter Text</strong>
