@@ -281,9 +281,7 @@ async function openChatAndRewrite(field) {
   currentField = field;
   const currentValue = document.getElementById(field).value;
   
-  if (currentArticleId) {
-    await loadChatHistory(field, chatContent, 'edit');
-  } else {
+  if (!currentArticleId) {
     chatContent.innerHTML = `
       <div class="bg-yellow-50 p-3 rounded">
         <strong>Hinweis</strong>
@@ -293,25 +291,24 @@ async function openChatAndRewrite(field) {
     return;
   }
   
+  // Zuerst das Input-Feld oben anzeigen
   if (!currentValue.trim()) {
-    const warningSection = document.createElement('div');
-    warningSection.className = 'bg-yellow-50 p-3 rounded mt-3';
-    warningSection.innerHTML = `
-      <strong>Umschreiben ${getFieldLabel(field)}</strong>
-      <p class="text-sm mt-1">Bitte geben Sie zuerst Text ein, der umgeschrieben werden soll.</p>
+    chatContent.innerHTML = `
+      <div class="bg-yellow-50 p-3 rounded mb-3">
+        <strong>Umschreiben ${getFieldLabel(field)}</strong>
+        <p class="text-sm mt-1">Bitte geben Sie zuerst Text ein, der umgeschrieben werden soll.</p>
+      </div>
     `;
-    chatContent.appendChild(warningSection);
   } else {
-    const editSection = document.createElement('div');
-    editSection.className = 'bg-green-50 p-3 rounded mt-3';
-    editSection.innerHTML = `
-      <strong>Schreibe ${getFieldLabel(field)} um</strong>
-      <textarea id="chatRewritePrompt" class="w-full mt-2 p-2 border rounded text-sm" rows="3" placeholder="Wie möchten Sie den Text ändern? (z.B. 'schreib das noch dramatischer')"></textarea>
-      <button id="rewriteBtn" class="mt-2 bg-blue-600 text-white px-3 py-1 text-sm rounded hover:bg-blue-700">
-        Umschreiben
-      </button>
+    chatContent.innerHTML = `
+      <div class="bg-green-50 p-3 rounded mb-3">
+        <strong>Schreibe ${getFieldLabel(field)} um</strong>
+        <textarea id="chatRewritePrompt" class="w-full mt-2 p-2 border rounded text-sm" rows="3" placeholder="Wie möchten Sie den Text ändern? (z.B. 'schreib das noch dramatischer')"></textarea>
+        <button id="rewriteBtn" class="mt-2 bg-blue-600 text-white px-3 py-1 text-sm rounded hover:bg-blue-700">
+          Umschreiben
+        </button>
+      </div>
     `;
-    chatContent.appendChild(editSection);
     
     document.getElementById('rewriteBtn').addEventListener('click', async () => {
       const userPrompt = document.getElementById('chatRewritePrompt').value;
@@ -323,6 +320,9 @@ async function openChatAndRewrite(field) {
       await editContent(field, currentValue, userPrompt, chatContent);
     });
   }
+  
+  // Dann die Historie darunter laden
+  await loadChatHistoryAppend(field, chatContent, 'edit');
 }
 
 async function loadChatHistory(field, chatContent, chatType = null) {
@@ -387,6 +387,73 @@ async function loadChatHistory(field, chatContent, chatType = null) {
         Fehler beim Laden der Historie.
       </div>
     `;
+  }
+}
+
+// Variante von loadChatHistory die an bestehenden Content anhängt statt zu ersetzen
+async function loadChatHistoryAppend(field, chatContent, chatType = null) {
+  try {
+    let url = `/api/chats?article_id=${currentArticleId}&field_name=${field}`;
+    if (chatType) {
+      url += `&chat_type=${chatType}`;
+    }
+    
+    const res = await fetch(url);
+    
+    if (!res.ok) {
+      throw new Error('Fehler beim Laden der Chat-Historie');
+    }
+    
+    const chats = await res.json();
+    
+    const typeLabels = {
+      'generate': 'Generiert',
+      'edit': 'Bearbeitet'
+    };
+    const typeLabel = chatType ? typeLabels[chatType] || 'Alle' : 'Alle';
+    
+    // Historie-Header erstellen und anhängen
+    const historyHeader = document.createElement('div');
+    historyHeader.className = 'mb-3 mt-4 pt-3 border-t border-gray-200';
+    historyHeader.innerHTML = `
+      <strong class="text-sm">Historie für ${getFieldLabel(field)}</strong>
+      ${chatType ? `<span class="text-xs text-gray-500 ml-2">(${typeLabel})</span>` : ''}
+    `;
+    chatContent.appendChild(historyHeader);
+    
+    if (chats.length === 0) {
+      const emptyMsg = document.createElement('div');
+      emptyMsg.className = 'text-sm text-gray-500 italic';
+      emptyMsg.textContent = 'Noch keine Einträge vorhanden.';
+      chatContent.appendChild(emptyMsg);
+    } else {
+      chats.forEach(chat => {
+        const chatItem = document.createElement('div');
+        const bgColors = {
+          'generate': 'bg-blue-50',
+          'edit': 'bg-green-50'
+        };
+        const bgColor = bgColors[chat.chat_type] || 'bg-gray-50';
+        
+        chatItem.className = `${bgColor} p-2 rounded mb-2 cursor-pointer hover:opacity-80`;
+        chatItem.innerHTML = `
+          <div class="text-xs text-gray-500">
+           ${new Date(chat.created_at).toLocaleString()}
+          </div>
+          <div class="text-sm mt-1 whitespace-pre-wrap">${chat.content}</div>
+        `;
+        chatItem.addEventListener('click', () => {
+          document.getElementById(field).value = chat.content;
+        });
+        chatContent.appendChild(chatItem);
+      });
+    }
+  } catch (err) {
+    console.error('Fehler beim Laden der Chats:', err);
+    const errorMsg = document.createElement('div');
+    errorMsg.className = 'bg-red-50 p-3 rounded text-sm text-red-700 mt-3';
+    errorMsg.textContent = 'Fehler beim Laden der Historie.';
+    chatContent.appendChild(errorMsg);
   }
 }
 
@@ -540,7 +607,7 @@ function showDiffPreview(field, originalText, newText, chatContent) {
   const diffs = calculateDiff(originalText, newText);
   
   const diffSection = document.createElement('div');
-  diffSection.className = 'bg-white p-3 rounded mt-3 border-2 border-green-500';
+  diffSection.className = 'bg-white p-3 rounded mb-3 border-2 border-green-500';
   diffSection.innerHTML = `
     <strong class="text-sm">Neuer Text</strong>
     <div class="mt-2 p-3 bg-blue-50 rounded text-sm max-h-60 overflow-y-auto whitespace-pre-wrap">
@@ -559,7 +626,7 @@ function showDiffPreview(field, originalText, newText, chatContent) {
       </button>
     </div>
   `;
-  chatContent.appendChild(diffSection);
+  chatContent.prepend(diffSection);
 
   document.getElementById('acceptChangesBtn').addEventListener('click', async () => {
     document.getElementById(field).value = newText;
@@ -603,6 +670,7 @@ export async function openShortenTextChat() {
   const chatContent = chatSidebar.querySelector('.space-y-3');
   const mainContent = document.getElementById('mainContent');
   const currentText = document.getElementById('text').value;
+  const field = 'text';
   
   if (chatSidebar.classList.contains('translate-x-full')) {
     chatSidebar.classList.remove('translate-x-full');
@@ -631,8 +699,9 @@ export async function openShortenTextChat() {
     return;
   }
   
+  // Zuerst das Input-Feld oben anzeigen
   chatContent.innerHTML = `
-    <div class="bg-green-50 p-3 rounded">
+    <div class="bg-green-50 p-3 rounded mb-3">
       <strong>Artikeltext kürzen</strong>
       <p class="text-xs text-gray-600 mt-1">Geben Sie die gewünschte Anzahl an Wörtern ein.</p>
       <input 
@@ -658,6 +727,9 @@ export async function openShortenTextChat() {
     
     await shortenText(currentText, targetWordCount, chatContent);
   });
+  
+  // Dann die Historie darunter laden
+  await loadChatHistoryAppend(field, chatContent, 'edit');
 }
 
 async function shortenText(currentText, targetWordCount, chatContent) {
@@ -692,7 +764,7 @@ function showShortenPreview(originalText, shortenedText, chatContent) {
   const diffs = calculateDiff(originalText, shortenedText);
   
   const diffSection = document.createElement('div');
-  diffSection.className = 'bg-white p-3 rounded mt-3 border-2 border-green-500';
+  diffSection.className = 'bg-white p-3 rounded mb-3 border-2 border-green-500';
   diffSection.innerHTML = `
     <strong class="text-sm">Gekürzter Text</strong>
     <div class="mt-2 p-3 bg-blue-50 rounded text-sm max-h-60 overflow-y-auto whitespace-pre-wrap">
@@ -711,7 +783,7 @@ function showShortenPreview(originalText, shortenedText, chatContent) {
       </button>
     </div>
   `;
-  chatContent.appendChild(diffSection);
+  chatContent.prepend(diffSection);
 
   document.getElementById('acceptShortenBtn').addEventListener('click', async () => {
     document.getElementById('text').value = shortenedText;
