@@ -5,10 +5,26 @@ let currentField = null;
 
 export function setCurrentArticleId(articleId) {
   currentArticleId = articleId;
+  updateEditorVisibility();
 }
 
 export function getCurrentArticleId() {
   return currentArticleId;
+}
+
+export function updateEditorVisibility() {
+  const noArticleOverlay = document.getElementById('noArticleOverlay');
+  const articleEditor = document.getElementById('articleEditor');
+  
+  if (noArticleOverlay && articleEditor) {
+    if (currentArticleId) {
+      noArticleOverlay.classList.add('hidden');
+      articleEditor.classList.remove('hidden');
+    } else {
+      noArticleOverlay.classList.remove('hidden');
+      articleEditor.classList.add('hidden');
+    }
+  }
 }
 
 export function initChatHandler() {

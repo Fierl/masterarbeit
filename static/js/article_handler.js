@@ -3,6 +3,7 @@ import { setCurrentArticleId, getCurrentArticleId, generateField, openShortenTex
 export function initArticleHandler() {
   const saveBtn = document.getElementById('saveBtn');
   const newChatBtn = document.getElementById('newChatBtn');
+  const createNewFromOverlay = document.getElementById('createNewFromOverlay');
   const generateAllBtn = document.getElementById('generateAllBtn');
   const generateTextBtn = document.getElementById('generateTextBtn');
   const generateOtherFieldsBtn = document.getElementById('generateOtherFieldsBtn');
@@ -18,6 +19,13 @@ export function initArticleHandler() {
   
   if (newChatBtn) {
     newChatBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      await createNewChat();
+    });
+  }
+
+  if (createNewFromOverlay) {
+    createNewFromOverlay.addEventListener('click', async (e) => {
       e.preventDefault();
       await createNewChat();
     });
