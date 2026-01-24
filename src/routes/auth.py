@@ -7,7 +7,6 @@ bp = Blueprint('auth', __name__, url_prefix='/auth')
 
 @bp.route('/login', methods=['GET', 'POST'])
 def login():
-    """Login route"""
     if request.method == 'POST':
         data = request.get_json() if request.is_json else request.form
         username = data.get('username', '').strip()
@@ -23,7 +22,6 @@ def login():
             })
         
         if success:
-            flash(message, 'success')
             return redirect(url_for('index'))
         else:
             flash(message, 'error')
@@ -33,7 +31,6 @@ def login():
 
 @bp.route('/register', methods=['GET', 'POST'])
 def register():
-    """Register route"""
     if request.method == 'POST':
         data = request.get_json() if request.is_json else request.form
         username = data.get('username', '').strip()
@@ -68,7 +65,6 @@ def register():
 @bp.route('/logout')
 @login_required
 def logout():
-    """Logout route"""
     AuthService.logout_user_service()
     flash('Erfolgreich abgemeldet', 'success')
     return redirect(url_for('auth.login'))
@@ -77,5 +73,4 @@ def logout():
 @bp.route('/profile')
 @login_required
 def profile():
-    """User profile route"""
     return render_template('profile.html', user=current_user)
