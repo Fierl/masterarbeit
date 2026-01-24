@@ -542,7 +542,11 @@ function showDiffPreview(field, originalText, newText, chatContent) {
   const diffSection = document.createElement('div');
   diffSection.className = 'bg-white p-3 rounded mt-3 border-2 border-green-500';
   diffSection.innerHTML = `
-    <strong class="text-sm">Vorschau der Änderungen</strong>
+    <strong class="text-sm">Neuer Text</strong>
+    <div class="mt-2 p-3 bg-blue-50 rounded text-sm max-h-60 overflow-y-auto whitespace-pre-wrap">
+      ${escapeHtml(newText)}
+    </div>
+    <strong class="text-sm mt-4 block">Änderungen im Detail</strong>
     <div class="mt-2 p-3 bg-gray-50 rounded text-sm max-h-60 overflow-y-auto">
       ${renderDiff(diffs)}
     </div>
@@ -690,7 +694,11 @@ function showShortenPreview(originalText, shortenedText, chatContent) {
   const diffSection = document.createElement('div');
   diffSection.className = 'bg-white p-3 rounded mt-3 border-2 border-green-500';
   diffSection.innerHTML = `
-    <strong class="text-sm">Vorschau des gekürzten Textes</strong>
+    <strong class="text-sm">Gekürzter Text</strong>
+    <div class="mt-2 p-3 bg-blue-50 rounded text-sm max-h-60 overflow-y-auto whitespace-pre-wrap">
+      ${escapeHtml(shortenedText)}
+    </div>
+    <strong class="text-sm mt-4 block">Änderungen im Detail</strong>
     <div class="mt-2 p-3 bg-gray-50 rounded text-sm max-h-60 overflow-y-auto">
       ${renderDiff(diffs)}
     </div>
