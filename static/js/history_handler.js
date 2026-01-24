@@ -135,6 +135,5 @@ async function deleteArticle(articleId) {
     await loadArticleHistory();
   } catch (err) {
     console.error('Error deleting article:', err);
-    alert('Fehler beim Löschen des Artikels');
   }
 }

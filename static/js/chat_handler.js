@@ -1,5 +1,10 @@
 import { getFieldLabel } from './utils.js';
 
+// Trigger auto-save via custom event to avoid circular dependency
+function triggerAutoSave() {
+  document.dispatchEvent(new CustomEvent('autoSaveArticle'));
+}
+
 let currentArticleId = null;
 let currentField = null;
 
@@ -285,7 +290,6 @@ async function openChatAndGenerate(field) {
   document.getElementById('generateBtn').addEventListener('click', async () => {
     const prompt = document.getElementById('chatPrompt').value;
     if (!prompt.trim()) {
-      alert('Bitte geben Sie einen Prompt ein.');
       return;
     }
     
@@ -340,7 +344,6 @@ async function openChatAndRewrite(field) {
     document.getElementById('rewriteBtn').addEventListener('click', async () => {
       const userPrompt = document.getElementById('chatRewritePrompt').value;
       if (!userPrompt.trim()) {
-        alert('Bitte geben Sie eine Anweisung ein, wie der Text geändert werden soll.');
         return;
       }
       
@@ -516,10 +519,10 @@ async function generateContent(field, prompt, chatContent) {
     
     await loadChatHistory(field, chatContent, 'generate');
     
-    alert('Text wurde erfolgreich generiert!');
+    // Auto-save after generation
+    triggerAutoSave();
   } catch (err) {
     console.error('Fehler beim Generieren:', err);
-    alert('Fehler beim Generieren: ' + err.message);
   }
 }
 
@@ -549,7 +552,6 @@ async function editContent(field, currentContent, userPrompt, chatContent) {
     
   } catch (err) {
     console.error('Fehler beim Umschreiben:', err);
-    alert('Fehler beim Umschreiben: ' + err.message);
   }
 }
 
@@ -666,7 +668,8 @@ function showDiffPreview(field, originalText, newText, chatContent) {
     document.getElementById(field).value = newText;
     await saveEditToHistory(field, newText, chatContent);
     diffSection.remove();
-    alert('Änderungen wurden übernommen!');
+    // Auto-save after accepting changes
+    triggerAutoSave();
   });
 
   document.getElementById('rejectChangesBtn').addEventListener('click', () => {
@@ -695,7 +698,6 @@ async function saveEditToHistory(field, content, chatContent) {
     
   } catch (err) {
     console.error('Fehler beim Speichern:', err);
-    alert('Fehler beim Speichern der Historie: ' + err.message);
   }
 }
 
@@ -755,7 +757,6 @@ export async function openShortenTextChat() {
     const targetWordCount = document.getElementById('targetWordCount').value;
     
     if (!targetWordCount || targetWordCount <= 0) {
-      alert('Bitte geben Sie eine gültige Anzahl an Wörtern ein.');
       return;
     }
     
@@ -790,7 +791,6 @@ async function shortenText(currentText, targetWordCount, chatContent) {
     
   } catch (err) {
     console.error('Fehler beim Kürzen:', err);
-    alert('Fehler beim Kürzen: ' + err.message);
   }
 }
 
@@ -829,7 +829,8 @@ function showShortenPreview(originalText, shortenedText, chatContent) {
   document.getElementById('acceptShortenBtn').addEventListener('click', async () => {
     document.getElementById('text').value = shortenedText;
     diffSection.remove();
-    alert('Gekürzter Text wurde übernommen!');
+    // Auto-save after accepting shortened text
+    triggerAutoSave();
   });
 
   document.getElementById('rejectShortenBtn').addEventListener('click', () => {

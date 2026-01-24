@@ -1,5 +1,7 @@
 import { setCurrentArticleId, getCurrentArticleId, generateField, openShortenTextChat } from './chat_handler.js';
 
+let autoSaveTimeout = null;
+
 export function initArticleHandler() {
   const saveBtn = document.getElementById('saveBtn');
   const newChatBtn = document.getElementById('newChatBtn');
@@ -13,7 +15,7 @@ export function initArticleHandler() {
   if (saveBtn) {
     saveBtn.addEventListener('click', async (e) => {
       e.preventDefault();
-      await saveArticle(saveBtn);
+      await saveArticle();
     });
   }
   
@@ -71,10 +73,18 @@ export function initArticleHandler() {
   initPreviewUpdates();
   
   initCopyButtons();
+  
+  initAutoSave();
+  
+  // Listen for auto-save events from other modules
+  document.addEventListener('autoSaveArticle', async () => {
+    await saveArticle();
+  });
 }
 
-async function saveArticle(saveBtn) {
-  saveBtn.disabled = true;
+export async function saveArticle() {
+  const saveBtn = document.getElementById('saveBtn');
+  if (saveBtn) saveBtn.disabled = true;
   
   const payload = {
     bulletpoints: document.getElementById('bulletpoints').value,
@@ -108,20 +118,17 @@ async function saveArticle(saveBtn) {
     if (res.ok) {
       const body = await res.json();
       setCurrentArticleId(body.id);
-      alert('Artikel gespeichert!');
       
       const historyEvent = new CustomEvent('reloadHistory');
       document.dispatchEvent(historyEvent);
     } else {
       const txt = await res.text();
       console.error('Save error', res.status, txt);
-      alert('Fehler beim Speichern');
     }
   } catch (err) {
     console.error(err);
-    alert('Netzwerkfehler');
   } finally {
-    saveBtn.disabled = false;
+    if (saveBtn) saveBtn.disabled = false;
   }
 }
 
@@ -173,11 +180,9 @@ async function createNewChat() {
     } else {
       const txt = await res.text();
       console.error('Create error', res.status, txt);
-      alert('Fehler beim Erstellen des neuen Chats');
     }
   } catch (err) {
     console.error(err);
-    alert('Netzwerkfehler beim Erstellen des neuen Chats');
   }
 }
 
@@ -185,13 +190,12 @@ async function generateAllFields(generateAllBtn) {
   const bulletpoints = document.getElementById('bulletpoints').value;
   
   if (!bulletpoints.trim()) {
-    alert('Bitte geben Sie zuerst Stichpunkte ein.');
     return;
   }
   
+  // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    alert('Bitte speichern Sie zuerst den Artikel.');
-    return;
+    await saveArticle();
   }
   
   generateAllBtn.disabled = true;
@@ -218,9 +222,11 @@ async function generateAllFields(generateAllBtn) {
     // Switch to article text tab to show the generated content
     switchToTab('artikel');
     
+    // Auto-save after generation
+    await saveArticle();
+    
   } catch (err) {
     console.error('Fehler beim Generieren aller Felder:', err);
-    alert('Fehler beim Generieren: ' + err.message);
     generateAllBtn.textContent = originalText;
   } finally {
     generateAllBtn.disabled = false;
@@ -231,13 +237,12 @@ async function generateTextOnly(generateTextBtn) {
   const bulletpoints = document.getElementById('bulletpoints').value;
   
   if (!bulletpoints.trim()) {
-    alert('Bitte geben Sie zuerst Stichpunkte ein.');
     return;
   }
   
+  // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    alert('Bitte speichern Sie zuerst den Artikel.');
-    return;
+    await saveArticle();
   }
   
   generateTextBtn.disabled = true;
@@ -260,9 +265,11 @@ async function generateTextOnly(generateTextBtn) {
     // Switch to article text tab to show the generated content
     switchToTab('artikel');
     
+    // Auto-save after generation
+    await saveArticle();
+    
   } catch (err) {
     console.error('Fehler beim Generieren des Textes:', err);
-    alert('Fehler beim Generieren: ' + err.message);
     generateTextBtn.textContent = originalText;
   } finally {
     generateTextBtn.disabled = false;
@@ -273,13 +280,12 @@ async function generateOtherFields(generateOtherFieldsBtn) {
   const text = document.getElementById('text').value;
   
   if (!text.trim()) {
-    alert('Bitte generieren oder geben Sie zuerst einen Artikel-Text ein.');
     return;
   }
   
+  // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    alert('Bitte speichern Sie zuerst den Artikel.');
-    return;
+    await saveArticle();
   }
   
   generateOtherFieldsBtn.disabled = true;
@@ -301,9 +307,11 @@ async function generateOtherFields(generateOtherFieldsBtn) {
     // Switch to weitere felder tab to show the generated content
     switchToTab('weitere');
     
+    // Auto-save after generation
+    await saveArticle();
+    
   } catch (err) {
     console.error('Fehler beim Generieren der anderen Felder:', err);
-    alert('Fehler beim Generieren: ' + err.message);
     generateOtherFieldsBtn.textContent = originalText;
   } finally {
     generateOtherFieldsBtn.disabled = false;
@@ -314,13 +322,12 @@ async function generateSubheadingsOnly(generateSubheadingsBtn) {
   const text = document.getElementById('text').value;
   
   if (!text.trim()) {
-    alert('Bitte generieren oder geben Sie zuerst einen Artikel-Text ein.');
     return;
   }
   
+  // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    alert('Bitte speichern Sie zuerst den Artikel.');
-    return;
+    await saveArticle();
   }
   
   generateSubheadingsBtn.disabled = true;
@@ -335,9 +342,11 @@ async function generateSubheadingsOnly(generateSubheadingsBtn) {
       generateSubheadingsBtn.textContent = originalText;
     }, 2000);
     
+    // Auto-save after generation
+    await saveArticle();
+    
   } catch (err) {
     console.error('Fehler beim Generieren der Zwischenüberschriften:', err);
-    alert('Fehler beim Generieren: ' + err.message);
     generateSubheadingsBtn.textContent = originalText;
   } finally {
     generateSubheadingsBtn.disabled = false;
@@ -411,6 +420,27 @@ function initPreviewUpdates() {
     if (field) {
       field.addEventListener('input', () => {
         updatePreviewField(fieldName);
+      });
+    }
+  });
+}
+
+function initAutoSave() {
+  const fields = ['bulletpoints', 'roofline', 'headline', 'subline', 'teaser', 'text', 'subheadings', 'tags'];
+  
+  fields.forEach(fieldName => {
+    const field = document.getElementById(fieldName);
+    if (field) {
+      field.addEventListener('input', () => {
+        // Debounce auto-save to avoid too many requests
+        if (autoSaveTimeout) {
+          clearTimeout(autoSaveTimeout);
+        }
+        autoSaveTimeout = setTimeout(async () => {
+          if (getCurrentArticleId()) {
+            await saveArticle();
+          }
+        }, 1000);
       });
     }
   });
