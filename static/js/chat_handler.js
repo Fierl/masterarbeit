@@ -54,8 +54,8 @@ export function initChatHandler() {
   setupCloseChatOnInteraction();
 }
 
-export async function generateField(field) {
-  return await handleGenerate(field);
+export async function generateField(field, openChat = false) {
+  return await handleGenerate(field, openChat);
 }
 
 function setupCloseChatOnInteraction() {
@@ -137,24 +137,26 @@ function setupCloseChatOnInteraction() {
   }
 }
 
-async function handleGenerate(field) {
+async function handleGenerate(field, openChat = true) {
   const chatSidebar = document.getElementById('chatSidebar');
   const chatContent = chatSidebar.querySelector('.space-y-3');
   const mainContent = document.getElementById('mainContent');
   
   if (!currentArticleId) {
-    if (chatSidebar.classList.contains('translate-x-full')) {
+    if (openChat && chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
       if (mainContent) {
         mainContent.classList.add('mr-[650px]');
       }
     }
-    chatContent.innerHTML = `
-      <div class="bg-yellow-50 p-3 rounded">
-        <strong>Hinweis</strong>
-        <p class="text-sm mt-1">Bitte speichern Sie zuerst den Artikel, um die KI-Funktionen zu nutzen.</p>
-      </div>
-    `;
+    if (openChat) {
+      chatContent.innerHTML = `
+        <div class="bg-yellow-50 p-3 rounded">
+          <strong>Hinweis</strong>
+          <p class="text-sm mt-1">Bitte speichern Sie zuerst den Artikel, um die KI-Funktionen zu nutzen.</p>
+        </div>
+      `;
+    }
     return;
   }
   
@@ -167,35 +169,39 @@ async function handleGenerate(field) {
     if (field === 'text') {
       contextContent = document.getElementById('bulletpoints').value;
       if (!contextContent.trim()) {
-        if (chatSidebar.classList.contains('translate-x-full')) {
+        if (openChat && chatSidebar.classList.contains('translate-x-full')) {
           chatSidebar.classList.remove('translate-x-full');
           if (mainContent) {
             mainContent.classList.add('mr-[650px]');
           }
         }
-        chatContent.innerHTML = `
-          <div class="bg-yellow-50 p-3 rounded">
-            <strong>Hinweis</strong>
-            <p class="text-sm mt-1">Bitte geben Sie zuerst Stichpunkte ein.</p>
-          </div>
-        `;
+        if (openChat) {
+          chatContent.innerHTML = `
+            <div class="bg-yellow-50 p-3 rounded">
+              <strong>Hinweis</strong>
+              <p class="text-sm mt-1">Bitte geben Sie zuerst Stichpunkte ein.</p>
+            </div>
+          `;
+        }
         return;
       }
     } else if (field === 'roofline' || field === 'headline' || field === 'subline' || field === 'teaser' || field === 'subheadings' || field === 'tags') {
       contextContent = document.getElementById('text').value;
       if (!contextContent.trim()) {
-        if (chatSidebar.classList.contains('translate-x-full')) {
+        if (openChat && chatSidebar.classList.contains('translate-x-full')) {
           chatSidebar.classList.remove('translate-x-full');
           if (mainContent) {
             mainContent.classList.add('mr-[650px]');
           }
         }
-        chatContent.innerHTML = `
-          <div class="bg-yellow-50 p-3 rounded">
-            <strong>Hinweis</strong>
-            <p class="text-sm mt-1">Bitte generieren Sie zuerst den Text.</p>
-          </div>
-        `;
+        if (openChat) {
+          chatContent.innerHTML = `
+            <div class="bg-yellow-50 p-3 rounded">
+              <strong>Hinweis</strong>
+              <p class="text-sm mt-1">Bitte generieren Sie zuerst den Text.</p>
+            </div>
+          `;
+        }
         return;
       }
     }
@@ -220,28 +226,33 @@ async function handleGenerate(field) {
     
     document.getElementById(field).value = data.content;
     
-    if (chatSidebar.classList.contains('translate-x-full')) {
+    if (openChat && chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
       if (mainContent) {
         mainContent.classList.add('mr-[650px]');
       }
     }
     
-    await loadChatHistory(field, chatContent, 'generate');
+    if (openChat) {
+      await loadChatHistory(field, chatContent, 'generate');
+    }
     
   } catch (err) {
     console.error('Fehler beim Generieren:', err);
-    if (chatSidebar.classList.contains('translate-x-full')) {
+    if (openChat && chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
       if (mainContent) {
         mainContent.classList.add('mr-[650px]');
       }
     }
-    chatContent.innerHTML = `
-      <div class="bg-red-50 p-3 rounded text-sm text-red-700">
-        Fehler beim Generieren: ${err.message}
-      </div>
-    `;
+    if (openChat) {
+      chatContent.innerHTML = `
+        <div class="bg-red-50 p-3 rounded text-sm text-red-700">
+          Fehler beim Generieren: ${err.message}
+        </div>
+      `;
+    }
+    throw err;
   }
 }
 

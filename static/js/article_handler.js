@@ -199,14 +199,14 @@ async function generateAllFields(generateAllBtn) {
   
   try {
     generateAllBtn.textContent = 'Generiere Text...';
-    await generateField('text');
+    await generateField('text', false);
     
     await new Promise(resolve => setTimeout(resolve, 500));
     
     const fields = ['roofline', 'headline', 'subline', 'teaser', 'subheadings', 'tags'];
     for (const field of fields) {
       generateAllBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
-      await generateField(field);
+      await generateField(field, false);
       await new Promise(resolve => setTimeout(resolve, 500));
     }
     
@@ -214,6 +214,9 @@ async function generateAllFields(generateAllBtn) {
     setTimeout(() => {
       generateAllBtn.textContent = originalText;
     }, 2000);
+    
+    // Switch to article text tab to show the generated content
+    switchToTab('artikel');
     
   } catch (err) {
     console.error('Fehler beim Generieren aller Felder:', err);
@@ -242,17 +245,20 @@ async function generateTextOnly(generateTextBtn) {
   
   try {
     generateTextBtn.textContent = 'Generiere Text...';
-    await generateField('text');
+    await generateField('text', false);
     
     await new Promise(resolve => setTimeout(resolve, 500));
     
     generateTextBtn.textContent = 'Generiere Zwischenüberschriften...';
-    await generateField('subheadings');
+    await generateField('subheadings', false);
     
     generateTextBtn.textContent = 'Fertig!';
     setTimeout(() => {
       generateTextBtn.textContent = originalText;
     }, 2000);
+    
+    // Switch to article text tab to show the generated content
+    switchToTab('artikel');
     
   } catch (err) {
     console.error('Fehler beim Generieren des Textes:', err);
@@ -291,6 +297,9 @@ async function generateOtherFields(generateOtherFieldsBtn) {
     setTimeout(() => {
       generateOtherFieldsBtn.textContent = originalText;
     }, 2000);
+    
+    // Switch to weitere felder tab to show the generated content
+    switchToTab('weitere');
     
   } catch (err) {
     console.error('Fehler beim Generieren der anderen Felder:', err);
@@ -355,34 +364,43 @@ function initTabs() {
   tabButtons.forEach(button => {
     button.addEventListener('click', () => {
       const targetTab = button.getAttribute('data-tab');
-      
-      // Remove active class from all buttons
-      tabButtons.forEach(btn => {
-        btn.classList.remove('active', 'border-blue-600', 'text-blue-600');
-        btn.classList.add('border-transparent', 'text-gray-600');
-      });
-      
-      // Add active class to clicked button
-      button.classList.add('active', 'border-blue-600', 'text-blue-600');
-      button.classList.remove('border-transparent', 'text-gray-600');
-      
-      // Hide all tab contents
-      tabContents.forEach(content => {
-        content.classList.add('hidden');
-      });
-      
-      // Show target tab content
-      const targetContent = document.getElementById(`tab-${targetTab}`);
-      if (targetContent) {
-        targetContent.classList.remove('hidden');
-      }
-      
-      // Update preview if switching to overview tab
-      if (targetTab === 'uebersicht') {
-        updatePreview();
-      }
+      switchToTab(targetTab);
     });
   });
+}
+
+function switchToTab(targetTab) {
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const tabContents = document.querySelectorAll('.tab-content');
+  
+  // Remove active class from all buttons
+  tabButtons.forEach(btn => {
+    btn.classList.remove('active', 'border-blue-600', 'text-blue-600');
+    btn.classList.add('border-transparent', 'text-gray-600');
+  });
+  
+  // Add active class to target button
+  const targetButton = document.querySelector(`.tab-btn[data-tab="${targetTab}"]`);
+  if (targetButton) {
+    targetButton.classList.add('active', 'border-blue-600', 'text-blue-600');
+    targetButton.classList.remove('border-transparent', 'text-gray-600');
+  }
+  
+  // Hide all tab contents
+  tabContents.forEach(content => {
+    content.classList.add('hidden');
+  });
+  
+  // Show target tab content
+  const targetContent = document.getElementById(`tab-${targetTab}`);
+  if (targetContent) {
+    targetContent.classList.remove('hidden');
+  }
+  
+  // Update preview if switching to overview tab
+  if (targetTab === 'uebersicht') {
+    updatePreview();
+  }
 }
 
 function initPreviewUpdates() {
