@@ -9,9 +9,6 @@ pip install -r requirements.txt
 sudo systemctl restart masterarbeit
 sudo systemctl status masterarbeit
 
-# mistrail
-console.mistral.ai
-
 # database
 sudo -u postgres psql -d test -c "GRANT USAGE, CREATE ON SCHEMA public TO test_user;"
 sudo -u postgres psql
