@@ -7,6 +7,7 @@ from src.routes.auth import bp as auth_bp
 from src.routes.chat import bp as chat_bp
 from src.routes.settings import bp as settings_bp
 import mimetypes
+from src.models import User, Article, Chat
 
 mimetypes.add_type('application/javascript', '.js')
 
