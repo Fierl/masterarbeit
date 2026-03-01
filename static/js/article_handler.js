@@ -292,7 +292,7 @@ async function generateOtherFields(generateOtherFieldsBtn) {
   const originalText = generateOtherFieldsBtn.textContent;
   
   try {
-    const fields = ['roofline', 'headline', 'subline', 'teaser'];
+    const fields = ['roofline', 'headline', 'subline', 'teaser', 'tags'];
     for (const field of fields) {
       generateOtherFieldsBtn.textContent = `Generiere ${getFieldLabel(field)}...`;
       await generateField(field);
@@ -378,7 +378,7 @@ function initTabs() {
   });
 }
 
-function switchToTab(targetTab) {
+export function switchToTab(targetTab) {
   const tabButtons = document.querySelectorAll('.tab-btn');
   const tabContents = document.querySelectorAll('.tab-content');
   

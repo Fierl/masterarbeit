@@ -1,4 +1,5 @@
 import { setCurrentArticleId } from './chat_handler.js';
+import { switchToTab } from './article_handler.js';
 
 const SOURCE_URL = '/api/articles';
 
@@ -114,6 +115,9 @@ function loadArticleIntoForm(article) {
   
   // Update preview fields
   updatePreviewFields();
+  
+  // Always switch to Stichpunkte tab
+  switchToTab('stichpunkte');
 }
 
 function updatePreviewFields() {
