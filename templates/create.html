@@ -290,6 +290,16 @@
 
   </div>
 
+  <div id="loadingOverlay" class="hidden fixed inset-0 z-[9999] flex flex-col items-center justify-center" style="background: rgba(0,0,0,0.45); pointer-events: all;">
+    <div class="bg-white rounded-2xl shadow-2xl px-10 py-8 flex flex-col items-center gap-4 min-w-[260px]">
+      <svg class="animate-spin h-12 w-12 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"></path>
+      </svg>
+      <p id="loadingOverlayText" class="text-gray-700 font-medium text-base text-center">KI generiert…</p>
+    </div>
+  </div>
+
   <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
 
 </body>

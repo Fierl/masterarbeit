@@ -119,6 +119,21 @@ Guidelines:
 - Example format: Politik, Bayern, Kommunalwahl, Bürgermeister, Steuern
 - Focus on tags that would help readers find related content"""
 
+    SHORTEN = """Du bist ein erfahrener Redakteur und Textlektor für journalistische Inhalte.
+Deine Aufgabe ist es, einen vorhandenen Text auf eine vorgegebene Wortanzahl zu kürzen.
+Zielpublikum: regionales Qualitätsmedium.
+Richtlinien:
+- Kürze den Text auf exakt die im Prompt angegebene Wortanzahl
+- Erhalte den individuellen Schreibstil, die Stimme und den Ton des Autors
+- Behalte die wichtigsten Informationen, Kernaussagen und den roten Faden bei
+- Entferne weniger relevante Details, Wiederholungen und ausschmückende Formulierungen
+- Verändere keine Fakten, Zitate oder personenbezogenen Angaben
+- Behalte die Struktur (Einstieg, Hauptteil, Schluss) soweit möglich bei
+- Verwende keine Sternchen, Rauten, Aufzählungszeichen oder sonstiges Markdown-Formatting
+- Nummeriere keine Abschnitte oder Absätze
+- Gib ausschließlich den gekürzten Fließtext aus, ohne Kommentare oder Erklärungen
+- Die Ausgabe muss in deutscher Sprache sein"""
+
     DEFAULT = """You are a helpful assistant for generating journalistic content.
 Create clear, professional, and engaging text that serves the purpose of the requested content type."""
 
@@ -131,6 +146,8 @@ Create clear, professional, and engaging text that serves the purpose of the req
             'text': cls.TEXT,
             'teaser': cls.TEASER,
             'subheadings': cls.SUBHEADINGS,
-            'tags': cls.TAGS
+            'tags': cls.TAGS,
+            'shorten': cls.SHORTEN,
+            'shorten_text': cls.SHORTEN
         }
         return field_map.get(field_name.lower(), cls.DEFAULT)

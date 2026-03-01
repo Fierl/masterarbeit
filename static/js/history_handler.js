@@ -2,6 +2,17 @@ import { setCurrentArticleId } from './chat_handler.js';
 
 const SOURCE_URL = '/api/articles';
 
+function getArticleTitle(article) {
+  const truncate = (str) => {
+    const first = str.trim().split('\n')[0].trim();
+    return first.length > 40 ? first.slice(0, 40) + '…' : first;
+  };
+  if (article.headline && article.headline.trim()) return article.headline.trim();
+  if (article.text && article.text.trim()) return truncate(article.text);
+  if (article.bulletpoints && article.bulletpoints.trim()) return truncate(article.bulletpoints);
+  return 'Untitled';
+}
+
 export function initHistoryHandler() {
   const historyList = document.getElementById('historyList');
   
@@ -49,7 +60,7 @@ function renderHistory(articles) {
     li.dataset.id = article.id;
     li.innerHTML = `
       <div class="pr-8">
-        <div class="font-medium text-sm">${article.headline || 'Untitled'}</div>
+        <div class="font-medium text-sm">${getArticleTitle(article)}</div>
         <div class="text-xs text-gray-500">${new Date(article.created_at).toLocaleString()}</div>
       </div>
       <button class="delete-article-btn absolute top-2 right-2 opacity-0 group-hover:opacity-100 text-red-500 hover:text-red-700 transition-opacity" data-id="${article.id}" title="Artikel löschen">

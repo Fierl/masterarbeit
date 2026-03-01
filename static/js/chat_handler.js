@@ -1,6 +1,18 @@
 import { getFieldLabel } from './utils.js';
 
-// Trigger auto-save via custom event to avoid circular dependency
+export function showLoadingOverlay(message = 'KI generiert…') {
+  const overlay = document.getElementById('loadingOverlay');
+  const text = document.getElementById('loadingOverlayText');
+  if (!overlay) return;
+  if (text) text.textContent = message;
+  overlay.classList.remove('hidden');
+}
+
+export function hideLoadingOverlay() {
+  const overlay = document.getElementById('loadingOverlay');
+  if (overlay) overlay.classList.add('hidden');
+}
+
 function triggerAutoSave() {
   document.dispatchEvent(new CustomEvent('autoSaveArticle'));
 }
@@ -211,6 +223,7 @@ async function handleGenerate(field, openChat = true) {
       }
     }
     
+    showLoadingOverlay(`Generiere ${getFieldLabel(field)}…`);
     const res = await fetch('/api/chats/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -221,6 +234,7 @@ async function handleGenerate(field, openChat = true) {
         context: contextContent
       })
     });
+    hideLoadingOverlay();
     
     if (!res.ok) {
       const errorData = await res.json();
@@ -243,6 +257,7 @@ async function handleGenerate(field, openChat = true) {
     }
     
   } catch (err) {
+    hideLoadingOverlay();
     console.error('Fehler beim Generieren:', err);
     if (openChat && chatSidebar.classList.contains('translate-x-full')) {
       chatSidebar.classList.remove('translate-x-full');
@@ -497,6 +512,7 @@ async function generateContent(field, prompt, chatContent) {
       contextContent = document.getElementById('text').value;
     }
     
+    showLoadingOverlay(`Generiere ${getFieldLabel(field)}…`);
     const res = await fetch('/api/chats/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -507,6 +523,7 @@ async function generateContent(field, prompt, chatContent) {
         context: contextContent
       })
     });
+    hideLoadingOverlay();
     
     if (!res.ok) {
       const errorData = await res.json();
@@ -522,12 +539,14 @@ async function generateContent(field, prompt, chatContent) {
     // Auto-save after generation
     triggerAutoSave();
   } catch (err) {
+    hideLoadingOverlay();
     console.error('Fehler beim Generieren:', err);
   }
 }
 
 async function editContent(field, currentContent, userPrompt, chatContent) {
   try {
+    showLoadingOverlay(`Schreibe ${getFieldLabel(field)} um…`);
     const res = await fetch('/api/chats/edit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -539,6 +558,7 @@ async function editContent(field, currentContent, userPrompt, chatContent) {
         preview_only: true
       })
     });
+    hideLoadingOverlay();
     
     if (!res.ok) {
       const errorData = await res.json();
@@ -551,6 +571,7 @@ async function editContent(field, currentContent, userPrompt, chatContent) {
     showDiffPreview(field, currentContent, data.content, chatContent);
     
   } catch (err) {
+    hideLoadingOverlay();
     console.error('Fehler beim Umschreiben:', err);
   }
 }
@@ -769,6 +790,7 @@ export async function openShortenTextChat() {
 
 async function shortenText(currentText, targetWordCount, chatContent) {
   try {
+    showLoadingOverlay('Kürze Artikeltext…');
     const res = await fetch('/api/chats/shorten', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -779,6 +801,7 @@ async function shortenText(currentText, targetWordCount, chatContent) {
         preview_only: true
       })
     });
+    hideLoadingOverlay();
     
     if (!res.ok) {
       const errorData = await res.json();
@@ -790,6 +813,7 @@ async function shortenText(currentText, targetWordCount, chatContent) {
     showShortenPreview(currentText, data.content, chatContent);
     
   } catch (err) {
+    hideLoadingOverlay();
     console.error('Fehler beim Kürzen:', err);
   }
 }
@@ -828,6 +852,7 @@ function showShortenPreview(originalText, shortenedText, chatContent) {
 
   document.getElementById('acceptShortenBtn').addEventListener('click', async () => {
     document.getElementById('text').value = shortenedText;
+    await saveEditToHistory('text', shortenedText, chatContent);
     diffSection.remove();
     // Auto-save after accepting shortened text
     triggerAutoSave();
