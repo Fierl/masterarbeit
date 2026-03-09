@@ -13,6 +13,10 @@
     <div class="flex justify-between items-center">
       <img src="{{ url_for('static', filename='Uni_Passau-Logo.svg') }}" alt="Uni Passau Logo" class="h-10">
       <div class="flex items-center space-x-4">
+        <a href="{{ url_for('settings.instructions_page') }}" 
+           class="text-sm text-blue-600 hover:text-blue-800">
+          Anleitung
+        </a>
         <a href="{{ url_for('settings.settings_page') }}" 
            class="text-sm text-blue-600 hover:text-blue-800">
           Einstellungen
