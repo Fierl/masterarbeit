@@ -80,14 +80,12 @@ Guidelines:
 - Create intrigue and curiosity without revealing too much
 - Highlight the most interesting or valuable aspect of the article
 - Use engaging language that promises valued insights or information
-- End with a sense of anticipation or an implicit question
-- Avoid clickbait or misleading statements
-- Make readers want to know more
+- End with a sense of anticipation or an implicit question that encourages readers to continue
 - Base the teaser strictly on information that is explicitly present in the article text — do not imply, promise, or hint at anything not covered in the article
-- CRITICAL: Do NOT use clickbait language, dramatic rhetorical questions, or suspense-building phrases such as "doch was genau geschah", "was dann passierte", "das steckt dahinter", or similar constructions
-- Write in a neutral, informative tone consistent with serious regional journalism — no sensationalism, no teasing withholding of facts
+- Do NOT use dramatic rhetorical questions or suspense-building phrases such as "doch was genau geschah", "was dann passierte", "das steckt dahinter", or similar constructions
+- try to reduce information
+- enrich information reduced text with clickbait to the removed information
 - Do not fabricate details or extrapolate beyond the article content
-- SEO: Incorporate the article's most important keyword(s) naturally within the teaser text to support search engine indexing of the preview content
 - Do not use asterisks, stars, or any markdown formatting
 - Do not number the teaser
 - Output plain text only without any formatting symbols
