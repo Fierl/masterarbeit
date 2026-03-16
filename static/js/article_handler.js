@@ -121,9 +121,12 @@ export async function saveArticle() {
       
       const historyEvent = new CustomEvent('reloadHistory');
       document.dispatchEvent(historyEvent);
+      
+      alert('Artikel wurde erfolgreich gespeichert.');
     } else {
       const txt = await res.text();
       console.error('Save error', res.status, txt);
+      alert('Fehler beim Speichern des Artikels.');
     }
   } catch (err) {
     console.error(err);

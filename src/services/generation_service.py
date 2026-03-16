@@ -83,15 +83,15 @@ def generate_content(prompt, field_name=None, system_instruction=None, context=N
         
         return generated_text
         
-    except client.exceptions.ValidationException as e:
+    except client.exceptions.ValidationException as e: # type: ignore
         raise Exception(f"Validation error: {str(e)}")
-    except client.exceptions.ThrottlingException as e:
-        raise Exception("Too many requests. Please wait a moment.")
-    except client.exceptions.ModelTimeoutException as e:
-        raise Exception("The API request took too long. Please try again.")
-    except client.exceptions.AccessDeniedException as e:
+    except client.exceptions.ThrottlingException as e: # type: ignore
+        raise Exception("Too many requests. Please wait a moment.") 
+    except client.exceptions.ModelTimeoutException as e: # type: ignore
+        raise Exception("The API request took too long. Please try again.") 
+    except client.exceptions.AccessDeniedException as e: # type: ignore
         raise Exception("Access denied. Please check your AWS credentials and permissions.")
-    except client.exceptions.ServiceQuotaExceededException as e:
+    except client.exceptions.ServiceQuotaExceededException as e: # type: ignore
         raise Exception("Service quota exceeded. Please contact the administrator.")
     except Exception as e:
         error_message = str(e).lower()
