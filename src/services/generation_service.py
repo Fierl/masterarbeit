@@ -68,7 +68,7 @@ def generate_content(prompt, field_name=None, system_instruction=None, context=N
         
         inference_config = {
             "maxTokens": 4096,
-            "temperature": 0.3
+            "temperature": 0.5
         }
         
         response = client.converse(
