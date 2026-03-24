@@ -78,11 +78,12 @@ export function initArticleHandler() {
   
   // Listen for auto-save events from other modules
   document.addEventListener('autoSaveArticle', async () => {
-    await saveArticle();
+    await saveArticle({ showAlert: false });
   });
 }
 
-export async function saveArticle() {
+export async function saveArticle(options = {}) {
+  const { showAlert = true } = options;
   const saveBtn = document.getElementById('saveBtn');
   if (saveBtn) saveBtn.disabled = true;
   
@@ -122,11 +123,15 @@ export async function saveArticle() {
       const historyEvent = new CustomEvent('reloadHistory');
       document.dispatchEvent(historyEvent);
       
-      alert('Artikel wurde erfolgreich gespeichert.');
+      if (showAlert) {
+        alert('Artikel wurde erfolgreich gespeichert.');
+      }
     } else {
       const txt = await res.text();
       console.error('Save error', res.status, txt);
-      alert('Fehler beim Speichern des Artikels.');
+      if (showAlert) {
+        alert('Fehler beim Speichern des Artikels.');
+      }
     }
   } catch (err) {
     console.error(err);
@@ -198,7 +203,7 @@ async function generateAllFields(generateAllBtn) {
   
   // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    await saveArticle();
+    await saveArticle({ showAlert: false });
   }
   
   generateAllBtn.disabled = true;
@@ -226,7 +231,7 @@ async function generateAllFields(generateAllBtn) {
     switchToTab('artikel');
     
     // Auto-save after generation
-    await saveArticle();
+    await saveArticle({ showAlert: false });
     
   } catch (err) {
     console.error('Fehler beim Generieren aller Felder:', err);
@@ -245,7 +250,7 @@ async function generateTextOnly(generateTextBtn) {
   
   // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    await saveArticle();
+    await saveArticle({ showAlert: false });
   }
   
   generateTextBtn.disabled = true;
@@ -269,7 +274,7 @@ async function generateTextOnly(generateTextBtn) {
     switchToTab('artikel');
     
     // Auto-save after generation
-    await saveArticle();
+    await saveArticle({ showAlert: false });
     
   } catch (err) {
     console.error('Fehler beim Generieren des Textes:', err);
@@ -288,7 +293,7 @@ async function generateOtherFields(generateOtherFieldsBtn) {
   
   // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    await saveArticle();
+    await saveArticle({ showAlert: false });
   }
   
   generateOtherFieldsBtn.disabled = true;
@@ -311,7 +316,7 @@ async function generateOtherFields(generateOtherFieldsBtn) {
     switchToTab('weitere');
     
     // Auto-save after generation
-    await saveArticle();
+    await saveArticle({ showAlert: false });
     
   } catch (err) {
     console.error('Fehler beim Generieren der anderen Felder:', err);
@@ -330,7 +335,7 @@ async function generateSubheadingsOnly(generateSubheadingsBtn) {
   
   // Auto-save if no article ID exists
   if (!getCurrentArticleId()) {
-    await saveArticle();
+    await saveArticle({ showAlert: false });
   }
   
   generateSubheadingsBtn.disabled = true;
@@ -346,7 +351,7 @@ async function generateSubheadingsOnly(generateSubheadingsBtn) {
     }, 2000);
     
     // Auto-save after generation
-    await saveArticle();
+    await saveArticle({ showAlert: false });
     
   } catch (err) {
     console.error('Fehler beim Generieren der Zwischenüberschriften:', err);
@@ -441,7 +446,7 @@ function initAutoSave() {
         }
         autoSaveTimeout = setTimeout(async () => {
           if (getCurrentArticleId()) {
-            await saveArticle();
+            await saveArticle({ showAlert: false });
           }
         }, 1000);
       });
@@ -466,6 +471,32 @@ function updatePreviewField(fieldName) {
   }
 }
 
+async function copyTextToClipboard(text) {
+  const hasClipboardApi = typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function';
+
+  if (hasClipboardApi && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const helperTextarea = document.createElement('textarea');
+  helperTextarea.value = text;
+  helperTextarea.setAttribute('readonly', '');
+  helperTextarea.style.position = 'fixed';
+  helperTextarea.style.top = '-1000px';
+  helperTextarea.style.left = '-1000px';
+  document.body.appendChild(helperTextarea);
+  helperTextarea.focus();
+  helperTextarea.select();
+
+  const successful = document.execCommand('copy');
+  document.body.removeChild(helperTextarea);
+
+  if (!successful) {
+    throw new Error('Clipboard copy fallback failed');
+  }
+}
+
 function initCopyButtons() {
   const copyButtons = document.querySelectorAll('.copy-btn');
   
@@ -481,7 +512,7 @@ function initCopyButtons() {
       }
       
       try {
-        await navigator.clipboard.writeText(field.value);
+        await copyTextToClipboard(field.value);
         showCopyFeedback(btn, '✓ Kopiert!', true);
       } catch (err) {
         console.error('Fehler beim Kopieren:', err);
