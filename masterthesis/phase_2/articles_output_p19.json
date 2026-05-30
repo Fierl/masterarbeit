@@ -1,0 +1,2973 @@
+[
+  {
+    "content_id": 20786035,
+    "content_name": "Schüler präsentieren ihr Comenius als lebendige Gemeinschaft-20786035",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-03-23 21:27:42",
+    "modified_date": "2026-03-23 21:27:42",
+    "remote_id": "799199bba0029e43286aca20bbc3a986",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20786035\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Schüler präsentieren ihr Comenius als lebendige Gemeinschaft",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"23.03.2026 21:54\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-03-23 21:27:42\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Schüler präsentieren ihr Comenius als lebendige Gemeinschaft",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Tag der offenen Tür – Umfassende Informationen zu Zweigen, Internat und Ganztag",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1774299240,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-136792024",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Schüler präsentieren ihr Comenius als lebendige Gemeinschaft",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20786032,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Deggendorf. Das Comenius-Gymnasium öffnete am Samstag seine Türen für zahlreiche interessierte Familien und zukünftige Schülerinnen und Schüler. Schulleiter Peter Scharnagl begrüßte die Besucher in der überfüllten Aula und gab gemeinsam mit seinem Team einen umfassenden Einblick in das breite Bildungs- und Förderangebot der Schule.\nScharnagl stellte dabei seine Stellvertreterin Ingrid Bauer, Internatsleiterin Patrizia Gillner sowie Beratungslehrerin Nicole Dressler vor. Ein besonderer Schwerpunkt seiner Ausführungen lag auf der individuellen Förderung der Schülerinnen und Schüler, zu der auch ein eigenes Lerncoaching-Angebot gehört. Beratungslehrerin Nicole Dressler informierte anschließend über die formalen Übertrittsvoraussetzungen, die verschiedenen Ausbildungszweige sowie weitere Angebote der Schule.\nBesonders authentische Einblicke lieferten vier Schülerinnen und Schüler der Klasse 5a, die von ihrem Übertritt von der Grundschule ans Comenius berichteten und aus dem Nähkästchen plauderten, was Hausaufgaben, neue Fächer und neue Lehrkräfte betrifft. Auch die drei Schülersprecher Michael Schwabauer, Luca Arndt und Sara Weinberger kamen zu Wort und schilderten, was ihre Schule für sie so besonders macht. Die musikalische Umrahmung der Aulafeier übernahm die Streicherklasse unter der Leitung von Max Deml.\nNach dem offiziellen Programm hatten die Besucherinnen und Besucher die Möglichkeit, die Schule eigenständig zu erkunden oder sich von Lehrkräften führen zu lassen. Besonders großen Zuspruch fanden dabei die naturwissenschaftlichen Stationen: Die Fachschaft Chemie begeisterte mit einer Chemie-Show, in der ein neuer Super-Chemiker gesucht wurde. Bei weiteren Experimenten in Natur und Technik durften die Besucher selbst Hand anlegen, unterstützt von Schülerinnen und Schülern verschiedener Jahrgangsstufen.\nDie Fachschaft Biologie lud zum Mikroskopieren ein, während in der Physik Experimente aus der Welt der Physik präsentiert wurden. In der Geographie-Fachschaft konnten die Besucher rätseln, ob in Eierschalen, Sandstein und Granit Kalk enthalten ist, und damit Geographie zum Anfassen erleben. Im Fach Mathematik stand das Thema Körperwelten im Mittelpunkt eines Bastelangebots, und die Fachschaft Englisch zeigte den künftigen Comenianerinnen und Comenianer, dass Englisch Spaß machen kann.\nDie modernen Sprachen Französisch und Spanisch präsentierten sich gemeinsam in einem Raum und verwöhnten die Gäste mit französischen Crepes. Im Bereich der Alten Sprachen und Geschichte konnten Lesezeichen auf Papyrus gestaltet werden. Die Theatergruppe der Unterstufe brachte Szenen aus Büchern auf die Bühne und ließ literarische Figuren lebendig werden.\nDie Fachschaft Informatik informierte über Unterrichtsinhalte und bot Demonstrationen des 3D-Drucks sowie die Möglichkeit, Roboter mit Bots zu steuern und VR-Brillen auszuprobieren. Im Fach Kunst konnten Lesezeichen und Buttons gebastelt werden, ergänzt durch eine Ausstellung der im Unterricht entstandenen Arbeiten. Die neu gestaltete Bibliothek im Altbau lud ebenfalls zum Verweilen ein und präsentierte sich als einer der schönsten Räume des Schulgebäudes.\nEinen weiteren Schwerpunkt bildete das Thema Sport: In der Comeniushalle informierten Lehrkräfte und Schülerinnen und Schüler über die Sportklasse sowie zahlreiche Wahlfächer. Das Comenius stellte zudem sein umfangreiches Sportprogramm im Rahmen der Stützpunkte Leichtathletik und Triathlon vor. Die Gerätturngruppe unter der Leitung von Susanne Sikora sorgte für Begeisterung, und bei einem Parcours konnten sich die jungen Besucher selbst sportlich austoben.\nDas Kompetenzzentrum gab Einblicke in die Arbeit der Begabtenklassen und das Enrichmentangebot, zu dem etwa das Programm Comenius on tour oder die Projektmesse gehören. Mittelstufenbetreuer Wolfgang Sedlmeier und Schülerinnen und Schüler zeigten mit einer Reihe von Kennenlernspielen, dass Werteerziehung am Comenius-Gymnasium einen hohen Stellenwert genießt.\nDie große freiwillige Beteiligung der Schülerinnen und Schüler am Tag der offenen Tür unterstrich das ausgeprägte Gemeinschaftsgefühl an der Schule. Viele Schüler und Lehrkräfte trugen als sichtbares Zeichen der Schulfamilie Schulpullis und Schul-T-Shirts. Neben dem Elternbeirat und dem Förderverein war auch die Schülermitverwaltung mit einem eigenen Infostand vertreten. Tutoren der zehnten Klassen informierten darüber, wie sie neuen Schülerinnen und Schülern durch Spielenachmittage und Schulhausübernachtungen den Einstieg erleichtern.\nInternatsleiterin Patrizia Gillner und ihr Team standen im Tagesheim und im Internat für alle Fragen rund um die Nachmittagsbetreuung zur Verfügung. Den Abschluss des ereignisreichen Tages bildete ein geselliges Beisammensein bei Kaffee und Kuchen, Pizzaschnitten sowie Getränken, bei dem die Besucher die vielfältigen Eindrücke des Comenius-Gymnasiums nachklingen lassen konnten. − nd",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "In Natur und Technik gab es viele Mitmach-Experimente. − Foto: Schiller",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20863918,
+    "content_name": "Regionale Bauwirtschaft bangt um den zarten Aufschwung-20863918",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-03 21:55:51",
+    "modified_date": "2026-04-03 21:55:51",
+    "remote_id": "7a3c3563dbf40e09105748c6d0bf837f",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20863918\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Regionale Bauwirtschaft bangt um den zarten Aufschwung",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"03.04.2026 22:25\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-03 21:55:50\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Regionale Bauwirtschaft bangt um den zarten Aufschwung",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Jahreshauptversammlung der Innung – Neue Ausbildungsordnung ab August",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1775247900,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137073863",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Regionale Bauwirtschaft bangt um den zarten Aufschwung",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20863915,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Hengersberg. Die Bauinnung Deggendorf-Regen blickt trotz bestehender Unsicherheiten in der Baubranche auf eine sich abzeichnende konjunkturelle Erholung und stellt sich zugleich auf eine weitreichende Reform der Berufsausbildung ein. Diese Entwicklungen standen im Mittelpunkt der Jahreshauptversammlung am vergangenen Donnerstag im Nothaft Gewölbe in Hengersberg.\nWie die Innung mitteilt, begrüßte Obermeister Karl-Heinz Hau dazu neben seiner Stellvertreterin Claudia Vogl und Geschäftsführerin Petra Weinberger zahlreiche Mitglieder, Vertreter der Vorstandschaft, Rechnungsprüfer sowie Jungunternehmer. Zu Beginn der Versammlung gedachten die Anwesenden der verstorbenen Mitglieder. Dabei hob die Innung den im Juli verstorbenen Ehrenobermeister und Baugewerberat Horst Schaffer hervor, dessen jahrzehntelanges Engagement die Innung nachhaltig geprägt habe. Zudem wurde an Rosemarie Hau und Elfriede Vogl erinnert.\nIn seinem Rückblick verwies der Obermeister auf die Aktivitäten des vergangenen Jahres, darunter zwei Vorstandssitzungen, die vorangegangene Jahreshauptversammlung und ein dreitägiger Ausflug nach Mainz. Ein wichtiges Thema bleibt laut dem Bericht die handwerkliche Ausbildung: 20 von 23 Prüflingen hätten ihre Gesellenprüfung erfolgreich abgelegt. Zum Schuljahresbeginn traten 47 neue Berufsschüler ihre Lehre an. Diese Zahl sei jedoch rückläufig und spiegle damit den bundesweiten Trend wider. Die Innung beteiligte sich außerdem mit mehreren Mitgliedsbetrieben an der Jobmesse in Deggendorf und ehrte Mitarbeiter für 25- sowie 40-jährige Betriebszugehörigkeit. \nDer Zusammenhalt der Mitglieder zeige sich dazu in der Resonanz auf gemeinsame Veranstaltungen. So besuchten 96 Teilnehmer die Weihnachtsfeier. Für eine anstehende fünftägige Reise in die schottische Hauptstadt Edinburgh und das dortige Umland im Juni gibt es 32 Teilnehmer.\nIm Hinblick auf die Konjunktur verweist die regionale Innung auf die Einschätzungen des Zentralverbands Deutsches Baugewerbe (ZDB). Zu Jahresbeginn hatte der Verband erklärt, die Talsohle sei überwunden. Für das laufende Jahr werde ein Umsatzwachstum von 2,5 Prozent erwartet, ausgehend von einem niedrigen Niveau vor zwei Jahren. Besonders der Tiefbau entwickle sich positiv, im Wohnungsbau zeigten sich erste Erholungen. Dennoch warne der Verband vor Risiken durch steigende Energie- und Materialpreise, zu wenige Baugenehmigungen sowie die Belastung der wirtschaftlichen Rahmenbedingungen durch geopolitische Konflikte wie den anhaltenden Irankrieg. „Entscheidend wird nun sein, die geopolitischen Konflikte schnell zu beenden und zur Normalität zurückzukehren, damit unsere Baubranche die sich abzeichnende Erholung tatsächlich erfährt“, betonte Hau.\nEin weiteres zentrales Thema des Treffens war die neue Ausbildungsordnung, die ab August in Kraft tritt. Wie Geschäftsführerin Petra Weinberger erläuterte, wird die bisherige, mehr als zwei Jahrzehnte alte Regelung grundlegend reformiert. Bei allen 19 Ausbildungsberufen im Bauhandwerk liege das Augenmerk künftig auf mehr Praxisbezug, einer stärkeren Gewichtung der Zwischenprüfung sowie auf verbindlichen digitalen Kompetenzen, Klimaschutz und Nachhaltigkeit. − dz",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Obermeister Karl-Heinz Hau − Foto: Bauinnung",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20863963,
+    "content_name": "Im Märchenwald verirrt-20863963",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-03 21:59:17",
+    "modified_date": "2026-04-03 21:59:17",
+    "remote_id": "2b5664465f2f67aad0c29e5766ee8ce7",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20863963\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Im Märchenwald verirrt",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"03.04.2026 22:28\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-03 21:59:16\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Im Märchenwald verirrt",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Theatergruppe der Realschule Schöllnach glänzt mit rasanter Komödie",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1775248080,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-136960235",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Im Märchenwald verirrt",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20863960,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Schöllnach. Die Theatergruppe der Realschule Schöllnach hat in der gut besuchten Turnhalle der Schule das Stück „Erzähl doch keine Märchen“ von Sina Adler aufgeführt und dabei mit Witz, Tempo und sichtbarer Spielfreude das Publikum begeistert. Die Inszenierung unter der Leitung von Ramona Schwarzhuber stellte bekannte Märchenfiguren in völlig neuem Licht dar und bot dem Publikum einen Abend voller überraschender Wendungen.\nIm Mittelpunkt der Geschichte steht Chris, gespielt von Mia Roider (Klasse 10c), deren Versetzung gefährdet ist und die deshalb von ihrer Mutter mit Hausarrest belegt wird. Statt auf eine Party zu gehen und dort ihren Schwarm Julian zu beeindrucken, muss sie ihrer kleinen Schwester Steffi, dargestellt von Valeria Egorov (8a), vorlesen. Wütend auf ihre Mutter, ihren Lehrer und auf Jasmin, ihre vermeintliche Rivalin um Julians Zuneigung, liest Chris eher frei aus dem Märchenbuch vor und schleust damit unversehens genau diese Personen in die Märchenwelt hinein.\nSo stolpern der allwissende Lehrer Müller-Schröder, gespielt von Tim Schlager (10a), die vegane Jasmin, dargestellt von Sophia Sperlich (10c), sowie der stets hungrige Julian, gespielt von Tobias Pompl (10a), gemeinsam mit Chris’ Mutter in die Märchenwelt. Auf der Suche nach einem Ausweg wirbeln sie die Märchenwelt und ihre Bewohner gehörig durcheinander.\nDabei verwischen sie versehentlich die Leberwurstbrotspur von Hänsel, gespielt von Fabian Kais (8a), und Gretel, dargestellt von Eva Zitzelsberger (8c), die sich daraufhin streiten, wer an der Misere schuld ist. Am Knusperhäuschen bringen die unerwarteten Besucher die Hexe, gespielt von Hannah Roider (8c), völlig aus dem Konzept.\nDer Froschkönig, dargestellt von Adrian Oswald (9c), findet bei der Prinzessin, gespielt von Emilia Freisinger (8a), und ihrem Vater, dem König, dargestellt von Dominik Himmelreich (7d), wenig Begeisterung. Die vier Besucher aus der Menschenwelt helfen der Prinzessin schließlich, dem rauchenden Frosch per SMS den Laufpass zu geben.\nBei Schneewittchen, gespielt von Magdalena Gammel (8c), soll mithilfe des Spiegels, dargestellt von Stella Schade (9a), endlich ein Ausweg aus der Märchenwelt gefunden werden. Doch der Spiegel ist gerade mit der bösen Stiefmutter, gespielt von Johanna Zeintl (8c), beschäftigt, und seine besänftigenden Ausflüchte sorgten im Publikum für laute Lacher.\nAuch Rotkäppchen, dargestellt von Kira Schwarz (8e), mischt sich ein: Frustriert über ihr Leben und ihren Freund, den Wolf, gespielt von Felix Wiesenberg (5b), ertränkt sie ihren Kummer im Rotwein der Großmutter. Aschenputtels Schwester, gespielt von Tamara Obermüller (8d), animiert Julian mit ihren Influencer-Aktivitäten dazu, laut nach Hilfe zu rufen, woraufhin der gestiefelte Kater, dargestellt von Emilia Gombos (9a), erscheint und Julian als Besitzer des goldenen Schuhs identifiziert.\nRumpelstilzchen, gespielt von Sofia Hies (8d), und die Müllerstochter, dargestellt von Vanessa Hermann (7d), schicken die vier schließlich kurzerhand wieder nach Hause. Den Weg zurück in die Realität finden Chris und ihre unfreiwilligen Märchenreisenden, als sie in Dornröschens Spindel fassen und in einen tiefen Schlaf fallen, aus dem sie direkt in die Wirklichkeit erwachen.\nIn der Pause sorgten die Schulband unter der Leitung von Martin Candussio sowie eine Hip-Hop-Gruppe unter der Leitung von Selina Blach (10e) und Mira Fixl (9c) für musikalische und tänzerische Unterhaltung. Für das leibliche Wohl sorgten die SMV, das Schülercafé unter der Leitung von Sandra Denk-Uhrmann und Daniel Schröder sowie das Fair-Trade-Team unter Leitung von Michaela Bredl.\nDas Technikteam unter der Leitung von Georg Wötzel, dem Bastian Wenzel, Fabian Huber, Darian Biallas, Libor Muransky, Felix Duschl, Lena Müller und Teresa Grandner angehörten, sorgte mit reibungsloser Licht- und Tontechnik für einen professionellen Rahmen. Theaterleiterin Ramona Schwarzhuber gelang es einmal mehr, aus einer großen und vielfältigen Schülergruppe ein harmonisches Ensemble zu formen und ein turbulentes, modernes Märchenabenteuer auf die Bühne zu bringen. − dz",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Jede Menge bekannter Märchenfiguren kamen in dem turbulenten Stück vor. − Foto: Schule",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20864152,
+    "content_name": "Telekom startet Glasfaserausbau in Bernried-20864152",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-03 22:06:52",
+    "modified_date": "2026-04-03 22:06:52",
+    "remote_id": "b97d76642d7cb7a852e1c84ecdd0a19f",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20864152\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Telekom startet Glasfaserausbau in Bernried",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"03.04.2026 22:36\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-03 22:06:52\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Telekom startet Glasfaserausbau in Bernried",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "1800 Haushalte profitieren",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1775248560,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-136966964",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Telekom startet Glasfaserausbau in Bernried",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Bernried. Die Deutsche Telekom hat mit einem symbolischen Spatenstich den offiziellen Startschuss für den geförderten Glasfaserausbau in der Gemeinde Bernried gegeben. Rund 1800 Haushalte und Unternehmen sollen künftig Internetgeschwindigkeiten von bis zu 1000 Megabit pro Sekunde erhalten.\nFür das geplante Netz will das Unternehmen mehr als 249 Kilometer Glasfaserkabel verlegen und 49 neue Netzverteiler aufstellen, wie aus einer Pressemitteilung des Konzerns hervorgeht. Die ersten Anschlüsse sollen demnach bereits in wenigen Wochen verfügbar sein.\nBürgermeister Stefan Achatz wird in der Mitteilung zitiert: „Ich freue mich, dass die Arbeiten in Bernried jetzt starten. Schnelles Internet gehört zum Leben dazu – privat und geschäftlich. Es ist ein digitaler Standortvorteil und heute so wichtig wie Gas, Wasser und Strom. Das moderne Netz gewährleistet langfristig unsere Lebensqualität sowie die wirtschaftliche Entwicklung in Bernried. Darüber hinaus erhöht ein Glasfaseranschluss den Wert einer Immobilie.“ Achatz rief die Bürgerinnen und Bürger zudem auf, einen Anschluss zu beauftragen, da Glasfaser auch den Wert einer Immobilie steigere.\nHausanschluss gibt es nur bei AnmeldungWer bislang noch keine Zustimmung für einen Hausanschluss erteilt hat, kann dies laut Telekom noch nachholen. Carmen Wiedemann, Kommunalberaterin des Unternehmens, wird zitiert: „Wer seine Zustimmung für den Hausanschluss seiner Immobilie bisher nicht gegeben hat, kann das jetzt nachholen. Sonst kommt die Glasfaser nicht ins Haus, sondern führt lediglich daran vorbei.“ \nDer Ausbau soll in einzelnen Bauabschnitten erfolgen, um Beeinträchtigungen für Anwohnerinnen und Anwohner zu begrenzen. − dz",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20895394,
+    "content_name": "Die Zukunft von Kindern mit Behinderung absichern  -20895394",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-09 21:32:33",
+    "modified_date": "2026-04-09 21:32:33",
+    "remote_id": "fca6e1b0bedd311d148edeb7708d925d",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20895394\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Die Zukunft von Kindern mit Behinderung absichern",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"09.04.2026 22:00\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-09 21:32:32\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Die Zukunft von Kindern mit Behinderung absichern",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Fachabend zu Vollmachten und speziellen Testamenten",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1775764800,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137105369",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Die Zukunft von Kindern mit Behinderung absichern",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20895391,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Deggendorf. Wie Eltern von Kindern mit Behinderung für die Zukunft ihrer Angehörigen rechtlich vorsorgen können, stand im Mittelpunkt des dritten Fachabends für Teilhabeleistungen im Deggendorfer Landratsamt. Zu der Veranstaltung im Sitzungssaal kamen rund 70 Zuhörer, um sich über juristische und praktische Möglichkeiten zu informieren.\nLaut einer Pressemitteilung des Landratsamts Deggendorf widmete sich die Veranstaltung zwei zentralen Themen: der Vorsorgevollmacht und dem sogenannten Behindertentestament. Organisiert wurde der Abend von Tobias Zitzelsberger und Diana Jäger, die mit dem Format gezielt Eltern ansprechen wollen, die sich fragen, wie es mit ihrem Kind nach ihrem Tod weitergehen soll.\nLandrat Bernd Sibler begrüßte die Gäste und eröffnete den Abend mit einem persönlichen Gedanken: Sorge und somit Vorsorge um die eigenen Kinder gehören im Leben einfach dazu, so der Landrat.\nDen Einstieg in die Fachthemen übernahm Simone von der Sitt, Diplom-Pädagogin beim Betreuungsverein, mit einem Überblick zur Vorsorgevollmacht. Sie erläuterte Aufbau und Inhalt des Dokuments und betonte, dass alle Aufgabenbereiche darin präzise benannt werden müssen. Damit die Vollmacht rechtsverbindlich wird, muss sie schriftlich mit Ort, Datum und Unterschrift ausgestellt sein.\nVon der Sitt wies zudem darauf hin, dass auch mehrere Bevollmächtigte eingesetzt werden können und dass die gesamte Regelung auf dem Vertrauen gegenüber der bevollmächtigten Person beruht. Das fertige Dokument sollte an einem bekannten Ort oder bei der Bundesnotarkammer hinterlegt werden. Als praktische Vorlagen empfahl die Referentin die Broschüre Vorsorge für Unfall, Krankheit, Verlag C.H.Beck sowie die Notfallmappe des Landkreises Deggendorf.\nIm zweiten Teil des Abends sprach Alban Westenberger, Fachanwalt für Sozialrecht, über das Behindertentestament. Er erklärte, dass es bei dieser Testamentsform darum geht, das Kind mit Behinderung langfristig abzusichern und erworbene Lebensstandards bestmöglich zu erhalten. Westenberger führte juristische Grundbegriffe wie Vorerbe, Nacherbe und Vollerbe ein und veranschaulichte anhand konkreter Fallkonstellationen, welche Stolpersteine bei der Abfassung eines solchen Testaments zu vermeiden sind. \nDarüber hinaus gab der Fachanwalt Einblicke in den Einsatz von Einkommen und Vermögen, der je nach Kostenträger unterschiedlich geregelt ist. So dürfen Leistungsempfänger der Eingliederungshilfe in diesem Zusammenhang mehr Schonvermögen behalten als Empfänger von Sozialhilfe. − dz",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Lieferten Informationen für Angehörige: Simone von der Sitt, Walter Lemberger, Karolina Eder, Tobias Zitzelsberger, Diana Jäger, Alban Westenberger und Landrat Bernd Sibler. − Foto: Landkreis",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20895772,
+    "content_name": "Sparda-Bank zieht Bilanz: „Ein zufriedenstellendes Jahr“-20895772",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-09 21:49:02",
+    "modified_date": "2026-04-09 21:49:02",
+    "remote_id": "20ef55d66c042ee6a5d5940c37eedfb6",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20895772\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Sparda-Bank zieht Bilanz: „Ein zufriedenstellendes Jahr“",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"09.04.2026 22:17\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-09 21:49:01\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Sparda-Bank zieht Bilanz: „Ein zufriedenstellendes Jahr“",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Enormes Plus bei der Baufinanzierung – Starker Standort Deggendorf",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1775765820,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137227452",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Sparda-Bank zieht Bilanz: „Ein zufriedenstellendes Jahr“",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20895769,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Deggendorf. Die Sparda-Bank Ostbayern eG hat diese Woche ihre Geschäftszahlen für das Jahr 2025 vorgestellt. Die Vorstandsvorsitzender Michael Gruber, sein Stellvertreter Werner Dollinger sowie Vorstand Dietmar Breu präsentierten Bilanz und Vertriebsergebnisse des abgelaufenen Geschäftsjahres. Das Fazit des Vorstands fiel dabei positiv aus: 2025 sei erneut ein zufriedenstellendes Geschäftsjahr für die Genossenschaftsbank gewesen.\nBesonders das Baufinanzierungsgeschäft entwickelte sich laut einer Pressemitteilung der Bank erfreulich. Mit neu vergebenen Krediten in Höhe von 209,7 Millionen Euro wurde der Vorjahreswert von 136,0 Millionen Euro deutlich übertroffen, was einem erheblichen Zuwachs entspricht.\nDie Kundeneinlagen stiegen den Angaben zufolge leicht um 0,4 Prozent auf 2820,3 Millionen Euro, das Kreditvolumen legte um 0,3 Prozent auf 1772,7 Millionen Euro zu. Die Bilanzsumme verringerte sich zum 31. Dezember 2025 geringfügig um 0,6 Prozent und belief sich auf 3202,4 Millionen Euro.\nDie Eigenkapitalausstattung der Bank wurde aufgrund der soliden Ertragslage erneut gestärkt. Der Jahresüberschuss für 2025 belief sich auf 2,106 Millionen Euro, nach 2,062 Millionen Euro im Vorjahr.\nAuch im Fondsgeschäft verzeichnete die Sparda-Bank Ostbayern ein deutliches Wachstum. Kundinnen und Kunden schlossen im vergangenen Jahr 2112 neue Fondssparpläne ab, verglichen mit 1472 im Jahr 2024. Als Einmalanlage flossen 72,7 Millionen Euro in Fonds, nach 51,8 Millionen Euro im Vorjahr. Der betreute Fondsbestand wuchs, begünstigt auch durch eine freundliche Marktentwicklung, auf 845,9 Millionen Euro, gegenüber 808,5 Millionen Euro im Jahr zuvor.\nFür den Standort Deggendorf unter der Leitung von Thomas Gegenfurtner meldet die Bank besonders positive Ergebnisse. Die Einlagen stiegen dort um 1,8 Prozent auf 165,0 Millionen Euro, während die Neukreditvergabe mit 14,4 Millionen Euro ein Plus von 60,2 Prozent im Vergleich zum Vorjahr verzeichnete. Das betreute Fondsvolumen in Deggendorf legte um 5,2 Prozent auf 37,0 Millionen Euro zu.\nNeben den wirtschaftlichen Kennzahlen betont die Sparda-Bank Ostbayern in ihrer Mitteilung auch ihr gesellschaftliches Engagement. Dieses wird über den Gewinnsparverein der Sparda-Bank Ostbayern finanziert und genieße auch im Jahr 2026 hohe Priorität. Unter anderem werde erneut der Ostbayerische Feuerwehrpreis ausgeschrieben. − dz",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Das Vorstandsgremium der Sparda-Bank Ostbayern eG: Werner Dollinger (v.l.), Michael Gruber und Dietmar Breu. − Foto: Sparda-Bank/Gerd Baumann",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20895973,
+    "content_name": "Linke stellt sich für Arbeit in Kommunen auf-20895973",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-09 21:59:07",
+    "modified_date": "2026-04-09 21:59:07",
+    "remote_id": "bb76aec5842da1e813a760062292aa3c",
+    "owner_id": 1119229,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20895973\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Linke stellt sich für Arbeit in Kommunen auf",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"ngen_publish_start\\\\\":\\\\\"09.04.2026 22:28\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-09 21:59:06\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Linke stellt sich für Arbeit in Kommunen auf",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Kreisverband Niederbayern-Mitte: Melanie Falkowski und Maximilian Spielbauer bilden Doppelspitze",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1775766480,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137231048",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Linke stellt sich für Arbeit in Kommunen auf",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "0",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Deggendorf/Straubing. Der Kreisverband Niederbayern-Mitte der Partei Die Linke hat eine neue Führungsspitze gewählt. An der Doppelspitze steht künftig neben dem im Amt bestätigten Maximilian Spielbauer die künftige Deggendorfer Kreisrätin Melanie Falkowski, die bei der jüngsten Kommunalwahl als Landratskandidatin im Landkreis Deggendorf angetreten war.\nWie die Partei in einer Pressemitteilung berichtet, wählten die Mitglieder bei ihrer Versammlung zudem Yvonne Kirmess-Dorfmeister zur Schriftführerin. Sie wird künftig dem Deggendorfer Stadtrat angehören. Damit sind zwei Deggendorfer Kommunalpolitikerinnen in dem Vorstand vertreten, dessen Zuständigkeitsgebiet neben dem Landkreis Deggendorf auch die Landkreise Regen und Straubing-Bogen sowie die Stadt Straubing umfasst.\nUnterstützt wird das Führungsduo von den stellvertretenden Kreisvorsitzenden Tanja Schmidt und Sara Zwack sowie dem Schatzmeister Tobias Bachmeier. Als Beisitzer wählten die Anwesenden Jutta Heibel, Rebekka Holland, Kevin Keller, Johannes Spielbauer und Franz Xaver Thurl in das Gremium. Die Positionen der jugendpolitischen Sprecher übernehmen Chrissy H. und Dustin K. Die Partei hat in ihrer Pressemitteilung darauf verzichtet, ihre Nachnamen zu nennen.\nNeben den Neuwahlen standen organisatorische Änderungen auf der Tagesordnung. Den Angaben zufolge beschlossen die Mitglieder eine überarbeitete Satzung sowie eine neue Geschäftsordnung für den Kreisverband. Ein Schwerpunkt der künftigen Arbeit solle darauf liegen, die Zusammenarbeit zwischen dem Kreisverband und den im vergangenen Jahr gegründeten Ortsverbänden zu verbessern, heißt es.\nDarüber hinaus habe man die Grundlagen für die künftige Arbeit in den kommunalen Gremien diskutiert. Die Linke wolle nun vor Ort Fraktions- und Ausschussgemeinschaften bilden. Ziel sei es laut dem neu gewählten Vorstand, die Mandate wirksam einzubringen und die Interessen der Bürger in den Stadträten und Kreistagen zu vertreten. − dz",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20782072,
+    "content_name": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben-20782072",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 9,
+    "published_date": "2026-03-23 14:33:58",
+    "modified_date": "2026-03-23 16:47:09",
+    "remote_id": "6e373740baa737b286ecb57e5acd09a6",
+    "owner_id": 16781282,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20782072\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20782072\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt kommende Woche der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt kommende Woche der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"peiqcreate_publish_start\\\\\":\\\\\"23.03.2026 14:33\\\\\",\\\\\"updated_at\\\\\":\\\\\"2026-03-23 15:02:07\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"peiqcreate_publish_start\\\\\":\\\\\"23.03.2026 14:33\\\\\",\\\\\"updated_at\\\\\":\\\\\"2026-03-23 16:47:09\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Verdacht erst nach dem Tod",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Verdacht erst nach dem Tod",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1774272780,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1774272780,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-136853634",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-136853634",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt kommende Woche der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt kommende Woche der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt kommende Woche der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt kommende Woche der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "5",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "5",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20782069,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20782069,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt am Dienstag, den 31. März, der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.\n Embed&lt;script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"&gt;&lt;/script&gt; &lt;link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\"&gt; &lt;glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dck3a322qvt5\"&gt; &lt;/glomex-integration&gt;falseGlomex (ohne 2-Klick)Vor der Großen Strafkammer als Schwurgericht des Landgerichts Deggendorf muss sich ab ab Ende März eine 53-jährige Frau aus Deggendorf wegen Mordes verantworten. Die Staatsanwaltschaft Deggendorf wirft ihr vor, ihren Lebensgefährten im Januar 2025 mit einer tödlichen Dosis Thallium-Sulfat vergiftet zu haben, um ihn wegen einer Affäre im Jahr 2024 zu töten.\nLaut Anklage soll die Beschuldigte das hochgiftige Schwermetall bereits im November 2024 über das Internet bei einer in der Ukraine ansässigen Firma bestellt haben. Das Thallium-Sulfat gilt als besonders heimtückisch, da es farb-, geruch- und geschmacklos ist und sich damit unbemerkt in Speisen oder Getränke mischen lässt. Genau das soll die Angeklagte getan haben, indem sie ihrem Lebensgefährten die tödliche Substanz vermutlich durch Untermischen in Nahrung oder Getränke verabreichte. Das berichtet das Landgericht Deggendorf in einer Pressemitteilung zum bevorstehenden Prozess. \nMit Grippe-Symptomen ins KrankenhausDas Opfer zeigte demnach zunächst grippeähnliche Symptome, bevor sich sein Zustand rapide verschlechterte. Ab dem 22. Januar 2025 wurde der Mann in zwei verschiedenen Krankenhäusern stationär behandelt, musste intubiert, sediert und beatmet werden und befand sich zuletzt in einem komatösen Zustand. Am 29. Januar 2025 verstarb er an Multiorganversagen.\nDas könnte Sie auch interessieren: Prozess um Pay-TV-Betrug: Deggendorfer Paar bis 2027 vor Gericht\nBesonders tragisch ist der Umstand, dass die behandelnden Ärzte zu keinem Zeitpunkt eine Vergiftung als Ursache in Betracht zogen. Der Verdacht auf eine Thalliumvergiftung entstand erst nach dem Tod des Mannes, sodass die Mediziner mangels zutreffender Diagnose vergeblich um sein Leben kämpften.\nTochter des Opfers ist NebenklägerinDie Angeklagte befindet sich seit März 2025 in Untersuchungshaft. Die Tochter des Verstorbenen hat sich dem Verfahren als Nebenklägerin angeschlossen.\nDer Prozess beginnt am Dienstag, 31. März, um 9 Uhr. Weitere sechs weitere Verhandlungstage sind bis Anfang Mai angesetzt. Im Laufe des Verfahrens sollen 48 Zeugen vernommen und fünf Sachverständige gehört werden.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Vor dem Landgericht Deggendorf beginnt am Dienstag, den 31. März, der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt.\n Embed&lt;script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"&gt;&lt;/script&gt; &lt;link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\"&gt; &lt;glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dck3a322qvt5\"&gt; &lt;/glomex-integration&gt;falseGlomex (ohne 2-Klick)Vor der Großen Strafkammer als Schwurgericht des Landgerichts Deggendorf muss sich ab ab Ende März eine 53-jährige Frau aus Deggendorf wegen Mordes verantworten. Die Staatsanwaltschaft Deggendorf wirft ihr vor, ihren Lebensgefährten im Januar 2025 mit einer tödlichen Dosis Thallium-Sulfat vergiftet zu haben, um ihn wegen einer Affäre im Jahr 2024 zu töten.\nLaut Anklage soll die Beschuldigte das hochgiftige Schwermetall bereits im November 2024 über das Internet bei einer in der Ukraine ansässigen Firma bestellt haben. Das Thallium-Sulfat gilt als besonders heimtückisch, da es farb-, geruch- und geschmacklos ist und sich damit unbemerkt in Speisen oder Getränke mischen lässt. Genau das soll die Angeklagte getan haben, indem sie ihrem Lebensgefährten die tödliche Substanz vermutlich durch Untermischen in Nahrung oder Getränke verabreichte. Das berichtet das Landgericht Deggendorf in einer Pressemitteilung zum bevorstehenden Prozess. \nMit Grippe-Symptomen ins KrankenhausDas Opfer zeigte demnach zunächst grippeähnliche Symptome, bevor sich sein Zustand rapide verschlechterte. Ab dem 22. Januar 2025 wurde der Mann in zwei verschiedenen Krankenhäusern stationär behandelt, musste intubiert, sediert und beatmet werden und befand sich zuletzt in einem komatösen Zustand. Am 29. Januar 2025 verstarb er an Multiorganversagen.\nDas könnte Sie auch interessieren: Prozess um Pay-TV-Betrug: Deggendorfer Paar bis 2027 vor Gericht\nBesonders tragisch ist der Umstand, dass die behandelnden Ärzte zu keinem Zeitpunkt eine Vergiftung als Ursache in Betracht zogen. Der Verdacht auf eine Thalliumvergiftung entstand erst nach dem Tod des Mannes, sodass die Mediziner mangels zutreffender Diagnose vergeblich um sein Leben kämpften.\nTochter des Opfers ist NebenklägerinDie Angeklagte befindet sich seit März 2025 in Untersuchungshaft. Die Tochter des Verstorbenen hat sich dem Verfahren als Nebenklägerin angeschlossen.\nDer Prozess beginnt am Dienstag, 31. März, um 9 Uhr. Weitere sechs weitere Verhandlungstage sind bis Anfang Mai angesetzt. Im Laufe des Verfahrens sollen 48 Zeugen vernommen und fünf Sachverständige gehört werden.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Die Richterbank im großen Sitzungssaal des Landgerichts Deggendorf. Hier beginnt nächste Woche ein Mordprozess. - Foto: Archiv/Roland Binder",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Die Richterbank im großen Sitzungssaal des Landgerichts Deggendorf. Hier beginnt nächste Woche ein Mordprozess. - Foto: Archiv/Roland Binder",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20950201,
+    "content_name": "Gedankenleser Thorsten Havener verblüfft Publikum mit unerklärlichen Tricks-20950201",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-17 17:30:46",
+    "modified_date": "2026-04-17 17:30:46",
+    "remote_id": "f57296b664f14c46342445390753ea23",
+    "owner_id": 16781282,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20950201\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Thorsten Havener hat das Deggendorfer Publikum in der Stadthalle mit seinem Programm „Alles Kopfsache\" verblüfft und fasziniert zurückgelassen. Der erfahrene Gedankenleser bezog über zwei Dutzend Zuschauer in seine interaktive Show ein und traf dabei in erstaunlicher Weise ins Schwarze – von geheimen Hochzeitstagen über verborgene Berufsträume bis hin zu persönlichen Reisezielen. Wie ihm das gelang und welche überraschenden Momente den Abend zu einem unvergesslichen Erlebnis machten, lässt sich nur schwer in Worte fassen.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Gedankenleser Thorsten Havener verblüfft Publikum mit unerklärlichen Tricks",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"peiqcreate_publish_start\\\\\":\\\\\"18.04.2026 09:00\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-17 17:30:45\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Gedankenleser Thorsten Havener verblüfft Publikum mit unerklärlichen Tricks",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Mentalmagie in Deggendorf",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1776495600,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137531322",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Thorsten Havener hat das Deggendorfer Publikum in der Stadthalle mit seinem Programm „Alles Kopfsache\" verblüfft und fasziniert zurückgelassen. Der erfahrene Gedankenleser bezog über zwei Dutzend Zuschauer in seine interaktive Show ein und traf dabei in erstaunlicher Weise ins Schwarze – von geheimen Hochzeitstagen über verborgene Berufsträume bis hin zu persönlichen Reisezielen. Wie ihm das gelang und welche überraschenden Momente den Abend zu einem unvergesslichen Erlebnis machten, lässt sich nur schwer in Worte fassen.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Thorsten Havener hat das Deggendorfer Publikum in der Stadthalle mit seinem Programm „Alles Kopfsache\" verblüfft und fasziniert zurückgelassen. Der erfahrene Gedankenleser bezog über zwei Dutzend Zuschauer in seine interaktive Show ein und traf dabei in erstaunlicher Weise ins Schwarze – von geheimen Hochzeitstagen über verborgene Berufsträume bis hin zu persönlichen Reisezielen. Wie ihm das gelang und welche überraschenden Momente den Abend zu einem unvergesslichen Erlebnis machten, lässt sich nur schwer in Worte fassen.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Gedankenleser Thorsten Havener verblüfft Publikum mit unerklärlichen Tricks",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "5",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20950198,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Thorsten Havener begeistert mit seiner interaktiven Gedankenleser-Show das Publikum in der Deggendorfer Stadthalle und lässt dabei Zuschauer staunen, die trotz mehrfacher Besuche keine Erklärung für seine Fähigkeiten finden. Der Diplomübersetzer und Autor nutzt Körpersprache, Psychologie und das menschliche Unterbewusstsein, um verblüffende Einblicke in Gedanken und Gefühle seiner Gäste zu gewinnen.\nDer Mann hat gut reden. „Alles Kopfsache“ heißt das Programm, das Thorsten Havener am Donnerstag in der Deggendorfer Stadthalle durchzieht. Nach gut zwei Stunden schwirrt dem Zuhörer bzw. Beobachter der Kopf. Irritiert, verblüfft, erstaunt, fasziniert kreisen die eigenen Gedanken um die Überlegung: „Wie macht er das nur?“ Suggestion, Hypnose, Telepathie, Manipulation, Zufall? Klar wird, dass es um Emotionen und Entscheidungen geht, ums genaue Hinsehen, um die Einschätzung von Antworten, Gestik und Körpersprache.\nAuch interessant: Deggendorfer Mordprozess: Es war der zweite Gift-Anschlag in der gleichen Wohnung\nMit donnerndem Applaus wird der 53-Jährige, der seit über 25 Jahren seiner Kunst des Gedankenlesens nachgeht, vom vielfach jungen Publikum empfangen. „Es ist ein Abend für und mit euch“, begrüßt der studierte Diplomübersetzer (Englisch und Französisch), der in seinem 13. Lebensjahr zum Beispiel das Zaubern für sich entdeckt hatte, die Besucher im gut gefüllten Saal. Gut zwei Dutzend Frauen und Männer werden im Laufe des Abends in die interaktive Show mit einbezogen, egal, ob sie auf die Bühne kommen und blind ertasten sollen, was in einer Box ist, ob sie malen, ein imaginäres Instrument spielen oder nur in ihrer Reihe aufstehen. \nHochzeitstag per Gedankenlesen enthülltSo soll eine Zuschauerin eine vierstellige Zahl auf einem Zettel notieren, diesen dreimal falten und in ein kleines Kuvert stecken – wen wundert’s, dass Havener, ohne das Kuvert zu öffnen, „2508“ verrät und der Teilnehmerin auf den Kopf zu sagt, dass es sich um das Datum 25.08. – und um ihren Hochzeitstag handelt. Stimmt, sagt die junge Frau und ergänzt auf Nachfrage, dass es 2022 war. \nAuch bei Julia trifft Havener den Nagel auf den Kopf: Ihr Traumberuf als Kind war Tierärztin, jetzt arbeitet sie als Industriekauffrau – das hat sie auf dem kleinen Zettel notiert, den sie im Ärmel versteckt hat. Havener bittet sie auf die Bühne, ergreift ihre Arme, mustert ihre Handflächen und notiert dann eben diese Berufe auf einem Blatt Papier, das er anschließend triumphierend dem Publikum präsentiert.\nStammgast rätselt über Haveners GeheimnisStefan aus der ersten Reihe, den Havener mit dessen Traumziel Kanada (nicht Australien, nicht Brasilien) entlarvt und der die Zahl 313 gewählt hat, erzählt der Reporterin in der Pause, dass er die Show schon dreimal gesehen hat und sich mitnichten erklären kann, wie das funktioniert, nur eines: „Ich bin kein Komparse.“\nSpannend ist, wie rasch Havener, der auf Assistentin Karla zählen kann, die einzelnen Aufgaben wechselt. So sollen sich alle Zuschauer ein Q auf die Stirn malen. Seine Deutungen amüsieren: Wer seinen Q-Strich nach rechts gemacht hat, kann gut beobachten, führen und seine Meinung gut vortragen, wer den Strich nach links gemacht hat, ist empathisch und einfühlsam… \n„Wenn sich der Fokus ändert, ändert sich auch was am Körper“, erklärt Havener bei dem ,Experiment‘, bei dem die Besucher aufgefordert wurden, den rechten Fuß nach rechts kreisen zu lassen und dann gleichzeitig eine Sechs mit der Hand in der Luft zu malen. Der Fuß schwenkt nach links um…\nUnterbewusstsein täuscht die Sinne„Über 90 Prozent der Entscheidungen werden von unserem Unterbewusstsein gesteuert“: Wie sehr sich Wahrnehmungen beeinflussen lassen, wird an dem Beispiel deutlich, bei dem Tanja mitmacht. Sie solle sich vorstellen, alles sei groß, redet Haverner der Besucherin nachdrücklich ein. Der ihrem Empfinden nach vermeintlich kleine Löffel, den sie ,blind‘ in der Box ertastet, ist in Wirklichkeit eine Suppenkelle und der mutmaßliche Schwamm aus einem fiktiven „Erdloch“ entpuppt sich als Stein…\n„Somewhere over the rainbow“ – das von Sylvia pantomimisch dargestellte Musikstück, das Havener, nach der Dramaturgie des Abends erst nach etlichen Fehlversuchen am Schluss erraten hat, begleitet die Zuschauer beim Hinausgehen. Richtig magisch und ein großartiges, aber unerklärliches Erlebnis, dass der Künstler und Autor vorher aus einer kleinen verschlossenen Schachtel eine Spieluhr entnommen hat, die genau die Melodie spielt.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Thorsten Havener deckt (die Lügen) auf und ordnet nach knappen Fragen an die beiden Frauen und die beiden Männer nach ihrem Beruf das richtige jeweilige Bild zu, das sie gemalt haben. - Foto: Eichwald",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 20978356,
+    "content_name": "Wahl der OB-Stellvertreter: Hat die CSU Chancen auf beide Bürgermeisterposten?-20978356",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-21 17:14:15",
+    "modified_date": "2026-04-21 17:14:15",
+    "remote_id": "f0d37fddfe301e02c31db4756f414170",
+    "owner_id": 16781282,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"20978356\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "In knapp zwei Wochen wird der neue Deggendorfer Stadtrat die beiden Stellvertreter von Oberbürgermeister Christian Moser (CSU) wählen. In der ablaufenden Wahlperiode waren sowohl der zweite Bürgermeister Günther Pammer als auch die dritte Bürgermeisterin Renate Wasmeier von der CSU. Bei der Wahl am 8. März hat die CSU zwar Sitze verloren, die Chancen, weiterhin beide Stellvertreter zu stellen, stehen für sie aber nicht schlecht.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Wahl der OB-Stellvertreter: Hat die CSU Chancen auf beide Bürgermeisterposten?",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"peiqcreate_publish_start\\\\\":\\\\\"21.04.2026 09:00\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-21 17:14:14\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Wahl der OB-Stellvertreter: Hat die CSU Chancen auf beide Bürgermeisterposten?",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Neuer Deggendorfer Stadtrat",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1776754800,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137656235",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "In knapp zwei Wochen wird der neue Deggendorfer Stadtrat die beiden Stellvertreter von Oberbürgermeister Christian Moser (CSU) wählen. In der ablaufenden Wahlperiode waren sowohl der zweite Bürgermeister Günther Pammer als auch die dritte Bürgermeisterin Renate Wasmeier von der CSU. Bei der Wahl am 8. März hat die CSU zwar Sitze verloren, die Chancen, weiterhin beide Stellvertreter zu stellen, stehen für sie aber nicht schlecht.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "In knapp zwei Wochen wird der neue Deggendorfer Stadtrat die beiden Stellvertreter von Oberbürgermeister Christian Moser (CSU) wählen. In der ablaufenden Wahlperiode waren sowohl der zweite Bürgermeister Günther Pammer als auch die dritte Bürgermeisterin Renate Wasmeier von der CSU. Bei der Wahl am 8. März hat die CSU zwar Sitze verloren, die Chancen, weiterhin beide Stellvertreter zu stellen, stehen für sie aber nicht schlecht.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Wahl der OB-Stellvertreter: Hat die CSU Chancen auf beide Bürgermeisterposten?",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "5",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":20978353,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "In knapp zwei Wochen wird der neue Deggendorfer Stadtrat die beiden Stellvertreter von Oberbürgermeister Christian Moser (CSU) wählen. In der ablaufenden Wahlperiode waren sowohl der zweite Bürgermeister Günther Pammer als auch die dritte Bürgermeisterin Renate Wasmeier von der CSU. Bei der Wahl am 8. März hat die CSU zwar Sitze verloren, die Chancen, weiterhin beide Stellvertreter zu stellen, stehen für sie aber nicht schlecht. Namen werden allerdings noch keine genannt.\nIm neuen Deggendorfer Stadtrat, der am Montag, 4. Mai, zur konstituierenden Sitzung mit Bürgermeisterwahl zusammenkommt, sind so viele Parteien oder Gruppierungen vertreten wie noch nie, nämlich zehn. 16 der 40 Sitze hat die CSU, die damit nach wie vor mit Abstand größte Fraktion ist. Neue Nummer zwei ist die AfD, die sich auf sieben Sitze mehr als verdoppelt hat. Dann folgen Freie Wähler und Grüne mit jeweils vier Sitzen, SPD, Junge Liste und WAN mit zwei sowie DWG, Linke und FDP mit einem Sitz. Der OB hat bei Abstimmungen und Wahlen im Stadtrat Stimmrecht, für eine Mehrheit braucht es also 21 von 41 Stimmen. Die CSU (einschließlich OB) ist davon vier Stimmen weg. Guten Gewissens kann man die beiden Stadträte der Jungen Liste freilich bei solchen Überlegungen der CSU zurechnen. \nZwei Stimmen von der Jungen Liste – dann fehlen noch zwei StimmenVor sechs Jahren hatte die CSU zwei Stimmen mehr. Zusammen mit der Jungen Liste, die auch 2020 zwei Sitze geholt hatte, war damals eine knappe Mehrheit erreicht. Bei der Wahl waren allerdings zwei CSU-Stadträte entschuldigt – trotzdem gab es eine deutliche Mehrheit für Günther Pammer als zweiten (31 von 39 Stimmen) und Renate Wasmeier als dritte Bürgermeisterin (23 von 39 Stimmen). \nDaraus lassen sich durchaus Schlüsse für diese Wahl ziehen: Die CSU (plus JL) kann auch jenseits des eigenen Lagers auf Unterstützung hoffen, ohne dafür eine Art Bürgermeister-Koalition bilden zu müssen, bei der sie ein Amt an eine andere Fraktion abtritt. Aktuell geraten da insbesondere die SPD und die WAN in den Blick, die jeweils mit zwei Stadträten vertreten sind. Sie sind zu klein, um sich realistische Hoffnungen machen zu können, den dritten Bürgermeister zu stellen. Dazu kommt FDP-Einzelkämpfer Anton Holler. Das sind also fünf Stadtratsmitglieder, von denen zwei einen Kandidaten oder eine Kandidatin von CSU/JL unterstützen müssten, damit es für eine Mehrheit reicht. \nAuch interessant: Das plant der Pächter des neuen Donaugartens im Deggendorfer Gleisdreieck\nDie Alternative wäre eine Absprache mit einer der mittelgroßen Fraktionen, der man dann den Posten des dritten Bürgermeisters überlässt. Die CSU hätte sowohl zusammen mit den Freien Wählern als auch mit den Grünen – und natürlich erst recht zusammen mit der AfD – eine Mehrheit. \nGegen die CSU geht gar nichtsIn größeren Städten sind solche Absprachen freilich meist so etwas wie eine Koalition: Man wählt nicht nur bei der Bürgermeisterwahl zusammen, sondern stimmt auch in den kommenden Jahren miteinander ab. Doch dass sich die CSU ausgerechnet die Freien Wähler oder die Grünen für eine gemeinsame Politik auswählt, erscheint eher unwahrscheinlich. Beide Fraktionen haben sich in den letzten Jahren am deutlichsten als „Opposition“ im Stadtrat positioniert, während bei den strittigen Themen neben der Jungen Liste eher die SPD, die WAN und FDP-Mann Holler an ihrer Seite standen. Und dass ausgerechnet Moser und die Deggendorfer CSU – noch dazu ohne jede Not – ein Bündnis mit der AfD eingehen könnten, erscheint noch unwahrscheinlicher. \nKlar ist insbesondere auch: Es gibt zwar eine rechnerische, aber keine politische Mehrheit gegen die CSU. Denn in einem solchen Bündnis müssten so gut wie alle anderen vertreten sein – einschließlich der AfD.\nOffiziell äußern will sich Oberbürgermeister Christian Moser zur anstehenden Wahl seiner Stellvertreter nicht. Die Gespräche in der CSU-Fraktion und mit anderen Gruppierungen seien noch nicht abgeschlossen, sagte er. Die Fraktion werde darüber abstimmen, wen sie nominiert, und dann darüber informieren. \nPammer hört auf, an Wasmeier dürfte kein Weg vorbeiführenKlar sei allerdings, dass Günther Pammer, seit 2014 Stellvertreter Mosers, nicht mehr für das Amt des zweiten Bürgermeisters zur Verfügung steht, heißt es aus der CSU. Eine Überraschung ist das nicht: Pammer wird demnächst 80. Eine Überraschung wäre es hingegen, wenn die CSU für seine Nachfolge jemand anderen als Renate Wasmeier ins Rennen schicken würde. Die bisherige dritte Bürgermeisterin stand auf der CSU-Liste für die Stadtratswahl auf Platz zwei hinter Moser und holte nach ihm auch das zweitbeste Ergebnis. \nWeniger eindeutig ist, wen CSU und JL als dritten Bürgermeister oder dritte Bürgermeisterin nominieren könnten. Ausschlusskriterien gibt es da nur wenige. Eine gewisse Stadtratserfahrung gehört wohl dazu, womit Neulinge ausgeschlossen sein dürften. Die größere Rolle dürfte die persönliche Situation der Kandidatin oder des Kandidaten spielen: Denn das Ehrenamt kostet viel Zeit und lässt sich mit vielen Berufsalltagen nur schwer vereinbaren.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "OB Christian Moser und seine bisherigen Stellvertreter Günther Pammer und Renate Wasmeier. Pammer steht für das Amt des zweiten Bürgermeisters nicht mehr zur Verfügung, Wasmeier könnte aufrücken. Und wer wird dann dritter Bürgermeister? - Foto:",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  },
+  {
+    "content_id": 21002962,
+    "content_name": "Fünf Stunden Vollgas: Ein Musiker erklärt den Reiz der Bierzelt-Auftritte-21002962",
+    "content_type": "article",
+    "content_class_id": 44,
+    "status": 1,
+    "current_version": 1,
+    "published_date": "2026-04-24 20:47:33",
+    "modified_date": "2026-04-24 20:47:33",
+    "remote_id": "b1d9febf601a9df5e73a0587e91504a5",
+    "owner_id": 16781282,
+    "section_id": 1,
+    "is_hidden": 0,
+    "language_mask": "5",
+    "attributes": [
+      {
+        "identifier": "advertising_banners",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 0,
+        "value_float": null
+      },
+      {
+        "identifier": "authors",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "content_id",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"21002962\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "copyright_teaserimage",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Bernhard Weeber (56) sorgt als Hauptamtsleiter der Stadt Deggendorf normalerweise für geregelte Abläufe im Rathaus – nach Feierabend aber greift er zur Gitarre. Seit mehr als 25 Jahren tourt er mit der Partyband „Bergratzn“ durch die Festzelte der Region. Vor dem ersten großen Auftritt des Jahres am Frühlingsfest berichtet Weeber im Interview, wie sich das Feiern im Bierzelt über die Jahrzehnte gewandelt hat, warum das Feedback seiner Kinder bei der Songauswahl wichtig ist und wieso er auch nach fünf Stunden Vollgas auf der Bühne nicht mit dem Publikum tauschen möchte.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "fb_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "h1",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Fünf Stunden Vollgas: Ein Musiker erklärt den Reiz der Bierzelt-Auftritte",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "images",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "import_info",
+        "type": "readonly",
+        "language_code": "ger-DE",
+        "value_text": "{\"text\":\"{\\\\\"peiqcreate_publish_start\\\\\":\\\\\"25.04.2026 17:00\\\\\",\\\\\"created_at\\\\\":\\\\\"2026-04-24 20:47:32\\\\\"}\"}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "intro",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "keywords",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "keywords",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_head",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Fünf Stunden Vollgas: Ein Musiker erklärt den Reiz der Bierzelt-Auftritte",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_roof",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Bernhard Weeber von den „Bergratzn“",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "line_sub",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "link",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "liveblog_id",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "locations",
+        "type": "ezobjectrelationlist",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "media_type",
+        "type": "ibexa_taxonomy_entry_assignment",
+        "language_code": "ger-DE",
+        "value_text": "media_types",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "online_from",
+        "type": "ezdatetime",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1777129200,
+        "value_float": null
+      },
+      {
+        "identifier": "origin_id",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "29-137739118",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_active",
+        "type": "ezboolean",
+        "language_code": "ger-DE",
+        "value_text": null,
+        "value_int": 1,
+        "value_float": null
+      },
+      {
+        "identifier": "paywall_teaser",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Bernhard Weeber (56) sorgt als Hauptamtsleiter der Stadt Deggendorf normalerweise für geregelte Abläufe im Rathaus – nach Feierabend aber greift er zur Gitarre. Seit mehr als 25 Jahren tourt er mit der Partyband „Bergratzn“ durch die Festzelte der Region. Vor dem ersten großen Auftritt des Jahres am Frühlingsfest berichtet Weeber im Interview, wie sich das Feiern im Bierzelt über die Jahrzehnte gewandelt hat, warum das Feedback seiner Kinder bei der Songauswahl wichtig ist und wieso er auch nach fünf Stunden Vollgas auf der Bühne nicht mit dem Publikum tauschen möchte.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_description",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Bernhard Weeber (56) sorgt als Hauptamtsleiter der Stadt Deggendorf normalerweise für geregelte Abläufe im Rathaus – nach Feierabend aber greift er zur Gitarre. Seit mehr als 25 Jahren tourt er mit der Partyband „Bergratzn“ durch die Festzelte der Region. Vor dem ersten großen Auftritt des Jahres am Frühlingsfest berichtet Weeber im Interview, wie sich das Feiern im Bierzelt über die Jahrzehnte gewandelt hat, warum das Feedback seiner Kinder bei der Songauswahl wichtig ist und wieso er auch nach fünf Stunden Vollgas auf der Bühne nicht mit dem Publikum tauschen möchte.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":null,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "seo_title",
+        "type": "ezstring",
+        "language_code": "ger-DE",
+        "value_text": "Fünf Stunden Vollgas: Ein Musiker erklärt den Reiz der Bierzelt-Auftritte",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "source",
+        "type": "ezselection",
+        "language_code": "ger-DE",
+        "value_text": "5",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "teaser_image",
+        "type": "ezimageasset",
+        "language_code": "ger-DE",
+        "value_text": "{\"destinationContentId\":21002959,\"alternativeText\":null,\"source\":null}",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Bernhard Weeber (56) sorgt als Hauptamtsleiter der Stadt Deggendorf normalerweise für geregelte Abläufe im Rathaus – nach Feierabend aber greift er zur Gitarre. Seit mehr als 25 Jahren tourt er mit der Partyband „Bergratzn“ durch die Festzelte der Region. Vor dem ersten großen Auftritt des Jahres am Frühlingsfest berichtet Weeber im Interview, wie sich das Feiern im Bierzelt über die Jahrzehnte gewandelt hat, warum das Feedback seiner Kinder bei der Songauswahl wichtig ist und wieso er auch nach fünf Stunden Vollgas auf der Bühne nicht mit dem Publikum tauschen möchte.\nAm Mittwoch spielen Sie mit den Bergratzn auf dem Frühlingsfest. Ist es Ihr erster Auftritt in diesem Jahr?\nBernhard Weeber: Ja, Deggendorf ist für uns diesmal der Saisonauftakt.Wie viele Auftritte spielen Sie pro Saison?\nWeeber: Aktuell sind es rund 20, je nachdem, welche Veranstaltungen anstehen und wer als Auftraggeber anruft.\nDas könnte Sie auch interessieren: Bilder und Videos vom Auszug und vom Anzapfen: Das war der Auftakt zum Deggendorfer Frühlingsfest\nDas Frühlingsfest ist fest eingeplant. Gibt es noch andere Fixtermine?\n Weeber: Von Beginn an – auch mit früheren Formationen – waren wir immer am Gäubodenfest in Straubing. Das ist definitiv ein Highlight im Terminkalender. Da haben wir die größten Zelte und eine tolle Atmosphäre auf dem Fest. Auch die Stimmung bei den Besuchern ist hier einzigartig. Ansonsten wechselt das natürlich auch. Es ist ja nachvollziehbar, dass Veranstalter nach einigen Jahren auch mal einen Wechsel bei der Musik wollen. Um so mehr freut man sich, wenn sich die Wirte nach einer gewissen Pause dann auch wieder melden und die bewährte Zusammenarbeit wieder fortgesetzt wird. Wir sind schwerpunktmäßig im ganzen ostbayerischen Raum, aber natürlich auch darüber hinaus unterwegs.\nVon der Schülerband ins große FestzeltWie sind Sie zur Musik gekommen und seit wann spielen Sie in Bierzelten?\nWeeber: Ich stehe jetzt seit ungefähr 40 Jahren auf der Bühne. Das hat sich damals in der Schule ergeben. Wir hatten im Wahlunterricht die Möglichkeit, ein Instrument zu lernen. Ich habe mich schon früh für die Gitarre interessiert und mit zwölf Jahren mit dem Unterricht angefangen. Man hat im schulischen Umfeld schnell Musikbegeisterte kennengelernt und die ersten Schülerband-Projekte gestartet. Mit 16 war ich in der ersten Schülerband, mit der wir Landjugendbälle und ähnliche Veranstaltungen spielen konnten. Aus dieser Zeit kenne ich auch Martin Schwandt, unseren Bassisten. Nach einigen Jahren, ich war 18, kam der Ruf einer bekannteren Band. Unser jetziger Schlagzeuger, Konrad Gruber, hat mich damals angerufen. Ich kannte ihn noch nicht, aber er hatte wohl von mir gehört. Er hat mich in die Formation „Vaitl Buam“ geholt. Das war damals schon eine etablierte Band mit vielen Auftritten auf Hochzeiten oder in Bierzelten und wir hatten eine tolle Zeit miteinander. \nEine Pause musste ich mal einlegen, als ich mich im schon etwas fortgeschritteneren Alter noch für ein Studium entschied. Aber die Bühne hat bald darauf wieder gerufen, der Drang war einfach da. Wenn man die Leidenschaft für die Musik hat, will man auch auftreten. Es macht einfach Spaß, Menschen zu unterhalten und ein positives Feedback von den Zuhörern zu bekommen. Daher haben wir dann die Formation Bergratzn – damals auch wieder mit Konrad Gruber – im Jahr 2000 ins Leben gerufen.\nEine neue Generation feiert in TrachtWie haben sich die Volksfest-Abende seither gewandelt?\nWeeber: Von der Technik her ist es ein Riesenunterschied zu vor 25 oder 30 Jahren, als du noch mit zwei, drei Boxen ein Bierzelt beschallt hast. Früher ging man das auch etwas gelassener an. Man hat die Leute essen lassen, hat geschaut, dass sie ein bisschen mit dem Kopf wippen oder schunkeln. Man war froh, wenn sie geklatscht haben, und irgendwann später ist die Stimmung gestiegen. Heute ist das anders: Die jungen Leute kommen zum Feiern und sind von Beginn an auf Party eingestellt.\nWie sieht die Altersstruktur des Publikums bei einem Bierzeltauftritt aus?\nWeeber: Das kommt bei größeren Festen auf die einzelnen Zelte an. In Deggendorf bemerkt man ja auch den Unterschied zwischen Weißbierzelt und großem Festzelt. Die Jungen drängen eher ins Weißbierzelt, wobei im Laufe des Abends schon ein Wechsel zu beobachten ist. Im großen Zelt in Deggendorf ist eher ein gemischtes Publikum, aber es kommen auch sehr viele Junge. Das ist momentan einfach Trend. Tracht ist wieder in Mode gekommen. Es ist wirklich schön zu beobachten, dass die jungen Leute wieder Lust auf Volksfeste und aufs Feiern haben.\nWie lange stehen Sie an einem solchen Abend ungefähr auf der Bühne?\nWeeber: Im Bierzelt sind es rund fünf Stunden. Meist in der Zeit zwischen sieben und zwölf Uhr. Hochzeiten können natürlich schon mal am Vormittag losgehen, da ist man dann den ganzen Tag gefordert.\nIst ein fünfstündiger Auftritt im Bierzelt nicht auch extrem anstrengend? Haben Sie sich noch nie gewünscht, lieber unten im Publikum zu sitzen?\nWeeber: Nein, tatsächlich nicht. Bei Bierzelt-Auftritten, wo gute Stimmung herrscht, macht das einfach Spaß. Es kann eher mal bei einer Hochzeit passieren, wenn man den ganzen Tag unterwegs ist und auch gewisse Leerlaufzeiten hat, dass man irgendwann denkt: Das ist ein langer Tag. Aber im Bierzelt auf der Bühne zu stehen und sich zu wünschen, lieber unten zu sein – das ist mir noch nie passiert. Es ist manchmal anstrengend, weil wir im Zelt keine großen Pausen machen können. Es ist körperlich fordernd, wenn man viel singt und sich bewegt. Aber es ist definitiv Spaß pur.\nWie hält die Stimme das durch? Gibt es ausreichend Pausen zwischen den einzelnen Auftritten?\nWeeber: Wir waren früher oft drei, vier Tage am Stück unterwegs. Das brauche ich heute nicht mehr unbedingt, das muss ich zugeben. Das ist anstrengend und man merkt es dann auch an der Stimme, weil man als Amateur ja auch nicht so trainiert ist wie ein Profi. Aber wenn die Termine gut getaktet sind, lässt sich das körperlich ganz gut bewerkstelligen.\nSchwungvolle Steigerung in Richtung RockmusikWie bauen Sie den Abend auf? Ein Bierzelt füllt sich ja erst nach und nach, anders als bei einem Konzert.\nWeeber: Es ist uns ein Anliegen, dass wir für ein bestimmtes Konzept oder Repertoire stehen. Das heißt: Wo Bergratzn draufsteht, sind auch Bergratzn drin. Darum verbiegen wir uns jetzt nicht jeden Abend nach dem Publikum. Bei der Repertoiregestaltung schaut man natürlich, dass man den Leuten zumindest am Anfang Zeit lässt, in Ruhe ihr Hendl zu essen. Aber der Schwung soll von Beginn an da sein und man steigert das immer mehr in Richtung Party- oder auch Rockmusik.\nWofür stehen die Bergratzn musikalisch?\nWeeber: Für klassische Partymusik, die für Jung und Alt passt. Da sind Après-Ski- und Ballermann-Hits genauso dabei wie mal etwas traditionell Bayerisches und natürlich auch Rock. Man kann sicher nicht jeden topaktuellen Hit sofort im Repertoire haben, aber die gängige Partymusik haben wir drauf. Bei fünf Stunden Zeit kommen wir mit rund 65 bis 70 Titeln gut durch. Wir haben natürlich Reserven; für Hochzeiten haben wir einen Fundus von rund 150 Titeln. Es kann ja auch mal sein, dass man eine halbe Stunde früher anfängt oder es ein bisschen länger dauert.\nWie stark unterscheiden sich die verschiedenen Partybands der Region voneinander? Erwartet das Publikum nicht bei allen ein ähnlicher Abend?\nWeeber: Eine gewisse Schnittmenge ist definitiv da, weil es einfach Titel gibt, die nach wie vor gut ankommen, auch wenn sie oft schon älter sind. Natürlich hängt es auch von den musikalischen Vorlieben oder den Fähigkeiten der einzelnen Musiker ab. Wenn jemand einen bestimmten Titel besonders gut singen kann und die Stimmlage passt, bietet sich das an. Jede Band hat halt ihre individuellen Stärken und das wirkt sich auch auf die Titelauswahl aus.\nWie oft nehmen Sie neue Lieder ins Programm auf?\nWeeber: Im Winter hat man Zeit, sich zu sammeln und die zurückliegende Saison Revue passieren zu lassen. Da sagt man auch mal: „Der Hit war vor zwei Jahren ein absoluter Renner, lief dieses Jahr aber nicht mehr so gut.“ Man schaut, was sich im Winter in der Après-Ski-Szene etabliert hat. Aber viele Hits zeichnen sich ja erst im Laufe des Jahres ab, da muss man schnell reagieren und so etwas auch zwischendurch ins Repertoire einbauen.\nWie beobachten Sie diese Trends? Über Radio, TikTok, Spotify?\nWeeber: Man ist in der Musikerszene gut vernetzt, kennt andere Bands und tauscht sich aus. Man beobachtet die Chart-Hits auf Spotify oder YouTube. Oder man geht selbst einfach mal auf ein Fest, schaut sich andere Bands an und merkt, welche Lieder ankommen und welche nicht. Bei uns ist es mittlerweile so, dass die Kinder in einem Alter sind, in dem sie in den Bierzelten unterwegs sind. Da gibt es natürlich auch immer Kritik und Feedback.\nDie eigenen Kinder als strenge KritikerWie alt sind Ihre Kinder und was sagen sie zu Ihrer Musik?\nWeeber: 16 und 19. Beide sind durchaus kritisch, was gefällt und was die Zielgruppe erreicht. Das ist für uns ein schöner Input. Im Prinzip sind sie aber schon zufrieden mit dem, was wir machen. Aber ich finde es auch gut, wenn sie uns hier auch in die ein oder andere Richtung anspornen.\nMüssen Sie nach all den Jahren noch proben oder spielen Sie alles vom Blatt?\nWeeber: Das kommt auf die Schwierigkeit der Titel an. Manchmal tauschen wir auf Zuruf einen Titel aus und probieren ihn dann beim nächsten Auftritt einfach auf der Bühne aus. Bei einfachen Stücken klappt das. Wenn es komplexer wird oder mehrstimmiger Gesang dabei ist, geht man besser in den Proberaum. Aktuell haben wir uns mit der Sängerin Antonia Bauer verstärkt, die erst vor kurzem zu uns gestoßen ist. Da haben wir einiges im Repertoire neu aufgenommen oder umgestellt. Auch Stefan Lehner, unser Keyboarder, ist erst seit letzter Saison dabei. So ein Wechsel ist natürlich ein Anlass, wieder etwas mehr zu proben.\nLeben von der Musik wird zunehmend schwierigerKann man von der Musik in einer Partyband hauptberuflich leben? Wie viele Auftritte im Jahr wären dafür nötig?\nWeeber: Ehrlich gesagt, halte ich das für immer schwieriger. Wenn man heutzutage davon leben möchte, wird es wohl unter 70 oder 80 Auftritten nicht klappen. Am Ende hängt es natürlich auch davon ab, welchen Lebensstandard man sich erfüllen möchte und wie weit man auch fürs Alter vorsorgen will.\nWelche Musik hören Sie privat am liebsten?\nWeeber: Bei mir läuft eigentlich fast immer Musik. Sei es Radio oder auch noch CDs, mittlerweile oft Spotify und ähnliche Quellen – irgendwas läuft bei mir immer im Hintergrund. Wobei ich eher rockigere Musik bevorzuge. Das ist wahrscheinlich dem Alter geschuldet; als ich in den 80er Jahren Jugendlicher war, war Rock ganz groß angesagt. Mittlerweile höre ich auch gerne Country oder mildere Sachen. Wichtig ist mir, dass es interessant arrangiert ist, mir die Stimmfarbe des Sängers gefällt und irgendwo eine Gitarre dabei ist. Wir gehen auch regelmäßig auf Konzerte. Manchmal in die großen Stadien oder in die Olympiahalle, aber wir mögen es auch sehr, wenn kleinere, unbekanntere Bands hier in der Region spielen. Das macht Spaß, man entdeckt immer wieder etwas Neues.",
+        "value_int": null,
+        "value_float": null
+      },
+      {
+        "identifier": "text_teaserimage",
+        "type": "ezrichtext",
+        "language_code": "ger-DE",
+        "value_text": "Bei den „Bergratzn“ stehen mit Bernhard Weeber (v.l.) auf der Bühne: Konrad Gruber, Antonia Bauer, Stefan Lehner und Martin Schwandt. - Foto: Band",
+        "value_int": null,
+        "value_float": null
+      }
+    ]
+  }
+]
