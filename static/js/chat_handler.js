@@ -13,6 +13,28 @@ export function hideLoadingOverlay() {
   if (overlay) overlay.classList.add('hidden');
 }
 
+async function parseApiResponse(res, fallbackMessage) {
+  const raw = await res.text();
+  let payload = {};
+
+  if (raw) {
+    try {
+      payload = JSON.parse(raw);
+    } catch (_) {
+      const snippet = raw.trim().replace(/\s+/g, ' ').slice(0, 180);
+      const statusPart = `HTTP ${res.status}`;
+      throw new Error(`${fallbackMessage} (${statusPart}). Unerwartete Server-Antwort: ${snippet || 'leer'}`);
+    }
+  }
+
+  if (!res.ok) {
+    const message = payload.error || payload.message || `${fallbackMessage} (HTTP ${res.status})`;
+    throw new Error(message);
+  }
+
+  return payload;
+}
+
 function triggerAutoSave() {
   document.dispatchEvent(new CustomEvent('autoSaveArticle'));
 }
@@ -235,13 +257,8 @@ async function handleGenerate(field, openChat = true) {
       })
     });
     hideLoadingOverlay();
-    
-    if (!res.ok) {
-      const errorData = await res.json();
-      throw new Error(errorData.error || 'Fehler beim Generieren');
-    }
-    
-    const data = await res.json();
+
+    const data = await parseApiResponse(res, 'Fehler beim Generieren');
     
     document.getElementById(field).value = data.content;
     
@@ -524,13 +541,8 @@ async function generateContent(field, prompt, chatContent) {
       })
     });
     hideLoadingOverlay();
-    
-    if (!res.ok) {
-      const errorData = await res.json();
-      throw new Error(errorData.error || 'Fehler beim Generieren');
-    }
-    
-    const data = await res.json();
+
+    const data = await parseApiResponse(res, 'Fehler beim Generieren');
     
     document.getElementById(field).value = data.content;
     
@@ -559,13 +571,8 @@ async function editContent(field, currentContent, userPrompt, chatContent) {
       })
     });
     hideLoadingOverlay();
-    
-    if (!res.ok) {
-      const errorData = await res.json();
-      throw new Error(errorData.error || 'Fehler beim Generieren');
-    }
-    
-    const data = await res.json();
+
+    const data = await parseApiResponse(res, 'Fehler beim Umschreiben');
     
     // Show diff preview instead of directly applying
     showDiffPreview(field, currentContent, data.content, chatContent);
@@ -802,13 +809,8 @@ async function shortenText(currentText, targetWordCount, chatContent) {
       })
     });
     hideLoadingOverlay();
-    
-    if (!res.ok) {
-      const errorData = await res.json();
-      throw new Error(errorData.error || 'Fehler beim Kürzen');
-    }
-    
-    const data = await res.json();
+
+    const data = await parseApiResponse(res, 'Fehler beim Kürzen');
     
     showShortenPreview(currentText, data.content, chatContent);
     

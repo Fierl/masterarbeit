@@ -10,7 +10,7 @@ bp = Blueprint('chats', __name__)
 @bp.route('/api/chats/generate', methods=['POST'])
 @login_required
 def generate_chat():
-    data = request.get_json()
+    data = request.get_json(silent=True) or {}
     article_id = data.get('article_id')
     field_name = data.get('field_name')
     prompt = data.get('prompt')
@@ -22,7 +22,11 @@ def generate_chat():
     if field_name not in ['headline', 'subline', 'roofline', 'text', 'teaser', 'subheadings', 'tags', 'shorten_text']:
         return jsonify({'error': 'Ungültiger field_name'}), 400
 
-    generated_content = generate_content(prompt, field_name=field_name, context=context, user=current_user)
+    try:
+        generated_content = generate_content(prompt, field_name=field_name, context=context, user=current_user)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 502
+
     chat = Chat(
         article_id=article_id, # type: ignore
         field_name=field_name, # type: ignore
@@ -45,7 +49,7 @@ def generate_chat():
 @bp.route('/api/chats/edit', methods=['POST'])
 @login_required
 def edit_chat():
-    data = request.get_json()
+    data = request.get_json(silent=True) or {}
     article_id = data.get('article_id')
     field_name = data.get('field_name')
     current_content = data.get('current_content')
@@ -54,7 +58,10 @@ def edit_chat():
     
     if current_content and user_prompt:
         combined_prompt = f"Aktueller Text:\n{current_content}\n\nÄnderungswunsch:\n{user_prompt}"
-        content = generate_content(combined_prompt, field_name=field_name, user=current_user)
+        try:
+            content = generate_content(combined_prompt, field_name=field_name, user=current_user)
+        except Exception as e:
+            return jsonify({'error': str(e)}), 502
     else:
         content = data.get('content')
     
@@ -127,7 +134,7 @@ def list_chats():
 @bp.route('/api/chats/shorten', methods=['POST'])
 @login_required
 def shorten_text():
-    data = request.get_json()
+    data = request.get_json(silent=True) or {}
     article_id = data.get('article_id')
     current_text = data.get('current_text')
     target_word_count = data.get('target_word_count')
@@ -152,7 +159,10 @@ Aktueller Text:
 
 Gekürzte Version (maximal {target_word_count} Wörter):"""
     
-    shortened_content = generate_content(prompt, field_name='shorten_text', user=current_user)
+    try:
+        shortened_content = generate_content(prompt, field_name='shorten_text', user=current_user)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 502
     
     if preview_only:
         return jsonify({

@@ -12,6 +12,12 @@ def settings_page():
     return render_template('settings.html', username=current_user.username)
 
 
+@bp.route('/instructions')
+@login_required
+def instructions_page():
+    return render_template('instructions.html', username=current_user.username)
+
+
 @bp.route('/api/system-prompts', methods=['GET'])
 @login_required
 def get_system_prompts():
