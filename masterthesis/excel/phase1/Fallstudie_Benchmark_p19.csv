@@ -1,0 +1,20 @@
+Teilnehmer:,P19,,"1 = Sehr wenig, 5 = Sehr viel",,Beispiele Recherche:,"Websuche (WS), Archiv Artikel Suche (AS), Eigene Recherche (ER), Künstliche Inteligenz (KI)"
+Zeitraum: ,02.02.2026 - 27.02.2026,,Schreibzeit in Minuten angeben,,Werte für die Genauigkeit:,"Exakt (E), In etwa (I), Grob (G), Keine Ahnung (K)"
+Berufserfahrung (In Jahren):,,,Werte durch Komma trennen,,,
+KI-Erfahrung (1-5):,,,,,,
+,,,,,,
+,,,,,,
+CREATE-ID ( / NGEN-ID),Schreibzeit für Artikeltext,Schreibzeit für weitere Felder,Genauigkeit der Schreibzeit,Recheche,Komplexität des Artikels (1-5),Qualitative Artikeleinschätzung (1-5)
+29-135243427,5,5,I,PM (Pressemitteilung),1,1
+29-135242750,15,5,I,PM/ER,1,1
+29-135325175,40,10,E,ER,3,3
+29-135425444,300,30,E,ER,5,5
+29-135472241,20,10,E,ER,1,1
+29-135501488,15,5,I,PM,1,1
+29-135617318,15,5,I,PM,1,1
+29-135625805,20,10,E,ER,2,2
+29-135798083,20,10,i,PM,2,2
+29-135915016,350,30,E,ER,5,5
+29-135976066,40,10,E,ER,2,2
+29-136038182,30,10,I,PM/ER,3,2
+29-136057635,20,5,I,PM,1,1

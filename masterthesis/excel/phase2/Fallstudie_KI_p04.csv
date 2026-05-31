@@ -1,0 +1,16 @@
+Teilnehmer:,P04,,"1 = Sehr wenig, 5 = Sehr viel",,Beispiele Recherche:,"Websuche (WS), Archiv Artikel Suche (AS), Eigene Recherche (ER)",,,
+Zeitraum: ,16.03.2026 - 13.04.2026,,Schreibzeit in Minuten angeben,,Werte für die Genauigkeit:,"Exakt (E), In etwa (I), Grob (G), Keine Ahnung (K)",,,
+Berufserfahrung (In Jahren):,,,Werte durch Komma trennen,,Werte für verwendete Felder: ,"Artikeltext (AT), Zwischenüberschriften (ZÜ), Dachzeile (DZ), Titel (TT), Untertitel (UT), Paywall-Teaser (PT), Tags (tags), Kürzen (KÜ)",,,
+KI-Erfahrung (1-5):,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+CREATE-ID ( / NGEN-ID),Schreibzeit für Artikeltext,Schreibzeit für weitere Felder,Genauigkeit der Schreibzeit,Recheche,Komplexität des Artikels (1-5),Qualitative Artikeleinschätzung (1-5),Verwendete Felder,Zufriedenheit mit KI-Tool (1-5),Kommentar
+20733517,70,10,(G),(ER),3,3,0,2,"Paywallteaser bspw zu offen getextet, Titel zu ""nachrichtlich"" "
+20740840,240,10,(G),(ER),5,5,0,0,
+20762314,90,5,(G),(ER),4,4,0,0,eigenen Titel verwendet
+20851612,45,5,(G),(ER),3,3,0,,
+20848426,30,7,(G),(ER),2,2,0,,
+20842939,90,10,(G),(ER),4,5,0,,
+20842939,100,8,(G),(ER),4,5,0,,
+20880703,45,5,(G),(AS),2,2,0,,
+20901628,15,5,(G),(ER/AS),3,3,0,,

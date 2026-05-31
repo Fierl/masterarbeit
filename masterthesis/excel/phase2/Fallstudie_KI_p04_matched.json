@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "participant_username": "P04",
+    "csv_entry_count": 9,
+    "db_article_count_for_user": 1,
+    "matched_count": 1,
+    "filtered_low_score_count": 0,
+    "unmatched_csv_entry_count": 8,
+    "min_score": 1.0,
+    "unmatched_db_article_count": 0,
+    "generated_chat_count": 7,
+    "csv_headers": [
+      "CREATE-ID ( / NGEN-ID)",
+      "Schreibzeit für Artikeltext",
+      "Schreibzeit für weitere Felder",
+      "Genauigkeit der Schreibzeit",
+      "Recheche",
+      "Komplexität des Artikels (1-5)",
+      "Qualitative Artikeleinschätzung (1-5)",
+      "Verwendete Felder",
+      "Zufriedenheit mit KI-Tool (1-5)",
+      "Kommentar"
+    ],
+    "csv_path": "masterthesis/excel/phase2/Fallstudie_KI_p04.csv",
+    "cms_json_path": "masterthesis/extracted/phase_2_articles_output_p04.json",
+    "sql_dump_path": "prod_new.sql",
+    "output_path": "masterthesis/excel/phase2/Fallstudie_KI_p04_matched.json"
+  },
+  "items": [
+    {
+      "sequence_index": 1,
+      "csv_row_number": 8,
+      "content_id": "20733517",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20733517",
+        "Schreibzeit für Artikeltext": "70",
+        "Schreibzeit für weitere Felder": "10",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "2",
+        "Kommentar": "Paywallteaser bspw zu offen getextet, Titel zu \"nachrichtlich\""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20733517,
+        "content_name": "Intern Digitalisierung, extern Geldfälscher und Vergwaltiger: Staatsanwaltschaft resümiert 2025-20733517",
+        "published_date": "2026-03-16 19:14:39",
+        "h1": "Intern Digitalisierung, extern Geldfälscher und Vergwaltiger: Staatsanwaltschaft resümiert 2025",
+        "intro": null,
+        "line_head": "Intern Digitalisierung, extern Geldfälscher und Vergwaltiger: Staatsanwaltschaft resümiert 2025",
+        "line_roof": "Ingolstädter Ermittlungsbehörde",
+        "line_sub": null,
+        "origin_id": "29-136640779",
+        "paywall_active": 1,
+        "paywall_teaser": "Eine „Zeitenwende“ hat es auch bei der Ingolstädter Staatsanwaltschaft gegeben. Der Transformationsprozess geht immer weiter voran – ermöglicht mittlerweile ein völlig anderes Arbeiten. So können Ermittler mittlerweile von beinahe überall aus auf die Akten zugreifen: von pfeilschießenden Vergwaltigern, Geldfälscherbanden und Feuerteufeln.",
+        "seo_description": "Eine „Zeitenwende“ hat es auch bei der Ingolstädter Staatsanwaltschaft gegeben. Der Transformationsprozess geht immer weiter voran – ermöglicht mittlerweile ein völlig anderes Arbeiten. So können Ermittler mittlerweile von beinahe überall aus auf die Akten zugreifen: von pfeilschießenden Vergwaltigern, Geldfälscherbanden und Feuerteufeln.",
+        "seo_title": "Intern Digitalisierung, extern Geldfälscher und Vergwaltiger: Staatsanwaltschaft resümiert 2025",
+        "text": "Dass bei einer Strafverfolgungsbehörde wie der Staatsanwaltschaft nicht nur ermittelt wird, sondern auch interne Vorgänge etliche Kapazitäten kosten, ist nach außen hin oft eher unsichtbar. Neben Gerichtsprozessen und Anklageschriften hat die Ingolstädter Behörde mit Sitz am Landgericht vor allem die Transformation herausgefordert. \n Embed<script src=\"https://player.glomex.com/integration/1/glomex-player.js\"></script>\n<glomex-player\n data-integration-id=\"eexbs17joe8g29x\"\n data-playlist-id=\"v-d4x9usefsosp\">\n</glomex-player>\n<script type=\"application/ld+json\">\n{\"@context\":\"http://schema.org\",\"@type\":\"VideoObject\",\"name\":\"Was ist der Unterschied zwischen Festnahme und Verhaftung?\",\"description\":\"&#8222;Sie sind verhaftet&#8220; &#8211; dieser Satz fällt in fast jedem Krimi. Aber nicht jede Person, die von einer Polizistin oder einem Polizisten festgenommen wird, ist auch verhaftet. Das sind die Unterschiede.\",\"thumbnailUrl\":\"https://isthumbs.glomex.com/dC1iejNwMDkwcGxhZXgvMjAyNC8xMC8xNi8xMy80MV8wN182NzBmYzI3MzUxZWY3LmpwZw==/profile:player-960x540\",\"duration\":\"PT1M5S\",\"uploadDate\":\"2024-10-16T13:42:22.000Z\",\"contentUrl\":\"https://video-websearch-indexing.mes.glomex.cloud/f500c4/v-d4x9usefsosp.mp4\",\"embedUrl\":\"https://player.glomex.com/integration/1/iframe-player.html?integrationId=eexbs17joe8g29x&playlistId=v-d4x9usefsosp\",\"provider\":{\"@type\":\"Organization\",\"name\":\"glomex GmbH\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://player.glomex.com/logo_v@2x.png\",\"width\":136,\"height\":146}}}\n</script>falseGlomex (ohne 2-Klick)Das erzählen im Rückblick für das vergangene Jahr am Montagnachmittag der leitende Oberstaatsanwalt Nicolas Kaczynski sowie Pressesprecherin und Oberstaatsanwältin Petra Osthoff während des Jahrespressegesprächs. Wie auch schon das hiesige Landgericht als Pilotbehörde in Sachen Digitalisierung galt, so waren es auch die Staatsanwaltschaften in Ingolstadt und Passau, die im Dezember 2024 als erste auf die elektronischen Akten umstellten.\nEine Mammutaufgabe, vor allem für die Ermittlungsbehörden, zu denen auch die Polizei zählt, da sie entsprechende Schnittstellen untereinander benötigen. Laut bayerischem Justizministerium ist die elektronische Akte seit Januar dieses Jahres flächendeckend im Freistaat eingeführt. „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht“, meint Kaczynski. \nEin Vorteil neben der schnellen Abrufbarkeit für alle Beteiligten – Osthoff spricht hier von einer „Zeitenwende“ – sei dadurch auch einer aus dem persönlichen Arbeitsalltag: die Möglichkeit für Homeoffice. „Es sind nicht nur die großen Prozesse“, so der Behörden-Chef. „Es sind eben auch solche organisatorischen Änderungen.“ \n{\"images\": [\"29-136643489.jpg\"]}Ansonsten gingen 35.406 neue Verfahren ein, davon 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Kaczynski: „Sechs Prozent mehr als im Vorjahr. In Bayern liegen wir damit im oberen Bereich.“ Vor Gericht haben Staatsanwältinnen und Staatsanwälte aus Ingolstadt 3105 Stunden verbracht. Besonders herausgestochen sei dabei der langwierige sogenannte Goldschatz-Prozess – der Diebstahl aus dem Kelten- und Römermuseum in Manching (Landkreis Pfaffenhofen). \nAlles zum Goldschatz-Prozess und dem Diebstahl lesen und finden Sie auf der DK-Sonderseite\nBei den Kriminalitätsfeldern liege die Behörde im Bayerntrend. „Bei der Geldwäsche haben wir eine Steigerung um 15 Prozent, bei Verkehrsdelikten um 19 Prozent. Bei Kinder- und Jugendpornografie sogar mehr als 50 Prozent. Das beschäftigt uns sehr“, so der leitende Oberstaatsanwalt. Zudem die sogenannte Hatespeech – „das sind keine 0815-Beleidigungen, sondern komplexe Dinge“. Alleine 106 Verfahren 2025.\nNeben falschen Polizeibeamten in der gesamten Region, einer versuchten Vergewaltigung mit einem Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehreren Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie dem Zugunfall in Reichertshausen (ebenfalls Pfaffenhofen) stehen bei zwei größeren Prozessen nun die Hauptverhandlungen an.\nBei Zugriff liegen gerade die Drucker.Oberstaatsanwältin Petra Osthoff \nZum einen um vier Männer aus Ingolstadt, die via Telegram Falschgeld bestellt hatten – „es folgte ein beispielloser Einsatz der Kriminalpolizei, um den Verkäufer zu finden“, so Osthoff. Eine bundesweite Zusammenarbeit brachte den Erfolg. \n„Bei Zugriff liefen gerade die Drucker. 300.000 Euro hatte der Mann gemeinsam mit seiner Lebensgefährtin bereits in den Zahlungsverkehr eingebracht.“ Eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte.“ Ende des Monats soll Anklage erhoben werden.\nLesen Sie auch: Ingolstädter Fahnder stoppen Falschgeldbande – Werkstatt ausgehoben\nWeitere Berichterstattung zum Thema: 13 Drucker, 300.000 Euro Blüten: Kripo hebt von Ingolstadt aus den „Marktführer“ der Geldfälscher aus\nAm 28. April wiederum beginne die Hauptverhandlung gegen mehrere Albaner, die Cannabis und Kokain verkaufen wollten und bereits hatten. Drei Kilogramm Kokain habe man gefunden. „Bei drei Kilo haben wir den Handel mit Betäubungsmitteln in nicht geringer Menge bereits weit überschritten“, erläutert Kaczynski. Der beginne im niedrigen zweistelligen Gramm-Bereich. Pro Gramm liege der Verkaufswert auf der Straße bei rund 100 Euro. Das Pulver sei zudem noch streckbar. „Das ist dann schon beachtlich.“ \nDoch am Ende zähle nicht zwingend die Verurteilung vor Gericht für die Ermittler. Sondern die Wahrheit, sind sich beide einig. Und diese dem Gericht darzulegen sei die Hauptaufgabe der Staatsanwälte. „Das ist uns am Ende wichtig.“"
+      },
+      "db_match": {
+        "match_method": "order",
+        "match_score": 2.7382,
+        "article_rank_for_user": 1,
+        "candidate_scores": [
+          {
+            "article_id": 14,
+            "offset": 0,
+            "score": 2.7382,
+            "headline": "Staatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende"
+          }
+        ],
+        "article": {
+          "id": 14,
+          "user_id": 4,
+          "payload": "Dass bei einer Strafverfolgungsbehörde wie der Staatsanwaltschaft nicht nur ermittelt wird, sondern auch interne Vorgänge etliche Kapazitäten kosten, ist nach außen hin oft eher unsichtbar. Neben Gerichtsprozessen und Anklageschriften hat die Ingolstädter Behörde mit Sitz am Landgericht vor allem die Transformation herausgefordert. \n\n\n\nDas erzählen im Rückblick für das vergangene Jahr am Montagnachmittag der leitende Oberstaatsanwalt Nicolas Kaczynski sowie Pressesprecherin und Oberstaatsanwältin Petra Osthoff während des Jahrespressegesprächs. Wie auch schon das hiesige Landgericht als Pilotbehörde in Sachen Digitalisierung galt, so waren es auch die Staatsanwaltschaften in Ingolstadt und Passau, die im Dezember 2024 als erste auf die elektronischen Akten umstellten.\n\nEine Mammutaufgabe, vor allem für die Ermittlungsbehörden, zu denen auch die Polizei zählt, da sie entsprechende Schnittstellen untereinander benötigen. Laut bayerischem Justizministerium ist die elektronische Akte seit Januar dieses Jahres flächendeckend im Freistaat eingeführt. „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht“, meint Kaczynski. Ein Vorteil neben der schnellen Abrufbarkeit für alle Beteiligten – Osthoff spricht hier von einer „Zeitenwende“ – sei dadurch auch einer aus dem persönlichen Arbeitsalltag: die Möglichkeit für Homeoffice. „Es sind nicht nur die großen Prozesse“, so der Behörden-Chef. „Es sind eben auch solche organisatorischen Änderungen.“ \n\n\n\nPetra Osthoff und Nicolas Kaczynski während des Jahrespressegesprächs.\n\nMichael Häußler\n\nAnsonsten waren es 35.406 neue Verfahren, davon 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Kaczynski: „Sechs Prozent mehr als im Vorjahr. In Bayern liegen wir damit im oberen Bereich.“ Vor Gericht haben Staatsanwältinnen und Staatsanwälte aus Ingolstadt 3105 Stunden verbracht. Besonders herausgestochen sei dabei der langwierige sogenannte Goldschatz-Prozess – dem Diebstahl aus dem Kelten- und Römermuseum in Manching (Landkreis Pfaffenhofen). \n\nBei den Kriminalitätsfeldern liege die Behörde im Bayerntrend. „Bei der Geldwäsche haben wir eine Steigerung um 15 Prozent, bei Verkehrsdelikten um 19 Prozent. Bei Kinder- und Jugendpornografie sogar mehr als 50 Prozent. Das beschäftigt uns sehr“, so der leitende Oberstaatsanwalt. Zudem die sogenannte Hatespeech – „das sind keine 0815-Beleidigungen, sondern komplexe Dinge“. Alleine 106 Verfahren 2025.\n\nNeben falschen Polizeibeamten in der gesamten Region, einer versuchten Vergewaltigung mit einem Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehreren Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie dem Zugunfall in Reichertshausen (ebenfalls Pfaffenhofen) stehen bei zwei größeren Prozessen nun die Hauptverhandlungen an.\n\nZum einen um vier Männer aus Ingolstadt, die via Telegram Falschgeld bestellt hatten – „es folgte ein beispielloser Einsatz der Kriminalpolizei, um den Verkäufer zu finden“, so Osthoff. Eine bundesweite Zusammenarbeit brachte den Erfolg. „Bei Zugriff liefen gerade die Drucker. 300.000 Euro hatte der Mann gemeinsam mit seiner Lebensgefährtin bereits in den Zahlungsverkehr eingebracht.“ Eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte.“ Ende des Monats soll Anklage erhoben werden.\n\nAm 28. April wiederum beginne die Hauptverhandlung gegen mehrere Albaner, die Cannabis und Kokain verkaufen wollten und bereits hatten. Drei Kilogramm Kokain habe man gefunden. „Bei drei Kilo haben wir den Handel mit Betäubungsmitteln in nicht geringer Menge bereits weit überschritten“, erläutert Kaczynski. Der beginne im niedrigen zweistelligen Gramm-Bereich. Pro Gramm liege der Verkaufswert auf der Straße bei rund 100 Euro. Das Pulver sei zudem noch streckbar. „Das ist dann schon beachtlich.“ \n\nDoch am Ende zähle nicht zwingend die Verurteilung vor Gericht für die Ermittler. Sondern die Wahrheit, sind sich beide einig. Und diese dem Gericht darzulegen sei die Hauptaufgabe der Staatsanwälte. „Das ist uns am Ende wichtig.“ \tJahresbilanz der Justiz\tStaatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende\tDie Behörde verzeichnete 2024 einen Anstieg der Verfahren um sechs Prozent und bewältigte gleichzeitig die Einführung der elektronischen Akte als ersten grundlegenden Digitalisierungsschritt seit Jahrzehnten. Besonders besorgniserregend: Fälle von Kinder- und Jugendpornografie stiegen um mehr als 50 Prozent, während zwei aufsehenerregende Prozesse zu Falschgeld und Drogenhandel unmittelbar bevorstehen.\tDigitalisierung, Falschgeld und Drogenhandel: Staatsanwaltschaft Ingolstadt zieht Jahresbilanz\n\nDie Staatsanwaltschaft Ingolstadt hat im vergangenen Jahr 35.406 neue Verfahren registriert und gleichzeitig einen der größten internen Transformationsprozesse ihrer Geschichte bewältigt. Leitender Oberstaatsanwalt Nicolas Kaczynski und Pressesprecherin Petra Osthoff präsentierten am Montagnachmittag beim Jahrespressegespräch die Bilanz der Behörde am Landgericht Ingolstadt. Neben einem deutlichen Anstieg bei Geldwäsche, Verkehrsdelikten und Kinder- sowie Jugendpornografie stehen zwei bedeutende Strafprozesse unmittelbar bevor.\n\nWas nach außen hin oft unsichtbar bleibt, hat die Behörde im vergangenen Jahr besonders gefordert: die Einführung der elektronischen Akte. Die Staatsanwaltschaften in Ingolstadt und Passau stellten im Dezember 2024 als erste Behörden in Bayern auf den digitalen Aktenbetrieb um, nachdem das Landgericht Ingolstadt bereits als Pilotbehörde in Sachen Digitalisierung vorangegangen war. Seit Januar dieses Jahres ist die elektronische Akte laut bayerischem Justizministerium flächendeckend im Freistaat eingeführt.\n\nKaczynski bezeichnete den Schritt als historische Zäsur: „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht.\" Osthoff sprach von einer „Zeitenwende\", die neben schnellerer Abrufbarkeit für alle Beteiligten auch praktische Vorteile im Arbeitsalltag mit sich bringe, etwa die Möglichkeit zur Arbeit im Homeoffice. „Es sind nicht nur die großen Prozesse\", betonte Kaczynski. „Es sind eben auch solche organisatorischen Änderungen.\"\n\nDie Fallzahlen unterstreichen die Belastung der Behörde. Von den 35.406 neuen Verfahren richteten sich 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Das entspricht einem Anstieg von sechs Prozent gegenüber dem Vorjahr. „In Bayern liegen wir damit im oberen Bereich\", so Kaczynski. Vor Gericht verbrachten die Ingolstädter Staatsanwältinnen und Staatsanwälte insgesamt 3.105 Stunden, wobei der langwierige sogenannte Goldschatz-Prozess rund um den Diebstahl aus dem Kelten- und Römermuseum in Manching im Landkreis Pfaffenhofen besonders hervorstach.\n\nBei den Kriminalitätsfeldern bewegt sich die Behörde im bayernweiten Trend, verzeichnet jedoch in einzelnen Bereichen deutliche Zuwächse. Geldwäscheverfahren stiegen um 15 Prozent, Verkehrsdelikte um 19 Prozent. Besonders alarmierend ist der Anstieg bei Kinder- und Jugendpornografie um mehr als 50 Prozent. „Das beschäftigt uns sehr\", sagte Kaczynski. Auch sogenannte Hatespeech-Verfahren nehmen zu: Allein 106 Fälle wurden 2025 registriert. Kaczynski betonte, dabei handle es sich nicht um einfache Beleidigungen, sondern um „komplexe Dinge\".\n\nZu den aufsehenerregenden Einzelfällen des vergangenen Jahres zählen falsche Polizeibeamte in der gesamten Region, eine versuchte Vergewaltigung mit einem anschließenden Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehrere Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie ein Zugunfall in Reichertshausen im Landkreis Pfaffenhofen.\n\nZwei größere Prozesse stehen nun unmittelbar bevor. Im Fall einer Falschgeldoperation, bei der vier Männer aus Ingolstadt über den Messengerdienst Telegram gefälschte Geldscheine bestellt hatten, soll Ende des Monats Anklage erhoben werden. Eine bundesweite Zusammenarbeit der Ermittlungsbehörden führte zum Erfolg: Bei der Festnahme des Herstellers liefen laut Osthoff noch die Drucker. Der Mann hatte gemeinsam mit seiner Lebensgefährtin bereits 300.000 Euro Falschgeld in den Zahlungsverkehr eingebracht, eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte\", schilderte Osthoff.\n\nAm 28. April beginnt die Hauptverhandlung gegen mehrere albanische Staatsangehörige, denen der Handel mit Cannabis und Kokain vorgeworfen wird. Bei den Beschuldigten wurden drei Kilogramm Kokain sichergestellt. Kaczynski erläuterte, dass der Handel mit Betäubungsmitteln in nicht geringer Menge bereits im niedrigen zweistelligen Grammbereich beginne. Bei einem Straßenverkaufswert von rund 100 Euro pro Gramm und der zusätzlichen Streckbarkeit des Pulvers bezeichnete er die sichergestellte Menge als „beachtlich\".\n\nAm Ende stehe für die Ermittler jedoch nicht zwingend die Verurteilung im Vordergrund, betonten beide Behördenvertreter übereinstimmend. Entscheidend sei die Wahrheit und deren Darlegung vor Gericht. „Das ist uns am Ende wichtig\", so Kaczynski und Osthoff.\tDie Staatsanwaltschaft Ingolstadt hat ihre Jahresbilanz vorgelegt: 35.406 neue Verfahren, ein Anstieg bei Geldwäsche, Verkehrsdelikten und Kinderpornografie sowie zwei bevorstehende Großprozesse — darunter ein Fall mit gefälschten Geldscheinen im Wert von 300.000 Euro und ein Drogenverfahren gegen mehrere albanische Staatsangehörige. Zugleich durchlief die Behörde einen tiefgreifenden Wandel im Arbeitsalltag, den Leitender Oberstaatsanwalt Nicolas Kaczynski als größten Transformationsprozess der vergangenen 70 Jahre bezeichnete.\tJahresbilanz der Staatsanwaltschaft\nDigitale Zeitenwende in der Justiz\nHistorische Zäsur laut Behördenleiter\nFallzahlen steigen deutlich an\nAlarmierende Zuwächse bei Kriminalität\nSpektakuläre Einzelfälle des Jahres\nFalschgeldnetzwerk vor Gericht\nDrogenhandel albanischer Staatsangehöriger\nWahrheit als oberstes Ziel\tStaatsanwaltschaft Ingolstadt, Jahresbilanz, Digitalisierung, Elektronische Akte, Falschgeld, Drogenhandel, Kinder- und Jugendpornografie, Geldwäsche, Hatespeech, Strafverfolgung",
+          "is_hidden": false,
+          "created_at": "2026-03-16 17:37:52.300268",
+          "updated_at": "2026-03-16 17:38:49.545413",
+          "match_fields": {
+            "text": "Digitalisierung, Falschgeld und Drogenhandel: Staatsanwaltschaft Ingolstadt zieht Jahresbilanz\n\nDie Staatsanwaltschaft Ingolstadt hat im vergangenen Jahr 35.406 neue Verfahren registriert und gleichzeitig einen der größten internen Transformationsprozesse ihrer Geschichte bewältigt. Leitender Oberstaatsanwalt Nicolas Kaczynski und Pressesprecherin Petra Osthoff präsentierten am Montagnachmittag beim Jahrespressegespräch die Bilanz der Behörde am Landgericht Ingolstadt. Neben einem deutlichen Anstieg bei Geldwäsche, Verkehrsdelikten und Kinder- sowie Jugendpornografie stehen zwei bedeutende Strafprozesse unmittelbar bevor.\n\nWas nach außen hin oft unsichtbar bleibt, hat die Behörde im vergangenen Jahr besonders gefordert: die Einführung der elektronischen Akte. Die Staatsanwaltschaften in Ingolstadt und Passau stellten im Dezember 2024 als erste Behörden in Bayern auf den digitalen Aktenbetrieb um, nachdem das Landgericht Ingolstadt bereits als Pilotbehörde in Sachen Digitalisierung vorangegangen war. Seit Januar dieses Jahres ist die elektronische Akte laut bayerischem Justizministerium flächendeckend im Freistaat eingeführt.\n\nKaczynski bezeichnete den Schritt als historische Zäsur: „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht.\" Osthoff sprach von einer „Zeitenwende\", die neben schnellerer Abrufbarkeit für alle Beteiligten auch praktische Vorteile im Arbeitsalltag mit sich bringe, etwa die Möglichkeit zur Arbeit im Homeoffice. „Es sind nicht nur die großen Prozesse\", betonte Kaczynski. „Es sind eben auch solche organisatorischen Änderungen.\"\n\nDie Fallzahlen unterstreichen die Belastung der Behörde. Von den 35.406 neuen Verfahren richteten sich 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Das entspricht einem Anstieg von sechs Prozent gegenüber dem Vorjahr. „In Bayern liegen wir damit im oberen Bereich\", so Kaczynski. Vor Gericht verbrachten die Ingolstädter Staatsanwältinnen und Staatsanwälte insgesamt 3.105 Stunden, wobei der langwierige sogenannte Goldschatz-Prozess rund um den Diebstahl aus dem Kelten- und Römermuseum in Manching im Landkreis Pfaffenhofen besonders hervorstach.\n\nBei den Kriminalitätsfeldern bewegt sich die Behörde im bayernweiten Trend, verzeichnet jedoch in einzelnen Bereichen deutliche Zuwächse. Geldwäscheverfahren stiegen um 15 Prozent, Verkehrsdelikte um 19 Prozent. Besonders alarmierend ist der Anstieg bei Kinder- und Jugendpornografie um mehr als 50 Prozent. „Das beschäftigt uns sehr\", sagte Kaczynski. Auch sogenannte Hatespeech-Verfahren nehmen zu: Allein 106 Fälle wurden 2025 registriert. Kaczynski betonte, dabei handle es sich nicht um einfache Beleidigungen, sondern um „komplexe Dinge\".\n\nZu den aufsehenerregenden Einzelfällen des vergangenen Jahres zählen falsche Polizeibeamte in der gesamten Region, eine versuchte Vergewaltigung mit einem anschließenden Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehrere Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie ein Zugunfall in Reichertshausen im Landkreis Pfaffenhofen.\n\nZwei größere Prozesse stehen nun unmittelbar bevor. Im Fall einer Falschgeldoperation, bei der vier Männer aus Ingolstadt über den Messengerdienst Telegram gefälschte Geldscheine bestellt hatten, soll Ende des Monats Anklage erhoben werden. Eine bundesweite Zusammenarbeit der Ermittlungsbehörden führte zum Erfolg: Bei der Festnahme des Herstellers liefen laut Osthoff noch die Drucker. Der Mann hatte gemeinsam mit seiner Lebensgefährtin bereits 300.000 Euro Falschgeld in den Zahlungsverkehr eingebracht, eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte\", schilderte Osthoff.\n\nAm 28. April beginnt die Hauptverhandlung gegen mehrere albanische Staatsangehörige, denen der Handel mit Cannabis und Kokain vorgeworfen wird. Bei den Beschuldigten wurden drei Kilogramm Kokain sichergestellt. Kaczynski erläuterte, dass der Handel mit Betäubungsmitteln in nicht geringer Menge bereits im niedrigen zweistelligen Grammbereich beginne. Bei einem Straßenverkaufswert von rund 100 Euro pro Gramm und der zusätzlichen Streckbarkeit des Pulvers bezeichnete er die sichergestellte Menge als „beachtlich\".\n\nAm Ende stehe für die Ermittler jedoch nicht zwingend die Verurteilung im Vordergrund, betonten beide Behördenvertreter übereinstimmend. Entscheidend sei die Wahrheit und deren Darlegung vor Gericht. „Das ist uns am Ende wichtig\", so Kaczynski und Osthoff.",
+            "roofline": "Jahresbilanz der Justiz",
+            "headline": "Staatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende",
+            "subline": "Die Behörde verzeichnete 2024 einen Anstieg der Verfahren um sechs Prozent und bewältigte gleichzeitig die Einführung der elektronischen Akte als ersten grundlegenden Digitalisierungsschritt seit Jahrzehnten. Besonders besorgniserregend: Fälle von Kinder- und Jugendpornografie stiegen um mehr als 50 Prozent, während zwei aufsehenerregende Prozesse zu Falschgeld und Drogenhandel unmittelbar bevorstehen.",
+            "teaser": "Die Staatsanwaltschaft Ingolstadt hat ihre Jahresbilanz vorgelegt: 35.406 neue Verfahren, ein Anstieg bei Geldwäsche, Verkehrsdelikten und Kinderpornografie sowie zwei bevorstehende Großprozesse — darunter ein Fall mit gefälschten Geldscheinen im Wert von 300.000 Euro und ein Drogenverfahren gegen mehrere albanische Staatsangehörige. Zugleich durchlief die Behörde einen tiefgreifenden Wandel im Arbeitsalltag, den Leitender Oberstaatsanwalt Nicolas Kaczynski als größten Transformationsprozess der vergangenen 70 Jahre bezeichnete.",
+            "subheadings": "Jahresbilanz der Staatsanwaltschaft\nDigitale Zeitenwende in der Justiz\nHistorische Zäsur laut Behördenleiter\nFallzahlen steigen deutlich an\nAlarmierende Zuwächse bei Kriminalität\nSpektakuläre Einzelfälle des Jahres\nFalschgeldnetzwerk vor Gericht\nDrogenhandel albanischer Staatsangehöriger\nWahrheit als oberstes Ziel",
+            "tags": "Staatsanwaltschaft Ingolstadt, Jahresbilanz, Digitalisierung, Elektronische Akte, Falschgeld, Drogenhandel, Kinder- und Jugendpornografie, Geldwäsche, Hatespeech, Strafverfolgung"
+          }
+        },
+        "match_fields": {
+          "text": "Digitalisierung, Falschgeld und Drogenhandel: Staatsanwaltschaft Ingolstadt zieht Jahresbilanz\n\nDie Staatsanwaltschaft Ingolstadt hat im vergangenen Jahr 35.406 neue Verfahren registriert und gleichzeitig einen der größten internen Transformationsprozesse ihrer Geschichte bewältigt. Leitender Oberstaatsanwalt Nicolas Kaczynski und Pressesprecherin Petra Osthoff präsentierten am Montagnachmittag beim Jahrespressegespräch die Bilanz der Behörde am Landgericht Ingolstadt. Neben einem deutlichen Anstieg bei Geldwäsche, Verkehrsdelikten und Kinder- sowie Jugendpornografie stehen zwei bedeutende Strafprozesse unmittelbar bevor.\n\nWas nach außen hin oft unsichtbar bleibt, hat die Behörde im vergangenen Jahr besonders gefordert: die Einführung der elektronischen Akte. Die Staatsanwaltschaften in Ingolstadt und Passau stellten im Dezember 2024 als erste Behörden in Bayern auf den digitalen Aktenbetrieb um, nachdem das Landgericht Ingolstadt bereits als Pilotbehörde in Sachen Digitalisierung vorangegangen war. Seit Januar dieses Jahres ist die elektronische Akte laut bayerischem Justizministerium flächendeckend im Freistaat eingeführt.\n\nKaczynski bezeichnete den Schritt als historische Zäsur: „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht.\" Osthoff sprach von einer „Zeitenwende\", die neben schnellerer Abrufbarkeit für alle Beteiligten auch praktische Vorteile im Arbeitsalltag mit sich bringe, etwa die Möglichkeit zur Arbeit im Homeoffice. „Es sind nicht nur die großen Prozesse\", betonte Kaczynski. „Es sind eben auch solche organisatorischen Änderungen.\"\n\nDie Fallzahlen unterstreichen die Belastung der Behörde. Von den 35.406 neuen Verfahren richteten sich 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Das entspricht einem Anstieg von sechs Prozent gegenüber dem Vorjahr. „In Bayern liegen wir damit im oberen Bereich\", so Kaczynski. Vor Gericht verbrachten die Ingolstädter Staatsanwältinnen und Staatsanwälte insgesamt 3.105 Stunden, wobei der langwierige sogenannte Goldschatz-Prozess rund um den Diebstahl aus dem Kelten- und Römermuseum in Manching im Landkreis Pfaffenhofen besonders hervorstach.\n\nBei den Kriminalitätsfeldern bewegt sich die Behörde im bayernweiten Trend, verzeichnet jedoch in einzelnen Bereichen deutliche Zuwächse. Geldwäscheverfahren stiegen um 15 Prozent, Verkehrsdelikte um 19 Prozent. Besonders alarmierend ist der Anstieg bei Kinder- und Jugendpornografie um mehr als 50 Prozent. „Das beschäftigt uns sehr\", sagte Kaczynski. Auch sogenannte Hatespeech-Verfahren nehmen zu: Allein 106 Fälle wurden 2025 registriert. Kaczynski betonte, dabei handle es sich nicht um einfache Beleidigungen, sondern um „komplexe Dinge\".\n\nZu den aufsehenerregenden Einzelfällen des vergangenen Jahres zählen falsche Polizeibeamte in der gesamten Region, eine versuchte Vergewaltigung mit einem anschließenden Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehrere Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie ein Zugunfall in Reichertshausen im Landkreis Pfaffenhofen.\n\nZwei größere Prozesse stehen nun unmittelbar bevor. Im Fall einer Falschgeldoperation, bei der vier Männer aus Ingolstadt über den Messengerdienst Telegram gefälschte Geldscheine bestellt hatten, soll Ende des Monats Anklage erhoben werden. Eine bundesweite Zusammenarbeit der Ermittlungsbehörden führte zum Erfolg: Bei der Festnahme des Herstellers liefen laut Osthoff noch die Drucker. Der Mann hatte gemeinsam mit seiner Lebensgefährtin bereits 300.000 Euro Falschgeld in den Zahlungsverkehr eingebracht, eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte\", schilderte Osthoff.\n\nAm 28. April beginnt die Hauptverhandlung gegen mehrere albanische Staatsangehörige, denen der Handel mit Cannabis und Kokain vorgeworfen wird. Bei den Beschuldigten wurden drei Kilogramm Kokain sichergestellt. Kaczynski erläuterte, dass der Handel mit Betäubungsmitteln in nicht geringer Menge bereits im niedrigen zweistelligen Grammbereich beginne. Bei einem Straßenverkaufswert von rund 100 Euro pro Gramm und der zusätzlichen Streckbarkeit des Pulvers bezeichnete er die sichergestellte Menge als „beachtlich\".\n\nAm Ende stehe für die Ermittler jedoch nicht zwingend die Verurteilung im Vordergrund, betonten beide Behördenvertreter übereinstimmend. Entscheidend sei die Wahrheit und deren Darlegung vor Gericht. „Das ist uns am Ende wichtig\", so Kaczynski und Osthoff.",
+          "roofline": "Jahresbilanz der Justiz",
+          "headline": "Staatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende",
+          "subline": "Die Behörde verzeichnete 2024 einen Anstieg der Verfahren um sechs Prozent und bewältigte gleichzeitig die Einführung der elektronischen Akte als ersten grundlegenden Digitalisierungsschritt seit Jahrzehnten. Besonders besorgniserregend: Fälle von Kinder- und Jugendpornografie stiegen um mehr als 50 Prozent, während zwei aufsehenerregende Prozesse zu Falschgeld und Drogenhandel unmittelbar bevorstehen.",
+          "teaser": "Die Staatsanwaltschaft Ingolstadt hat ihre Jahresbilanz vorgelegt: 35.406 neue Verfahren, ein Anstieg bei Geldwäsche, Verkehrsdelikten und Kinderpornografie sowie zwei bevorstehende Großprozesse — darunter ein Fall mit gefälschten Geldscheinen im Wert von 300.000 Euro und ein Drogenverfahren gegen mehrere albanische Staatsangehörige. Zugleich durchlief die Behörde einen tiefgreifenden Wandel im Arbeitsalltag, den Leitender Oberstaatsanwalt Nicolas Kaczynski als größten Transformationsprozess der vergangenen 70 Jahre bezeichnete.",
+          "subheadings": "Jahresbilanz der Staatsanwaltschaft\nDigitale Zeitenwende in der Justiz\nHistorische Zäsur laut Behördenleiter\nFallzahlen steigen deutlich an\nAlarmierende Zuwächse bei Kriminalität\nSpektakuläre Einzelfälle des Jahres\nFalschgeldnetzwerk vor Gericht\nDrogenhandel albanischer Staatsangehöriger\nWahrheit als oberstes Ziel",
+          "tags": "Staatsanwaltschaft Ingolstadt, Jahresbilanz, Digitalisierung, Elektronische Akte, Falschgeld, Drogenhandel, Kinder- und Jugendpornografie, Geldwäsche, Hatespeech, Strafverfolgung"
+        },
+        "all_chats": [
+          {
+            "id": 183,
+            "article_id": 14,
+            "field_name": "text",
+            "chat_type": "generate",
+            "content": "Digitalisierung, Falschgeld und Drogenhandel: Staatsanwaltschaft Ingolstadt zieht Jahresbilanz\n\nDie Staatsanwaltschaft Ingolstadt hat im vergangenen Jahr 35.406 neue Verfahren registriert und gleichzeitig einen der größten internen Transformationsprozesse ihrer Geschichte bewältigt. Leitender Oberstaatsanwalt Nicolas Kaczynski und Pressesprecherin Petra Osthoff präsentierten am Montagnachmittag beim Jahrespressegespräch die Bilanz der Behörde am Landgericht Ingolstadt. Neben einem deutlichen Anstieg bei Geldwäsche, Verkehrsdelikten und Kinder- sowie Jugendpornografie stehen zwei bedeutende Strafprozesse unmittelbar bevor.\n\nWas nach außen hin oft unsichtbar bleibt, hat die Behörde im vergangenen Jahr besonders gefordert: die Einführung der elektronischen Akte. Die Staatsanwaltschaften in Ingolstadt und Passau stellten im Dezember 2024 als erste Behörden in Bayern auf den digitalen Aktenbetrieb um, nachdem das Landgericht Ingolstadt bereits als Pilotbehörde in Sachen Digitalisierung vorangegangen war. Seit Januar dieses Jahres ist die elektronische Akte laut bayerischem Justizministerium flächendeckend im Freistaat eingeführt.\n\nKaczynski bezeichnete den Schritt als historische Zäsur: „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht.\" Osthoff sprach von einer „Zeitenwende\", die neben schnellerer Abrufbarkeit für alle Beteiligten auch praktische Vorteile im Arbeitsalltag mit sich bringe, etwa die Möglichkeit zur Arbeit im Homeoffice. „Es sind nicht nur die großen Prozesse\", betonte Kaczynski. „Es sind eben auch solche organisatorischen Änderungen.\"\n\nDie Fallzahlen unterstreichen die Belastung der Behörde. Von den 35.406 neuen Verfahren richteten sich 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Das entspricht einem Anstieg von sechs Prozent gegenüber dem Vorjahr. „In Bayern liegen wir damit im oberen Bereich\", so Kaczynski. Vor Gericht verbrachten die Ingolstädter Staatsanwältinnen und Staatsanwälte insgesamt 3.105 Stunden, wobei der langwierige sogenannte Goldschatz-Prozess rund um den Diebstahl aus dem Kelten- und Römermuseum in Manching im Landkreis Pfaffenhofen besonders hervorstach.\n\nBei den Kriminalitätsfeldern bewegt sich die Behörde im bayernweiten Trend, verzeichnet jedoch in einzelnen Bereichen deutliche Zuwächse. Geldwäscheverfahren stiegen um 15 Prozent, Verkehrsdelikte um 19 Prozent. Besonders alarmierend ist der Anstieg bei Kinder- und Jugendpornografie um mehr als 50 Prozent. „Das beschäftigt uns sehr\", sagte Kaczynski. Auch sogenannte Hatespeech-Verfahren nehmen zu: Allein 106 Fälle wurden 2025 registriert. Kaczynski betonte, dabei handle es sich nicht um einfache Beleidigungen, sondern um „komplexe Dinge\".\n\nZu den aufsehenerregenden Einzelfällen des vergangenen Jahres zählen falsche Polizeibeamte in der gesamten Region, eine versuchte Vergewaltigung mit einem anschließenden Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehrere Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie ein Zugunfall in Reichertshausen im Landkreis Pfaffenhofen.\n\nZwei größere Prozesse stehen nun unmittelbar bevor. Im Fall einer Falschgeldoperation, bei der vier Männer aus Ingolstadt über den Messengerdienst Telegram gefälschte Geldscheine bestellt hatten, soll Ende des Monats Anklage erhoben werden. Eine bundesweite Zusammenarbeit der Ermittlungsbehörden führte zum Erfolg: Bei der Festnahme des Herstellers liefen laut Osthoff noch die Drucker. Der Mann hatte gemeinsam mit seiner Lebensgefährtin bereits 300.000 Euro Falschgeld in den Zahlungsverkehr eingebracht, eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte\", schilderte Osthoff.\n\nAm 28. April beginnt die Hauptverhandlung gegen mehrere albanische Staatsangehörige, denen der Handel mit Cannabis und Kokain vorgeworfen wird. Bei den Beschuldigten wurden drei Kilogramm Kokain sichergestellt. Kaczynski erläuterte, dass der Handel mit Betäubungsmitteln in nicht geringer Menge bereits im niedrigen zweistelligen Grammbereich beginne. Bei einem Straßenverkaufswert von rund 100 Euro pro Gramm und der zusätzlichen Streckbarkeit des Pulvers bezeichnete er die sichergestellte Menge als „beachtlich\".\n\nAm Ende stehe für die Ermittler jedoch nicht zwingend die Verurteilung im Vordergrund, betonten beide Behördenvertreter übereinstimmend. Entscheidend sei die Wahrheit und deren Darlegung vor Gericht. „Das ist uns am Ende wichtig\", so Kaczynski und Osthoff.",
+            "created_at": "2026-03-16 17:38:31.879501"
+          },
+          {
+            "id": 184,
+            "article_id": 14,
+            "field_name": "roofline",
+            "chat_type": "generate",
+            "content": "Jahresbilanz der Justiz",
+            "created_at": "2026-03-16 17:38:33.478627"
+          },
+          {
+            "id": 185,
+            "article_id": 14,
+            "field_name": "headline",
+            "chat_type": "generate",
+            "content": "Staatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende",
+            "created_at": "2026-03-16 17:38:35.335738"
+          },
+          {
+            "id": 186,
+            "article_id": 14,
+            "field_name": "subline",
+            "chat_type": "generate",
+            "content": "Die Behörde verzeichnete 2024 einen Anstieg der Verfahren um sechs Prozent und bewältigte gleichzeitig die Einführung der elektronischen Akte als ersten grundlegenden Digitalisierungsschritt seit Jahrzehnten. Besonders besorgniserregend: Fälle von Kinder- und Jugendpornografie stiegen um mehr als 50 Prozent, während zwei aufsehenerregende Prozesse zu Falschgeld und Drogenhandel unmittelbar bevorstehen.",
+            "created_at": "2026-03-16 17:38:39.066921"
+          },
+          {
+            "id": 187,
+            "article_id": 14,
+            "field_name": "teaser",
+            "chat_type": "generate",
+            "content": "Die Staatsanwaltschaft Ingolstadt hat ihre Jahresbilanz vorgelegt: 35.406 neue Verfahren, ein Anstieg bei Geldwäsche, Verkehrsdelikten und Kinderpornografie sowie zwei bevorstehende Großprozesse — darunter ein Fall mit gefälschten Geldscheinen im Wert von 300.000 Euro und ein Drogenverfahren gegen mehrere albanische Staatsangehörige. Zugleich durchlief die Behörde einen tiefgreifenden Wandel im Arbeitsalltag, den Leitender Oberstaatsanwalt Nicolas Kaczynski als größten Transformationsprozess der vergangenen 70 Jahre bezeichnete.",
+            "created_at": "2026-03-16 17:38:43.403468"
+          },
+          {
+            "id": 188,
+            "article_id": 14,
+            "field_name": "subheadings",
+            "chat_type": "generate",
+            "content": "Jahresbilanz der Staatsanwaltschaft\nDigitale Zeitenwende in der Justiz\nHistorische Zäsur laut Behördenleiter\nFallzahlen steigen deutlich an\nAlarmierende Zuwächse bei Kriminalität\nSpektakuläre Einzelfälle des Jahres\nFalschgeldnetzwerk vor Gericht\nDrogenhandel albanischer Staatsangehöriger\nWahrheit als oberstes Ziel",
+            "created_at": "2026-03-16 17:38:46.641064"
+          },
+          {
+            "id": 189,
+            "article_id": 14,
+            "field_name": "tags",
+            "chat_type": "generate",
+            "content": "Staatsanwaltschaft Ingolstadt, Jahresbilanz, Digitalisierung, Elektronische Akte, Falschgeld, Drogenhandel, Kinder- und Jugendpornografie, Geldwäsche, Hatespeech, Strafverfolgung",
+            "created_at": "2026-03-16 17:38:48.928968"
+          }
+        ],
+        "generated_chats": [
+          {
+            "id": 183,
+            "article_id": 14,
+            "field_name": "text",
+            "chat_type": "generate",
+            "content": "Digitalisierung, Falschgeld und Drogenhandel: Staatsanwaltschaft Ingolstadt zieht Jahresbilanz\n\nDie Staatsanwaltschaft Ingolstadt hat im vergangenen Jahr 35.406 neue Verfahren registriert und gleichzeitig einen der größten internen Transformationsprozesse ihrer Geschichte bewältigt. Leitender Oberstaatsanwalt Nicolas Kaczynski und Pressesprecherin Petra Osthoff präsentierten am Montagnachmittag beim Jahrespressegespräch die Bilanz der Behörde am Landgericht Ingolstadt. Neben einem deutlichen Anstieg bei Geldwäsche, Verkehrsdelikten und Kinder- sowie Jugendpornografie stehen zwei bedeutende Strafprozesse unmittelbar bevor.\n\nWas nach außen hin oft unsichtbar bleibt, hat die Behörde im vergangenen Jahr besonders gefordert: die Einführung der elektronischen Akte. Die Staatsanwaltschaften in Ingolstadt und Passau stellten im Dezember 2024 als erste Behörden in Bayern auf den digitalen Aktenbetrieb um, nachdem das Landgericht Ingolstadt bereits als Pilotbehörde in Sachen Digitalisierung vorangegangen war. Seit Januar dieses Jahres ist die elektronische Akte laut bayerischem Justizministerium flächendeckend im Freistaat eingeführt.\n\nKaczynski bezeichnete den Schritt als historische Zäsur: „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht.\" Osthoff sprach von einer „Zeitenwende\", die neben schnellerer Abrufbarkeit für alle Beteiligten auch praktische Vorteile im Arbeitsalltag mit sich bringe, etwa die Möglichkeit zur Arbeit im Homeoffice. „Es sind nicht nur die großen Prozesse\", betonte Kaczynski. „Es sind eben auch solche organisatorischen Änderungen.\"\n\nDie Fallzahlen unterstreichen die Belastung der Behörde. Von den 35.406 neuen Verfahren richteten sich 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Das entspricht einem Anstieg von sechs Prozent gegenüber dem Vorjahr. „In Bayern liegen wir damit im oberen Bereich\", so Kaczynski. Vor Gericht verbrachten die Ingolstädter Staatsanwältinnen und Staatsanwälte insgesamt 3.105 Stunden, wobei der langwierige sogenannte Goldschatz-Prozess rund um den Diebstahl aus dem Kelten- und Römermuseum in Manching im Landkreis Pfaffenhofen besonders hervorstach.\n\nBei den Kriminalitätsfeldern bewegt sich die Behörde im bayernweiten Trend, verzeichnet jedoch in einzelnen Bereichen deutliche Zuwächse. Geldwäscheverfahren stiegen um 15 Prozent, Verkehrsdelikte um 19 Prozent. Besonders alarmierend ist der Anstieg bei Kinder- und Jugendpornografie um mehr als 50 Prozent. „Das beschäftigt uns sehr\", sagte Kaczynski. Auch sogenannte Hatespeech-Verfahren nehmen zu: Allein 106 Fälle wurden 2025 registriert. Kaczynski betonte, dabei handle es sich nicht um einfache Beleidigungen, sondern um „komplexe Dinge\".\n\nZu den aufsehenerregenden Einzelfällen des vergangenen Jahres zählen falsche Polizeibeamte in der gesamten Region, eine versuchte Vergewaltigung mit einem anschließenden Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehrere Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie ein Zugunfall in Reichertshausen im Landkreis Pfaffenhofen.\n\nZwei größere Prozesse stehen nun unmittelbar bevor. Im Fall einer Falschgeldoperation, bei der vier Männer aus Ingolstadt über den Messengerdienst Telegram gefälschte Geldscheine bestellt hatten, soll Ende des Monats Anklage erhoben werden. Eine bundesweite Zusammenarbeit der Ermittlungsbehörden führte zum Erfolg: Bei der Festnahme des Herstellers liefen laut Osthoff noch die Drucker. Der Mann hatte gemeinsam mit seiner Lebensgefährtin bereits 300.000 Euro Falschgeld in den Zahlungsverkehr eingebracht, eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte\", schilderte Osthoff.\n\nAm 28. April beginnt die Hauptverhandlung gegen mehrere albanische Staatsangehörige, denen der Handel mit Cannabis und Kokain vorgeworfen wird. Bei den Beschuldigten wurden drei Kilogramm Kokain sichergestellt. Kaczynski erläuterte, dass der Handel mit Betäubungsmitteln in nicht geringer Menge bereits im niedrigen zweistelligen Grammbereich beginne. Bei einem Straßenverkaufswert von rund 100 Euro pro Gramm und der zusätzlichen Streckbarkeit des Pulvers bezeichnete er die sichergestellte Menge als „beachtlich\".\n\nAm Ende stehe für die Ermittler jedoch nicht zwingend die Verurteilung im Vordergrund, betonten beide Behördenvertreter übereinstimmend. Entscheidend sei die Wahrheit und deren Darlegung vor Gericht. „Das ist uns am Ende wichtig\", so Kaczynski und Osthoff.",
+            "created_at": "2026-03-16 17:38:31.879501"
+          },
+          {
+            "id": 184,
+            "article_id": 14,
+            "field_name": "roofline",
+            "chat_type": "generate",
+            "content": "Jahresbilanz der Justiz",
+            "created_at": "2026-03-16 17:38:33.478627"
+          },
+          {
+            "id": 185,
+            "article_id": 14,
+            "field_name": "headline",
+            "chat_type": "generate",
+            "content": "Staatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende",
+            "created_at": "2026-03-16 17:38:35.335738"
+          },
+          {
+            "id": 186,
+            "article_id": 14,
+            "field_name": "subline",
+            "chat_type": "generate",
+            "content": "Die Behörde verzeichnete 2024 einen Anstieg der Verfahren um sechs Prozent und bewältigte gleichzeitig die Einführung der elektronischen Akte als ersten grundlegenden Digitalisierungsschritt seit Jahrzehnten. Besonders besorgniserregend: Fälle von Kinder- und Jugendpornografie stiegen um mehr als 50 Prozent, während zwei aufsehenerregende Prozesse zu Falschgeld und Drogenhandel unmittelbar bevorstehen.",
+            "created_at": "2026-03-16 17:38:39.066921"
+          },
+          {
+            "id": 187,
+            "article_id": 14,
+            "field_name": "teaser",
+            "chat_type": "generate",
+            "content": "Die Staatsanwaltschaft Ingolstadt hat ihre Jahresbilanz vorgelegt: 35.406 neue Verfahren, ein Anstieg bei Geldwäsche, Verkehrsdelikten und Kinderpornografie sowie zwei bevorstehende Großprozesse — darunter ein Fall mit gefälschten Geldscheinen im Wert von 300.000 Euro und ein Drogenverfahren gegen mehrere albanische Staatsangehörige. Zugleich durchlief die Behörde einen tiefgreifenden Wandel im Arbeitsalltag, den Leitender Oberstaatsanwalt Nicolas Kaczynski als größten Transformationsprozess der vergangenen 70 Jahre bezeichnete.",
+            "created_at": "2026-03-16 17:38:43.403468"
+          },
+          {
+            "id": 188,
+            "article_id": 14,
+            "field_name": "subheadings",
+            "chat_type": "generate",
+            "content": "Jahresbilanz der Staatsanwaltschaft\nDigitale Zeitenwende in der Justiz\nHistorische Zäsur laut Behördenleiter\nFallzahlen steigen deutlich an\nAlarmierende Zuwächse bei Kriminalität\nSpektakuläre Einzelfälle des Jahres\nFalschgeldnetzwerk vor Gericht\nDrogenhandel albanischer Staatsangehöriger\nWahrheit als oberstes Ziel",
+            "created_at": "2026-03-16 17:38:46.641064"
+          },
+          {
+            "id": 189,
+            "article_id": 14,
+            "field_name": "tags",
+            "chat_type": "generate",
+            "content": "Staatsanwaltschaft Ingolstadt, Jahresbilanz, Digitalisierung, Elektronische Akte, Falschgeld, Drogenhandel, Kinder- und Jugendpornografie, Geldwäsche, Hatespeech, Strafverfolgung",
+            "created_at": "2026-03-16 17:38:48.928968"
+          }
+        ],
+        "latest_chat_by_field": {
+          "text": {
+            "id": 183,
+            "article_id": 14,
+            "field_name": "text",
+            "chat_type": "generate",
+            "content": "Digitalisierung, Falschgeld und Drogenhandel: Staatsanwaltschaft Ingolstadt zieht Jahresbilanz\n\nDie Staatsanwaltschaft Ingolstadt hat im vergangenen Jahr 35.406 neue Verfahren registriert und gleichzeitig einen der größten internen Transformationsprozesse ihrer Geschichte bewältigt. Leitender Oberstaatsanwalt Nicolas Kaczynski und Pressesprecherin Petra Osthoff präsentierten am Montagnachmittag beim Jahrespressegespräch die Bilanz der Behörde am Landgericht Ingolstadt. Neben einem deutlichen Anstieg bei Geldwäsche, Verkehrsdelikten und Kinder- sowie Jugendpornografie stehen zwei bedeutende Strafprozesse unmittelbar bevor.\n\nWas nach außen hin oft unsichtbar bleibt, hat die Behörde im vergangenen Jahr besonders gefordert: die Einführung der elektronischen Akte. Die Staatsanwaltschaften in Ingolstadt und Passau stellten im Dezember 2024 als erste Behörden in Bayern auf den digitalen Aktenbetrieb um, nachdem das Landgericht Ingolstadt bereits als Pilotbehörde in Sachen Digitalisierung vorangegangen war. Seit Januar dieses Jahres ist die elektronische Akte laut bayerischem Justizministerium flächendeckend im Freistaat eingeführt.\n\nKaczynski bezeichnete den Schritt als historische Zäsur: „Einen größeren Transformationsprozess gab es die vergangenen 70 Jahre nicht.\" Osthoff sprach von einer „Zeitenwende\", die neben schnellerer Abrufbarkeit für alle Beteiligten auch praktische Vorteile im Arbeitsalltag mit sich bringe, etwa die Möglichkeit zur Arbeit im Homeoffice. „Es sind nicht nur die großen Prozesse\", betonte Kaczynski. „Es sind eben auch solche organisatorischen Änderungen.\"\n\nDie Fallzahlen unterstreichen die Belastung der Behörde. Von den 35.406 neuen Verfahren richteten sich 21.300 gegen bereits bekannte, aktenkundige Personen, 14.106 gegen Unbekannte. Das entspricht einem Anstieg von sechs Prozent gegenüber dem Vorjahr. „In Bayern liegen wir damit im oberen Bereich\", so Kaczynski. Vor Gericht verbrachten die Ingolstädter Staatsanwältinnen und Staatsanwälte insgesamt 3.105 Stunden, wobei der langwierige sogenannte Goldschatz-Prozess rund um den Diebstahl aus dem Kelten- und Römermuseum in Manching im Landkreis Pfaffenhofen besonders hervorstach.\n\nBei den Kriminalitätsfeldern bewegt sich die Behörde im bayernweiten Trend, verzeichnet jedoch in einzelnen Bereichen deutliche Zuwächse. Geldwäscheverfahren stiegen um 15 Prozent, Verkehrsdelikte um 19 Prozent. Besonders alarmierend ist der Anstieg bei Kinder- und Jugendpornografie um mehr als 50 Prozent. „Das beschäftigt uns sehr\", sagte Kaczynski. Auch sogenannte Hatespeech-Verfahren nehmen zu: Allein 106 Fälle wurden 2025 registriert. Kaczynski betonte, dabei handle es sich nicht um einfache Beleidigungen, sondern um „komplexe Dinge\".\n\nZu den aufsehenerregenden Einzelfällen des vergangenen Jahres zählen falsche Polizeibeamte in der gesamten Region, eine versuchte Vergewaltigung mit einem anschließenden Schuss aus einem Pfeilschussgerät auf einen Retter in Ingolstadt, mehrere Brandstiftungen mit Benzin in den Landkreisen Neuburg-Schrobenhausen und Pfaffenhofen sowie ein Zugunfall in Reichertshausen im Landkreis Pfaffenhofen.\n\nZwei größere Prozesse stehen nun unmittelbar bevor. Im Fall einer Falschgeldoperation, bei der vier Männer aus Ingolstadt über den Messengerdienst Telegram gefälschte Geldscheine bestellt hatten, soll Ende des Monats Anklage erhoben werden. Eine bundesweite Zusammenarbeit der Ermittlungsbehörden führte zum Erfolg: Bei der Festnahme des Herstellers liefen laut Osthoff noch die Drucker. Der Mann hatte gemeinsam mit seiner Lebensgefährtin bereits 300.000 Euro Falschgeld in den Zahlungsverkehr eingebracht, eine noch größere Summe stand kurz bevor. „Die Qualität des Geldes war gut. Er hatte die Drucker so umgebaut, dass er diese herstellen konnte\", schilderte Osthoff.\n\nAm 28. April beginnt die Hauptverhandlung gegen mehrere albanische Staatsangehörige, denen der Handel mit Cannabis und Kokain vorgeworfen wird. Bei den Beschuldigten wurden drei Kilogramm Kokain sichergestellt. Kaczynski erläuterte, dass der Handel mit Betäubungsmitteln in nicht geringer Menge bereits im niedrigen zweistelligen Grammbereich beginne. Bei einem Straßenverkaufswert von rund 100 Euro pro Gramm und der zusätzlichen Streckbarkeit des Pulvers bezeichnete er die sichergestellte Menge als „beachtlich\".\n\nAm Ende stehe für die Ermittler jedoch nicht zwingend die Verurteilung im Vordergrund, betonten beide Behördenvertreter übereinstimmend. Entscheidend sei die Wahrheit und deren Darlegung vor Gericht. „Das ist uns am Ende wichtig\", so Kaczynski und Osthoff.",
+            "created_at": "2026-03-16 17:38:31.879501"
+          },
+          "roofline": {
+            "id": 184,
+            "article_id": 14,
+            "field_name": "roofline",
+            "chat_type": "generate",
+            "content": "Jahresbilanz der Justiz",
+            "created_at": "2026-03-16 17:38:33.478627"
+          },
+          "headline": {
+            "id": 185,
+            "article_id": 14,
+            "field_name": "headline",
+            "chat_type": "generate",
+            "content": "Staatsanwaltschaft Ingolstadt verzeichnet 35000 neue Verfahren und digitale Zeitenwende",
+            "created_at": "2026-03-16 17:38:35.335738"
+          },
+          "subline": {
+            "id": 186,
+            "article_id": 14,
+            "field_name": "subline",
+            "chat_type": "generate",
+            "content": "Die Behörde verzeichnete 2024 einen Anstieg der Verfahren um sechs Prozent und bewältigte gleichzeitig die Einführung der elektronischen Akte als ersten grundlegenden Digitalisierungsschritt seit Jahrzehnten. Besonders besorgniserregend: Fälle von Kinder- und Jugendpornografie stiegen um mehr als 50 Prozent, während zwei aufsehenerregende Prozesse zu Falschgeld und Drogenhandel unmittelbar bevorstehen.",
+            "created_at": "2026-03-16 17:38:39.066921"
+          },
+          "teaser": {
+            "id": 187,
+            "article_id": 14,
+            "field_name": "teaser",
+            "chat_type": "generate",
+            "content": "Die Staatsanwaltschaft Ingolstadt hat ihre Jahresbilanz vorgelegt: 35.406 neue Verfahren, ein Anstieg bei Geldwäsche, Verkehrsdelikten und Kinderpornografie sowie zwei bevorstehende Großprozesse — darunter ein Fall mit gefälschten Geldscheinen im Wert von 300.000 Euro und ein Drogenverfahren gegen mehrere albanische Staatsangehörige. Zugleich durchlief die Behörde einen tiefgreifenden Wandel im Arbeitsalltag, den Leitender Oberstaatsanwalt Nicolas Kaczynski als größten Transformationsprozess der vergangenen 70 Jahre bezeichnete.",
+            "created_at": "2026-03-16 17:38:43.403468"
+          },
+          "subheadings": {
+            "id": 188,
+            "article_id": 14,
+            "field_name": "subheadings",
+            "chat_type": "generate",
+            "content": "Jahresbilanz der Staatsanwaltschaft\nDigitale Zeitenwende in der Justiz\nHistorische Zäsur laut Behördenleiter\nFallzahlen steigen deutlich an\nAlarmierende Zuwächse bei Kriminalität\nSpektakuläre Einzelfälle des Jahres\nFalschgeldnetzwerk vor Gericht\nDrogenhandel albanischer Staatsangehöriger\nWahrheit als oberstes Ziel",
+            "created_at": "2026-03-16 17:38:46.641064"
+          },
+          "tags": {
+            "id": 189,
+            "article_id": 14,
+            "field_name": "tags",
+            "chat_type": "generate",
+            "content": "Staatsanwaltschaft Ingolstadt, Jahresbilanz, Digitalisierung, Elektronische Akte, Falschgeld, Drogenhandel, Kinder- und Jugendpornografie, Geldwäsche, Hatespeech, Strafverfolgung",
+            "created_at": "2026-03-16 17:38:48.928968"
+          }
+        }
+      },
+      "match_status": "matched"
+    }
+  ],
+  "filtered_out_low_score_items": [],
+  "unmatched_csv_entries": [
+    {
+      "sequence_index": 2,
+      "csv_row_number": 9,
+      "content_id": "20740840",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20740840",
+        "Schreibzeit für Artikeltext": "240",
+        "Schreibzeit für weitere Felder": "10",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "5",
+        "Qualitative Artikeleinschätzung (1-5)": "5",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "0",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20740840,
+        "content_name": "Präsidium Ingolstadt stellt Kriminalstatistik vor: Immer noch viel Gewalt unter Kindern-20740840",
+        "published_date": "2026-03-17 19:23:56",
+        "h1": "Präsidium Ingolstadt stellt Kriminalstatistik vor: Immer noch viel Gewalt unter Kindern",
+        "intro": null,
+        "line_head": "Präsidium Ingolstadt stellt Kriminalstatistik vor: Immer noch viel Gewalt unter Kindern",
+        "line_roof": "Generell hohe Aufklärungsquote",
+        "line_sub": null,
+        "origin_id": "29-136663397",
+        "paywall_active": 1,
+        "paywall_teaser": "Weniger Straftaten, eine höhere Aufklärungsquote, rückläufige Kriminalität bei Jugendlichen. Dennoch treibt die amtierende Präsidentin des Polizeipräsidiums Oberbayern Nord mit Sitz in Ingolstadt dieselbe Sorge um, wie bereits ihren Vorgänger: der Höchststand bei Straftaten unter Kindern bleibt.",
+        "seo_description": "Weniger Straftaten, eine höhere Aufklärungsquote, rückläufige Kriminalität bei Jugendlichen. Dennoch treibt die amtierende Präsidentin des Polizeipräsidiums Oberbayern Nord mit Sitz in Ingolstadt dieselbe Sorge um, wie bereits ihren Vorgänger: der Höchststand bei Straftaten unter Kindern bleibt.",
+        "seo_title": "Präsidium Ingolstadt stellt Kriminalstatistik vor: Immer noch viel Gewalt unter Kindern",
+        "text": "Weniger Straftaten, eine höhere Aufklärungsquote, rückläufige Kriminalität bei Jugendlichen. Dennoch treibt die amtierende Präsidentin des Polizeipräsidiums Oberbayern Nord mit Sitz in Ingolstadt dieselbe Sorge um, wie bereits ihren Vorgänger: der Höchststand bei Straftaten unter Kindern bleibt – wenn auch minimal geringer geworden.\n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script> <link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\"> <glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dh486t4kgjo1\"> </glomex-integration>falseGlomex (ohne 2-Klick)Kerstin Schaller präsentiert am Dienstagvormittag zum ersten Mal in ihrer Amtszeit die Kriminalstatistik für das vergangene Jahr – gemeinsam mit dem leitenden Kriminaldirektor Bernd Dominik sowie dem Chef der Polizeiinspektion (PI) Ingolstadt Tobias Uschold. Schaller und Dominik gehen in ihren Ausführungen auf die Tendenzen und Zahlen des gesamten Präsidialbereichs ein – Uschold hingegen, zwar ist er auch für das Umland zuständig, beschränkt sich hauptsächlich auf das Stadtgebiet. \nHäusliche GewaltNeben massiven Schäden durch Telefonbetrug wird erstmals der Fokus auf häusliche Gewalt gelegt. „Die Statistik aber behandelt nur angezeigte Fälle. Es gibt daher ein hohes Dunkelfeld“, so Dominik. 2880 waren es im gesamten Gebiet 2025. Bei Gewalttaten liege es, so vermuten die Beamten, in etwa 30-fach höher. „Bei Beleidigungen haben wir wahrscheinlich in etwa 80 Mal so viele Fälle. Das Problem ist deutlich höher, als es die Zahlen vermuten lassen.“ \n Embed<div class=\"flourish-embed flourish-chart\" data-src=\"visualisation/28104201\"><script src=\"https://public.flourish.studio/resources/embed.js\"></script><noscript><img src=\"https://public.flourish.studio/visualisation/28104201/thumbnail\" width=\"100%\" alt=\"visualization\" /></noscript></div>falseRAWWenn auch die „Straftaten gegen das Leben“ mit 37 Fällen einen neuen Tiefststand erreicht hätten. Und: „Die Aufklärungsquote liegt nahezu bei 100 Prozent“, so der Kriminaldirektor weiter. Rund die Hälfte davon stehe im Zusammenhang eben mit häuslicher Gewalt. Ein Beispiel, das aufgrund von Ermittlungen allerdings noch nicht in die Statistik eingeflossen und an die Staatsanwaltschaft übergeben ist, sei der Femizid im Piusviertel im Dezember. Ein damals 49-Jähriger erstach seine Ex-Partnerin (45) vor den Augen der gemeinsamen Söhne.\nStrukturwandel bei TatenEine von 59.951 Straftaten im Präsidialbereich 2025. In Ingolstadt erfasste die PI 9466 (ohne ausländerrechtliche Delikte wie illegale Einreise oder Verstöße gegen die Aufenthaltsbestimmungen beispielsweise). 154 Fälle mehr als im Vorjahr, meint Uschold. Aber: „Sieben von zehn Straftaten werden aufgeklärt.“ Die Quote liege in der Stadt ebenfalls bei 70,7 Prozent. „Ein guter Wert für eine Großstadt. Wir liegen damit über dem in Bayern.“ \nWährend Diebstähle in Ingolstadt (2680, Rückgang um 410 Fälle) die häufigsten Delikte bleiben, ist es im Zuständigkeitsbereich des Präsidiums erstmals abgelöst worden. „Da gibt es einen Strukturwandel“, sagt die Präsidentin. Mittlerweile sei die Rubrik „sonstige“ führend – darunter fielen unter anderem Sachbeschädigung, Hausfriedensbruch und Beleidigungen.\nGruppen verhaftetIn zwei Bereichen, die die Bewohner der Schanz umtrieben, haben Festnahmen zu einer deutlichen Entspannung geführt, referiert Uschold. Zum einen bei Fahrraddiebstählen, die zwar bereits weniger wurden und sich 2025 um knapp 240.000 Euro Schaden verringerten. „Wir haben außerdem zwei Gruppen jugendlicher Intensivtäter verhaftet.“\nDiese sollen vor allem motorisierte Zweiräder gestohlen haben. Zum anderen seien fünf Männer aus Bosnien-Herzegowina festgenommen worden, die laut Polizei für eine Wohnungseinbruchsserie verantwortlich waren. Uschold: „Danach folgte ein signifikanter Rückgang.“ \nKinder als TäterDen gab es auch bei den unter 21-Jährigen, sagt zuvor Präsidentin Schaller. Allerdings: „Der Wert der tatverdächtigen Kinder ist innerhalb der vergangenen zehn Jahre um mehr als 80 Prozent gestiegen.“ Schallers Vorgänger im Amt, Günther Gietl, hatte im vergangenen Jahr noch von einem „geänderten Anzeigeverhalten“ gesprochen, von Gruppenzwang und Arglosigkeit. Doch damit, vor allem aber dem demografischen Wandel, so die Polizeipräsidentin, sei es nicht erklärbar. Die Beamten setzen weiterhin verstärkt auf Präventionsarbeit. \n46 Fälle von Körperverletzungen hat es an Ingolstädter Schulen 2025 gegeben, ergänzt Uschold. 35 einfache, acht gefährliche und drei fahrlässige. Ein Fall mehr als im Vorjahr. „Das verteilt sich auf sämtliche Schularten im gesamten Stadtgebiet. Eine Häufung sehen wir aber an den Mittelschulen“, so der PI-Chef. Bei den Kindern sei zudem Sachbeschädigung, vor allem aber die Verbreitung von kinderpornografischen Inhalten – trotz minimalen Rückgangs – der größte Anteil, sagt die Präsidentin.\nTatort AuslandUschold vermag dennoch zu beruhigen: Zwar gebe es einen generellen Anstieg bei den Straftaten. „Es herrscht dennoch ein hoher Sicherheitsstandard. Die Bürger können sich sicher fühlen. Kriminell werden lohnt sich in Ingolstadt nicht.“ Doch die Täter seien mittlerweile oftmals gar nicht mehr vor Ort, weiß die Präsidentin. „Die Schwerpunkte verlagern sich teils ins Ausland.“ \nVor allem Betrugsmaschen via Telefon, erläutert Kriminaldirektor Dominik. „Das steigt unaufhaltsam.“ Im Vergleich zum Vorjahr sei der Schaden bereits jetzt – Stand März – bei 80 Prozent. Vor allem durch Anlagen- und Callcenterbetrug, Schockanrufe und falsche Polizeibeamte. Mittlerweile werden häufig hohe Beträge Zuhause aufbewahrt, nicht mehr bei der Bank.\n Embed<div class=\"flourish-embed flourish-chart\" data-src=\"visualisation/28103160\"><script src=\"https://public.flourish.studio/resources/embed.js\"></script><noscript><img src=\"https://public.flourish.studio/visualisation/28103160/thumbnail\" width=\"100%\" alt=\"visualization\" /></noscript></div>falseRAWAus dem Archiv: Diebstahl bleibt Straftat Nummer eins – Polizeipräsidium Ingolstadt stellt Kriminalstatistik vor\nMesserattackenWas in der Öffentlichkeit ebenfalls für viel Aufmerksamkeit sorgt, sind Angriffe mit Messern. Im subjektiven Empfinden werden sie immer mehr – die Zahlen geben das jedoch nur selten her. So hatte die Polizei für 2024 eine sogenannte Qualitätssicherung vorgenommen, sprich, erstmals vollendete Delikte mit Stich registriert.\n„Da haben wir im Vergleich zu 2025 einen Rückgang von mehr als zehn Prozent. Von 132 auf 120 Fälle“, sagt Dominik. Für das vergangene Jahr sei dann auch Mitführen und Bedrohen mit Messern aufgenommen worden, wo die Waffe jedoch nicht zum Einsatz gekommen ist. Daher sei die Gesamtzahl steigend, von 52 auf 191, so der Kriminalbeamte. Aber: Keine tatsächliche Steigerung, weil erstmalig beide Bereiche hier erfasst worden sind.\nPI-Chef Uschold ergänzt für die Stadt: 2024 habe es 36 Taten gegeben, 2025 einen Anstieg auf 48. „Ganz wichtig: die Bedrohungen stiegen von zehn auf 34 Taten an – die sind für den Gesamtanstieg verantwortlich.“ Im öffentlichen Raum hätten die Angriffe um drei auf 20 abgenommen. \nKünftige Angleichungen?Teils ähnliche Tendenzen, teils andere Schwerpunkte im Vergleich zwischen Zuständigkeitsbereich des Präsidiums und der größten Stadt darin. Ob sich diese in diesem Jahr annähern, werden die Zahlen beim Pressegespräch, das voraussichtlich wieder im März angesetzt wird, 2027 zeigen."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 3,
+      "csv_row_number": 10,
+      "content_id": "20762314",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20762314",
+        "Schreibzeit für Artikeltext": "90",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "0",
+        "Kommentar": "eigenen Titel verwendet"
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20762314,
+        "content_name": "Immer mehr Kokain auf Ingolstadts Straßen – Menge der beschlagnahmten Drogen steigt enorm-20762314",
+        "published_date": "2026-03-20 16:02:22",
+        "h1": "Immer mehr Kokain auf Ingolstadts Straßen – Menge der beschlagnahmten Drogen steigt enorm",
+        "intro": null,
+        "line_head": "Immer mehr Kokain auf Ingolstadts Straßen – Menge der beschlagnahmten Drogen steigt enorm",
+        "line_roof": "Polizei veröffentlicht Zahlen",
+        "line_sub": null,
+        "origin_id": "29-136733099",
+        "paywall_active": 1,
+        "paywall_teaser": "Die Toilettenspülung verrät viel mehr, als man meinen könnte. Zumindest das, was danach analysiert werden kann. So hat das neueste Abwassermonitoring ergeben, dass in Europa und Deutschland vor allem Kokain immer weiter auf dem Vormarsch ist. Auch in Ingolstadt steigen die Zahlen. Doch was das Polizeipräsidium Oberbayern Nord im vergangenen Jahr an Betäubungsmitteln im Vergleich noch zu 2023 beschlagnahmt hat, ist enorm. Grafiken zeigen den teils massiven Anstieg.",
+        "seo_description": "Die Toilettenspülung verrät viel mehr, als man meinen könnte. Zumindest das, was danach analysiert werden kann. So hat das neueste Abwassermonitoring ergeben, dass in Europa und Deutschland vor allem Kokain immer weiter auf dem Vormarsch ist. Auch in Ingolstadt steigen die Zahlen. Doch was das Polizeipräsidium Oberbayern Nord im vergangenen Jahr an Betäubungsmitteln im Vergleich noch zu 2023 beschlagnahmt hat, ist enorm. Grafiken zeigen den teils massiven Anstieg.",
+        "seo_title": "Immer mehr Kokain auf Ingolstadts Straßen – Menge der beschlagnahmten Drogen steigt enorm",
+        "text": "Die Toilettenspülung verrät viel mehr, als man meinen könnte. Zumindest das, was danach analysiert werden kann. So hat das neueste Abwassermonitoring ergeben, dass in Europa und Deutschland vor allem Kokain immer weiter auf dem Vormarsch ist. Auch in Ingolstadt steigen die Zahlen. Doch was das Polizeipräsidium Oberbayern Nord im vergangenen Jahr an Betäubungsmitteln im Vergleich noch zu 2023 beschlagnahmt hat, ist enorm. Grafiken zeigen den teils massiven Anstieg.\n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script>\n<link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\">\n<glomex-integration\n integration-id=\"eexbs17joe8g29x\"\n playlist-id=\"v-dawjj0aehhup\">\n</glomex-integration>falseGlomex (ohne 2-Klick)Gefühlt wird das Rauschgift, das hauptsächlich aus Südamerika nach Europa gelangt, salonfähig gemacht. Gerade in der Musikszene sprechen immer mehr Stars über ihren exorbitanten Konsum. Zuletzt rückte die Netflix-Dokumentation über den Rapper Haftbefehl und dessen Absturz, die Millionen von Menschen sahen, das weiße Pulver in den Fokus.\nIm Zuständigkeitsbereich des Polizeipräsidiums Oberbayern Nord mit Sitz in Ingolstadt haben Beamte im vergangenen Jahr laut jüngst veröffentlichter Kriminalstatistik 9335,40 Gramm sichergestellt – im Vergleich zu 2023 (die Daten von 2024 sind in den Unterlagen nicht enthalten) ein enormer Anstieg. Damals lag die Menge bei 1537,24 Gramm. \nZum ersten Mal waren es mehr als 100 Kilogramm.Bernd Dominik, leitender Kriminaldirektor PP Oberbayern Nord\nZwar sinkt die Rauschgiftkriminalität weiter. Das hat allerdings mit der Teil-Legalisierung von Cannabis zu tun, sagte der leitende Kriminaldirektor Bernd Dominik während der Vorstellung der Statistik am Dienstagvormittag im Präsidium. In diese sei bei den Daten des vergangenen Jahres nun das erste vollständige Jahr nach der Gesetzesänderung im April 2024 eingeflossen. \nDas Ergebnis: Ein Rückgang bei den Delikten, aber eine Steigerung bei den sichergestellten Drogen. 101.478,31 Gramm waren es 2025 – 2023 hingegen noch 86.936,57 Gramm. „Zum ersten Mal waren es mehr als 100 Kilogramm“, so der Kriminalpolizist. Durch den teils legal gewordenen Konsum und Besitz hätte es die Polizei mittlerweile mit einem „florierenden Schwarzmarkt“ zu tun.\n Embed<div class=\"flourish-embed flourish-chart\" data-src=\"visualisation/28125357\"><script src=\"https://public.flourish.studio/resources/embed.js\"></script><noscript><img src=\"https://public.flourish.studio/visualisation/28125357/thumbnail\" width=\"100%\" alt=\"visualization\" /></noscript></div>falseRAWIn Ingolstadt wurden 2025, so berichtet Präsidiums-Chefpressesprecher Reinhard Kolb auf Nachfrage, 22,5 Kilogramm Haschisch beziehungsweise Marihuana sowie mehr als 40 Cannabispflanzen sichergestellt. Bei einer Einzelaktion seien es allein 14,5 Kilogramm gewesen. Während die Delikte im Präsidialbereich sinken, steigen sie in Ingolstadt wieder leicht an: von 424 auf 466 Fälle.\nLesen Sie auch: Präsidium Ingolstadt stellt Kriminalstatistik vor – Immer noch viel Gewalt unter Kindern\nAuffällig, auch im Zuständigkeitsbereich des Präsidiums (zehn Landkreise plus die Stadt Ingolstadt sowie der Münchener Flughafen), sei eine „signifikante Verschiebung hin zu den ,harten' Drogen“, heißt es in der verschriftlichten Kriminalstatistik. Allein mit einem Anstieg im Präsidialbereich um 41,1 Prozent bei Kokain als „häufigste Substanz“. In Ingolstadt waren es 2024 noch 55 Fälle – im darauffolgenden Jahr 199. Ein Anstieg um 261,8 Prozent. Rund fünf Kilogramm wurden in der oberbayerischen Großstadt sichergestellt. \nDavon rund 3,1 Kilogramm bei der Festnahme einer albanischen Tätergruppe, gegen die die Kriminalpolizeiinspektion ermittelte. „Die Auswertung der Beweismittel generiert weitere Verfahren gegen Abnehmer und weitere Händler.“ \nJahrespressegespräch bei Ingolstädter Ermittler: Intern Digitalisierung, extern Geldfälscher und Vergewaltiger – Staatsanwaltschaft resümiert 2025\nDie Drogen seien „in sogenannten Bunkerwohnungen und im Rahmen von Postbeschlagnahmen aufgefunden worden“, so Kolb. 1,6 Kilogramm Kokain wurde „in einem Schmuggel- beziehungsweise Kurierfahrzeug in einem speziell angefertigten Versteck“ entdeckt.\nZwar stiegen bis auf Ecstasy im Präsidialbereich alle Werte der sichergestellten Mengen an. Weil aber der Opiumhandel stark zurückgegangen sei, „insbesondere durch drastische Verfolgungsmaßnahmen in den Herstellungs- beziehungsweise Ursprungsländern“, sei der Anstieg von Kokain in Europa auf „betriebswirtschaftliche Gründe“ sowie eine veränderte Nachfragesituation zurückzuführen.\n Embed<div class=\"flourish-embed flourish-chart\" data-src=\"visualisation/28138445\"><script src=\"https://public.flourish.studio/resources/embed.js\"></script><noscript><img src=\"https://public.flourish.studio/visualisation/28138445/thumbnail\" width=\"100%\" alt=\"visualization\" /></noscript></div>falseRAWKokain werde „in der Hauptsache von albanischen Tätergruppen“ auf der Straße verkauft. Kolb: „Wo diese, wie in Ingolstadt, stark vertreten sind, steigt auch die Verfügbarkeit.“ Zudem habe sich der Internethandel sowie der Postversand stark erhöht. \n Embed<div class=\"flourish-embed flourish-chart\" data-src=\"visualisation/28125446\"><script src=\"https://public.flourish.studio/resources/embed.js\"></script><noscript><img src=\"https://public.flourish.studio/visualisation/28125446/thumbnail\" width=\"100%\" alt=\"visualization\" /></noscript></div>falseRAWDie hohen sichergestellten Mengen wiederum resultierten aus konzentrierten Ermittlungen gegen Hintermänner und Händler statt Konsumenten. Laut Kriminalstatistik setze sich der Trend fort, „dass bei zunehmend weniger Ermittlungsverfahren wegen Handelsdelikten immer mehr Betäubungsmittel sichergestellt werden“. \n Embed<div class=\"flourish-embed flourish-chart\" data-src=\"visualisation/28104201\"><script src=\"https://public.flourish.studio/resources/embed.js\"></script><noscript><img src=\"https://public.flourish.studio/visualisation/28104201/thumbnail\" width=\"100%\" alt=\"visualization\" /></noscript></div>falseRAWDas Kokain komme über Südamerika nach Spanien, in die Niederlande sowie nach Italien und werde von dort aus auch nach Deutschland eingeführt. Die durch die Ermittler sichergestellten Drogen seien allerdings jeweils nur ein „Bruchteil der tatsächlich gehandelten und gerichtsverwertbaren Menge“, so Kolb abschließend. \nEs bleibt daher zu vermuten, vor allem nach den neuesten Abwasserauswertungen, dass Nachfrage und Konsum auch künftig hoch bleiben. Am meisten wird im Übrigen nach wie vor in Frankfurt am Main konsumiert. Laut einer Studie enthielten die Proben 70 Prozent mehr Rückstände als noch 2017."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 4,
+      "csv_row_number": 11,
+      "content_id": "20851612",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20851612",
+        "Schreibzeit für Artikeltext": "45",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20851612,
+        "content_name": "Neue Spritpreisregel: Ansturm auf Tankstellen in Ingolstadt am Vormittag bleibt aus-20851612",
+        "published_date": "2026-04-01 20:47:26",
+        "h1": "Neue Spritpreisregel: Ansturm auf Tankstellen in Ingolstadt am Vormittag bleibt aus",
+        "intro": null,
+        "line_head": "Neue Spritpreisregel: Ansturm auf Tankstellen in Ingolstadt am Vormittag bleibt aus",
+        "line_roof": "Nach 12 Uhr teils hoher Anstieg",
+        "line_sub": null,
+        "origin_id": "29-137113082",
+        "paywall_active": 1,
+        "paywall_teaser": "Ein Mitarbeiter an einer der Tankstellen erzählte im Gespräch mit dem DONAUKURIER von den zahlreichen „kleinen Einkäufen“, wie Kunden „perfekt und auf den Cent genau“ tankten. Es habe beinahe den Anschein, als würden viele derzeit nur noch „im absoluten Notfall volltanken“.",
+        "seo_description": "Ein Mitarbeiter an einer der Tankstellen erzählte im Gespräch mit dem DONAUKURIER von den zahlreichen „kleinen Einkäufen“, wie Kunden „perfekt und auf den Cent genau“ tankten. Es habe beinahe den Anschein, als würden viele derzeit nur noch „im absoluten Notfall volltanken“.",
+        "seo_title": "Neue Spritpreisregel: Ansturm auf Tankstellen in Ingolstadt am Vormittag bleibt aus",
+        "text": "Der große Andrang ist ausgeblieben. Zumindest in Ingolstadt. Nachdem die Bundesregierung vor rund einer Woche neue Spritpreisregeln verabschiedet hat, sind diese am Mittwoch erstmals in Kraft getreten. Demnach dürfen Tankstellen nur noch einmal am Tag – Punkt 12 Uhr mittags – erhöhen. Reduzieren hingegen beliebig oft. \n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script> <link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\"> <glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dhdmv4em4l0p\"> </glomex-integration>falseGlomex (ohne 2-Klick)Experten zufolge könnten sich die Zeiten, in denen der Sprit über den Tag am günstigsten zu bekommen ist, verschieben. Und zwar vom Abend hin auf den Vormittag, hieß es. Womöglich aber beginnt der Preiskampf auch bereits wieder am späten Nachmittag. So genau lässt sich der Verlauf bislang noch nicht prognostizieren. Kurz nach elf Uhr am Mittwoch jedenfalls herrscht an mehreren Tankstellen im Ingolstädter Süden Normalbetrieb. Keine langen Schlangen, kein erbittertes Gerangel um die Zapfsäule, um noch den vermeintlich billigeren Liter bis Mittag in den Tank zu füllen. \nOb das allerdings mit dem Umstand zusammenhängt, dass viele Autofahrer noch am Dienstagabend vollgetankt haben, ist unklar. Das berichteten zumindest laut unterschiedlicher Medienberichte mehrere Tankstellenbetreiber. Vereinzelt nur fuhren am Mittwoch in Ingolstadt Autos kurz vor Mittag an die Zapfsäulen. Auffällig: Viele tankten für ausschließlich 20 Euro. Der Preis-Spitzenreiter Diesel hingegen war da nur selten gefragt. Bis zu 2,30 Euro kostete der Liter zu diesem Zeitpunkt – nach 12 Uhr stieg der Preis laut ADAC im Schnitt deutschlandweit um rund 7,5 Cent auf 2,376 Euro, bei Super E10 um etwa 7,6 Cent auf 2,175 Euro.\nViele tanken für 20 EuroEin Mitarbeiter an einer der Tankstellen erzählte im Gespräch mit dem DONAUKURIER von den zahlreichen „kleinen Einkäufen“, wie Kunden „perfekt und auf den Cent genau“ tankten. „Bevor man den Preis von exakt 20 Euro sagen konnte, hatten die schon den blauen Schein gezückt“, so der Angestellte. Es habe beinahe den Anschein, als würden viele derzeit nur noch „im absoluten Notfall volltanken“. Ob die neue Regelung am Ende die erhoffte Entlastung bringt, ist allerdings fraglich. \nAuch, wie sich das Preisniveau an den Tankstellen im Tagesverlauf verändert. Möglich ist es laut Modellen auch, dass sowohl der Abend als auch der Vormittag von den Konzernen genutzt werden, um Kunden anzulocken. Ab mittags wird dann bis zum späten Nachmittag mit entsprechend hohen Preisen zu rechnen sein. \n{\"images\": [\"29-137121384.jpg\"]}Deutschland orientiert sich mit der neuen Vorgabe für die Einmalerhöhung pro Tag am Nachbarland Österreich. Seit der Eskalation im Nahen Osten, nachdem USA gemeinsam mit Israel Iran im Februar angegriffen hat, dabei unter anderem Ölfelder und Raffinerien beschädigten und Infrastruktur zerstörten, stiegen erneut weltweit die Rohöl- und Energiepreise. Andere Länder reagierten sofort, die Bundesrepublik hat sich jüngst dazu entschlossen, gegen die massiven Preissprünge vorzugehen. \nZuletzt forderte Präsident Donald Trump die Nato dazu auf, gemeinsam mit den US-Streitkräften die Blockade der wichtigen Handelsroute, der Straße von Hormus, zu beenden. Die europäischen Partnernationen weigerten sich jedoch, was zudem den Konflikt zwischen den Vereinigten Staaten und dem westlichen Verteidigungsbündnis erneut verschärfte. Wann und ob die Spritpreise also auch hierzulande wieder spürbar fallen, ist derzeit nicht abzusehen. \nJule Grajewski & Michael Häußler"
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 5,
+      "csv_row_number": 12,
+      "content_id": "20848426",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20848426",
+        "Schreibzeit für Artikeltext": "30",
+        "Schreibzeit für weitere Felder": "7",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "2",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20848426,
+        "content_name": "Das Karma der Gehirnaussetzer-20848426",
+        "published_date": "2026-04-01 12:46:12",
+        "h1": "Das Karma der Gehirnaussetzer",
+        "intro": null,
+        "line_head": "Das Karma der Gehirnaussetzer",
+        "line_roof": "Stadtgeflüster",
+        "line_sub": "Die tägliche Glosse des Donaukurier für Ingolstadt",
+        "origin_id": "29-137113075",
+        "paywall_active": 1,
+        "paywall_teaser": "In gewissen Drucksituationen oder angespannten Verhältnissen sind Gehirnaussetzer nicht unüblich. So zumindest die Hoffnung, dass es anderen genauso geht. Zum Teil geschehen die absurdesten Dinge, die später in der Rückschau kaum noch nachzuvollziehen sind. Aber wehe, man erfreut sich zu sehr daran.",
+        "seo_description": "In gewissen Drucksituationen oder angespannten Verhältnissen sind Gehirnaussetzer nicht unüblich. So zumindest die Hoffnung, dass es anderen genauso geht. Zum Teil geschehen die absurdesten Dinge, die später in der Rückschau kaum noch nachzuvollziehen sind. Aber wehe, man erfreut sich zu sehr daran.",
+        "seo_title": "Das Karma der Gehirnaussetzer",
+        "text": "In gewissen Drucksituationen oder angespannten Verhältnissen sind Gehirnaussetzer nicht unüblich. So zumindest die Hoffnung, dass es anderen genauso geht. Zum Teil geschehen die absurdesten Dinge, die später in der Rückschau kaum noch nachzuvollziehen sind. \n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script>\n<link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\">\n<glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dbx3ylrjz901\">\n</glomex-integration>falseGlomex (ohne 2-Klick)Und der reflektierte Blick tut weh, ein Eigenurteil wiegt oft schwer. Ganz freizumachen ist man selbst auch nicht, wenn es anderen passiert, dass irgendwo – neben Mitleid und mitfühlendem Wohlwollen – ein klitzekleines bisschen die Schadenfreude mitschwingt. Oder sagen wir lieber die Erleichterung darüber, dass auch andere mal neben sich stehen. \nFolgende Szene: Termin beim Polizeipräsidium in Ingolstadt. Auch als „Irgendwas-mit-Medien-Mensch“ kommt man in den abgesicherten Bunker nicht so ohne Weiteres rein. Ein „Servus“ oder „Hände hoch“ reicht da nicht aus. Heißt: Äußerst pünktlich da sein, denn am Eingang kann es durchaus auch mal länger dauern. Denn wer hier rein „will“, tut das oft – mutmaßlich – mit wenig Freude. Wir reden aber vom Vordereingang, nicht mit Händen auf dem Rücken irgendwo hinten am Gebäude. Dann ist der Spaß garantiert noch gedämpfter. \nZwar ist der sprichwörtliche Freund und Helfer ein Guter. Terminen oder Vorsprechen hier an der Esplanade gehen aber vermutlich eher unschöne Ereignisse voraus. Durch die Tür gehen ist noch einfach. Dann aber folgt ein zweigeteilter Eingangsbereich – mit viel Glas, einem hinter noch viel dickerem sitzender uniformierter oder ziviler Beamte (oder Angestellter). Die Gegensprechanlage ist für beide Seiten herausfordernd. Wenn der Erstkontakt passt, folgt die nächste Prüfung: „Gehen Sie bitte durch die Drehtür.“ Im Endeffekt ist es nur reinstehen und kleine Schritte machen, sobald diese aufschwingt. \nWeitere Stadtgeflüster finden Sie auf der Sonderseite\nMuss man aber wissen. Da wird gedrückt, gewartet, dagegengelaufen, mit den Schultern gezuckt, mit verzweifeltem Blick nach Hilfe gesucht. Neulich war’s für Fortgeschrittene. Der Mann hinter Glas stellte die Aufgabe: „Gehen Sie durch die Drehtür und zeigen Sie Ihren Ausweis.“ Eigentlich war die Reihenfolge inbegriffen. Für Angestellte aber gibt es an der Tür, die vom Hinter-Glas-Mann in der Regel bedient wird, einen Scanner. Für Ausweise. Nicht für Personalausweise. Also doch, schon. Aber eben nur für, ja. Personal eben. \nDie nationale Identifikationskarte einer Frau ließ die Schwingtür unbeeindruckt. Dann doch drücken und hilfesuchend umherschauen. Mit etwas Glück steht jemand in unmittelbarer Nähe, der hilft. Denn Karma ist in jedem Fall eins: zuverlässig."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 6,
+      "csv_row_number": 13,
+      "content_id": "20842939",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20842939",
+        "Schreibzeit für Artikeltext": "90",
+        "Schreibzeit für weitere Felder": "10",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "5",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20842939,
+        "content_name": "xxxx-20842939",
+        "published_date": "2026-03-31 19:15:44",
+        "h1": "Stoff für Legenden: Audi zeigt in neuer Sonderausstellung in Ingolstadt Designs und Knetautos",
+        "intro": null,
+        "line_head": "xxxx",
+        "line_roof": "Mit Video",
+        "line_sub": null,
+        "origin_id": "29-137089565",
+        "paywall_active": 1,
+        "paywall_teaser": "Nach 20 Jahren gibt es wieder eine Sonderausstellung zum Thema Design im Ingolstädter Museum Mobile bei Audi. Konzeptstudien, Showcars und Autos aus Schaum und Knetmasse zeigen, wie Fahrzeuge Schicht für Schicht entstehen und warum sie oftmals nicht für die Serie gedacht sind. Und dennoch die Zeit überdauern.",
+        "seo_description": "Nach 20 Jahren gibt es wieder eine Sonderausstellung zum Thema Design im Ingolstädter Museum Mobile bei Audi. Konzeptstudien, Showcars und Autos aus Schaum und Knetmasse zeigen, wie Fahrzeuge Schicht für Schicht entstehen und warum sie oftmals nicht für die Serie gedacht sind. Und dennoch die Zeit überdauern.",
+        "seo_title": "Stoff für Legenden: Audi zeigt in neuer Sonderausstellung in Ingolstadt Designs und Knetautos",
+        "text": "Der Stoff, aus dem Legenden gemacht werden. Im Fall von Audi ist das heute hauptsächlich Plastilin, eine Art Knetmasse, basierend auf Wachs. Denn oftmals entscheiden gar nicht Motor oder Leistung eines Autos, ob es im Gedächtnis bleibt. Viel eher übernimmt das die Optik. \n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script>\n<link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\">\n<glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dhh12tg7tlmh\">\n</glomex-integration>falseGlomex (ohne 2-Klick)Der Automobilhersteller mit den vier Ringen widmet seinen „Design Legenden“ derzeit eine eigene Sonderausstellung im Museum Mobile. Noch bis zum 12. Juli stehen hier Showcars und Konzeptstudien, die bereits beim Presserundgang am Dienstagvormittag großes Interesse der Besucher auf sich ziehen und auf dutzenden Mobiltelefonen in den Fotogalerien digital verewigt sind. Aber auch ein sogenanntes Stufenmodell.\nUnd das hat es später sogar auf die Straße geschafft – als e-tron GT. Sein modellierter Vorgänger steht auf einer Plattform – seziert in sämtliche Vorstufen seines Aussehens. „Wir bauen immer 1:1-Modelle“, erzählt Eike Aden, Projektsteuerung Design bei Audi. „Ansonsten bräuchten wir Maßstab-Augen“, ergänzt er. Die Schaum-Autos seien lackierbar, das Wachs härte zudem nie vollständig aus.\nVöllig frei in ihrer „Kunst“ sind die Designer da nicht. „Es ist eher so ein Mittelding“, so Aden. Denn es gebe viele Vorgaben. „Es geht um Kopffreiheit, um das Crashverhalten, um Sichtwinkel des Blinkers, um Technik, um Licht und Schattenwurf“, zählt er auf. Fünf von vielen zu beachtenden Kriterien. Auch die Sitze und Felgen beispielsweise gehören dazu. „Bis zu einem Jahr arbeiten wir zum Teil im Plastilin. Oft auch für den Mülleimer.“ Denn zunächst würden viele Designs entstehen – auch gezeichnet oder mithilfe von KI, „dann wird es nach und nach raffinierter“.\nAuch interessant: Heimspiel an der Piazza in Ingolstadt – CEO Döllner enthüllt den Audi RS5\nDoch ob PB 18 e-tron von 2018, das Shooting Brake concept von 2005 oder der Avus quattro von 1991 – in Serie ging keines von ihnen. „Warum sind viele dieser wunderschönen Autos nicht gebaut worden?“, will ein Besucher von Kurator Stefan Felber wissen, der jedes Fahrzeug einzeln bei diesem Rundgang aus dem Kopf umfassend vorstellt. Einige der Gäste nutzen die Gunst direkt und hören immer mal wieder rein – geballter werden sie die Informationen nirgendwo anders bekommen. Das habe viele Gründe, meint Felber daraufhin. „Ein Großteil galt als Plattform, als Träger für Details. Sie sind dann sozusagen in Teilen entstanden.“ \nNach den „Grand Prix Legenden“, der Vorgängersonderausstellung, nun also die des Designs. „Die Formel 1 läuft jetzt ohne uns und wir besinnen uns auf die Historie.“ Denn die Frage nach berühmten vorzeigbaren Optiken sei häufig von Besuchern gestellt worden. Felber: „Holen wir immer wieder gern aus dem Lager.“ Und dennoch sind mittlerweile 20 Jahre vergangen, seit laut eines Pressetexts „Audi dem Thema Designstudien eine eigene Ausstellung gewidmet“ habe. „Die Modelle zeigen, wie sich Designer das Auto der Zukunft vorgestellt haben“, sagt Felber. \n{\"images\": [\"29-137091851.jpg\",\"29-137091852.jpg\",\"29-137091853.jpg\",\"29-137091854.jpg\",\"29-137095915.jpg\",\"29-137095916.jpg\",\"29-137095917.jpg\",\"29-137095918.jpg\",\"29-137095919.jpg\",\"29-137095920.jpg\",\"29-137095921.jpg\",\"29-137095922.jpg\",\"29-137095923.jpg\",\"29-137095924.jpg\",\"29-137095925.jpg\",\"29-137095926.jpg\",\"29-137095927.jpg\",\"29-137095928.jpg\",\"29-137095929.jpg\",\"29-137095930.jpg\"]}Lesen Sie auch: Grand Prix Legenden – Schumachers erstes Formel-1-Auto in Ingolstadt erleben\nNeben dem Werkstoff für die „skulpturalen Schritte“, wie sie der Leiter des Ingolstädter sowie des August-Horch-Museums in Zwickau, Thomas Stebich, beschreibt, stehen Fahrzeuge in Aluminium-Optik, in knalligem Orange, mit Glaskabine oder auch komplett aus „Lehm“ modelliert. Besonders bei den glänzenden freuen sich die Hüter dieser Schätze auf ihre Wiederkehr. „Mit all den Fingertapsern darauf, die wir wieder wegmachen dürfen“, meint der Kurator und lacht. \nWobei sich diese zumindest entfernen lassen. Nicht, dass der e-tron GT später mit einem völlig neuen Design die Ausstellung verlässt. Denn sein Material ist nachgiebiger als das der großen Brüder aus Stahl und Blech. Ob er später selbst einmal zur Legende wird – das allein wird die Zeit zeigen. Und womöglich eine Ausstellung 2046."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 7,
+      "csv_row_number": 14,
+      "content_id": "20842939",
+      "content_id_occurrence": 2,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20842939",
+        "Schreibzeit für Artikeltext": "100",
+        "Schreibzeit für weitere Felder": "8",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "5",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20842939,
+        "content_name": "xxxx-20842939",
+        "published_date": "2026-03-31 19:15:44",
+        "h1": "Stoff für Legenden: Audi zeigt in neuer Sonderausstellung in Ingolstadt Designs und Knetautos",
+        "intro": null,
+        "line_head": "xxxx",
+        "line_roof": "Mit Video",
+        "line_sub": null,
+        "origin_id": "29-137089565",
+        "paywall_active": 1,
+        "paywall_teaser": "Nach 20 Jahren gibt es wieder eine Sonderausstellung zum Thema Design im Ingolstädter Museum Mobile bei Audi. Konzeptstudien, Showcars und Autos aus Schaum und Knetmasse zeigen, wie Fahrzeuge Schicht für Schicht entstehen und warum sie oftmals nicht für die Serie gedacht sind. Und dennoch die Zeit überdauern.",
+        "seo_description": "Nach 20 Jahren gibt es wieder eine Sonderausstellung zum Thema Design im Ingolstädter Museum Mobile bei Audi. Konzeptstudien, Showcars und Autos aus Schaum und Knetmasse zeigen, wie Fahrzeuge Schicht für Schicht entstehen und warum sie oftmals nicht für die Serie gedacht sind. Und dennoch die Zeit überdauern.",
+        "seo_title": "Stoff für Legenden: Audi zeigt in neuer Sonderausstellung in Ingolstadt Designs und Knetautos",
+        "text": "Der Stoff, aus dem Legenden gemacht werden. Im Fall von Audi ist das heute hauptsächlich Plastilin, eine Art Knetmasse, basierend auf Wachs. Denn oftmals entscheiden gar nicht Motor oder Leistung eines Autos, ob es im Gedächtnis bleibt. Viel eher übernimmt das die Optik. \n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script>\n<link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\">\n<glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dhh12tg7tlmh\">\n</glomex-integration>falseGlomex (ohne 2-Klick)Der Automobilhersteller mit den vier Ringen widmet seinen „Design Legenden“ derzeit eine eigene Sonderausstellung im Museum Mobile. Noch bis zum 12. Juli stehen hier Showcars und Konzeptstudien, die bereits beim Presserundgang am Dienstagvormittag großes Interesse der Besucher auf sich ziehen und auf dutzenden Mobiltelefonen in den Fotogalerien digital verewigt sind. Aber auch ein sogenanntes Stufenmodell.\nUnd das hat es später sogar auf die Straße geschafft – als e-tron GT. Sein modellierter Vorgänger steht auf einer Plattform – seziert in sämtliche Vorstufen seines Aussehens. „Wir bauen immer 1:1-Modelle“, erzählt Eike Aden, Projektsteuerung Design bei Audi. „Ansonsten bräuchten wir Maßstab-Augen“, ergänzt er. Die Schaum-Autos seien lackierbar, das Wachs härte zudem nie vollständig aus.\nVöllig frei in ihrer „Kunst“ sind die Designer da nicht. „Es ist eher so ein Mittelding“, so Aden. Denn es gebe viele Vorgaben. „Es geht um Kopffreiheit, um das Crashverhalten, um Sichtwinkel des Blinkers, um Technik, um Licht und Schattenwurf“, zählt er auf. Fünf von vielen zu beachtenden Kriterien. Auch die Sitze und Felgen beispielsweise gehören dazu. „Bis zu einem Jahr arbeiten wir zum Teil im Plastilin. Oft auch für den Mülleimer.“ Denn zunächst würden viele Designs entstehen – auch gezeichnet oder mithilfe von KI, „dann wird es nach und nach raffinierter“.\nAuch interessant: Heimspiel an der Piazza in Ingolstadt – CEO Döllner enthüllt den Audi RS5\nDoch ob PB 18 e-tron von 2018, das Shooting Brake concept von 2005 oder der Avus quattro von 1991 – in Serie ging keines von ihnen. „Warum sind viele dieser wunderschönen Autos nicht gebaut worden?“, will ein Besucher von Kurator Stefan Felber wissen, der jedes Fahrzeug einzeln bei diesem Rundgang aus dem Kopf umfassend vorstellt. Einige der Gäste nutzen die Gunst direkt und hören immer mal wieder rein – geballter werden sie die Informationen nirgendwo anders bekommen. Das habe viele Gründe, meint Felber daraufhin. „Ein Großteil galt als Plattform, als Träger für Details. Sie sind dann sozusagen in Teilen entstanden.“ \nNach den „Grand Prix Legenden“, der Vorgängersonderausstellung, nun also die des Designs. „Die Formel 1 läuft jetzt ohne uns und wir besinnen uns auf die Historie.“ Denn die Frage nach berühmten vorzeigbaren Optiken sei häufig von Besuchern gestellt worden. Felber: „Holen wir immer wieder gern aus dem Lager.“ Und dennoch sind mittlerweile 20 Jahre vergangen, seit laut eines Pressetexts „Audi dem Thema Designstudien eine eigene Ausstellung gewidmet“ habe. „Die Modelle zeigen, wie sich Designer das Auto der Zukunft vorgestellt haben“, sagt Felber. \n{\"images\": [\"29-137091851.jpg\",\"29-137091852.jpg\",\"29-137091853.jpg\",\"29-137091854.jpg\",\"29-137095915.jpg\",\"29-137095916.jpg\",\"29-137095917.jpg\",\"29-137095918.jpg\",\"29-137095919.jpg\",\"29-137095920.jpg\",\"29-137095921.jpg\",\"29-137095922.jpg\",\"29-137095923.jpg\",\"29-137095924.jpg\",\"29-137095925.jpg\",\"29-137095926.jpg\",\"29-137095927.jpg\",\"29-137095928.jpg\",\"29-137095929.jpg\",\"29-137095930.jpg\"]}Lesen Sie auch: Grand Prix Legenden – Schumachers erstes Formel-1-Auto in Ingolstadt erleben\nNeben dem Werkstoff für die „skulpturalen Schritte“, wie sie der Leiter des Ingolstädter sowie des August-Horch-Museums in Zwickau, Thomas Stebich, beschreibt, stehen Fahrzeuge in Aluminium-Optik, in knalligem Orange, mit Glaskabine oder auch komplett aus „Lehm“ modelliert. Besonders bei den glänzenden freuen sich die Hüter dieser Schätze auf ihre Wiederkehr. „Mit all den Fingertapsern darauf, die wir wieder wegmachen dürfen“, meint der Kurator und lacht. \nWobei sich diese zumindest entfernen lassen. Nicht, dass der e-tron GT später mit einem völlig neuen Design die Ausstellung verlässt. Denn sein Material ist nachgiebiger als das der großen Brüder aus Stahl und Blech. Ob er später selbst einmal zur Legende wird – das allein wird die Zeit zeigen. Und womöglich eine Ausstellung 2046."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 8,
+      "csv_row_number": 15,
+      "content_id": "20880703",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20880703",
+        "Schreibzeit für Artikeltext": "45",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(AS)",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "2",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20880703,
+        "content_name": "Ehemaliger Ingolstädter Hochbau-Chef wäre am Mittwoch 100 Jahre alt geworden-20880703",
+        "published_date": "2026-04-07 18:24:12",
+        "h1": "Ehemaliger Ingolstädter Hochbau-Chef wäre am Mittwoch 100 Jahre alt geworden",
+        "intro": null,
+        "line_head": "Ehemaliger Ingolstädter Hochbau-Chef wäre am Mittwoch 100 Jahre alt geworden",
+        "line_roof": "Wer baut, der bleibt",
+        "line_sub": null,
+        "origin_id": "29-137244954",
+        "paywall_active": 1,
+        "paywall_teaser": "Er hat etliche für Ingolstadt prägende Gebäude gebaut – auch wenn sie nicht mehr alle stehen: Das mittlerweile abgerissene Hallenbad, die Ickstatt-Realschule oder die prägnante Aussegungshalle auf dem Südfriedhof. Der ehemalige Hochbau-Chef Hans Straub wäre am Mittwoch 100 Jahre alt geworden. Er starb vor knapp zehn Jahren im Alter von 90. Doch seine Karriere begann in Ingolstadt zunächst mit einem Dämpfer.",
+        "seo_description": "Er hat etliche für Ingolstadt prägende Gebäude gebaut – auch wenn sie nicht mehr alle stehen: Das mittlerweile abgerissene Hallenbad, die Ickstatt-Realschule oder die prägnante Aussegungshalle auf dem Südfriedhof. Der ehemalige Hochbau-Chef Hans Straub wäre am Mittwoch 100 Jahre alt geworden. Er starb vor knapp zehn Jahren im Alter von 90. Doch seine Karriere begann in Ingolstadt zunächst mit einem Dämpfer.",
+        "seo_title": "Ehemaliger Ingolstädter Hochbau-Chef wäre am Mittwoch 100 Jahre alt geworden",
+        "text": "Vor nicht ganz zehn Jahren ist der frühere Hochbau-Chef Hans Straub nach kurzer Krankheit im Alter von 90 Jahren gestorben. In Ingolstadt erinnern etliche Bauwerke an den Architekten, der am Mittwoch seinen 100. Geburtstag gefeiert hätte. \n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script>\n<link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/eexbs17joe8g29x/variant.css\">\n<glomex-integration integration-id=\"eexbs17joe8g29x\" playlist-id=\"v-dgppncq55vcx\">\n</glomex-integration>falseGlomex (ohne 2-Klick)So gehen beispielsweise die Aussegnungshalle am Südfriedhof auf den gebürtigen Donauschwaben zurück, die Ickstatt-Realschule sowie das mittlerweile abgerissene Hallenbad Mitte. Den letzten Badetag hat Straub noch miterlebt – die Minuten, in denen die Bagger die ersten Wände eingerissen haben, nicht mehr. Im Februar 2017 begannen die Arbeiten, legten das Areal frei, wo zunächst eine Jugendherberge gebaut werden sollte. \nDoch aus den Plänen wurde nichts. Bis zum Aufbau des Holztheaters, das dort nun als Ausweichspielstätte für den in die Jahre gekommenen Hämer-Bau dient, lag das Gelände brach. Dem Architekten sei vor allem nachhaltiges Bauen wichtig gewesen, das nur wenig Folgekosten verursacht hätte, schrieb der DONAUKURIER im September 2016 im Nachruf über Straub. \nVon 1962 bis 1987 prägte er als Leiter des städtischen Hochbauamts das Gesicht Ingolstadts – danach, bis 1991, fungierte er noch als Stellvertreter des Stadtbaurats. Und das, obwohl Straub zunächst als Zugezogener nur wenig Erfolg in der Stadt an der Donau hatte. 1942 siedelte seine Familie aus der Balkanregion aufgrund der Kriegswirren aus. \nLetzte Ruhe in FriedrichshofenMit seiner Mutter landete er zunächst in Österreich, studierte ab 1947 in Wien Architektur und Ingenieurswesen, schloss dieses in München 1953 ab. Anschließend zog die Familie nach Ingolstadt. Doch einen Job fand Straub zunächst nicht. \nEs folgte eine prägende Station im schweizerischen St. Gallen. Dort sei er maßgeblich an der Planung eines Krankenhauses beteiligt gewesen, heißt es im DK-Nachruf. Seine erneute Bewerbung 1957 in Ingolstadt sollte erfolgreicher sein. Als Architekt im städtischen Bauamt wurde er „schnell zur Stütze der damaligen Stadtplanung“. \nAufgrund seiner Krankheit war Straub zuletzt im Heilig-Geist-Spital untergebracht, wenn auch nur kurz. Zuvor lebte der Architekt mit seiner Frau Lilli, die bereits 1996 starb, und den beiden Söhnen im Ingolstädter Stadtteil Friedrichshofen, wo er auch seine letzte Ruhe fand."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    },
+    {
+      "sequence_index": 9,
+      "csv_row_number": 16,
+      "content_id": "20901628",
+      "content_id_occurrence": 1,
+      "participant_username": "P04",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20901628",
+        "Schreibzeit für Artikeltext": "15",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER/AS)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "",
+        "Kommentar": ""
+      },
+      "used_db_fields": [],
+      "cms_article": {
+        "content_id": 20901628,
+        "content_name": "Kein Durchkommen: Steg an Ingolstädter Autobahnbrücke über Donau wird barrierefrei-20901628",
+        "published_date": "2026-04-10 20:18:03",
+        "h1": "Kein Durchkommen: Steg an Ingolstädter Autobahnbrücke über Donau wird barrierefrei",
+        "intro": null,
+        "line_head": "Kein Durchkommen: Steg an Ingolstädter Autobahnbrücke über Donau wird barrierefrei",
+        "line_roof": "Für Radler und Fußgänger",
+        "line_sub": null,
+        "origin_id": "29-137335761",
+        "paywall_active": 1,
+        "paywall_teaser": "Für Radfahrer und Fußgänger ist der Steg unterhalb der Autobahnbrücke bei Mailing in Ingolstadt die einzige Chance, die Donau zu überqueren. Doch darauf müssen sie eine Weile lang verzichten. Künftig aber wird es vor allem für Radfahrer hier keine Kraftakte mehr geben.",
+        "seo_description": "Für Radfahrer und Fußgänger ist der Steg unterhalb der Autobahnbrücke bei Mailing in Ingolstadt die einzige Chance, die Donau zu überqueren. Doch darauf müssen sie eine Weile lang verzichten. Künftig aber wird es vor allem für Radfahrer hier keine Kraftakte mehr geben.",
+        "seo_title": "Kein Durchkommen: Steg an Ingolstädter Autobahnbrücke über Donau wird barrierefrei",
+        "text": "Damit künftig vor allem Radfahrer einfacher an der Autobahnbrücke bei Mailing in Ingolstadt die Donau überqueren können, wird derzeit eine barrierefreie Anbindung gebaut. Das Projekt hatte sich aus Kostengründen bereits um einige Zeit verschoben, war zunächst für Juli des vergangenen Jahres geplant. \n Embed<script type=\"module\" src=\"https://player.glomex.com/integration/1/integration.js\"></script>\n<link rel=\"stylesheet\" href=\"https://player.glomex.com/variant/4059a016mewgke6f/variant.css\">\n<glomex-integration integration-id=\"4059a016mewgke6f\" playlist-id=\"v-dha9qdt99vlt\">\n</glomex-integration>falseGlomex (ohne 2-Klick)\nSeit Ende März ist der Übergang nun voll gesperrt. Um den Gehweg- und Radsteg auszubauen, werden derzeit Rampen errichtet, teilt die Stadtverwaltung auf Nachfrage mit. Die Arbeiten sollen im Juni abgeschlossen sein. \nAuch interessant: Kredit nur mit Gunst der Regierung – Südliche Ringstraße muss dringend saniert werden\nLaut Stadt belaufen sich die Kosten auf rund 500.000 Euro. „Das Projekt wird mit Mitteln des Bund-Länder Städtebauförderungsprogramm ,Sozialer Zusammenhalt‘ mit Mitteln des Bundes und des Freistaats gefördert.“ \nLesen Sie auch: Bauarbeiten an Schillerbrücke in Ingolstadt – Zeitweise nur noch eine Spur befahrbar\nDie Pläne für die barrierefreie Anbindung sind schon alt. Seit 2018 wird der Ausbau bereits ausgearbeitet. Doch „komplexe und umfangreiche Vorbereitungen“ verzögerten den Start. Denn die Verwaltung musste auch die Landesregierung, die Autobahn GmbH, das Wasserwirtschaftsamt sowie die Bundeswehr involvieren. \nAuf eine frühere Ausschreibung sei zudem nur ein Angebot eingegangen, das jedoch unwirtschaftlich gewesen sei, hieß es auf eine frühere Anfrage."
+      },
+      "db_match": null,
+      "match_status": "no-db-article-left"
+    }
+  ],
+  "unmatched_db_articles_before_or_between_matches": [],
+  "unmatched_db_articles_after_last_match": []
+}

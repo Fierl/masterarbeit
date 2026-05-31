@@ -99,9 +99,25 @@ def read_text_file(path: Path) -> str:
     raise UnicodeDecodeError("unknown", b"", 0, 1, f"Could not decode {path}")
 
 
+def detect_csv_delimiter(text: str) -> str:
+    sample_lines = [line for line in text.splitlines()[:10] if line.strip()]
+    sample = "\n".join(sample_lines)
+    if not sample:
+        return ";"
+
+    try:
+        dialect = csv.Sniffer().sniff(sample, delimiters=";,")
+        return dialect.delimiter
+    except csv.Error:
+        semicolon_count = sample.count(";")
+        comma_count = sample.count(",")
+        return "," if comma_count > semicolon_count else ";"
+
+
 def parse_csv(path: Path) -> tuple[str | None, list[CsvEntry], list[str]]:
     text = read_text_file(path)
-    rows = list(csv.reader(text.splitlines(), delimiter=";"))
+    delimiter = detect_csv_delimiter(text)
+    rows = list(csv.reader(text.splitlines(), delimiter=delimiter))
 
     participant = None
     header_row_index = None

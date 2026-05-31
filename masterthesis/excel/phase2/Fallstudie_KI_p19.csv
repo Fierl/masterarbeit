@@ -1,0 +1,23 @@
+Teilnehmer:,P19,,"1 = Sehr wenig, 5 = Sehr viel",,Beispiele Recherche:,"Websuche (WS), Archiv Artikel Suche (AS), Eigene Recherche (ER)",,,
+Zeitraum: ,16.03.2026 - 28.04.2026,,Schreibzeit in Minuten angeben,,Werte für die Genauigkeit:,"Exakt (E), In etwa (I), Grob (G), Keine Ahnung (K)",,,
+Berufserfahrung (In Jahren):,,,Werte durch Komma trennen,,Werte für verwendete Felder: ,"Artikeltext (AT), Zwischenüberschriften (ZÜ), Dachzeile (DZ), Titel (TT), Untertitel (UT), Paywall-Teaser (PT), Tags (tags), Kürzen (KÜ)",,,
+KI-Erfahrung (1-5):,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+CREATE-ID ( / NGEN-ID),Schreibzeit für Artikeltext,Schreibzeit für weitere Felder,Genauigkeit der Schreibzeit,Recheche,Komplexität des Artikels (1-5),Qualitative Artikeleinschätzung (1-5),Verwendete Felder,Zufriedenheit mit KI-Tool (1-5),Kommentar
+29-136792024,5,5,I,PM (Pressemitteilung),1,1,AT ,3,"Text auf vernünftige Länge zusammengefasst, Überschrift nicht verwendet. Kürzen auf eine bestimmte Anzahl von Wörter ist oft unbrauchbar, wenn man um z.B. 10 Wörter küzren möchte"
+20782072,11,5,E,PM (Pressemitteilung),2,4,"AT,TT",3,Dachzeile und Teil der Hauptzeile identisch. Zwischentitel nicht verwendet
+29-136878825,,,,,4,1,AT,1,Text wurde nicht erzeugt
+29-137073863,5,,I,PM (Pressemitteilung),3,4,AT,4,Zufriedenheit gilt jeweils nur für die erzeugten Felder!!
+29-136966964,5,,I,,3,4,AT,4,
+29-136960235,10,,I,PM (Pressemitteilung),4,4,AT,4,
+29-137227452,5,,I,PM (Pressemitteilung),3,4,AT,4,
+29-137231048,5,,I,PM (Pressemitteilung),3,4,AT,4,
+29-137105369,5,,I,PM (Pressemitteilung),3,4,AT,4,
+29-137312015,5,,I,PM (Pressemitteilung),2,3,AT,3,
+29-137312015,5,,I,PM (Pressemitteilung),2,3,AT,3,
+20950201,0,5,I,Mitarbeitertext (Print nach Online),4,4,"DZ,TT,PZ,ZÜ",4,
+20978356,0,5,I,Text von Print nach Online,4,2,"DZ,TT,PZ,ZÜ",2,Textvorschläge nicht (bzw. Teaser sehr abgewandelt) verwendet
+21002962,0,5,I,eigenes Interview nach Online,4,2,"DZ,TT,PZ,ZÜ",2,Nur Teaser sehr stark abgewandelt übernommen
+29-137860025,45,,I,Teilnahme an Stadtratssitzung,5,4,AT,4,
+29-137862865,45,,I,Teilnahme an Stadtratssitzung,5,4,AT,4,
