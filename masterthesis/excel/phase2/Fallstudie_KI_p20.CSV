@@ -1,0 +1,44 @@
+Teilnehmer:;P20;;1 = Sehr wenig, 5 = Sehr viel;;Beispiele Recherche:;Websuche (WS), Archiv Artikel Suche (AS), Eigene Recherche (ER);;;
+Zeitraum: ;16.03.2026 - 13.04.2026;;Schreibzeit in Minuten angeben;;Werte für die Genauigkeit:;Exakt (E), In etwa (I), Grob (G), Keine Ahnung (K);;;
+Berufserfahrung (In Jahren):;25;;Werte durch Komma trennen;;Werte für verwendete Felder: ;Artikeltext (AT), Zwischenüberschriften (ZÜ), Dachzeile (DZ), Titel (TT), Untertitel (UT), Paywall-Teaser (PT), Tags (tags), Kürzen (KÜ);;;
+KI-Erfahrung (1-5):;4;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+CREATE-ID ( / NGEN-ID);Schreibzeit für Artikeltext;Schreibzeit für weitere Felder;Genauigkeit der Schreibzeit;Recheche;Komplexität des Artikels (1-5);Qualitative Artikeleinschätzung (1-5);Verwendete Felder;Zufriedenheit mit KI-Tool (1-5);Kommentar
+Nicht erschrienen;20;1;E;1;1;2;AT, ZÜ, DZ, TT, UT, PT;5;Für PMs perfekt
+29-138268298;240;10;I;WS, ER;3;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138156763;200;5;I;WS, AS, ER;3;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138156761;240;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138156755;120;5;I;ER;3;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138131586;180;5;I;ER, WS, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138127772;230;5;I;ER;3;3;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138127767;280;5;I;ER;5;5;AT, ZÜ, DZ, TT, UT, PT;5;
+29-138096394;240;5;I;ER, WS, AS;5;5;AT, ZÜ, DZ, TT, UT, PT;3;
+29-138029899;120;5;I;ER. AS;3;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-138029898;280;5;I;ER, S, WS;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-138019592;120;5;I;ER;3;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-137853442;200;5;I;ER, WS, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-137853439;120;5;I;ER;3;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-137828067;180;5;I;ER, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-137733595;90;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-137618489;240;5;I;ER, WS, AS;5;5;AT, ZÜ, DZ, TT, UT, PT;3;
+29-137574539;240;5;I;ER, WS, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-137574538;180;5;I;ER, WS, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-137141545;280;5;I;ER, WS, AS;5;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-137138094;30;5;I;ER;5;3;AT, ZÜ, DZ, TT, UT, PT;2;Kommentar
+29-137138093;90;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-137138092;30;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;2;Kommentar
+29-137138091;120;5;I;ER, WS, AS;4;5;AT, ZÜ, DZ, TT, UT, PT;3;
+29-136970978;240;5;I;ER;4;5;AT, ZÜ, DZ, TT, UT, PT;2;
+29-136970977;120;5;I;ER, WS;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-136935180;180;5;I;ER, WS, AS;3;5;AT, ZÜ, DZ, TT, UT, PT;5;
+29-136907987;230;5;I;ER, WS;3;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-136873238;120;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-136765315;180;5;I;ER, WS;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-136752226;240;5;I;ER, WS, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-136575162;180;5;I;ER, WS;4;4;AT, ZÜ, DZ, TT, UT, PT;5;
+29-136557665;170;5;I;ER, WS, AS;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-136537121;80;5;I;ER, WS;3;5;AT, ZÜ, DZ, TT, UT, PT;3;
+29-136537119;190;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;4;
+29-136462238;120;5;I;ER;4;4;AT, ZÜ, DZ, TT, UT, PT;3;
+29-136462237;180;5;I;ER, AS, WS;5;5;AT, ZÜ, DZ, TT, UT, PT;2;
