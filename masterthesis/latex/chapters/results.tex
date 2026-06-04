@@ -1,0 +1,96 @@
+\chapter{Results}
+\label{ch:results}
+% ============================================================
+
+\todo{Present quantitative and qualitative results objectively. Use tables and
+figures. Do not interpret here — save that for Chapter 6.}
+
+\section{Efficiency Metrics}
+
+\subsection{Task Completion Time}
+\subsection{Perceived Text Quality}
+Task Completion Time
+Dein Ansatz ist richtig. Ein paar Ergänzungen:
+Normalisierung ist wichtig
+Rohe Zeit allein ist trügerisch — ein langer Artikel dauert immer länger. Du solltest also normalisieren, z.B.:
+
+Zeit pro 100 Wörter Output
+Zeit pro Komplexitätsstufe (falls du Aufgaben vordefinierst)
+
+Was du kontrollieren musst
+
+Textlänge des Outputs
+Themen-/Aufgabenschwierigkeit (möglichst vergleichbare Tasks in Phase 1 und 2)
+Tageszeit / Ermüdungseffekte (falls relevant)
+
+Zusätzlich interessant
+
+Time-on-task Verteilung: Nicht nur Mittelwert, sondern auch Varianz — schreiben Journalisten mit KI gleichmäßiger?
+Edit-Rate: Wie viel wird nach KI-Generierung noch verändert? Das sagst du zwar nicht direkt, aber wenn deine App es loggt wäre es Gold wert.
+
+
+Perceived Text Quality
+Hier wird es etwas kniffliger, weil "Qualität" subjektiv ist. Du brauchst eine klare Operationalisierung. Typische Ansätze:
+Selbsteinschätzung der Journalisten (einfach, aber subjektiv)
+Likert-Skala nach jeder Aufgabe, z.B.:
+
+„Wie zufrieden sind Sie mit dem entstandenen Text?" (1–5)
+„Wie sehr entspricht der Text Ihrem gewohnten Stil?" (1–5)
+
+Externe Bewertung (aufwändiger, aber objektiver)
+Redakteure oder andere Journalisten bewerten Texte blind — ohne zu wissen ob KI beteiligt war. Das wäre methodisch sehr stark.
+Automatische Qualitätsmetriken (als Ergänzung)
+Da du ohnehin NLP machst, kannst du das verbinden:
+
+Kohärenzscores (z.B. mit einem Language Model)
+Grammatikfehlerrate
+\section{Writing Style Analysis}
+
+\subsection{Lexical Features}
+Lexikalische Features
+Type-Token-Ratio (TTR) / MATTR
+Misst lexikalische Vielfalt. MATTR (Moving Average TTR) ist robuster bei unterschiedlichen Textlängen — wichtig, weil Titel vs. Artikeltext riesige Längenunterschiede haben.
+Lexikalische Dichte
+Anteil der Inhaltswörter (Nomen, Verben, Adjektive, Adverbien) vs. Funktionswörter. KI-Texte tendieren oft zu höherer Dichte.
+Nominalstil-Index
+Verhältnis Nomen zu Verben. Journalismus hat traditionell hohen Nominalstil — verändert KI das?
+Durchschnittliche Wortlänge & Wortfrequenz
+Einfach zu berechnen, aber aussagekräftig. KI-Modelle bevorzugen statistische Häufigkeit, also tendenziell häufigere Wörter.
+Hapax Legomena Rate
+Anteil Wörter, die nur einmal vorkommen — Maß für Originalität/Kreativität.
+
+Syntaktische Features
+Durchschnittliche Satzlänge
+Klassiker. KI-Texte sind oft gleichmäßiger — das ist selbst ein Signal.
+Varianz der Satzlänge
+Genauso wichtig wie der Mittelwert. Menschen variieren stärker.
+Dependency-Tree-Tiefe
+Mit spaCy oder CoreNLP einfach berechenbar. Misst syntaktische Komplexität.
+Subordinationsgrad
+Verhältnis von Neben- zu Hauptsätzen. Tiefere Schachtelung = komplexerer Stil.
+POS-Tag-Distributionen
+Anteil Adjektive, Adverbien, Passivkonstruktionen etc. als Feature-Vektor — gut für maschinelles Lernen.
+
+Stilistische / höherwertige Features
+Readability Scores
+Flesch-Kincaid, Gunning Fog, oder für Deutsch: Lesbarkeitsindex (LIX) oder Wiener Sachtextformel. Gut für Vergleich, weil leicht erklärbar.
+Stilhomogenisierung (dein Kern-Beitrag!)
+Das ist dein stärkstes Argument: Schreiben verschiedene Journalisten ähnlicher, wenn sie KI nutzen? Du könntest paarweise Cosine-Similarity zwischen Autoren berechnen — wenn die Varianz zwischen Autoren in Phase 2 sinkt, ist das ein starkes Ergebnis.
+Sentiment & Emotionalität
+Mit Lexikon-basierten Tools (z.B. VADER, SentiWS für Deutsch) — verändert KI den emotionalen Ton?
+
+Statistische Auswertung
+Da du gepaarte Messungen hast (selber Journalist, Phase 1 vs. Phase 2), bieten sich an:
+
+Wilcoxon-Vorzeichen-Rang-Test (non-parametrisch, kleine Stichprobe)
+Paired t-Test wenn Normalverteilung annehmbar
+Cohen's d für Effektgröße
+PCA oder t-SNE um Texte im Feature-Raum zu visualisieren — sehr überzeugend für die Homogenisierungs-These
+
+
+Tool-Empfehlungen
+ToolSpracheFür wasspaCyPythonPOS-Tagging, Dependency ParsingNLTKPythonTTR, TokenisierungtextstatPythonReadability ScoresSentiWS / VADERPythonSentimentscikit-learnPythonCosine Similarity, PCAR (stylo package)RStilometrie, speziell für Autorenvergleich
+\subsection{Syntactic Features}
+\subsection{Readability}
+
+\section{Qualitative Interview Findings}

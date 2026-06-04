@@ -1,0 +1,242 @@
+% ============================================================
+%  Master's Thesis – Informatik
+%  Generative AI in Journalism: A Field Study
+%  Author: Simon Fierbeck  |  Supervisor: Prof. Dr. Steffen Herbold
+% ============================================================
+
+\documentclass[12pt, a4paper, twoside]{report}
+
+% ── Encoding & Language ─────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ── Typography ───────────────────────────────────────────────
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\onehalfspacing
+
+% ── Page Layout ─────────────────────────────────────────────
+\usepackage[
+  a4paper,
+  top=2.5cm, bottom=2.5cm,
+  left=3cm,  right=2.5cm,
+  headheight=15pt
+]{geometry}
+
+% ── Headers & Footers ───────────────────────────────────────
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ── Math ────────────────────────────────────────────────────
+\usepackage{amsmath, amssymb}
+
+% ── Figures & Tables ────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+% ── Lists ───────────────────────────────────────────────────
+\usepackage{enumitem}
+
+% ── Code Listings ───────────────────────────────────────────
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegray}{rgb}{0.95,0.95,0.95}
+\definecolor{codecomment}{rgb}{0.4,0.4,0.4}
+\definecolor{codestring}{rgb}{0.1,0.5,0.1}
+
+\lstset{
+  backgroundcolor=\color{codegray},
+  basicstyle=\ttfamily\small,
+  commentstyle=\color{codecomment},
+  stringstyle=\color{codestring},
+  keywordstyle=\bfseries,
+  breaklines=true,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  tabsize=2,
+  captionpos=b
+}
+
+% ── Hyperlinks ───────────────────────────────────────────────
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  pdfauthor={Simon Fierbeck},
+  pdftitle={Generative AI in Journalism: A Field Study},
+]{hyperref}
+
+% ── Bibliography ────────────────────────────────────────────
+\usepackage[
+  backend=biber,
+  style=ieee,          % change to acm, apa, etc. if preferred
+  sorting=none
+]{biblatex}
+\addbibresource{references.bib}
+
+% ── Acronyms / Glossary (optional) ──────────────────────────
+% \usepackage[acronym, toc]{glossaries}
+% \makeglossaries
+
+% ── Utility ─────────────────────────────────────────────────
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage{pdfpages}   % include PDFs (e.g. signed declaration)
+\usepackage{todo}       % \todo{...} for draft notes — remove before submission
+
+% ============================================================
+%  DOCUMENT START
+% ============================================================
+\begin{document}
+
+% ── Title Page ──────────────────────────────────────────────
+\begin{titlepage}
+  \centering
+  \vspace*{1cm}
+
+  {\Large University Name}\\[0.3cm]
+  {\large Department of Computer Science}\\[2cm]
+
+  \rule{\linewidth}{0.5mm}\\[0.4cm]
+  {\LARGE \bfseries Generative AI in Journalism}\\[0.3cm]
+  {\Large A Field Study on Efficiency and Writing Style Changes\\
+  in AI-Assisted Journalism}\\[0.4cm]
+  \rule{\linewidth}{0.5mm}\\[1.5cm]
+
+  {\large \bfseries Master's Thesis}\\[0.5cm]
+  {\normalsize submitted in partial fulfilment of the requirements\\
+  for the degree of \textit{Master of Science in Computer Science}}\\[2cm]
+
+  \begin{tabular}{rl}
+    \textbf{Author:}     & Simon Fierbeck \\
+    \textbf{Student ID:} & 73261 \\[0.5cm]
+    \textbf{Supervisor:} & Prof.\ Dr.\ Steffen Herbold \\
+  \end{tabular}\\[2cm]
+
+  {\large \today}
+
+  \vfill
+\end{titlepage}
+
+% ── Front Matter ────────────────────────────────────────────
+\pagenumbering{roman}
+
+% Declaration of Academic Integrity
+\chapter*{Declaration of Academic Integrity}
+\addcontentsline{toc}{chapter}{Declaration of Academic Integrity}
+
+I hereby declare that the thesis submitted is my own unaided work. All direct
+or indirect sources used are acknowledged as references. I am aware that the
+thesis in digital form can be examined for the use of unauthorised aid and in
+order to determine whether the thesis as a whole or parts incorporated in it may
+be deemed as plagiarism. For the comparison of my work with existing sources I
+agree that it shall be entered in a database where it shall also remain after
+examination, to enable comparison with future theses submitted.
+
+\vspace{2cm}
+\noindent
+Place, Date \hfill Signature
+
+\clearpage
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+\todo{Write abstract: ~200--250 words. Cover motivation, research questions,
+methodology (field study, three-phase design), key results, and main conclusion.}
+
+\noindent
+\textbf{Keywords:} Generative AI, Journalism, Field Study, Writing Style,
+Efficiency, Large Language Models, Natural Language Processing
+
+\clearpage
+
+% Table of Contents
+\tableofcontents
+\clearpage
+
+% List of Figures / Tables (optional – comment out if not needed)
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\clearpage
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\clearpage
+
+% ── Main Matter ─────────────────────────────────────────────
+\pagenumbering{arabic}
+
+% ============================================================
+\include{chapters/introduction}
+
+
+
+
+% ============================================================
+\include{chapters/background}
+
+
+% ============================================================
+\include{chapters/related}
+
+
+% ============================================================
+\include{chapters/methodology}
+
+
+% ============================================================
+\include{chapters/results}
+
+
+% ============================================================
+\include{chapters/discussion}
+
+
+% ============================================================
+\include{chapters/conclusion}
+
+
+% ── Back Matter ─────────────────────────────────────────────
+
+% Bibliography
+\printbibliography[heading=bibintoc, title={References}]
+
+% Appendix
+\appendix
+
+\chapter{Web Application Documentation}
+\label{app:webapp}
+
+\todo{Screenshots, architecture diagrams, or technical documentation of the
+custom web application.}
+
+\chapter{Study Materials}
+\label{app:materials}
+
+\section{Participant Information Sheet}
+\section{Consent Form}
+\section{Interview Guide}
+
+\chapter{Supplementary Data}
+\label{app:data}
+
+\todo{Additional tables, raw statistical output, etc.}
+
+\end{document}
