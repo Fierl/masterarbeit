@@ -1,0 +1,218 @@
+{
+      "sequence_index": 20,
+      "csv_row_number": 28,
+      "content_id": "29-137138094",
+      "content_id_occurrence": 1,
+      "participant_username": "P20",
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-137138094",
+        "Schreibzeit für Artikeltext": "30",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "5",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, ZÜ, DZ, TT, UT, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "2",
+        "Kommentar": "Kommentar"
+      },
+      "used_db_fields": [
+        "text",
+        "subheadings",
+        "roofline",
+        "headline",
+        "subline",
+        "teaser"
+      ],
+      "cms_article": {
+        "content_id": 20857075,
+        "content_name": "Bischofshof-Aus: Die Kirche ist ein Unternehmen wie jedes andere auch-20857075",
+        "published_date": "2026-04-02 15:47:43",
+        "h1": "Bischofshof-Aus in Regensburg: Die Kirche ist ein Unternehmen wie jedes andere auch",
+        "intro": null,
+        "line_head": "Bischofshof-Aus: Die Kirche ist ein Unternehmen wie jedes andere auch",
+        "line_roof": "Kommentar",
+        "line_sub": null,
+        "origin_id": "29-137138094",
+        "paywall_active": 1,
+        "paywall_teaser": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+        "seo_description": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+        "seo_title": "Bischofshof-Aus in Regensburg: Die Kirche ist ein Unternehmen wie jedes andere auch",
+        "text": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar. Wer glaubte, die Kirche sei ein besonderer Arbeitgeber, der wird angesichts der Aufgabe einer echten Regensburger Traditionsbrauerei eines Besseren belehrt. Nicht etwa, dass die Kirche die Brauerei-Mitarbeiter angesichts der wirtschaftlich zuletzt dramatischen Lage schlechter behandeln würde, als es in anderen Branchen üblich ist. Die Kirche behandelt ihre Mitarbeiter ganz genau so, wie es eben auch Wirtschaftsunternehmen machen.Lesen Sie auch: Brauerei-Aus in Regensburg: Die Kirche findet die Bischofshof-Mitarbeiter abDas bedeutet aber im Umkehrschluss auch, dass es keinen moralischen Bonus mehr für die Kirche geben darf.Vielmehr ist sie zu behandeln wie jedes andere Unternehmen: Wer nach wirtschaftlichen Aspekten handelt, der ist eben auch ein ganz normales Unternehmen. Immerhin haben sich die Verantwortlichen durchgerungen, über den üblichen Wert eines halben Bruttogehalts mal Betriebsjahren hinaus Abfindungen zu zahlen. Das ist lobenswert. Am Ende dürfte aber der Rechtsfrieden der Grund gewesen sein."
+      },
+      
+        "article": {
+          "id": 52,
+          "user_id": 6,
+          "payload": "Brauerei-SchließungKirche als Arbeitgeber verdient keinen moralischen Bonus mehrDie Schließung der traditionsreichen Regensburger Brauerei durch die Kirche als Arbeitgeber offenbart, dass religiöse Institutionen bei wirtschaftlichen Entscheidungen nach denselben Maßstäben agieren wie weltliche Unternehmen. Die angebotenen Abfindungen über das gesetzliche Mindestmaß hinaus wirken dabei weniger wie ein Akt christlicher Nächstenliebe als wie ein kalkulierter Schritt zur Vermeidung rechtlicher Auseinandersetzungen.Wer glaubte, die Kirche sei ein besonderer Arbeitgeber, der wird angesichts der Aufgabe einer echten Regensburger Traditionsbrauerei eines Besseren belehrt. Nicht etwa, dass die Kirche die Brauerei-Mitarbeiter angesichts der wirtschaftlich zuletzt dramatischen Lage schlechter behandeln würde, als es in anderen Branchen üblich ist. Die Kirche behandelt ihre Mitarbeiter ganz genau so, wie es eben auch Wirtschaftsunternehmen machen.Das bedeutet aber im Umkehrschluss auch, dass es keinen moralischen Bonus mehr für die Kirche geben darf.Vielmehr ist sie zu behandeln wie jedes andere Unternehmen: Wer nach wirtschaftlichen Aspekten handelt, der ist eben auch ein ganz normales Unternehmen. Immerhin haben sich die Verantwortlichen durchgerungen, über den üblichen Wert eines halben Bruttogehalts mal Betriebsjahren hinaus Abfindungen zu zahlen. Das ist lobenswert. Am Ende dürfte aber der Rechtsfrieden der Grund gewesen sein.Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.Kirche als gewöhnlicher ArbeitgeberKein moralischer Bonus mehrAbfindungen aus pragmatischen GründenKirche, Regensburg, Brauerei, Arbeitgeber, Abfindung, Stellenabbau, Wirtschaft, Traditionsbrauerei, Arbeitnehmerrechte",
+          "is_hidden": false,
+          "created_at": "2026-04-02 13:14:22.025595",
+          "updated_at": "2026-04-02 13:14:49.017626",
+          "match_fields": {
+            "subheadings": "Kirche als gewöhnlicher ArbeitgeberKein moralischer Bonus mehrAbfindungen aus pragmatischen Gründen",
+            "roofline": "Brauerei-Schließung",
+            "headline": "Kirche als Arbeitgeber verdient keinen moralischen Bonus mehr",
+            "subline": "Die Schließung der traditionsreichen Regensburger Brauerei durch die Kirche als Arbeitgeber offenbart, dass religiöse Institutionen bei wirtschaftlichen Entscheidungen nach denselben Maßstäben agieren wie weltliche Unternehmen. Die angebotenen Abfindungen über das gesetzliche Mindestmaß hinaus wirken dabei weniger wie ein Akt christlicher Nächstenliebe als wie ein kalkulierter Schritt zur Vermeidung rechtlicher Auseinandersetzungen.",
+            "teaser": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+            "tags": "Kirche, Regensburg, Brauerei, Arbeitgeber, Abfindung, Stellenabbau, Wirtschaft, Traditionsbrauerei, Arbeitnehmerrechte"
+          }
+        },
+        "match_fields": {
+          "subheadings": "Kirche als gewöhnlicher ArbeitgeberKein moralischer Bonus mehrAbfindungen aus pragmatischen Gründen",
+          "roofline": "Brauerei-Schließung",
+          "headline": "Kirche als Arbeitgeber verdient keinen moralischen Bonus mehr",
+          "subline": "Die Schließung der traditionsreichen Regensburger Brauerei durch die Kirche als Arbeitgeber offenbart, dass religiöse Institutionen bei wirtschaftlichen Entscheidungen nach denselben Maßstäben agieren wie weltliche Unternehmen. Die angebotenen Abfindungen über das gesetzliche Mindestmaß hinaus wirken dabei weniger wie ein Akt christlicher Nächstenliebe als wie ein kalkulierter Schritt zur Vermeidung rechtlicher Auseinandersetzungen.",
+          "teaser": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+          "tags": "Kirche, Regensburg, Brauerei, Arbeitgeber, Abfindung, Stellenabbau, Wirtschaft, Traditionsbrauerei, Arbeitnehmerrechte"
+        },
+        "all_chats": [
+          {
+            "id": 343,
+            "article_id": 52,
+            "field_name": "subheadings",
+            "chat_type": "generate",
+            "content": "Kirche als gewöhnlicher ArbeitgeberKein moralischer Bonus mehrAbfindungen aus pragmatischen Gründen",
+            "created_at": "2026-04-02 13:14:32.644606"
+          },
+          {
+            "id": 344,
+            "article_id": 52,
+            "field_name": "roofline",
+            "chat_type": "generate",
+            "content": "Brauerei-Schließung",
+            "created_at": "2026-04-02 13:14:35.322697"
+          },
+          {
+            "id": 345,
+            "article_id": 52,
+            "field_name": "headline",
+            "chat_type": "generate",
+            "content": "Kirche als Arbeitgeber verdient keinen moralischen Bonus mehr",
+            "created_at": "2026-04-02 13:14:37.292430"
+          },
+          {
+            "id": 346,
+            "article_id": 52,
+            "field_name": "subline",
+            "chat_type": "generate",
+            "content": "Die Schließung der traditionsreichen Regensburger Brauerei durch die Kirche als Arbeitgeber offenbart, dass religiöse Institutionen bei wirtschaftlichen Entscheidungen nach denselben Maßstäben agieren wie weltliche Unternehmen. Die angebotenen Abfindungen über das gesetzliche Mindestmaß hinaus wirken dabei weniger wie ein Akt christlicher Nächstenliebe als wie ein kalkulierter Schritt zur Vermeidung rechtlicher Auseinandersetzungen.",
+            "created_at": "2026-04-02 13:14:41.445942"
+          },
+          {
+            "id": 347,
+            "article_id": 52,
+            "field_name": "teaser",
+            "chat_type": "generate",
+            "content": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+            "created_at": "2026-04-02 13:14:45.394621"
+          },
+          {
+            "id": 348,
+            "article_id": 52,
+            "field_name": "tags",
+            "chat_type": "generate",
+            "content": "Kirche, Regensburg, Brauerei, Arbeitgeber, Abfindung, Stellenabbau, Wirtschaft, Traditionsbrauerei, Arbeitnehmerrechte",
+            "created_at": "2026-04-02 13:14:48.217365"
+          }
+        ],
+        "generated_chats": [
+          {
+            "id": 343,
+            "article_id": 52,
+            "field_name": "subheadings",
+            "chat_type": "generate",
+            "content": "Kirche als gewöhnlicher ArbeitgeberKein moralischer Bonus mehrAbfindungen aus pragmatischen Gründen",
+            "created_at": "2026-04-02 13:14:32.644606"
+          },
+          {
+            "id": 344,
+            "article_id": 52,
+            "field_name": "roofline",
+            "chat_type": "generate",
+            "content": "Brauerei-Schließung",
+            "created_at": "2026-04-02 13:14:35.322697"
+          },
+          {
+            "id": 345,
+            "article_id": 52,
+            "field_name": "headline",
+            "chat_type": "generate",
+            "content": "Kirche als Arbeitgeber verdient keinen moralischen Bonus mehr",
+            "created_at": "2026-04-02 13:14:37.292430"
+          },
+          {
+            "id": 346,
+            "article_id": 52,
+            "field_name": "subline",
+            "chat_type": "generate",
+            "content": "Die Schließung der traditionsreichen Regensburger Brauerei durch die Kirche als Arbeitgeber offenbart, dass religiöse Institutionen bei wirtschaftlichen Entscheidungen nach denselben Maßstäben agieren wie weltliche Unternehmen. Die angebotenen Abfindungen über das gesetzliche Mindestmaß hinaus wirken dabei weniger wie ein Akt christlicher Nächstenliebe als wie ein kalkulierter Schritt zur Vermeidung rechtlicher Auseinandersetzungen.",
+            "created_at": "2026-04-02 13:14:41.445942"
+          },
+          {
+            "id": 347,
+            "article_id": 52,
+            "field_name": "teaser",
+            "chat_type": "generate",
+            "content": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+            "created_at": "2026-04-02 13:14:45.394621"
+          },
+          {
+            "id": 348,
+            "article_id": 52,
+            "field_name": "tags",
+            "chat_type": "generate",
+            "content": "Kirche, Regensburg, Brauerei, Arbeitgeber, Abfindung, Stellenabbau, Wirtschaft, Traditionsbrauerei, Arbeitnehmerrechte",
+            "created_at": "2026-04-02 13:14:48.217365"
+          }
+        ],
+        "latest_chat_by_field": {
+          "subheadings": {
+            "id": 343,
+            "article_id": 52,
+            "field_name": "subheadings",
+            "chat_type": "generate",
+            "content": "Kirche als gewöhnlicher ArbeitgeberKein moralischer Bonus mehrAbfindungen aus pragmatischen Gründen",
+            "created_at": "2026-04-02 13:14:32.644606"
+          },
+          "roofline": {
+            "id": 344,
+            "article_id": 52,
+            "field_name": "roofline",
+            "chat_type": "generate",
+            "content": "Brauerei-Schließung",
+            "created_at": "2026-04-02 13:14:35.322697"
+          },
+          "headline": {
+            "id": 345,
+            "article_id": 52,
+            "field_name": "headline",
+            "chat_type": "generate",
+            "content": "Kirche als Arbeitgeber verdient keinen moralischen Bonus mehr",
+            "created_at": "2026-04-02 13:14:37.292430"
+          },
+          "subline": {
+            "id": 346,
+            "article_id": 52,
+            "field_name": "subline",
+            "chat_type": "generate",
+            "content": "Die Schließung der traditionsreichen Regensburger Brauerei durch die Kirche als Arbeitgeber offenbart, dass religiöse Institutionen bei wirtschaftlichen Entscheidungen nach denselben Maßstäben agieren wie weltliche Unternehmen. Die angebotenen Abfindungen über das gesetzliche Mindestmaß hinaus wirken dabei weniger wie ein Akt christlicher Nächstenliebe als wie ein kalkulierter Schritt zur Vermeidung rechtlicher Auseinandersetzungen.",
+            "created_at": "2026-04-02 13:14:41.445942"
+          },
+          "teaser": {
+            "id": 347,
+            "article_id": 52,
+            "field_name": "teaser",
+            "chat_type": "generate",
+            "content": "Die Schließung einer traditionsreichen Regensburger Brauerei wirft ein bezeichnendes Licht auf die Kirche als Arbeitgeber — und darauf, wie sie mit ihren Mitarbeitern umgeht. Ob das dem Anspruch einer Institution gerecht wird, die sich moralische Maßstäbe auf die Fahnen schreibt, beleuchtet dieser Kommentar.",
+            "created_at": "2026-04-02 13:14:45.394621"
+          },
+          "tags": {
+            "id": 348,
+            "article_id": 52,
+            "field_name": "tags",
+            "chat_type": "generate",
+            "content": "Kirche, Regensburg, Brauerei, Arbeitgeber, Abfindung, Stellenabbau, Wirtschaft, Traditionsbrauerei, Arbeitnehmerrechte",
+            "created_at": "2026-04-02 13:14:48.217365"
+          }
+        }
+      }
