@@ -1,0 +1,571 @@
+Masterarbeit Phase 3-20260605_100206-Besprechungstranskript
+5. Juni 2026, 08:02AM
+27 Min. 18 Sek.
+
+Fierbeck Simon Transkription gestartet
+
+P17   0:12
+Ah, jetzt, jetzt m�sste es gehen.
+
+Fierbeck Simon   0:13
+Yep, yeah.
+Jetzt h�re ich dich wieder. OK.
+Bez�glich dem Tool direkt, welche Aspekte des Tools hast du verwendet? Also generiert, gek�rzt, editiert? Wie war so?
+
+P17   0:34
+Ich habe sowohl die Funktion genutzt, anhand von Stichworten.
+Entschuldigung, jetzt rufe ich jemand an.
+Also nochmal, ich habe sowohl die Funktion genutzt, anhand von Stichworten, Stichpunkten, einen Text zu generieren, als auch also bereits bestehende Texte einzuk�rzen. Das waren so die 2 Hauptpunkte, die ich hatte und ich habe dann eben zum Teil
+Auch so etwas wie �berschriften generieren oder Dachzeilen generieren und so weiter habe ich auch hergenommen.
+
+Fierbeck Simon   1:07
+Mhm.
+gek�rzt �ber die Editierfunktion oder �ber die K�rzungsfunktion mit der Anzahl der W�rter.
+
+P17   1:20
+Mhm.
+Vielleicht habe ich mich jetzt falsch ausgedr�ckt. Also, ich habe das nicht direkt gek�rzt, sondern eben, dass er mir einen Text anhand von einer Pressemitteilung generiert. Also, was war das nochmal?
+Das ist ja dann nicht direkt eine K�rzung, sondern.
+Er hat das umformuliert, also in in.
+
+Fierbeck Simon   1:40
+Also, mhm, umformuliert, mhm.
+
+P17   1:43
+Ja, also "k�rzen" habe ich nicht verwendet. Sorry, das war dann selbstverst�ndlich.
+
+Fierbeck Simon   1:44
+Yep.
+Kein Problem. System prompts angepasst.
+
+P17   1:52
+Habe ich tats�chlich nicht gemacht. So intensiv habe ich mich dann leider nicht besch�ftigt mit deinem Pool.
+
+Fierbeck Simon   1:56
+Mhm, mhm, alles gut, einfach nur um das zu kl�ren. Wie angenehm war das Arbeiten mit dem Tool, wenn man mal das ausblendet, dass nat�rlich ein Prototyp war, das nicht in unserer Systemlandschaft drin ist, viel Copy-Paste,
+aber abgesehen davon
+
+P17   2:13
+Also allein von der Funktionsweise her oder auch schon von der Qualit�t her.
+
+Fierbeck Simon   2:18
+jetzt eher wie das, wie angenehm das Arbeiten damit war. Also hat es dann Workflow, war das ja, wie gesagt, angenehm oder war das was, was du denkst, dass ja, *****, dass ich jetzt das machen muss.
+
+P17   2:27
+Ja.
+Also, ich fand das vor allem f�r so Sachen, wenn ich Stichpunkte mir mit notiert hab aus einem Gespr�ch und er daraus ein einen Text generieren sollte. Das hab ich dann schon sehr gerne verwendet, weil das schon ziemlich gut funktioniert hat. und man dann
+
+Fierbeck Simon   2:48
+Mhm.
+
+P17   2:50
+relativ schnell dann eben einen ausgeschriebenen Text hatte. Ich bin ja so ein Typ, allerdings bei, wenn ich jetzt schon einen eine Pressemitteilung zum Beispiel habe und daraus dann einen Artikel mach, hab ich oft das Gef�hl, dass wenn ich das jetzt erst in die K.I. pack,
+
+Fierbeck Simon   3:02
+Mhm.
+
+P17   3:08
+und dann das Ergebnis noch mal kontrollieren muss mit der Original-Pressemitteilung. Das f�hl ich mich irgendwie unproduktiver, als wenn ich den die Pressemitteilung schnell selber umformuliere. Da war es dann nat�rlich schon ein bisschen nervig, aber an sich war das auch in Ordnung, so.
+
+Fierbeck Simon   3:15
+Mhm.
+Mhm.
+
+P17   3:24
+Wenn ich dann also jetzt, ich da mal richtig reingekommen bin ins Tool, war das dann auch in Ordnung.
+
+Fierbeck Simon   3:28
+Mhm, also der Workflow bez�glich Stichpunkte, Reihen, Text raus war f�r dich in Ordnung. K�nnte man auch.
+
+P17   3:36
+Ja, fand ich schon satt. Mhm.
+
+Fierbeck Simon   3:39
+L�ngerfristig so machen, theoretisch.
+
+P17   3:41
+Ja, genau das, also das hat mir schon oft sehr weitergeholfen, weil das schon sehr, sehr schnell ging und ich dann relativ schnell einen ausformulierten Text hatte und da war es ja dann auch einfacher, den Text dann, also das Ergebnis, dann zu kontrollieren, weil ich hab ja das Gespr�ch selber gef�hrt, kannte schon alle
+
+Fierbeck Simon   3:58
+Mhm.
+Mhm.
+
+P17   4:03
+relativ schnell dr�bergehen und kontrollieren, ob alle Infos, die die K.I. dann ausgespuckt hat in dem ausformulierten Text, ob die alle gestimmt haben. Klar, da muss ich dann hier und da mal ein paar Sachen ausbessern, aber das ging dann schneller oder f�r mich war das dann angenehmer, als wenn ich jetzt eine fremde Pressemitteilung hernehme,
+Nehmen, die ich selber vielleicht noch nicht genau kenne, vom Inhalt erst reinschmei�en und dann das Ergebnis mit dem Original vergleichen. Vor allem, wenn es eine l�ngere Pressemitteilung ist, finde ich, dauert das oft l�nger, als wenn ich das schnell selber umformuliere.
+
+Fierbeck Simon   4:25
+Yep, yeah.
+War also welche Aspekte des Tools waren besonders gut oder besonders schlecht oder war alles so in Ordnung?
+
+P17   4:48
+Also, wie gesagt, das Artikel generieren von Stichpunkten hat mir mit am besten gefallen, weil es einfach schon sehr gut funktioniert hat, fand ich. Und er hat auch schon, also das Tool, ich sag ja, das Tool hat auch schon
+
+Fierbeck Simon   4:54
+Mhm.
+
+P17   5:06
+Ja, insgesamt sprachlich hat das auch sehr gut, finde ich, funktioniert. Also, dass es dann relativ nat�rlich geklungen hat und nat�rlich mit ein paar Ausnahmen. Was, wie ich finde, weniger gut in meinen F�llen funktioniert hatte, war jetzt so etwas wie �berschriften generieren.
+
+Fierbeck Simon   5:16
+Mhm.
+
+P17   5:24
+weil ich dann doch sehr unzufrieden war mit den �berschriftsvorschl�gen. Aber es lag nat�rlich auch vielleicht daran, dass ich keine, ich hab keine Anpassungen im Tool selber hergenommen. Also hat sich einfach bei mir zeitlich dann auch nicht ergeben, mich n�her damit zu befassen, dass ich das noch irgendwie nachprompte.
+
+Fierbeck Simon   5:37
+Mhm.
+Ja.
+
+P17   5:43
+Ich fand halt schade, dass dass man halt wirklich nur diesen einen Vorschlag dann hatte und er dann auch bei mehrmaligen Reihen, also wenn man das mehrmals irgendwie angesto�en hat, dass er dann immer das Gleiche ausgespuckt hat. Also, dass er dann nicht irgendwie mehrere �berschriftenvorschl�ge gemacht hat, sondern wirklich immer nur den einen.
+
+Fierbeck Simon   6:02
+Mhm, mhm, da dann mit dem Editieren gearbeitet oder einfach wieder neu generieren lassen, in dem Fall.
+Kann ich eher neu generieren.
+
+P17   6:13
+Umm.
+Oder war das also konnte man da gezielt?
+Bei den �berschriften konnte man da gezielt noch mal irgendwas draufklicken, dass er das neu.
+
+Fierbeck Simon   6:25
+Ja, da konnte man entweder umschreiben oder "Generieren" klicken.
+
+P17   6:31
+Ja genau, ich hab beides probiert, also quasi generieren und dann hat er ja, soweit ich mich erinnern kann, immer das Gleiche dann nur ausgespuckt und jetzt keine �nderung vorgenommen. Und wenn ich ihm gesagt hab, zum Beispiel bitte den und den Aspekt mit reinnehmen, ja, hat das dann meistens eher so semi.
+
+Fierbeck Simon   6:38
+Mhm, mhm.
+
+P17   6:47
+funktioniert. Also, ich war jetzt nie so hundertprozentig mit den mit den �berschriften zufrieden, dass ich das jetzt genommen h�tte, aber ja, ich hab es dann trotzdem mal ausprobiert. Also hin und wieder war dann auch mal was dabei, was man hernehmen konnte oder was einem zumindest einen Denkansto� gegeben hat. O.K., so k�nnt ich jetzt die �berschrift machen.
+
+Fierbeck Simon   6:48
+Mhm, mhm.
+Yep, yep.
+Mhm.
+bez�glich den Ergebnissen. Da hast du ja davor schon gesagt, man muss noch mal dr�ber schauen, wie war das Vertrauen. Dann kann man sagen, O. K., am Anfang skeptischer, am Ende besser oder durchg�ngig, O. K., man muss ja dr�ber schauen, er macht oft, oft dumme Fehler.
+
+P17   7:27
+Also, ich bin da schon immer recht gr�ndlich dann dr�ber gegangen, noch mal einfach weil ich den der K.I. nie vertraue. Ja, und an der Stelle, falls es da dazu passt, also manchmal hat er ja dann auch wirklich Abs�tze wirklich frei erfunden.
+
+Fierbeck Simon   7:31
+Mhm.
+Fairer Punkt.
+
+P17   7:44
+Also, wo er dann irgendwelche Zusatzinfos noch mit reingepackt hat, die dann einfach auch nicht gestimmt hatten. Manchmal, das fand ich dann allerdings auch wieder gut, hat er auch allgemeine erkl�rende S�tze dann mit reingemacht, zum Beispiel: "Jetzt wei� ich gerade keinen."
+
+Fierbeck Simon   7:45
+Mhm.
+
+P17   8:03
+Gutes Beispiel, aber dass er dann zum Beispiel irgendein Wort vielleicht erkl�rt hat, so allgemeine Begriffsdefinitionen oder irgendwas, und das fand ich dann manchmal dann doch wieder gut.
+
+Fierbeck Simon   8:07
+Mhm, mhm.
+Mhm.
+Umm.
+Dazu vielleicht noch sp�ter mehr. Wie hat sich das Ganze dann auf den Workflow ausgewirkt? In dem Sinne, wie arbeitest du normal und wie war dann das Arbeiten mit dem Tool? Hat es da einen Unterschied gegeben? Also offensichtlich nat�rlich schreibst du Stichpunkte hier und l�sst einen Text generieren.
+
+P17   8:20
+Mhm.
+
+Fierbeck Simon   8:37
+Aber grunds�tzlich hat es �nderungen gegeben oder war das einigerma�en der gleiche Workflow wie normal, wenn du Artikel schreibst?
+
+P17   8:48
+Wei� nicht, wie ich das beantworten soll. Ja, also normalerweise arbeite ich halt so. Ich hab also, ich bin ja in der Online-Redaktion und arbeite jetzt. Also schreib jetzt relativ wenig Artikel, die ich also gro� ausrecherchiert hab, irgendwelche Lesegeschichten, sondern mein.
+
+Fierbeck Simon   8:55
+It.
+
+P17   9:04
+mein, meine t�gliche Arbeit fokussiert sich ja auf Blaulichtgeschichten. Und das sieht dann meistens eben so aus, dass ich irgendeine Quelle habe, entweder eine Pressemitteilung oder ein pers�nliches Gespr�ch mit einem, mit einem Ansprechpartner, mit einem, mit einem Polizisten oder mit einem Feuerwehr oder was auch immer.
+
+Fierbeck Simon   9:21
+Mhm.
+
+P17   9:22
+Und dann entweder aus diesen Stichpunkten, aus diesen Gespr�chen oder aus der Pressemitteilung, dann eine entsprechende Meldung umformulier, halt so, dass es auch verst�ndlich ist und dass es eben keine Polizeisprache oder so was beinhaltet, also zum Beispiel.
+Grad f�r Motorrad oder so was und mit dem Tool.
+
+Fierbeck Simon   9:42
+Mhm.
+
+P17   9:45
+Ja, hab ich das eigentlich dann halt umgesetzt, halt 1 zu 1 genauso, nur eben mit dem Unterschied, dass ich dann nicht immer alles selber umformuliert habe und nicht alles selber, genau den Text komplett selber geschrieben habe.
+
+Fierbeck Simon   9:55
+Yep.
+
+P17   10:01
+Also, es war dann bei manchen Sachen eine Unterst�tzung. Manchmal ging es dann vielleicht auch ein bisschen schneller mit der KI, mit der KI-Unterst�tzung.
+
+Fierbeck Simon   10:11
+Mhm, mhm, aber sehr �hnlich zu dem, wie du normal arbeitest, nur halt mit dem.
+
+P17   10:11
+Nur ich hab dann ja, ja also die, ich glaub die K.I. hat ja dann auch den Quelltext, die Quellstichpunkte genommen und hat daraus einen verst�ndlichen Text formuliert. Also das war dann, glaub ich, �hnliche Arbeits.
+
+Fierbeck Simon   10:24
+Mhm.
+
+P17   10:26
+Arbeitsweise. Ich habe mir nat�rlich dann in meiner t�glichen Arbeit dann den Zwischenschritt gehabt, dass ich die Ergebnisse der KI noch mal nachpr�fen musste.
+
+Fierbeck Simon   10:35
+Mhm, mhm, yeah.
+Ja.
+
+P17   10:38
+Ja.
+
+Fierbeck Simon   10:40
+Also, wenn ihr es richtig verstanden habt, bei Artikeltext war das Tool gut. M�glicherweise w�rdest du sagen, wurde die Qualit�t gesteigert? Warst du schneller bei Artikeltexten?
+Oder einfach gleichbleibend.
+Wie ist da deine Einsch�tzung?
+
+P17   10:59
+Also anhand von Stichpunkten meinst du jetzt, wenn ich.
+
+Fierbeck Simon   11:02
+Genau, wenn jetzt aus Stichpunkten da Titeltext.
+
+P17   11:05
+Ja, also da war ich dann, w�rde ich sagen, gef�hlt schon auf jeden Fall schneller.
+
+Fierbeck Simon   11:11
+Mhm.
+
+P17   11:14
+Besser wei� ich jetzt nicht unbedingt, aber doch hin und wieder hat dann die KI auch zum Beispiel irgendeinen Einstieg gew�hlt oder irgendwelche Formulierungen verwendet, wo ich gesagt habe: "Hey, super, da w�re ich jetzt gerade auf dem beim."
+Auf also in der ersten Reaktion jetzt auch nicht drauf gekommen, wo mir das dann positiv aufgefallen ist, also von der Qualit�t her doch eigentlich ja gut bis sehr gut in manchen F�llen.
+
+Fierbeck Simon   11:33
+Hm.
+Yep, yep.
+
+P17   11:46
+Um.
+
+Fierbeck Simon   11:48
+Bei der �berschrift eher dann das Gegenteil. Da kamen Sachen raus, die man umschreiben musste. Es w�re grunds�tzlich schneller gegangen, wenn du das ohne Tool schnell geschrieben h�ttest.
+
+P17   11:48
+Ja.
+Genau, ja.
+Ja, also da bei �berschriften war ich, da hab ich glaub ich so gut wie nie was hergenommen von der K.I. Jetzt wei� ich nicht, ob das da mit reinpasst. Ich hab manchmal auch Paywall Teaser oder sowas hergenommen, aber ich hab das halt nicht f�r Paywall Teaser verwendet, sondern f�r Bildunterschriften.
+
+Fierbeck Simon   12:11
+Mhm.
+
+P17   12:17
+F�r Bildunterschriften, f�r Symbolbilder, da brauchen wir ja auch immer Bildunterschriften. Und da habe ich mich dann mal an den Paywall-Teasern bedient. So, ich wei� jetzt nicht, ob das da mit reinpasst oder eine Randnotiz, ja.
+
+Fierbeck Simon   12:17
+Ah, OK.
+Mhm, mhm.
+Mhm.
+auf jeden Fall. Ja, in der Vorbereitung war, dass man nur ein Bild hinzuf�gt, auf jeden Fall ein gro�er Punkt, hab mich dann dagegen entschieden, weil es verdammt schwer ist, aber sch�n, dass das in irgendeiner Art und Weise dann verwendet wurde. Nice.
+
+P17   12:43
+Yeah.
+
+Fierbeck Simon   12:48
+Genau, dann noch mal die Frage, glaubst du, dass die Qualit�t, weil man, du hast ja Excel ausgef�llt und du hast ja auf der einen Seite hoffentlich richtig geschrieben, wie die, wie deine pers�nliche Artikelqualit�t war und auf der anderen Seite glaubst du, die wurde durchschnittlich besser.
+Gleichbleibend oder schlechter.
+
+P17   13:08
+Uh.
+Also jetzt im Vergleich zwischen, wenn ich KI benutzt habe und wenn ich KI nicht benutzt habe.
+
+Fierbeck Simon   13:14
+F�r mich pers�nlich genau im Vergleich zwischen Phase 1 und Phase 2.
+
+P17   13:15
+Ja, mhm.
+Ich glaube.
+Dass es relativ gleich geblieben ist, unterm Strich. Ich hab allerdings auch bei mir den Fall, ich find bei so kleinen Polizeimeldungen, da hab ich ja meistens eh immer eine durchschnittliche Qualit�t genommen, weil da gibt es nicht so viel.
+
+Fierbeck Simon   13:28
+Mhm.
+Ja, ja.
+
+P17   13:41
+Finde ich, was man da an Qualit�t noch rausholen kann. Also deswegen war ich da. Ist bei mir vielleicht jetzt ein kleiner Sonderfall, weil ich keine richtigen redaktionellen recherchierten Artikel schreibe oder sehr wenig.
+
+Fierbeck Simon   13:44
+Yeah.
+Mhm, mhm.
+
+P17   13:55
+Ja, h�tte ich jetzt mal ja gleichbleibend gesagt, was aber ja auch nicht schlecht ist, unbedingt.
+
+Fierbeck Simon   13:56
+Ja, is er.
+Yeah, but.
+Ja, wenn jetzt zum Beispiel das mit Effizienz, also das schneller geht und gleichbleibende Qualit�t, w�re was sehr, sehr Gutes. Mal schauen, was die Ergebnisse schlussendlich dann zu Tage f�rdern.
+
+P17   14:09
+Mhm.
+Auch gespannt.
+
+Fierbeck Simon   14:16
+Genau, noch bez�glich den, du hast doch vorher erw�hnt gehabt, ja da, da wurden Formulierungen gesagt, die du vielleicht in dem Moment nicht im Kopf gehabt hast. W�rdest du grundlegend sagen, dass der Schreibstil der K. I., du hast dem ja Stichpunkte gegeben, du hast, du hast dem wahrscheinlich eine gewisse Art der Formulierungen schon gegeben, auch
+
+P17   14:21
+Ich hab das.
+
+Fierbeck Simon   14:34
+wenn es nur 'n Stichpunkte war, wie war die Formulierung der K. I., w�rdest du sagen, die war mit deiner �hnlich, die war anders, w�rde man erkennen, dass das m�glicherweise nicht die gleiche Person formuliert hat, auch nat�rlich mit der Textl�nge immer 'n bisschen schwerer, aber wie ist da deine Einsch�tzung?
+
+P17   14:54
+Also, du meinst jetzt, ob ob man da jetzt bemerkt h�tte, dass ich das nicht selber geschrieben hab. Ja, OK.
+
+Fierbeck Simon   15:01
+Ja genau, ob sie da Formulierungen ver�ndert haben, vielleicht die Wortwahl ver�ndert haben, weil ja KI ist ja nee, du.
+
+P17   15:08
+Yeah.
+Ja, finde ich auch schwierig, jetzt in dem Fall, weil.
+weil es halt sehr sachliche Polizeimitteilungen sind und jetzt keine, ja keine szenischen Sachen. Ich glaub, h�tt ich jetzt wirklich 1 zu 1 die K.I. Inhalte genommen, dann h�tt man es glaub ich schon bemerkt, dass es von der
+
+Fierbeck Simon   15:14
+Ja.
+Yeah.
+Ja.
+
+P17   15:29
+Also, vielleicht nicht unbedingt, dass es von der KI geschrieben wurde, aber dass es doch sehr protokollhaft geschrieben ist, weil ich habe meistens also die Artikel Teaser noch angepasst, also die ersten Abs�tze. Die habe ich meistens noch ein bisschen sch�ner, ein bisschen.
+
+Fierbeck Simon   15:36
+Mhm.
+
+P17   15:47
+so formuliert, dass es noch ein bisschen mehr ins in die Geschichte mit reinzieht. Es war ja also der Artikel Einstieg bei den K. I. Texten, die waren immer sehr protokollhaft. Am Donnerstag hat sich das und das ereignet, der Unfall auf der Stra�e X. Y.
+
+Fierbeck Simon   15:53
+Mhm.
+
+P17   16:03
+Und ich hab dann meistens halt versucht, den Einstieg ein bisschen sch�ner zu formulieren, ein bisschen spannender. Und da hab ich dann journalistische M�hen mit reingesteckt, was die K.I. dann halt nicht nicht ausgespuckt hat.
+
+Fierbeck Simon   16:11
+Mhm.
+
+P17   16:20
+Also in dem Sinne, glaub ich, h�tte man dann schon einen Unterschied bemerkt.
+
+Fierbeck Simon   16:20
+Mhm.
+OK, also grunds�tzlich wurde ja auch der Titeltext nochmal ver�ndert, um schlussendlich auf der Seite zu. Mhm, mhm.
+
+P17   16:30
+Ja, also es ja meist meistens schon ja zumindest, dass der erste, also dass der Einstieg ein bisschen nat�rlicher klingt und nicht immer so protokollhaft.
+
+Fierbeck Simon   16:41
+Mhm.
+
+P17   16:44
+vor allem bei so lustigeren Polizeimeldungen. Vielleicht ist es ja oft so, dass wir ein bisschen kreativer einsteigen.
+
+Fierbeck Simon   16:44
+OK.
+Mhm, mhm, na das hat er nicht erkannt. Wird wahrscheinlich aber auch in die Stichpunkte nicht ersichtlich gewesen sein, f�r er da irgendwie, also f�r die K.I., da zu wissen, dass das jetzt lustig sein sollte oder sowas, sondern ja.
+
+P17   17:08
+Ich habe jetzt aber auch an Pressemitteilungen gedacht. Wenn er die umformuliert, nicht unbedingt nur an die Stichpunkte.
+
+Fierbeck Simon   17:12
+Mhm.
+
+P17   17:17
+Mhm.
+
+Fierbeck Simon   17:18
+Mhm, OK, dann.
+Glaubst du, generative K.I. beziehungsweise das Arbeiten mit der K.I. setzt sich in deinem Feld durch und wenn ja, in welchem Ausma�e? Also, �hnlich zu diesem Tool, was du hast, �hnlich zu einem.
+Moritz, keine W�rter in deinem Mund legen. Wie siehst du die Situation?
+
+P17   17:43
+Also ich glaub also dadurch, dass wir es ja auch schon verwenden in der Onlineredaktion zum Teil zumindest auf freiwilliger Basis, dass das sich schon ja zum Teil durchgesetzt hat.
+
+Fierbeck Simon   17:52
+Mhm.
+
+P17   17:57
+dass man so generative generative K. I. verwendet. hat nat�rlich aber auch seine Grenzen. Also ich glaube nicht, dass jetzt ein eine K. I. einen Redakteur nat�rlich ersetzen kann, weil eben auch f�r diesen vielen Kleinigkeiten, es gibt einfach
+Bei ja, bei ausf�hrlicher recherchierten Geschichten kommt ja die K.I. da sicherlich auch an ihre Grenzen. Ich find aber doch bei so, sag ich mal, sachlicheren Geschichten, Blaulichtartikeln.
+
+Fierbeck Simon   18:25
+Mhm.
+
+P17   18:33
+wo es ja haupts�chlich auch ums Wiedergeben von Fakten geht, da kann die K.I. durchaus eine Hilfe und Unterst�tzung sein. dass man da auch zum Teil ein bisschen schneller an den Artikel dann rankommt, dass der dann ein bisschen schneller fertig wird oder dass man zumindest
+Mindest Inspiration hat, wie man den aufbauen kann, den Artikel.
+
+Fierbeck Simon   18:53
+Mhm, mhm, ja, Inspiration ist ein gutes Stichwort, weil hier.
+Von anderen Teilnehmern wurde ein bisschen mehr gefordert, dass das mehr in die Analyse geht, weniger ins Erstellen von Texten. Also, das Erstellen von Texten, wie ihr wusstet, euer Handwerk einigerma�en sehr, sehr gut kann. Und aber oftmals wollten die, okay, vielleicht kann man sie einen Satz nochmal umschreiben lassen oder sowas durch.
+Die KI haben einen sechste oder ein A eher die Zukunft als wirklich OK gibt ihm Stichpunkte und er entstellt mir einen Artikel.
+
+P17   19:28
+Also jetzt allgemein gesehen.
+
+Fierbeck Simon   19:28
+Does money.
+Ja, dass man eher etwas hat, wo man sagt: 'Okay, mit dem spielt man hin und her und erstellt sich einen Artikel anstatt 'Okay, erstellt mir einen Artikel und ich schau dann nochmal dr�ber.'
+
+P17   19:44
+Ich wei� jetzt halt nicht genau, wie die anderen Kollegen das genutzt haben in ihrer Arbeit. Deswegen kann ich mir das jetzt gerade schwer vorstellen. Also ich pers�nlich kann mir jetzt eher wenig vorstellen, dass ich jetzt einen, wenn ich jetzt einen Artikel schreib, dass ich mit denen von der K.I. vorschreibe, sozusagen.
+
+Fierbeck Simon   19:48
+Mhm.
+Mhm, mhm.
+
+P17   20:01
+Halt ich f�r schwierig.
+Weil man da ja doch auch irgendwie m�chte, dass der Text seine eigene Note hat, also die eigene Schreibe sozusagen. Ich glaub, das also nat�rlich kann man auch diese K.I. Modelle so trainieren, dass dass sie ein dem eigenen Schreibstil �hneln und das geht ja auch.
+
+Fierbeck Simon   20:14
+Mhm, mhm.
+Yep.
+
+P17   20:29
+Ja, aber ob das jetzt jeder Journalist m�chte, wei� ich nicht. Also, ich w�rde es, glaube ich, nicht wollen. Beantwortet das deine Frage oder was war die nochmal? Sorry, OK.
+
+Fierbeck Simon   20:39
+Das beantwortet meine Frage auf jeden Fall. Nein, nein, nein, alles gut. Das ist es.
+dann gleich die n�chste. Und dadurch wird auch die Arbeit schneller vollzogen oder beziehungsweise wer profitiert eher davon? Leute, die frisch dabei sind, weil sie durch K. I. m�glicherweise schnell auf einen.
+Output generieren, der verwendet werden kann, oder eher erfahrene Journalisten, die wo dann einfach mit Ohrenblick beim Dr�berschauen sehen, O. K., dies und dies und dies werden aufgebessert oder auch nicht. Wer glaubst du, profitiert am meisten davon? Oder m�glicherweise auch, gibt es Nachteile, die wo dadurch entstehen k�nnen?
+
+P17   21:21
+Also, ich glaube, dass erfahrene Journalisten da durchaus profitieren k�nnen. Also, ich rede jetzt von meinem Fall von so normalen, relativ einfachen Artikeln, Blaulichtgeschichten, die basierend auf Pressemitteilungen oder ersten Presseinfos basieren.
+�hm.
+Weil also, wenn man jetzt das Beispiel nimmt, dass anhand von Stichpunkten ein Artikel generiert, einen sachlichen Artikel generiert, dann erspart man sich dadurch ein bisschen, dass man jetzt bei jedem Stichwort jetzt einen Satz voll formulieren muss, sondern man bekommt die S�tze dann schon.
+Vorgeschlagen und man kann ja hier und da noch was ausbessern, wenn einem was nicht passt von der Formulierung her. Also, das ging ja schon ziemlich schnell, finde ich, beim bei mir. Ich sehe die Gefahr, wenn das jetzt Journalisten nutzen, also junge Journalisten, die jetzt erst gerade in den Beruf einsteigen.
+
+Fierbeck Simon   21:56
+Mhm.
+Mhm.
+
+P17   22:14
+Dass sie sich zu sehr dann darauf verlassen, jetzt nicht inhaltlich gesehen, sondern auch vielleicht sprachlich gesehen, weil es gibt ja doch so ein paar grammatikalische, ja grammatikalische.
+Punkte, worauf Journalisten achten, wenn sie einen Artikel schreiben, zum Beispiel eben, dass der erste Satz ist klassischerweise im Perfekt geschrieben und der Rest im Pr�teritum. Oder dass sie das, also wir in der Online-Regulation passen auch auf, wenn wir etwas aus einer Pressemitteilung zitieren, dass es in indirekter Rede zitiert wird.
+
+Fierbeck Simon   22:34
+OK.
+Mhm, mhm.
+
+P17   22:49
+das halt ganz deutlich ist, dass wir das nicht selber recherchiert haben, sondern dass das die Info von der Polizei ist und ich glaub halt jemand Also, jungen Journalisten, die sich dann einfach Artikel ausspucken lassen von der K.I. und zwar inhaltlich dr�ber schauen, aber jetzt nicht sprachlich, dass denen dann sowas vielleicht nicht auff�llt, wenn sie sowas nicht von Haus aus gelernt haben, wie man
+
+Fierbeck Simon   22:52
+Mhm, mhm.
+
+P17   23:09
+Solche Artikel schreibt.
+
+Fierbeck Simon   23:11
+Mhm, mhm.
+Okay, vielen Dank. Dann noch der Punkt. Glaubst du, dass sich, wenn solche Tools verwendet werden, vor allem jetzt f�r, sagen wir nicht unbedingt Pressemitteilungen oder Polizeimitteilungen, sich der Schreibstil
+Beziehungsweise das ja auch das Wording vereinheitlicht wird st�rker.
+
+P17   23:36
+OK.
+
+Fierbeck Simon   23:36
+Oder ist das, was auf auf das sich der Journalist dann am meisten sich drum k�mmert, dass seine eigenen W�rter verwendet werden oder so, wie er das schlussendlich?
+Haben will, ich werde jetzt die Frage richtig. Ich hoffe, du wei�t, was ich, was ich fragen m�chte.
+
+P17   23:54
+Ja, ich wei�, ich wei� noch nicht, ob ich das wirklich beantworten kann, weil ich das ja eigentlich nicht verwende f�r solche, f�r solche Autorentexte, sag ich mal. Ich glaub, ich ja h�tt jetzt aber gesagt, zumindest aktuell, wie es ja bei uns auch.
+
+Fierbeck Simon   24:00
+Mhm.
+Ja,
+Mhm.
+
+P17   24:23
+Zum Beispiel jetzt in dieser in dieser Masse klar, so was umformulieren, ja.
+
+Fierbeck Simon   24:24
+Mhm.
+
+P17   24:30
+Oder anhand von Stichpunkten, von eigenen Stichpunkten, was generieren. Ich glaub, das ist in Ordnung. Aber jetzt komplette Artikel erstellen lassen nur von K.I. und dann ja, Autorennamen dr�ber klatschen, das ist ja so in der Form. auch gar nicht erlaubt, also ich
+K�nnte ich jetzt nicht sagen, wie das jetzt jemand anderes machen w�rde.
+
+Fierbeck Simon   24:48
+Mhm.
+Ja, ich war auch �berrascht, wie wie unterschiedliche Personen unterschiedliche Meinungen zu dem Kopf haben, wie man KI denn bei uns verwenden kann, darf und soll. Das war sehr interessant. Da gibt es anscheinend noch nicht die klare einheitliche Linie.
+
+P17   24:51
+Ja.
+
+Fierbeck Simon   25:05
+Aber na ja.
+
+P17   25:05
+Ich dachte eigentlich schon, das war einheitlich, aber gut, ich halte mich da raus.
+
+Fierbeck Simon   25:11
+Ja, ich war wieder da. So, okay, ich wei� von nichts. Und noch die letzte Frage: Abgesehen vom Prototypenaspekt, welche Features h�ttest du dir noch gew�nscht in dem Tool?
+Gab es irgendwas, was du denkst? Verdammt, also Bildgenerierung, hab ich also Alttextgenerierung, hab ich auch so erkl�rt. W�re ein cooles Feature gewesen.
+
+P17   25:35
+Ja.
+
+Fierbeck Simon   25:44
+Wunschlos gl�cklich z�hlt auch als Antwort, also drum.
+
+P17   25:52
+Ja, OK, jetzt wei� ich nicht, ob das also man k�nnt ja theoretisch das auch so einstellen, dass dass da vielleicht dann automatisch �berschriften, Vorschl�ge, Dachzeilen, Vorschl�ge und so weiter generiert, dass man da diesen extra Schritt nicht gehen muss, dass man das manuell macht.
+
+Fierbeck Simon   26:06
+Mhm.
+
+P17   26:08
+Zum Beispiel.
+Mhm.
+
+Fierbeck Simon   26:13
+Aber.
+
+P17   26:13
+Ja, sonst, sonst hab ich jetzt eigentlich nichts gro� vermisst. Also, mit in so wie ich jetzt gearbeitet hab mit dem Tool, haupts�chlich mit Pressemitteilungen und Stichworten, hab ich da jetzt sonst nichts weiter vermisst.
+
+Fierbeck Simon   26:16
+Mhm, mhm.
+Yep, yeah.
+Ja, ja, ist ja auch 'n fairer Punkt. O. K., dann Katharina, bleibt mir noch zu sagen, vielen, vielen, vielen, vielen Dank, helft mir sehr stark, Masterarbeit zu schreiben und das ist ja der Sinn davon. Deshalb danke, danke.
+
+P17   26:26
+Ja.
+So.
+Sehr good.
+Wie lange hast du noch Zeit?
+
+Fierbeck Simon   26:39
+Ich werd.
+schon noch lang, lang, lang, lang, lang. Ich hab es erst vor, als klar wurde, dass das auch wirklich mit der Datensammlung funktioniert, hab ich es dann erst anmelden m�ssen. Dementsprechend alles gut. Ansonsten, wenn es steht, werdet ihr Kopie zur�ckgeben lassen. Wenn du das lesen magst, gerne. Wenn nicht zum Einheizen, kann man es auch verwenden.
+
+P17   26:43
+OK.
+
+Fierbeck Simon   27:00
+Auf jeden Fall vielen, vielen Dank und ja.
+
+P17   27:04
+Gerne, gerne und dann viel Erfolg auf jeden Fall. Ich bin schon gespannt auf die Ergebnisse.
+
+Fierbeck Simon   27:07
+No.
+Dankesch�n, dankesch�n. Dann w�nsche ich dir noch einen sch�nen Tag und wir sehen uns. Tsch�ss.
+
+P17   27:12
+Dann dir auch. Bis dann. Ciao.
+
+Fierbeck Simon Transkription beendet

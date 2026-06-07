@@ -1,0 +1,609 @@
+Interview zur Feldstudie-20260520_095837-Besprechungstranskript
+20. Mai 2026, 07:58AM
+33 Min. 18 Sek.
+
+Fierbeck Simon Transkription gestartet
+
+P20   0:19
+Jetzt funktioniert's, oder?
+
+Fierbeck Simon   0:21
+Jetzt h�re ich Sie auf jeden Fall wieder.
+
+P20   0:23
+Gut.
+
+Fierbeck Simon   0:23
+Und genau rechts wird alles sch�n aufgezeichnet.
+
+P20   0:28
+Super.
+
+Fierbeck Simon   0:29
+Ja.
+Dann w�rde ich starten. Die Interviewfragen sind in drei Bereiche geteilt, jeweils vier Fragen. Dann starten wir gleich. Also, welche Aspekte des Tools wurden verwendet? Wie wurden sie verwendet?
+Wurden sie generiert und dr�ber geschaut oder die Editierfunktion? Die K�rzenfunktion? K�nnen Sie dazu etwas sagen?
+
+P20   0:55
+Ausprobiert habe ich alle Funktionen. Ich habe aber vorwiegend die Funktionen verwendet, die Elemente generiert, also sprich Zwischentitel generieren. Hab die teilweise �bernommen, hab die Funktion mit weitere Felder.
+
+Fierbeck Simon   1:06
+Mhm.
+
+P20   1:11
+generieren und hab die teilweise �bernommen, insbesondere Paywall Teaser ist f�r mich interessant gewesen, �berschriften weniger, Tags auch weniger, weil ich die nicht setze, das mach ich anders, das sind ja bestimmte Tags. Aber die Elemente, die sozusagen die
+
+Fierbeck Simon   1:23
+Mhm.
+
+P20   1:28
+Ich sag mal, das Aufh�bschen eines Online-Artikels erm�glichen. Die hab ich verwendet.
+
+Fierbeck Simon   1:34
+Mhm.
+
+P20   1:34
+Das Generieren von Text hab ich versucht, da ist aber das Problem tats�chlich, das kommt in meiner Realit�t nicht vor. Also ich schreib mir 10 S�tze auf und sag dann jetzt generiere mir einen Text dazu. Das h�tte f�r mich auch so nicht funktioniert, tats�chlich. Also sprich, das ist bis auf den ersten Eindruck zwar das st�rkste Tool, ist f�r mich aber am wenigsten zu gebrauchen.
+
+Fierbeck Simon   1:44
+Yep.
+
+P20   1:53
+Weil ich nat�rlich die Texte so relativ schnell runter schreibe, also ich bin ein schneller Schreiber, da w�re das sozusagen, also das kommt f�r mich so nicht in Frage, genau.
+
+Fierbeck Simon   1:58
+Mhm, mhm.
+Mhm, weil einfach die Berufserfahrung schon da ist und man einfach dann gelernt hat, wie man Texte schreibt.
+
+P20   2:09
+Also, das ist sozusagen das, was ich seit 25 Jahren mache. Genau, schreiben und das ist auch der Grund, oder sagen wir mal so, das das schr�nkt in gewisser Weise ein, wie ich K.I. nutze, aber da brauch man ja sicher nur drauf zu sprechen.
+
+Fierbeck Simon   2:11
+Yeah, yeah.
+Mhm, mhm, OK. Haben Sie die System Prompts ver�ndert oder mit den Standard Prompts gearbeitet?
+
+P20   2:29
+Sie meinen, dass man da an der Seite nochmal eintragen konnte und nachpumpen konnte, oder also das Tool genau.
+
+Fierbeck Simon   2:34
+Man konnte in die Einstellungen gehen und konnte System Prompts hinterlegen.
+
+P20   2:39
+System Prompts hinterlegt habe ich nicht, aber es gibt ja die, es gab ja die Funktion, wenn ich es jetzt einmal aufmache, dass hier an der Seite steht, sozusagen prompt eingeben. Dort konnte konnte man nachprompten, so war mein Eindruck und das habe ich ein paar Mal versucht. Allerdings hatte ich das in dem Zusammenhang versucht, als ich hergehen wollte und die
+
+Fierbeck Simon   2:41
+Mhm.
+Ja.
+Mhm, mhm.
+
+P20   2:58
+K.I., also dieses Tool, so nutzen wollte, wie ich K.I. �blicherweise nutze. Also zum Beispiel, wenn ich ein Interview erstelle, nutze ich sehr intensiv K.I. Das war aber in der offenen Version, die ich benutze, deutlich einfacher und deswegen habe ich sozusagen in der offenen Version.
+
+Fierbeck Simon   3:03
+Mhm, mhm.
+
+P20   3:16
+gemacht. Also f�r mich kommen wir vielleicht auch noch drauf, wie ich K. I. sozusagen generell nutze und da ist ein wichtiger Bestandteil aus Transkripten, Interviews zu machen. Das funktioniert aber in meiner Erfahrung so,
+
+Fierbeck Simon   3:17
+Yep.
+Mhm.
+
+P20   3:31
+Dass man das zun�chst einmal Frage f�r Frage machen muss.
+Und dann am Ende kann man mehrere Antworten, Fragen und Antworten eingeben. Das da war das Tool aber sozusagen f�r mich zu umst�ndlich. Also ich musste das in der offenen Version machen. Also ich benutze da Pocom, so ein Aggregator von verschiedenen KI-Tools, genau.
+
+Fierbeck Simon   3:36
+Mhm.
+Mhm, mhm.
+
+P20   3:51
+Was auch nicht funktioniert hat, da hatten wir Mailwechsel. Das ist sozusagen aus etwas, was sozusagen als gro�e Vorlage, wo viel Text geliefert wird, sozusagen einen journalistischen Text zu machen. Das Beispiel dieser Urteile, das hat nicht funktioniert, weil glaube ich die L�nge nicht funktioniert hat, ne.
+
+Fierbeck Simon   4:04
+Ja, ja.
+
+P20   4:07
+Das ist auch etwas, was sehr gut funktioniert. Kann man machen. Man muss dann nat�rlich sehr stark �berpr�fen, ob die Fakten auch stimmen. Aber wenn man das einschr�nkt auf das PDF und sagt "Bitte benutze nur dieses Urteil", ist das Ergebnis frappiert gut. Ich bin dann hergegangen und habe sozusagen das schon mal au�erhalb des Tools gemacht.
+
+Fierbeck Simon   4:10
+Mhm.
+Mhm.
+
+P20   4:24
+Hab es dann in das Tool rein und hab da die verschiedenen Elemente neu generiert, also sprich Zwischentitel, Paywall, Teaser und so weiter genau.
+
+Fierbeck Simon   4:29
+Mhm, mhm, mhm. Ja, ja, auf diesen Use Case war ich eben vorbereitet, dass man sehr, sehr viel Text reinschmei�t. Ja,
+
+P20   4:37
+Na ja.
+
+Fierbeck Simon   4:42
+Generell, wie angenehm war das Arbeiten mit dem Tool, abgesehen davon, dass man nat�rlich Copy und Paste eine Menge machen musste und auch hier ist es mit eingebunden in unsere Systeme, ja.
+
+P20   4:52
+Ja, Workflow. Ah, also das ist, ich glaube so wie Sie das gebaut haben, ist es genau das, was man braucht. Ich glaube, wir m�ssen das integrieren in Create, also in unser System, so dass das automatisiert da drin ist und dann ist es sozusagen etwas, was hervorragend funktioniert. Also die Nutzbarkeit war sehr gut.
+
+Fierbeck Simon   5:05
+Mhm.
+
+P20   5:11
+Mir hat das Tool sehr gut gefallen. Es ist einfach konzipiert, aber es ist schl�ssig. Also man versteht leicht, wie es funktioniert oder was man alles benutzen kann. Fand ich sehr, sehr gut. Ich w�rde jetzt aber auch genau davor warnen, wenn man es in unser System integriert.
+
+Fierbeck Simon   5:19
+Mhm.
+
+P20   5:28
+Also, so der Aspekt, so nach dem Motto, man l�sst sich da einen Artikel schreiben, man muss glaube ich Journalisten auch ein bisschen davor abhalten von den M�glichkeiten, die es gibt. Aber das jetzt bitte nur am Rande, ja.
+
+Fierbeck Simon   5:39
+Mhm, mhm, ja, darauf kommen wir noch mal zu sprechen sp�ter. Welche von den unterschiedlichen Features, die das Tool bot, waren besonders gut oder besonders schlecht? Also schlecht, w�rde ich mal sagen, das Schreiben des Artikeltextes.
+
+P20   5:43
+Genau. Mhm.
+Yeah.
+Mhm.
+
+Fierbeck Simon   5:58
+W�re eher im Bereich schlecht, aber
+
+P20   5:59
+Genau.
+Richtig.
+Also, f�r mich ist das Tool Paywall Teaser im Prinzip das St�rkste. hat damit was zu tun, dass ich oftmals, dass das sozusagen der Unterschied zwischen unserem Printartikel und den Onlineartikeln ist. Inhaltlich sind es ja dieselben. Ja, also ich �bertrage sozusagen einen Printartikel in einen Onlineartikel.
+
+Fierbeck Simon   6:14
+Mhm.
+
+P20   6:18
+Hab dann aber das Problem, dass ich verschiedene Felder neu denken muss und der Payball Teaser ist der, der sozusagen vor der Bezahlschranke ist und der ist f�r mich sehr gut. Meine Erfahrung mit diesem Tool ist, wenn es ein sehr sachlicher Bericht ist, dann ist der Teaser.
+
+Fierbeck Simon   6:25
+Mhm.
+
+P20   6:33
+Gut geschrieben. Deswegen ist es f�r mich das st�rkste Tool oder das st�rkste Feld.
+
+Fierbeck Simon   6:37
+Mhm.
+
+P20   6:40
+umso spitzer etwas ist. Also ich schreib zum Beispiel auch Kolumnen, die sehr meinungsorientiert sind. Ja, Meinungskolumnen, das kann er nicht so gut, weil er mit Ironie einfach nicht so gut umgehen kann. Wenn ich es jetzt mal personalisieren wollte auf die K. I., ja also sprich.
+
+Fierbeck Simon   6:46
+Mhm.
+Ja, ja.
+
+P20   6:57
+Sachliche Zusammenfassungen, die auch ein bisschen einen Cliffhanger haben, der ist auch wichtig. Das funktioniert gut bei Berichten. Umso meinungslastiger das Ganze wird, umso schwieriger wird es. Aber trotzdem w�rde ich sagen, der Paywall Teaser war f�r mich der Beste. Den konnte ich am h�ufigsten.
+Tats�chlich verwenden.
+
+Fierbeck Simon   7:13
+Mhm, mhm, davor schon kurz angeschnitten, wie viel Vertrauen war dann am Ende in dem Tool, wurde stark dr�ber geschaut, wurde jedes Zitat gepr�ft, war es gut in dem Sinne von, dass Texte �bernommen wurden, die nicht ver�ndert werden sollten?
+
+P20   7:28
+Yep.
+Also, nachdem ja meine Vorlage immer der Artikel war, der schon geschrieben war, hab ich zwar nat�rlich noch mal �berpr�ft und auch abge�ndert, aber das Ergebnis war sehr, sehr gut. Also, er findet nichts dazu, wenn man ihm einen festen Text als Vorlage gibt und sagt,
+
+Fierbeck Simon   7:39
+Mhm.
+Mhm.
+
+P20   7:52
+bezieh dich darauf. Manchmal hab ich die, die die Sto�richtung auch beim Paywall Teaser 'n bisschen ver�ndert. Es lag dann aber daran, dass die Zusammenfassung einfach auf Aspekte eingegangen ist, die ich jetzt nicht so interessant fand.
+
+Fierbeck Simon   8:06
+Ah, O. K., aber nichts hinzugef�gt oder so, sondern einfach die falschen. Mhm, mhm, sehr interessant. O. K., dann ja, sehr gerne.
+
+P20   8:07
+Genau.
+Genau, genau, richtig, ja.
+Darf ich noch was sagen? Ich glaube auch, wenn wir mit diesen Tags arbeiten w�rden, ja, was ich jetzt als Printredakteur, sag ich jetzt mal, nicht tue, ja, zumindest wurde mir das nicht gesagt, dass ich das machen muss, dann w�ren die aber auch sehr gut. Ich schau mir das jetzt gerade noch mal an, welche Tags da generiert wurden, so 'n Text zum Beispiel.
+Also ich glaube, wenn man, wenn man das br�uchte, dann w�re das auch sehr gut, weil das quasi so noch mal die Quintessenz des Artikels ist und dann einfach die wichtigsten Stichpunkte gibt.
+
+Fierbeck Simon   8:38
+Mhm.
+Ja, ja.
+Wenn man jetzt mal sagt, okay, das Tool w�rde gro� eingesetzt im System bei uns bei der Arbeit, wie glauben Sie, w�rde sich hier der der Workflow ver�ndern?
+
+P20   9:01
+Also, meine These ist, dass im vor allem im Bereich der Online-Redaktion, aber auch f�r Print-Leute, die es sozusagen brauchen, wenn sie ihre Artikel online stellen sollen, glaube ich, dass man bestimmt 10% effizienter arbeiten k�nnte aufgrund dessen, dass ich glaube, dass diese
+zus�tzlichen Arbeiten bei der �bertragung quasi eigentlich 'ne Art von, wie soll ich sagen, das ist quasi keine Arbeit, wo man so viel dr�ber nachdenken muss. Also da ist nicht so viel Kreativit�t gefordert und das w�rd es glaub ich schneller machen. Also sprich,
+
+Fierbeck Simon   9:31
+Mhm.
+
+P20   9:33
+Ich k�nnte schneller meine Artikel digitalisieren und h�tte dann bestimmt einen Effizienzgewinn von 10%, wenn ich das beziffern m�sste.
+
+Fierbeck Simon   9:41
+Mhm.
+Also grunds�tzlich w�rde die Arbeit an und f�r sich gleich bleiben. Man w�rde blo� schneller werden, um jetzt ja.
+
+P20   9:47
+Man w�rde schneller werden. Genau. Mhm.
+
+Fierbeck Simon   9:50
+Also.
+
+P20   9:50
+Es gibt da, Entschuldigung, wenn ich das sage, es gibt nat�rlich Tricks, wie man, wie man besser wird, aber da war ihr Tool noch nicht dazu geeignet. Als Beispiel, ich h�tte das vielleicht so verwenden k�nnen, jetzt wo Sie sagen, dass ich ein Prompt h�tte hinterlegen k�nnen. Ich geh grad her und prompte so.
+
+Fierbeck Simon   9:52
+Good.
+
+P20   10:05
+dass ich sage beim fertigen Text, bitte nenne mir Fehler, diskutiere mit mir die Tatsachen, die da drin stehen oder diskutiere mit mir zum Beispiel auch rechtliche Aspekte. Dann werde ich besser, weil ich quasi dann die die Maschine als, wie soll ich sagen, Sparringpartner habe, mit dem ich dr�ber diskutieren kann.
+
+Fierbeck Simon   10:11
+Mhm.
+Mhm.
+Yeah, yeah.
+
+P20   10:23
+wie gut mein Text ist. Meistens kommt raus, dass mein Text ganz ordentlich ist, Gott sei Dank. Alles andere h�tte ein bisschen an meinem Selbstbewusstsein geknabbert, aber es macht die Texte besser, vor allem unsere Rechtschreibpr�fung im System. Ja, und ich bin jemand, der gerne mal Tippfehler macht, weil ich sehr schnell, sehr schnell schreibe.
+
+Fierbeck Simon   10:41
+Mhm.
+
+P20   10:43
+unsere Rechtschreibpr�fung im System, die ist so, man muss dann immer best�tigen und weiter klicken, man �bersieht da �berraschenderweise viel. Wenn ich das offen prompte, dann sagt er mir, schau dir mal den Satz an, ich w�rde das so und so machen und man besch�ftigt sich noch mal mit dem Text, knete den noch mal durch und das macht es tats�chlich besser.
+
+Fierbeck Simon   11:00
+Mhm, mhm, dann weniger als.
+
+P20   11:02
+Das habe ich hier jetzt nicht gemacht, aber das w�re etwas, was man definitiv integrieren k�nnte.
+
+Fierbeck Simon   11:06
+Mhm, weniger als generatives Tool, dann mehr als Analyse und mhm, mhm, ja, w�re auch denkbar gewesen. Ja, sehr guter Punkt.
+
+P20   11:12
+Genau, ja.
+
+Fierbeck Simon   11:21
+Dann generell, wenn man die, die das Tool verwendet hat, wie w�rden Sie sagen, hat sich die Qualit�t der also verglichen mit dem mit der Qualit�t, die sie davor hatten und der neuen Qualit�t hinsichtlich der verwendeten Fehler? Also wenn Sie sagen, das hat die Qualit�t des Paywall Teasers angehoben, oder?
+Wurde dadurch einfach das Schreiben des Paywall Teasers schneller?
+
+P20   11:44
+Letzteres.
+
+Fierbeck Simon   11:45
+Mhm.
+
+P20   11:46
+Also, ich wage zu behaupten, dass meine Paywall-Teaser und �berschriften sowieso besser sind als die, die von der KI kommen.
+
+Fierbeck Simon   11:53
+Mhm.
+
+P20   11:54
+Das liegt einfach daran, dass ich seit 25 Jahren �berschriften mache. Ob die immer gleich funktionieren, h�ngt tats�chlich mittlerweile von anderen Faktoren ab. Also, wir wissen alle nicht, warum der eine Artikel pl�tzlich sozusagen ewig viele Zugriffe bekommt, der andere weniger. Liegt einfach an den Algorithmen von Google, aber ich glaube, dass
+
+Fierbeck Simon   11:57
+Yeah.
+Mhm.
+
+P20   12:13
+meine �berschriften und meine Paywall Teaser interessanter und besser sind. Ich bin aber schneller, wenn ich sozusagen diese diesen Teil der Kreativit�t auslagern kann.
+
+Fierbeck Simon   12:23
+Mhm, mhm.
+am
+die die Dinge, die aus dem Text erstellt wurden, wie nahe waren das an den W�rtern, die Sie verwenden w�rden, an dem Schreibstil, den Sie haben? Konntet der das gut nachahmen oder eher
+Semi.
+
+P20   12:48
+Mittel.
+
+Fierbeck Simon   12:49
+mittel
+
+P20   12:50
+Also, das kann ich eigentlich nicht, ich kann das nicht beziffern, weil
+Also bei den bei den Elementen, die ich da verwende, wie Zwischentitel oder Paywall Teaser, erkennt man meinen Schreibstil nicht so gut. Den Schreibstil erkennt man eher bei, wenn ich zum Beispiel 'ne Kolumne schreibe, ja, die mach ich sehr
+Auch mit eigenen W�rtern, die er K.I. nicht benutzt. Ja, also wenn ich so 'ne Kolumne mal durch die K.I. jage und sag, diskutier die mit mir, dann sagt er immer wieder, das ist jetzt eher umgangssprachlich, aber genau das will ich. Ich will, dass sie nicht so klingt wie ein Nachrichtentext.
+
+Fierbeck Simon   13:14
+Mhm, mhm.
+Mhm.
+
+P20   13:27
+Ja, insofern kann ich das jetzt tats�chlich nicht nicht abw�gen. Ich kann jetzt sagen, es ist nah an meinem Schreibstil oder weniger nah an meinem Schreibstil, weil diese Elemente, die ich da verwendet hab, da nutzt man oder da, da erkennt man meinen Schreibstil nicht so intensiv. Insofern w�rde ich sagen,
+Ja, in der Mitte, also gleichbleibend. Oder genau, ich wei� nicht, ob Sie da eine Skala haben.
+
+Fierbeck Simon   13:47
+OK.
+bei dem Interview auf jeden Fall nicht. Wenn also, wenn so eine Kolumne dann, wenn die Paywall Teaser f�r so eine Kolumne erstellt wurden, wurden dann die W�rter verwendet, die sie verwendet haben, oder wurden da dann eher wieder die umgangssprachlichen W�rter.
+
+P20   13:53
+OK.
+
+Fierbeck Simon   14:07
+Ersetzt.
+
+P20   14:07
+Ich habe die Frage nicht verstanden. K�nnen Sie sie wiederholen?
+
+Fierbeck Simon   14:10
+Wenn man, wenn sie f�r die eine Kolumne dann einen Paywall Teaser generiert haben, wurden dann die umgangssprachlichen W�rter, die sie verwendet haben, ebenfalls im Paywall Teaser verwendet oder wurde da dann die durch andere W�rter ersetzt? Haben sie?
+
+P20   14:13
+Ja, ja.
+In meiner Wahrnehmung wurden die durch andere W�rter ersetzt.
+
+Fierbeck Simon   14:26
+OK, also man ging wieder etwas weg von dem Wording, das Sie verwendet haben. Mhm, mhm.
+
+P20   14:27
+Aha.
+Genau, genau, genau, ist mein Eindruck gewesen.
+
+Fierbeck Simon   14:33
+Mhm.
+�hm.
+Dadurch w�rde sich ja, wenn das mehrere Journalisten machen w�rde, m�glicherweise eine Vereinheitlichung von ja dem Schreibstil beziehungsweise dem Wording oder sowas ergeben. Sehen Sie darin ein Problem, falls man das Tool.
+
+P20   14:50
+Yeah.
+
+Fierbeck Simon   14:57
+Ja, �hm, gr��er verwenden w�rde.
+Mhm.
+
+P20   15:07
+Vereinheitlichung, sozusagen auch das Ziel. Also, man m�chte ja, dass die Nachricht immer gleich erz�hlt wird. Sprich, eine DPA-Meldung, also eine Agenturmeldung, die kommt, ist immer im gleichen Stil geschrieben. Wichtigstes zuerst und so weiter. Das lernt man, Journalisten sogar. Das ist f�r mich quasi die, das, wie soll ich sagen.
+
+Fierbeck Simon   15:16
+Mhm.
+
+P20   15:25
+das kleine Einmaleins, wie das, was ein Schreiner lernt, wenn er, ich sag mal, 'ne Bank macht. Ja, wenn ich aber individuelle Texte, umso individueller der Text sein soll, umso kritischer sehe ich das. Also sprich, 'ne Seite 3 Reportage, die sehr reportagehaft ist, mit Eindr�cken, mit Beschreibungen,
+
+Fierbeck Simon   15:29
+Mhm, mhm.
+Mhm.
+
+P20   15:45
+w�rde sozusagen schlechter gemacht, wenn man so eine standardisierte KI dr�ber laufen lassen w�rde, die sozusagen vereinheitlichen w�rde. Ja, wenn man das bei Nachrichten machen w�rde, dann m�chte man ja immer das gleiche Ergebnis haben.
+
+Fierbeck Simon   15:55
+Mhm.
+
+P20   16:00
+So, jetzt muss man abw�gen in meiner Wahrnehmung. Also, man m�sste sich eigentlich die Inhalte kritisch anschauen, m�sste abw�gen, m�sste sagen, was ist individuell individueller Text, der abweichend und ich nenn es jetzt mal feuilletonistisch formuliert sein soll. Im Feuilleton ist
+
+Fierbeck Simon   16:15
+Mhm.
+
+P20   16:17
+Das ist das beste Beispiel daf�r. Da sind die �berschriften ja ganz anders als im Nachrichtenteil. Und welchen Teil des journalistischen Inhalts m�chte man standardisiert haben? Umso standardisierter etwas ist, umso sinnvoller ist der Einsatz von solchen Tools.
+
+Fierbeck Simon   16:18
+Yep.
+Mhm.
+Vielen Dank. Glauben Sie, dass �ber kurz oder lang solche Art von Tools dann auch f�r jeden Journalisten zum Handwerk geh�ren? Also, es wird ein Werkzeug unter vielen werden oder wird man am Anfang schauen, O. K., wenn jemand neu dabei ist, sollte erstmal
+Die Finger davon lassen. Wie sehen Sie hier, wie es weitergehen wird?
+
+P20   16:55
+Ich glaub, dass das eher kurz als lang ist und ich glaub, dass das automatisiert in den die Meinung hab ich aber schon seit diesem ber�hmten Chat G. P. T. Moment. Ich glaub, dass das in dem Programm einfach automatisch hinterlegt sein wird. Es wird kein Redaktionssystem mehr ohne solche L�sungen geben,
+
+Fierbeck Simon   17:09
+Mhm.
+
+P20   17:10
+In ein, zwei, drei Jahren genauso wenig wie es heute Redaktionssysteme ohne Rechtschreibpr�fung gibt. Und f�r mich ist das, �ber was wir jetzt auch sprechen, nichts anderes als die Fortsetzung eines Rechtschreibprogramms. Das Problem ist tats�chlich, dass nicht differenziert wird. Das hat man an Ihrem Tool auch gesehen, wenn ich das mal so.
+kritisch sagen darf. Es gibt einen Riesenunterschied, ob ich einen Text generieren lasse oder ob ich einen Text bearbeite. Ich benutze gerne das Bild des Pizzateigs. Die K. I. ist nichts anderes als der als der
+
+Fierbeck Simon   17:27
+Yeah, yeah, yeah.
+
+P20   17:41
+Als das Nudelholz, mit dem ich den Teig knete, ja, und so wird in Zukunft werden alle, auch Journalisten, Texte schreiben. Ja, meine Hauptarbeit wird sein zu entscheiden, wen ich sprechen lasse, wie ich was.
+
+Fierbeck Simon   17:44
+Mhm.
+Mhm.
+
+P20   17:57
+Spotlight, wo etwas in meinem Text vorkommt, aber die Art und Weise, wie ich diesen Text aufbereite, das wird das Nudelholz sein. Ja, und der Text ist der Teig. Und deswegen glaube ich, dass das eher �ber kurz als �ber lang Teil von Redaktionssystemen sein wird und.
+
+Fierbeck Simon   17:59
+Mhm.
+
+P20   18:13
+alle damit arbeiten werden. Im �brigen ist es wie immer, fr�her gab es auch viele Fotografen, heute fotografiert jeder selber. Das ist das beste Beispiel daf�r, sobald mein iPhone sozusagen das tut und es tut es, es transkribiert zum Beispiel auch Texte. Wenn ich aufzeichne,
+
+Fierbeck Simon   18:28
+Mhm.
+Yep.
+
+P20   18:31
+Dann werde ich das auch im Arbeitsalltag im Alltag integrieren. Alles, was im Alltag integriert ist, wird auch in den Redaktionsalltag integriert werden, so meine These.
+
+Fierbeck Simon   18:40
+Mhm, mhm.
+OK, also wird wahrscheinlich im n�chsten Engine System oder Create System dann dabei sein.
+
+P20   18:50
+Ich w�rde stark davon ausgehen. Ich w�rde es auch stark empfehlen, allerdings mit der Beschr�nkung, bestimmte Felder zu generieren.
+
+Fierbeck Simon   18:58
+Mhm, mhm.
+O. K., dann noch vielleicht direkt noch zum Tool, abgesehen jetzt wie gesagt von dem Prototyp Aspekt, welche Features h�tten Sie noch gern gesehen, was man dann vielleicht ja noch f�r die Create Leute.
+
+P20   19:16
+Yeah.
+Also tats�chlich weniger was f�r Create, sondern etwas, was ich tats�chlich in selber sehr intensiv nutze, Zusammenfassung von komplexen Texten. Also wenn ich zum Beispiel 'ne 20 nee, 'ne zwanzigseitige Studie hab, hau ich die gerne nat�rlich in die K. I. und sag, nenne mir die wichtigsten Punkte mit Quellenangaben, also mit der Seitenangabe, damit ich schneller
+
+Fierbeck Simon   19:33
+Mhm.
+
+P20   19:37
+�berblick hab. Das ist etwas, das verwende ich sehr intensiv. Was ich auch gerne h�tte, das ist eine, wie gesagt, eine Art von Rechtschreibdiskussion, Rechtschreib-Grammatikdiskussion, aber auch Tatsachendiskussion. Ja, also ich hatte gestern, ich hab gestern einen Text geschrieben,
+
+Fierbeck Simon   19:47
+Mhm.
+
+P20   19:54
+�ber einen Staatsempfang mit dem ehemaligen lettischen Staatspr�sidenten und der Botschafterin und das sind so komplizierte Namen f�r uns, dass ich es hilfreich finde, wenn die KI noch mal dr�ber schaut und auch tats�chlich noch mal sozusagen eine Art von Faktencheck macht, weil wenn ich mich vertippt habe, sagt er: "Hey!".
+
+Fierbeck Simon   20:09
+Mhm.
+
+P20   20:11
+Der hie� aber so und so, und das kann die KI ganz gut. Eine offene KI, weil sie dann auf Internetquellen zur�ckgreifen kann. Kann auch gef�hrlich sein, aber nachdem ich das mit hier ja kenne und ich wei�, �ber was ich schreibe, kann ich das auch gut �berpr�fen. Also, das w�re was.
+
+Fierbeck Simon   20:18
+Yep, yeah.
+
+P20   20:27
+Erstens, wie gesagt, Zusammenfassung komplexer Texte. Zweitens, eine Art von K�rzfunktion. Ja, die hatten Sie auch mit drin. So macht den Text k�rzer.
+
+Fierbeck Simon   20:37
+Mhm.
+
+P20   20:39
+Dann als drittes 'ne Art von Diskussionsfunktion, also sprich Rechtschreibung, Grammatik, aber auch Fakten. Viertens, vielleicht sogar 'ne Art von, das w�r jetzt aber die K�r. Ich glaub nicht, dass man das 'create' sagen sollte, weil sonst kommen die ja nur auf die Idee.
+Ich glaube, dass in Zukunft Texte auch juristisch �berpr�ft werden.
+
+Fierbeck Simon   20:58
+Mhm.
+
+P20   20:59
+Also, gerade bei heiklen Texten, wo es um Pers�nlichkeitsrechte geht, glaube ich, dass man, wenn man eine gesch�tzte KI hat, KI-Agenten, die nicht ihre Daten nach Amerika �bertragen, glaube ich, dass man auf einen Knopfdruck erkennen kann, ob eine Tatsachenbehauptung problematisch wird. Und die KI sagt einem, frag lieber den und den nochmal, weil wenn du den nicht fragst.
+Kann er dir eine Gegendarstellung schicken? Verstehen Sie, was ich meine? Mhm.
+
+Fierbeck Simon   21:20
+Mhm, mhm, ja, ja.
+OK, vielen Dank. Werde ich auf jeden Fall gr��tenteils jetzt das Interview ist abgeschlossen, ja.
+
+P20   21:27
+Warst du schon?
+Super, und wie werden Sie das verwenden? Also, Sie machen das in Ihrer Bachelorarbeit. Darf ich die dann anschlie�end mal sehen, wenn sie fertig ist, wenn Sie es abgegeben haben? Masterarbeit? Ja, Verzeihung.
+
+Fierbeck Simon   21:38
+meine Masterarbeit und sehr gerne. Also, wenn ich die die Note rausbekommen habe, dann oder beziehungsweise wenn alles abgenickt wurde, dann w�rde ich die nat�rlich auch an
+
+P20   21:45
+W�rde mich sehr freuen.
+Mhm.
+Ja.
+
+Fierbeck Simon   21:52
+die Probanden weitergeben. Ich h�tte jetzt noch eine Frage bez�glich der Ergebnisse. Da war n�mlich auffallend, dass die Zufriedenheit mit dem KI-Tool startete sehr hoch und dann ging sie doch signifikant nach unten. Also wir hatten in, sie hatten in den ersten
+
+P20   21:52
+Mhm.
+Mhm.
+Mhm.
+Mhm.
+Mhm.
+
+Fierbeck Simon   22:10
+67 F�llen ne 5 vergeben und haben aber dann relativ also endeten mit einer 2 da war irgendwas. Es f�hlt sich an, als ob es da einen bestimmten Punkt gab.
+
+P20   22:11
+Mhm, ja.
+Mhm.
+Ja, also es ist tats�chlich so gewesen, dass ich am Anfang sehr stark, ich sag mal, Texte rein habe, die sehr nachrichtlich waren und wo ich sozusagen diese Paywall Teaser Teile auch sehr gut �bernehmen konnte und Zwischentitel et cetera. Und im Prinzip grad bei den Kolumnen, die ich rein habe, ist
+
+Fierbeck Simon   22:36
+Mhm.
+
+P20   22:41
+ist genau dieser Effekt rausgekommen, den Sie auch erw�hnt haben, n�mlich dass er sozusagen mein eigenes Wording weggelassen hat, was aber bei meiner Kolumne extrem wichtig ist. Also die, die soll man erkennen. Ja, es h�ngt also nach meinem daf�rhalten.
+
+Fierbeck Simon   22:49
+Mhm.
+Mhm.
+
+P20   22:58
+Nicht vom Tool ab und von der Leistungsf�higkeit des Tools, sondern davon, f�r was ich es einsetze.
+
+Fierbeck Simon   23:02
+Mhm.
+Mhm, mhm, sehr interessant. Dann auf jeden Fall, wenn ich die Sachen dann analysiere, muss ich den Bezug oder hinsichtlich welche Art von Text geschrieben wurde. Das wird ein sehr, sehr gro�er Punkt sein.
+
+P20   23:12
+Mhm.
+Yeah.
+genau. Ja, ja, also ich h�tte, ich h�tte ihm nur empfohlen, tats�chlich zu, das ist immer bl�d, so was erf�hrt oder so was checkt man dann erst im Nachgang. Ich hab ja auch schon 'ne, 'ne, 'ne, ich sag mal 'ne quantitative Studie gemacht. Ja, das Problem ist, erst im Nachhinein checkt man, was man noch h�tte codieren sollen.
+
+Fierbeck Simon   23:31
+Mhm, mhm.
+
+P20   23:35
+Das ist nat�rlich dann �rgerlich, aber das Genre w�re elementar gewesen, weil ich glaube, dass es ein gro�er Unterschied ist, ob ich eben, wie wir schon erw�hnt haben, einfach eine Meldung, sozusagen, aufpimpe, ja, mit KI. Die wird dann besser, ja, und ich spare mir diesen.
+
+Fierbeck Simon   23:39
+Mhm.
+Mhm.
+
+P20   23:51
+Diese, diese, diese Kreativit�t, die ich so, die die mich Ressourcen kostet, ja, ich muss mir ja Gedanken machen, was steht da drin und so weiter. Daf�r ist es sehr, sehr gut geeignet. Ich sag mal, Kreativit�t im Sinne von Original, Originalit�t.
+
+Fierbeck Simon   23:56
+Ja, ja.
+
+P20   24:09
+Ja, daf�r sind die Maschinen weniger gut geeignet. Das wird sicher auch kommen. Also, ich habe vor kurzem ein Interview gemacht mit jemandem, der KI-Tool entwickelt hat, das sozusagen die Qualit�t von Buchmanuskripten unterscheiden kann. Und der erkennt sehr wohl, was Thomas Mann ist und was sozusagen ein Dreigroschen-Roman ist. Die machen das f�r Verlage.
+
+Fierbeck Simon   24:10
+Mhm.
+Mhm.
+
+P20   24:28
+Das sagt mir, man kann 'ne K. I. auch so entwickeln, dass sie sozusagen hochkreative �berschriften macht und hochkreative Paywall Teaser, aber auch Textelemente schreibt. Aber so wie diese Dinge als generative generalisierte K. I. s sozusagen gebaut sind, sind sie eher auf Mittelma�
+
+Fierbeck Simon   24:39
+Mhm.
+
+P20   24:47
+Aufgestellt.
+
+Fierbeck Simon   24:48
+Yeah, yeah.
+
+P20   24:50
+Und das ist, glaube ich, der Punkt. Also, weil Sie das gerade vorhin gefragt haben, ob der my Wording verwendet. Also, Notebook L. M. sagt Ihnen ja sicher was oder auch K. I. Agenten, man kann ja hergehen und k�nnte sozusagen aus seinen eigenen Texten
+
+Fierbeck Simon   25:05
+Mhm.
+
+P20   25:07
+KI Agenten basteln zu verschiedenen Themen.
+
+Fierbeck Simon   25:09
+Yep, yeah.
+
+P20   25:10
+Ja, das ist was, das w�re super Use Case im Prinzip und dann w�re ich ja relativ sicher, dass ich das, dass, dass der Sound �hnlich ist wie meine Texte in der Regel sind.
+
+Fierbeck Simon   25:19
+Mhm. Noch ein bisschen Training, Feinjustierungen bzw. mit einem Rack arbeiten. Ja. Okay, dann das w�re wirklich meine letzte Frage. Falls Sie noch irgendwas zum sagen haben, gerne. Ansonsten bedanke ich mich wirklich sehr herzlich, dass Sie an der Studie
+
+P20   25:20
+Genau.
+Mhm, genau.
+Genau.
+Jo.
+Mhm.
+
+Fierbeck Simon   25:37
+Teilgenommen haben und dass sie mir da K�ufer haben, die sind wirklich ja sehr, also sch�tze sie sehr.
+
+P20   25:42
+Hat mich sehr gefreut und wir haben ja auch was davon.
+
+Fierbeck Simon   25:44
+Mhm, okay, dann nur einen sch�nen Tag und Sie h�ren von mir.
+
+P20   25:49
+Ihnen auch. Bis dann. Tsch�ss, Herr Fiebeck. Ciao.
+
+Fierbeck Simon   25:51
+Tsch�ss.
+
+Fierbeck Simon Transkription beendet
