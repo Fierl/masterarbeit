@@ -17,8 +17,7 @@
     "articles_json_path": "masterthesis/extracted/phase_1_articles_by_origin_p19.json",
     "output_path": "masterthesis/excel/phase1/Fallstudie_Benchmark_p19_matched.json"
   },
-  "items": [
-    {
+  "items": [{
       "sequence_index": 1,
       "csv_row_number": 8,
       "content_id": "29-135243427",
@@ -182,9 +181,7 @@
         "text": "Deggendorf. Am vierten Jahrestag des Kriegsbeginns in der Ukraine haben sich zahlreiche Menschen am Oberen Stadtplatz zu einer Gedenkveranstaltung versammelt. Gemeinsam mit Vertretern aus Politik und Kirche erinnerten Ukrainer und Einheimische an die Opfer des russischen Angriffskriegs und setzten ein Zeichen für den Frieden.Im Mittelpunkt der Kundgebung stand das Gedenken an die Gefallenen, die Soldaten an der Front sowie die Menschen in den besetzten Gebieten. Landrat Bernd Sibler und der zweite Bürgermeister Günther Pammer vertraten bei der Zusammenkunft Landkreis und Stadt. Sie richteten ebenso Worte der Solidarität an die Versammelten wie der Integrationsbeauftragte der Stadt Deggendorf, Oliver Antretter. In den Redebeiträgen thematisierten die Sprecher die veränderte Realität seit dem Kriegsausbruch und betonten die Notwendigkeit des Zusammenhalts.Ein ökumenisches Gebet bildete den geistlichen Rahmen der Veranstaltung. Pfarrer Roman von der ukrainischen griechisch-katholischen Gemeinde gestaltete die Andacht gemeinsam mit Vertretern der katholischen, baptistischen und evangelischen Kirche. Die Geistlichen sprachen die Gebete zweisprachig auf Deutsch und Ukrainisch.Neben den Wortbeiträgen prägte Musik das Programm. Eine Gruppe von Kindern trug ein Lied für die Ukraine vor. Vertreter der ukrainischen Gemeinschaft dankten der deutschen Bevölkerung für die Unterstützung und die Aufnahme in den vergangenen vier Jahren. Zum Abschluss der Kundgebung sangen die Teilnehmer die ukrainische Nationalhymne. − dz"
       },
       "match_status": "matched"
-    }
-  ],
-  "unmatched_csv_entries": [
+    },
     {
       "sequence_index": 2,
       "csv_row_number": 9,
@@ -200,8 +197,23 @@
         "Komplexität des Artikels (1-5)": "1",
         "Qualitative Artikeleinschätzung (1-5)": "1"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Das sind die drei Deggendorfer Oberbürgermeister-Kandidaten",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Das sind die drei Deggendorfer Oberbürgermeister-Kandidaten",
+        "intro": null,
+        "line_head": "Leser können Fragen stellen",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Bei der Oberbürgermeisterwahl am 8. März stehen in Deggendorf drei Kandidaten auf dem Stimmzettel: Amtsinhaber Christian Moser von der CSU, Christian Heilmann-Tröster von den Grünen und Josef Vogl von der neuen „Deggendorfer Wählergemeinschaft“ (DWG). Die Deggendorfer Zeitung bietet Ihnen die Möglichkeit, den drei Kandidaten Fragen zu stellen. Christian Moser wurde 2012 erstmals zum Deggendorfer Oberbürgermeister gewählt.Vor sechs Jahren wurde er mit 66, 4 Prozent im ersten Wahlgang wiedergewählt.Der erfolgreichste der damals vier Herausforderer war Christian Heilmann - Tröster, der auf 14,4 Prozent kam und nun erneut kandidiert.Zum ersten Mal um ein kommunalpolitisches Amt bewirbt sich Josef Vogl von der DWG. Die DZ hat die drei OB - Kandidaten gebeten, einen Fragebogen zu ihrer Person und zu ihren politischen Vorstellungen und Zielen auszufüllen.Aus Gründen der Fairness wurde eine Obergrenze für die Gesamtlänge der Antworten vorgegeben. Hier lesen Sie die Antworten von Christian Moser, Christian Heilmann - Tröster und Josef Vogl. Die DZ wird mit allen drei die Bei diesen Interviews sollen vor allem die Fragen von Ihnen, liebe Leserinnen und Leser, gestellt werden.Was wollen sie von den OB - Kandidaten wissen ? Stellen Sie bis spätestens Sonntag, 15. Februar, ihre Frage per E - Mail an red.deggendorf @pnp.de."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 3,
@@ -218,8 +230,23 @@
         "Komplexität des Artikels (1-5)": "3",
         "Qualitative Artikeleinschätzung (1-5)": "3"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Deggendorfer Spitzenkoch Daniel Klein: Großprojekt auf Schloss Hohenstein bei Coburg",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Deggendorfer Spitzenkoch Daniel Klein: Großprojekt auf Schloss Hohenstein bei Coburg",
+        "intro": null,
+        "line_head": "Mit Oskar-Hacker-Stiftung",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Der Deggendorfer Spitzenkoch Daniel Klein übernimmt eine neue Aufgabe in Oberfranken. Er wird Küchenchef und kulinarischer Gesamtleiter auf Schloss Hohenstein in Ahorn bei Coburg. Das haben Klein und Ralph Veil im Namen der Oskar Hacker Stiftung am Montag bekanntgeben. Das Vorhaben auf dem Schloss umfasst laut der Mitteilung ein Gourmetrestaurant, ein À-la-carte-Restaurant sowie Außengastronomie. Zudem soll ein Hotelbetrieb integriert werden, dessen Leitung ebenfalls in den Händen von Daniel Klein liegen wird. Ergänzend ist ein Business Club in München als Ort für Austausch und Kulinarik vorgesehen. Kurzes Gastspiel im Bayerischen Wald Mit dem Wechsel nach Oberfranken endet Kleins Engagement im Bayerischen Wald nach kurzer Zeit. Die Zusammenarbeit mit dem Lokal „hoamART“, das den Deggendorfer erst im Herbst als Koch präsentiert hatte, wird beendet. In der Mitteilung wird dies als „temporäres, prägendes Kapitel“ bezeichnet.Hintergrund: „An Altlasten gescheitert“ – Deggendorfer Sterne-Restaurant „Kook 36“ insolvent: Jetzt spricht Daniel KleinFür Daniel Klein ist der Schritt nach Coburg ein Neuanfang nach bewegten Monaten. Der Koch hatte sein Deggendorfer Lokal KOOK36, das über Jahre einen Michelin-Stern trug, im Sommer 2025 aus wirtschaftlichen Gründen schließen müssen. Zu seiner neuen Aufgabe sagt er: „Es ist eine große Ehre und zugleich die Verwirklichung eines lang gehegten Traums. Schloss Hohenstein bietet die Möglichkeit, etwas Nachhaltiges zu schaffen – mit Haltung, Tiefe und Herz.“Stiftung auch in Deggendorf aktiv Hinter dem Projekt steht die Oskar-Hacker-Stiftung, die ihren Sitz auf dem 1306 erstmals erwähnten Schloss hat. Die Stiftung ist auch in Deggendorf keine Unbekannte, da der Stifter Oskar Hacker gebürtiger Deggendorfer war. Ralph Veil von der Stiftung betont die langfristige Ausrichtung der Zusammenarbeit mit Klein: „Wir glauben an Menschen mit Vision, an Qualität und an Orte mit Seele.“ Ziel sei ein „Projekt mit Strahlkraft – regional verwurzelt, überregional relevant“."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 4,
@@ -236,8 +263,23 @@
         "Komplexität des Artikels (1-5)": "5",
         "Qualitative Artikeleinschätzung (1-5)": "5"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Abschied von Anna Eder: Sie hat ihre Heimatstadt nicht nur verwaltet, sie hat sie gelebt",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Abschied von Anna Eder: „Sie hat ihre Heimatstadt nicht nur verwaltet, sie hat sie gelebt“",
+        "intro": null,
+        "line_head": "Gedenkstunde für Deggendorfs OB a.D.",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Die Stadt Deggendorf hat ihrer verstorbenen Oberbürgermeisterin a.D. und Ehrenbürgerin Anna Eder die letzte Ehre erwiesen. Bei einer Gedenkstunde im Historischen Saal des Alten Rathauses würdigte Oberbürgermeister Christian Moser am Montagabend das Lebenswerk seiner Vorgängerin. Er zeichnete das Bild einer Frau, die ihre Heimatstadt nicht nur verwaltet hat – „sie hat sie gelebt“ „Es ist ein Abschied, der uns schwerfällt, weil mit ihr nicht nur eine bedeutende politische Persönlichkeit von uns gegangen ist, sondern ein Mensch, der Deggendorf mit Herz, Mut, Temperament und großer Leidenschaft verbunden war“, betonte Moser in seiner Trauerrede. Zu der Gedenkstunde hatte der OB Anna Eders Familie – ihren Bruder Otto, Schwägerin Claudia, die Neffen Andreas und Sebastian – sowie die „Stadtfamilie“ geladen: den amtierenden Stadtrat, ehemalige Mandatsträger, Ehrenzeichenträger, Spitzen der Stadtverwaltung und der städtischen Gesellschaften, ehemalige Abteilungsleiter und politische Weggefährten wie Landrat Bernd Sibler. Den musikalischen Rahmen der Feierstunde gestaltete das Ehepaar Brigitte und Toni Daumerlang. Bilder aus der zwölfjährigen Amtszeit erinnerten an das Wirken Eders Ein Blick, der Bände sprach Moser beschrieb Anna Eder als temperamentvoll, leidenschaftlich und manchmal auch unbequem. „Aber sie war immer ehrlich, immer direkt, immer mit vollem Herzen dabei.“ Wer mit ihr zu tun hatte, habe oft schon am Gesichtsausdruck erkannt, woran er war: „Ein hochgezogener Augenbrauenblick, ein kurzes Lächeln – oder eben ein sehr eindeutiges Schweigen.“ Worte seien da manchmal gar nicht mehr nötig gewesen. Genau diese Offenheit habe sie für viele so glaubwürdig gemacht. Sie habe keine Scheu vor klaren Worten gehabt und keine Angst vor Verantwortung. In ihrer Ära – Eder war im Jahr 2000 als erste Frau in Niederbayern in das Amt einer Oberbürgermeisterin gewählt worden – wurden trotz oft angespannter Kassen rund 160 Millionen Euro investiert. Ein ganz zentrales Anliegen waren ihr dabei Kinder und Jugendliche. „Bildung war für sie der Schlüssel zu Chancengleichheit und gesellschaftlichem Zusammenhalt“, sagte Moser. Investitionen in die Jugend Unter ihrer Führung wurden Schulen und Kindergärten saniert und erweitert, darunter die Mittelschule St. Martin, die Grundschule Angermühle sowie die Kindergärten Hafenbrädl, Rettenbach und Aman. Im neuen Amankindergarten wurde eine Krippe integriert, um junge Familien zu unterstützen. Auch der Erwerb der „Alten Post“ im Jahr 2007, der das Jugendzentrum „4You“ und die Zentralisierung der Jugendarbeit ermöglichte, fiel in ihre Zeit. Moser fasste zusammen: „Anna Eder wusste, dass eine Stadt nur dann eine gute Zukunft hat, wenn sie ihren Kindern und Jugendlichen echte Perspektiven bietet.“ Doch auch das Stadtbild veränderte sich in ihrer Amtszeit sichtbar. Die Sanierung des Alten Rathauses mit dem neuen Foyer trägt ihre Handschrift, ebenso die Sanierung des Gasthauses „Zur Knödlwerferin“. Moser erinnerte zudem an die Neugestaltung des Luitpoldplatzes samt Tiefgarage und ihren Einsatz für die Erweiterung der Hochschule. Hartnäckigkeit für die Landesgartenschau Als das Projekt, das wohl am stärksten mit ihrem Namen verbunden bleibe, nannte der Oberbürgermeister die Landesgartenschau 2014. Eder habe die Schau als langfristigen städtebaulichen Impuls verstanden, um die Donau stärker in das Stadtleben einzubinden. Moser erzählte die Anekdote, wie Eder die Vergabekommission im Ruderhaus empfing und den Vorsitzenden Roland Albert gezielt mit Blick auf den Sonnenuntergang über der Donau platzierte, um ihn vom Standort Deggendorf zu überzeugen. Die Geh- und Radbrücke sowie die Parkgarage seien Ergebnisse ihrer Hartnäckigkeit. Neben den politischen Erfolgen ging Moser auf die menschlichen Facetten ein. Ein „echter Eder“ sei sprichwörtlich eine Verspätung von zwölf Minuten gewesen. Auch ihre anfänglichen Rauchgewohnheiten im Büro blieben nicht unerwähnt – im Dienstwagen herrschte jedoch Rauchverbot, weshalb sie oft lieber ihr eigenes Cabrio mit dem Kennzeichen „DEG E 1“ nutzte. Hoch rechnete ihr Moser das Verhalten nach dem Ausscheiden aus dem Amt 2012 an: „Sie hat sich als meine Vorgängerin nie in meine Arbeit eingemischt oder sie gar öffentlich kommentiert. Diese Größe rechne ich ihr hoch an.“ Beerdigung am Freitag Anna Eder, die am 6. Januar im Alter von 75 Jahren gestorben ist, war Trägerin des Goldenen Ehrenrings, des Bundesverdienstkreuzes am Bande, des Bayerischen Verdienstordens und seit 2013 Ehrenbürgerin. Im Anschluss an die Gedenkstunde bestand die Möglichkeit, sich im Foyer des Alten Rathauses in ein Kondolenzbuch einzutragen. Die Beerdigung ist am Freitag um 10 Uhr im Münster Mariä Himmelfahrt."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 5,
@@ -254,8 +296,23 @@
         "Komplexität des Artikels (1-5)": "1",
         "Qualitative Artikeleinschätzung (1-5)": "1"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Stimmzettel sind zu groß: Stadt Deggendorf verdoppelt Größe der Wahlkabinen",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Stimmzettel sind zu groß: Stadt Deggendorf verdoppelt Größe der Wahlkabinen",
+        "intro": null,
+        "line_head": "Zehn Listen mit 60 Kandidaten",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Jeweils zehn Listen mit bis zu 40 oder gar 60 Kandidaten: So groß wie in diesem Jahr waren die Stimmzettel für die Stadtrats- und Kreistagswahl in Deggendorf noch nie. Bei so viel Auswahl wird das Wählen zur praktischen Herausforderung: Wo breitet man den Stimmzettel aus, um einen guten Überblick zu bekommen? Die Stadt Deggendorf hat auf genau dieses Problem reagiert, indem siebei der Kommunalwahl am 8. März jeweils zwei Wahlkabinen zu einer Doppelkabine zusammenstellt. Etwa 104 Zentimeter ist der Stimmzettel für die Kreistagswahl breit und 80 Zentimeter hoch. Die von der Stadt vorgesehenen Doppelkabinen sind 110 Zentimeter breit, ihr Tisch ist aber nur 50 Zentimeter tief. Das heißt, um alle Listen komplett überblicken zu können, muss man schieben. Im Vergleich zum Stimmzettel für den Kreistag ist der für den Stadtrat fast schon übersichtlich. Die zehn Spalten für die Listen sind hier auf 88 Zentimeter Breite untergebracht, und weil es nur 40 Kandidatin sind, ist er mit 57 Zentimeter auch lange nicht so hoch. Mehr zum Thema: Große Zettel, viele Stimmen: So funktioniert die Kommunalwahl Die Stadt Deggendorf hat 28 Wahllokale. Wie Stadt-Sprecherin Viola Mühlbauer informiert, bekommt jedes sechs normale Kabinen – macht also drei Doppelkabinen, die tatsächlich zum Wählen zur Verfügung stehen. Nachfrage nach Briefwahl steigt weiter. Zu größeren Warteschlangen dürfte es dennoch kaum kommen: Die Mehrheit will die Stimmzettel daheim auf dem Tisch ausbreiten und in Ruhe studieren. 2020 lag der Anteil der Briefwähler im Stadtgebiet bei etwa 66 Prozent. Dieses Mal dürften es noch mehr werden. Wie Viola Mühlbauer berichtet, hatten 2020 insgesamt 8969 Stimmberechtigte Briefwahlunterlagen beantragt. Bis gestern Mittag wurden schon 8520 Briefwahlunterlagen versandt oder ausgehändigt. Und es sind noch fast zwei Wochen bis zur Wahl."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 8,
@@ -272,8 +329,23 @@
         "Komplexität des Artikels (1-5)": "2",
         "Qualitative Artikeleinschätzung (1-5)": "2"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Käufer-Suche für die Deggendorfer „Werft“ läuft noch",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Käufer-Suche für die Deggendorfer „Werft“ läuft noch",
+        "intro": null,
+        "line_head": "VW-Tochter „Everllence“",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Die VW-Tochter „Everllence“ verhandelt weiterhin mit möglichen Käufern ihres auf Reaktoren- und Apparatebau spezialisierten Deggendorfer Standorts, der früheren „Werft“. Zugleich ist VW aber auch auf der Suche nach Käufern für das gesamte Unternehmen „Everllence“ selbst. Im September hatte das Unternehmen mit Sitz in Augsburg, das bis zum Sommer „MAN Energy Solutions“ hieß, mitgeteilt, einen „Investorenprozess“ für den Standort Deggendorf zu starten. Der war zuvor aufgrund der Konjunkturschwäche und geringen Investitionen der chemischen Industrie in die Krise gerutscht. 2024 wurde Kurzarbeit angemeldet, im Frühjahr 2025 dann ein Sparprogramm gestartet, um die Fertigungsstunden in Deggendorf um 40 Prozent zu senken. 90 Arbeitsplätze sollten abgebaut werden, hieß es damals. Im September war von 360 Beschäftigen in Deggendorf nach Abschluss des Sparprogramms die Rede. Vorige Woche informierten nach DZ-Informationen „Everllence“-Manager Kommunalpolitiker über den Stand der Investorensuche. Auf Anfrage der DZ teile ein Sprecher aber lediglich mit: „Der Investorenprozess am Standort Deggendorf dauert noch an“. Auf die Frage, wie sich die wirtschaftliche Lage am Standort entwickelt habe, ging der Sprecher in der Antwort nicht ein. VW sucht Käufer für die gesamte Tochter Unterdessen berichteten die „Augsburger Allgemeine“, dass VW die Tochter „Everllence“ insgesamt verkaufen wolle. Bis diesen Donnerstag habe der Konzern Angebote von Interessenten gesammelt, die dann bewertet würden."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 10,
@@ -290,8 +362,23 @@
         "Komplexität des Artikels (1-5)": "5",
         "Qualitative Artikeleinschätzung (1-5)": "5"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Auto-Logistiker ASB Group baut auf ehemaligem TWD-Gelände in Seebach",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Auto-Logistiker ASB Group baut auf ehemaligem TWD-Gelände in Seebach",
+        "intro": null,
+        "line_head": "Teilfläche der Karl-Gruppe",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Wer wird sich auf dem früheren TWD-Gelände in Seebach (Landkreis Deggendorf) ansiedeln? Darüber wird seit längerer Zeit gerätselt, nun gibt es einen ersten Namen: Die ASB Group aus Röhrnbach im Landkreis Freyung-Grafenau hat eine über 75.000 Quadratmeter große Teilfläche von der Karl-Gruppe erworben und plant dort ein Logistik-, Werkstatt-, Lackier- und Aufbereitungszentrum für die Automobilbranche. Durch den Neubau sollen bis zu 250 Arbeitsplätze entstehen. Das wollen die Karl-Gruppe und der Käufer nach PNP-Informationen an diesem Donnerstag in einer Pressemitteilung berichten. In Seebach will die ASB Group laut der Mitteilung ein Kompetenzzentrum für die Aufbereitung, Lackierung, Reparatur und Logistik von Fahrzeugen eines namentlich nicht genannten deutschen Automobilherstellers errichten. Die Planungen dafür übernehmen das interne Planungsbüro der Karl-Gruppe sowie die EPI Entwickler Planer Ingenieure GmbH und die Apfelböck Ingenieurbüro GmbH. KI soll Logistikprozess optimieren Die ASB Group plant für den Betrieb nach eigenen Angaben einen durch Künstliche Intelligenz optimierten Logistikprozess. Das System solle skalierbar sein und künftig standortübergreifend genutzt werden. Zudem sei vorgesehen, den Standort größtenteils mit erneuerbarer Energie zu betreiben. Lesen Sie auch: TWD in Deggendorf: Der Untergang eines Textil-Riesen Christian Binder, Mitglied der ASB-Geschäftsleitung, wird zu dem Vorhaben zitiert: „Mit dem neuen Standort in Deggendorf schaffen wir die Grundlage, Logistik in jedem einzelnen Schritt maximal effizient zu gestalten und skalierbar zu machen.“ 65.000 Quadratmeter für weitere Ansiedelungen Laut Karl-Gruppe stehen rund 65.000 Quadratmeter des Areals für weitere Unternehmensansiedlungen zur Verfügung. Zuletzt hatte das Unternehmen davon gesprochen, dass es einen einzelnen Interessenten für die gesamten 150.000 Quadratmeter Freifläche innerhalb der neuen Erschließungsstraße gebe. Nun belegt die ASB Group gut die Hälfte davon. Die ASB Group wird von den beiden Geschäftsführern Christian Binder und Johann Sonnleitner geleitet. Nach Angaben auf der Firmenhomepage begann die Geschichte des Logistik- und Nutzfahrzeugdienstleisters in den 1980er Jahren. Binder gründete 1985 eine Transportfirma, Sonnleitner 1999. Im Jahr 2007 schlossen sie sich zur heutigen Gruppe zusammen, die für Großkunden sowie die Industrie arbeitet. Das Unternehmen transportiert nach eigenen Angaben europaweit jährlich mehr als 60.000 Fahrzeuge. Die Geschäftsfelder der ASB Group Das operative Geschäft umfasst neben dem Transport auch die Konstruktion und Fertigung von Aufbauten für Lastwagen und Transporter sowie die Reparatur und Lackierung von Flottenfahrzeugen. Monatlich individualisiere der Betrieb mehr als 240 Fahrzeuge. Im Juni 2018 eröffnete die Gruppe in Röhrnbach ein 120.000 Quadratmeter großes Logistikzentrum. Dort sind laut Angaben auf der Firmenhomepage aktuell mehr als 170 Mitarbeiter beschäftigt, die einen Jahresumsatz von über 35 Millionen Euro erwirtschaften. Der eigene Fuhrpark zählt demnach mehr als 100 Fahrzeuge. Das TWD-Gelände in Seebach wurde in den vergangenen zwei Jahren für eine neue Nutzung vorbereitet. Die Karl-Gruppe hatte das Areal bereits 2019 gekauft. Nach der endgültigen Betriebsschließung der Textilwerke im Dezember 2022 entschieden sich die Eigentümer für einen Abriss der alten, teils brandschutztechnisch mangelhaften Hallen. Im Rahmen dieser sogenannten Brownfield-Entwicklung, also der Nachnutzung bereits versiegelter Industrieflächen, wurde eine bestehende Halle bereits 2023 für die Firma Schock modernisiert. Dadurch entstanden dort laut Karl-Gruppe rund 150 Arbeitsplätze. Die Abbrucharbeiten auf den verbleibenden Flächen begannen im Februar 2024 und wurden im Sommer 2025 abgeschlossen. Karl wird für den Käufer planen und bauen Wie die Karl-Gruppe weiter mitteilt, bleibt ein eigenes Tochterunternehmen als Generalunternehmer in Seebach aktiv und verantwortet die künftigen Planungs- und Tiefbauarbeiten für die ASB Group. Dabei sollen rund 20.000 Kubikmeter recycelte Baustoffe aus dem Rückbau für die neuen Anlagen verwendet werden. André Karl von der Geschäftsleitung der Karl-Gruppe: „Mit der erfolgreichen Revitalisierung und dem Verkauf an die ASB Group GmbH setzen wir ein weiteres starkes Zeichen für eine nachhaltige Brownfield-Entwicklung und die wirtschaftliche Stärkung unserer Heimatregion.“ Er ergänzt: „Wir sind stolz darauf, wie versprochen viele neue, innovative Arbeitsplätze in Zusammenarbeit mit unseren Partnern in Seebach anzusiedeln. Das ist ein weiterer konkreter Beitrag zur Weiterentwicklung der Region und ein positiver Ausblick nach dem Insolvenzschock der TWD.“ Parallel zu den Abbrucharbeiten erhielt das Gewerbegebiet eine neue Infrastruktur. Die neue Ringstraße samt Geh- und Radweg wird öffentlich gewidmet und schließt die künftigen Betriebe an die Staatsstraße an. Vorgaben zum Lärmschutz im städtischen Bebauungsplan sollen zudem sicherstellen, dass die Verkehrsbelastung für die Anlieger in Seebach nicht über das Niveau zu TWD-Zeiten steigt."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 11,
@@ -308,8 +395,23 @@
         "Komplexität des Artikels (1-5)": "2",
         "Qualitative Artikeleinschätzung (1-5)": "2"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Günther Pammer verabschiedet sich nach zwölf Jahren als Deggendorfs Zweiter Bürgermeister",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Günther Pammer verabschiedet sich nach zwölf Jahren als Deggendorfs Zweiter Bürgermeister",
+        "intro": null,
+        "line_head": "„Es war mir eine Ehre“",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "Gedenken am vierten Jahrestag",
+        "text": "Nach zwölf Jahren gibt Günther Pammer das Amt des Zweiten Bürgermeisters ab. Am Ende der letzten Sitzung der ablaufenden Wahlperiode verabschiedete er sich am Montagabend im Stadtrat.„Es war mir eine Freude, aber auch eine Ehre, der Zweite Bürgermeister unserer lebens- und liebenswerten Stadt zu sein“, sagte Pammer in seiner Rede.In seinem Rückblick erwähnte Pammer, dass er dem Stadtrat seit 36 Jahren ununterbrochen angehört. Auch dem neuen Stadtrat gehört er weiterhin an, für das Bürgermeisteramt will der knapp 80-Jährige aber nicht mehr kandidieren.Lesen Sie auch: Wahl der OB-Stellvertreter: Hat die CSU Chancen auf beide Bürgermeisterposten?Pammer bedankte sich bei seiner Familie, die ihm den Freiraum für die politische Arbeit gewährte, sowie bei den Mitarbeitern der Stadtverwaltung für die stete Unterstützung. Er habe versucht, sein Amt neutral auszuüben, und entschuldigte sich bei den Stadtratskollegen, falls er in Diskussionen einmal nicht den richtigen Ton getroffen habe.Zudem kritisierte er eine Wahlkampf-Aussage, wonach die Mehrheitsfraktion Federn lassen müsse. In einer Demokratie trage die gewählte Mehrheit die Verantwortung und treffe die anstehenden Entscheidungen. Pammer sprach auch persönliche gesundheitliche Krisen an, darunter einen schweren Unfall in Italien vor neun Jahren, einen Herzinfarkt vor drei Jahren sowie eine lebensbedrohliche Sepsis im vergangenen Dezember. Er dankte den behandelnden Ärzten, die ihn gerettet haben.Noch Termine bis zum 4. MaiSeine kurze Ansprache schloss Pammer mit den Worten „Zweiter Bürgermeister a. D.“ – auch wenn er bis zur konstituierenden Sitzung des neu gewählten Gremiums am kommenden Montag weiterhin offizielle Termine wie etwa Gratulationen wahrnimmt. Am Montag wählt der Stadtrat Pammers Nachfolgerin oder Nachfolger.Oberbürgermeister Christian Moser dankte seinem bisherigen Stellvertreter für die Unterstützung. Pammer habe ihm stets mit Rat und Tat zur Seite gestanden. Moser bezeichnete ihn scherzhaft als „wandelndes Deggendorfer Familien-Beziehungs-Buch“. Die Stadträte verabschiedeten Pammer mit stehenden Ovationen.336 Sitzungen mit 3751 Tagesordnungspunkten in sechs JahrenZum Ende der Wahlperiode zog Oberbürgermeister Moser Bilanz über die Arbeit des Gremiums. In den vergangenen sechs Jahren beriet der Stadtrat in 336 Sitzungen über 3751 Tagesordnungspunkte. Er dankte allen ausscheidenden und verbleibenden Mitgliedern für ihr Engagement in den vergangenen sechs Jahren. Die offizielle Verabschiedung der ausscheidenden Räte findet Mitte Mai statt."
+      },
+      "match_status": "matched"
     },
     {
       "sequence_index": 12,
@@ -326,8 +428,26 @@
         "Komplexität des Artikels (1-5)": "3",
         "Qualitative Artikeleinschätzung (1-5)": "2"
       },
-      "article": null,
-      "match_status": "no-article-match"
+      "article": {
+        "content_id": 0,
+        "content_name": "Public-Viewing vor der Stadthalle: Deggendorf zeigt alle deutschen Spiele",
+        "published_date": "2026-02-26 21:26:23",
+        "h1": "Public-Viewing vor der Stadthalle: Deggendorf zeigt alle deutschen Spiele",
+        "intro": null,
+        "line_head": "Fußball-WM",
+        "line_roof": null,
+        "line_sub": null,
+        "origin_id": "",
+        "paywall_active": 1,
+        "paywall_teaser": null,
+        "seo_description": null,
+        "seo_title": "",
+        "text": "Das Fußballfieber steigt: Am Donnerstagmittag hat Bundestrainer Julian Nagelsmann verkündet, wen er mit zur Weltmeisterschaft nehmen wird. Und damit stellt sich auch die Frage: Gibt es in Deggendorf ein Public Viewing, bei dem die Fans den Auftritt der Nationalelf gemeinsam bejubeln können? Andreas Höhn von der Stadtverwaltung hat die Antwort: „Ja, wir machen ein Public Viewing für alle Spiele der deutschen Nationalmannschaft.“ Allerdings werde sich gegenüber der Europameisterschaft vor zwei Jahren, als die Stadt die Spiele recht kurzfristig am Oberen Stadtplatz gezeigt hat, einiges ändern. Hauptgrund sind die Spielzeiten: Ein Beginn um 19 Uhr wie beim ersten deutschen Spiel wäre noch innenstadtkompatibel. Aber ein Public Viewing von 22 Uhr bis Mitternacht, wie es beim zweiten und dritten Termin der Nationalelf ansteht, wäre den Anliegern nicht mehr zuzumuten. Deshalb lädt die Stadt die Fußballfans auf den Vorplatz der Stadthalle ein. Auch interessant: Ergolding bringt Teisbach vor 1300 Zuschauern in arge Nöte – Deggendorf jubelt in Moosinning Die Stadthallen-GmbH habe eine LED-Leinwand gekauft, die künftig am Vorplatz – dort, wo aktuell ein herkömmliches Plakat auf das Herbert-Pixner-Konzert hinweist – Werbung für Veranstaltungen machen wird, berichtet Höhn. Auch die nötige Lizenz, um die Fußballspiele öffentlich zeigen zu dürfen, habe man bereits erworben. Fürs Public Viewing muss die LED-Leinwand aber zunächst so aufgestellt werden, dass sie von der Straße aus nicht zu sehen ist – weil die Fußballübertragung die Autofahrer ablenken könnte. Für den Vorplatz und gegen das Eck zwischen Halle 1 und Halle 2 am Stadthallenpark habe man sich aus Rücksicht auf das benachbarte Hotel entschieden, erläuterte Höhn. Deggendorfer Brauhaus schenkt aus Das Public Viewing ist kostenlos. Die Bewirtung wird Robert Vitti vom Deggendorfer Brauhaus übernehmen. Er wird Biertischgarnituren aufstellen. Außerdem denke man über weitere Sitzgelegenheiten wie etwa Palettenmöbel nach, berichtete Höhn. Los geht es am Sonntag, 14. Juni, um 19 Uhr mit Deutschland gegen Curaçao. Fix ist außerdem Deutschland gegen die Elfenbeinküste am Samstag, 20. Juni, und gegen Ecuador am Dienstag, 26. Juni, jeweils um 22 Uhr. Und dann geht es hoffentlich weiter bis zum Finale am 19. Juli."
+      },
+      "match_status": "matched"
     }
+  ],
+  "unmatched_csv_entries": [
+
   ]
 }
