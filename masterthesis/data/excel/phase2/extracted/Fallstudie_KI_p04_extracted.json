@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "participant_username": "P04",
+    "csv_entry_count": 9,
+    "db_article_count_for_user": 1,
+    "matched_count": 1,
+    "filtered_low_score_count": 0,
+    "unmatched_csv_entry_count": 8,
+    "min_score": 1.0,
+    "unmatched_db_article_count": 0,
+    "generated_chat_count": 7,
+    "csv_headers": [
+      "CREATE-ID ( / NGEN-ID)",
+      "Schreibzeit für Artikeltext",
+      "Schreibzeit für weitere Felder",
+      "Genauigkeit der Schreibzeit",
+      "Recheche",
+      "Komplexität des Artikels (1-5)",
+      "Qualitative Artikeleinschätzung (1-5)",
+      "Verwendete Felder",
+      "Zufriedenheit mit KI-Tool (1-5)",
+      "Kommentar"
+    ],
+    "csv_path": "masterthesis/excel/phase2/Fallstudie_KI_p04.csv",
+    "cms_json_path": "masterthesis/extracted/phase_2_articles_output_p04.json",
+    "sql_dump_path": "prod_new.sql",
+    "output_path": "masterthesis/excel/phase2/Fallstudie_KI_p04_matched.json"
+  },
+  "items": [
+    {
+      "sequence_index": 1,
+      "csv_row_number": 8,
+      "content_id": "20733517",
+      "participant_username": "P04",
+      "match_status": "matched",
+      "used_db_fields": [],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20733517",
+        "Schreibzeit für Artikeltext": "70",
+        "Schreibzeit für weitere Felder": "10",
+        "Genauigkeit der Schreibzeit": "(G)",
+        "Recheche": "(ER)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "0",
+        "Zufriedenheit mit KI-Tool (1-5)": "2",
+        "Kommentar": "Paywallteaser bspw zu offen getextet, Titel zu \"nachrichtlich\""
+      },
+      "cms_article": {},
+      "ai_generated": {}
+    }
+  ]
+}

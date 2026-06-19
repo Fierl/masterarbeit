@@ -2,8 +2,8 @@
   "meta": {
     "participant_username": "P19",
     "csv_entry_count": 13,
-    "matched_count": 5,
-    "unmatched_csv_entry_count": 8,
+    "matched_count": 13,
+    "unmatched_csv_entry_count": 0,
     "csv_headers": [
       "CREATE-ID ( / NGEN-ID)",
       "Schreibzeit für Artikeltext",
