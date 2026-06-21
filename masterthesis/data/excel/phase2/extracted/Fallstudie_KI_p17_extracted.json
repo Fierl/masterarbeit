@@ -1,0 +1,1262 @@
+{
+  "meta": {
+    "participant_username": "P17",
+    "csv_entry_count": 42,
+    "db_article_count_for_user": 43,
+    "matched_count": 39,
+    "filtered_low_score_count": 3,
+    "unmatched_csv_entry_count": 0,
+    "min_score": 1.0,
+    "unmatched_db_article_count": 4,
+    "generated_chat_count": 166,
+    "csv_headers": [
+      "CREATE-ID ( / NGEN-ID)",
+      "Schreibzeit für Artikeltext",
+      "Schreibzeit für weitere Felder",
+      "Genauigkeit der Schreibzeit",
+      "Recheche",
+      "Komplexität des Artikels (1-5)",
+      "Qualitative Artikeleinschätzung (1-5)",
+      "Verwendete Felder",
+      "Zufriedenheit mit KI-Tool (1-5)",
+      "Kommentar"
+    ],
+    "csv_path": "masterthesis\\excel\\phase2\\Fallstudie_KI_p17.CSV",
+    "cms_json_path": "masterthesis\\extracted\\phase_2_articles_output_p17.json",
+    "sql_dump_path": "prod_new.sql",
+    "output_path": "masterthesis\\excel\\phase2\\Fallstudie_KI_p17_matched.json"
+  },
+  "items": [
+    {
+      "sequence_index": 1,
+      "csv_row_number": 8,
+      "content_id": 20784103,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "roofline",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20784103",
+        "Schreibzeit für Artikeltext": "6,32",
+        "Schreibzeit für weitere Felder": "3,35",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, DZ, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": "Text gut, Überschrift/Dachzeile noch nicht ausgereift"
+      },
+      "cms_article": {
+        "text": "Ein 16-jähriger Jugendlicher hat sich in der Nacht auf Sonntag im Augsburg heimlich die Autoschlüssel seiner Eltern genommen und ist ohne Fahrerlaubnis mit dem Familienwagen unterwegs gewesen. Als die Polizei ihn anhalten wollte, ergriff er die Flucht. Der Vorfall ereignete sich am Sonntag gegen 2.50 Uhr. Die Polizei wollte das Auto kontrollieren, doch der Fahrer habe mehrfach die Anhaltesignale der Beamten missachtet. Der Fahrer konnte schließlich in der Hochfeldstraße gestoppt werden.Jugendlicher hat „eine Runde gedreht“Bei der Kontrolle stellten die Polizisten fest, dass der Fahrer erst 16 Jahre alt ist und nicht im Besitz einer gültigen Fahrerlaubnis ist. Nach eigenen Angaben hatte er sich den Autoschlüssel der Eltern ohne deren Wissen genommen und „eine Runde gedreht“. Die Polizeibeamten unterbanden die Weiterfahrt des Jugendlichen und übergaben ihn seinen Eltern. Die Polizei hat nun Ermittlungen wegen unbefugten Gebrauchs eines Kraftwagens sowie wegen Fahrens ohne Fahrerlaubnis gegen den 16-Jährigen eingeleitet.cav",
+        "roofline": "Auto der Eltern geklaut",
+        "headline": "Heimliche Spritztour durch Augsburg: 16-Jähriger flüchtet vor der Polizei"
+      },
+      "ai_generated": {
+        "text": "16-Jähriger fährt ohne Führerschein durch die Nacht und flieht vor PolizeiEin 16-jähriger Jugendlicher hat sich in der Nacht auf Sonntag heimlich die Autoschlüssel seiner Eltern genommen und ist ohne Fahrerlaubnis mit dem Familienwagen unterwegs gewesen. Als eine Polizeistreife ihn kontrollieren wollte, ignorierte der Jugendliche zunächst mehrfach die Anhaltesignale der Beamten.Der Vorfall ereignete sich in den frühen Morgenstunden des 22. März 2026 gegen 02.50 Uhr. Der Fahrer konnte schließlich in der Hochfeldstraße von den Beamten gestoppt werden.Bei der anschließenden Kontrolle stellte sich heraus, dass der Fahrer des Fahrzeugs erst 16 Jahre alt ist und nicht im Besitz einer gültigen Fahrerlaubnis ist. Nach eigenen Angaben hatte er sich den Autoschlüssel der Eltern ohne deren Wissen genommen, um lediglich eine Runde zu drehen.Die Polizeibeamten unterbanden die Weiterfahrt des Jugendlichen und übergaben ihn seinen Eltern. Die Polizei hat nun Ermittlungen wegen unbefugten Gebrauchs eines Kraftwagens sowie wegen Fahrens ohne Fahrerlaubnis gegen den 16-Jährigen eingeleitet.",
+        "roofline": "Verkehr und Jugendliche",
+        "headline": "16-Jähriger flieht ohne Führerschein vor Polizei"
+      }
+    },
+    {
+      "sequence_index": 2,
+      "csv_row_number": 9,
+      "content_id": 20784874,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "roofline",
+        "headline",
+        "subheadings"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20784874",
+        "Schreibzeit für Artikeltext": "13",
+        "Schreibzeit für weitere Felder": "1,3",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, DZ, TT, ZÜ",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein schwerer Unfall hat sich am späten Montagnachmittag zwischen Arnstorf (Landkreis Rottal-Inn) und Simbach (Landkreis Dingolfing-Landau) ereignet. Wie die Polizei berichtet, war ein 45-jähriger Autofahrer aus Pfarrkirchen kurz nach 17 Uhr auf der Staatsstraße zwischen Simbach und Arnstorf in Richtung Arnstorf unterwegs. Dabei habe er übersehen, dass auf Höhe Ruppertskirchen an der Abzweigung nach Bergham eine 36-jährige Autofahrerin aus Arnstorf und der 53-jährige Fahrer eines Kastenwagens bei einem Abbiegevorgang verkehrsbedingt warten mussten. Auto landete durch Wucht des Unfalls in GrabenLaut Polizei fuhr der 45-Jährige auf den Kastenwagen des Bulgaren auf. Durch die Wucht des Aufpralls geriet sein Auto in den Graben neben der Fahrbahn.Der 45-jährige Fahrer sowie sein 34-jähriger Beifahrer wurden Polizeiangaben zufolge schwer verletzt. Sie wurden in umliegende Krankenhäuser gebracht. Einer der beiden sei mit einem Rettungshubschrauber ins Krankenhaus geflogen worden. An den beteiligten Fahrzeugen entstand ein geschätzter Schaden von rund 30.000 Euro.cav",
+        "roofline": "Hubschrauber im Einsatz",
+        "headline": "Auto landete im Graben: Zwei Schwerverletzte bei Unfall zwischen Simbach und Arnstorf"
+      },
+      "ai_generated": {
+        "text": "Schwerer Verkehrsunfall auf der St2112 bei Ruppertskirchen fordert zwei SchwerverletzteAuf der Staatsstraße 2112 bei Ruppertskirchen im Landkreis Rottal-Inn ereignete sich am Montag, dem 23. März 2026, gegen 17:08 Uhr ein schwerer Verkehrsunfall, bei dem zwei Männer schwer verletzt wurden. Ein 45-jähriger Fahrer aus Pfarrkirchen übersah wartende Fahrzeuge an einer Abzweigung und fuhr auf einen Kastenwagen auf, wodurch er mit seinem Pkw in den Graben geriet.Der 45-Jährige war mit seinem Pkw auf der St2112 in Richtung Arnstorf unterwegs, als er an der Abzweigung nach Bergham nicht bemerkte, dass zwei Fahrzeuge verkehrsbedingt auf ihren Abbiegevorgang warten mussten. Bei den wartenden Fahrzeugen handelte es sich um den Pkw einer 36-jährigen Arnstorferin sowie um den Kastenwagen eines 53-jährigen bulgarischen Staatsbürgers.Der Pfarrkirchener fuhr ungebremst auf den Kastenwagen des 53-Jährigen auf. Durch die Wucht des Aufpralls geriet sein Fahrzeug anschließend in den Graben neben der Fahrbahn.Der 45-jährige Fahrer sowie sein 34-jähriger Beifahrer wurden bei dem Unfall schwer verletzt und mussten in umliegende Krankenhäuser eingeliefert werden. Einer der beiden Verletzten war so schwer verletzt, dass er mit einem Rettungshubschrauber in eine Klinik transportiert werden musste.An den beteiligten Fahrzeugen entstand ein geschätzter Sachschaden von rund 30.000 Euro. Ob die wartenden Fahrzeugführer ebenfalls verletzt wurden, geht aus den vorliegenden Informationen nicht hervor.",
+        "roofline": "Unfall im Landkreis Rottal-Inn",
+        "headline": "Schwerer Unfall auf St2112 bei Ruppertskirchen fordert zwei Schwerverletzte",
+        "subheadings": "Schwerer Unfall bei RuppertskirchenWartende Fahrzeuge übersehenUngebremster Aufprall auf KastenwagenZwei Männer schwer verletztHoher Sachschaden entstanden"
+      }
+    },
+    {
+      "sequence_index": 3,
+      "csv_row_number": 10,
+      "content_id": 20796313,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20796313",
+        "Schreibzeit für Artikeltext": "18,3",
+        "Schreibzeit für weitere Felder": "2,5",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": "Inhaltliche Doppelungen, aber teils gute Ergänzungen z.B. Erklärung für \"Fliegende Holländer\"; Blöd, dass immer gleiche Vorschläge, wenn z.B. Titelgenerierung gedrückt"
+      },
+      "cms_article": {
+        "text": "Zwei „fliegende Holländer“ in zwei getunten BMWs haben mit halsbrecherischen Fahrmanövern bei über 220 km/h am Dienstag auf der A99 und der A8 in Oberbayern andere Verkehrsteilnehmer gefährdet und die Polizei auf Trab gehalten.  Die beiden Fahrer zweier laut Polizei hochmotorisierter BMW M3 mit niederländischen Kennzeichen seien gegen 7.45 Uhr auf der A99 im Bereich der Anschlussstelle Haar im Landkreis München mit ihrer „aggressiven und teils gefährlichen Fahrweise“ aufgefallen, berichtet die Polizei. „Immer wieder fuhren die Fahrer, zwei Niederländer im Alter von 24 und 25 Jahren, anderen Verkehrsteilnehmern stark auf, überholten verbotswidrig rechts und beschleunigten ihre Fahrzeuge zwischendurch stark.“ Ein Zeuge habe daraufhin den Notruf gewählt. Polizei stoppt Raser bei RosenheimDie Fahrer, die in Anlehnung an die bekannte Redewendung von der Polizei selbst als „fliegende Holländer“ bezeichnet wurden, waren Polizeiangaben zufolge teilweise mit über 220 Sachen unterwegs – das erschwerte es den Einsatzkräften, sie zum Anhalten zu bewegen. Erst im Bereich der A8 bei Rosenheim sei es den Beamten der Verkehrspolizei Rosenheim zusammen mit weiteren Polizeikräften gelungen, die Raser zu stoppen. Eine Streifenbesatzung konnte die gefährliche Fahrweise der beiden kurz vor dem Anhalten dokumentieren.Bei der anschließenden Kontrolle stellten die Beamten fest, dass beide BMW M3 augenscheinlich unerlaubte technische Manipulationen aufwiesen. Die Staatsanwaltschaft ordnete daraufhin die Beschlagnahme beider Fahrzeuge sowie der Führerscheine der beiden Fahrer an. Die Niederländer müssen sich nun wegen des Verdachts eines verbotenen Kraftfahrzeugrennens sowie diverser weiterer Delikte verantworten.Zeugen gesucht: Wer wurde von den Rasern gefährdet?Die Verkehrspolizei Rosenheim sucht nun Zeugen, die zwischen 7.45 Uhr und 8.20 Uhr auf der A99 bei München-Ost oder der A8 in Richtung Salzburg unterwegs waren und von einem weißen oder schwarzen BMW mit gelbem niederländischem Kennzeichen gefährdet oder genötigt wurden. Besonders gesucht wird der Fahrer eines Mini, der laut vorliegenden Zeugenaussagen im Bereich Haar von den beiden Fahrzeugen gefährdet worden sein soll. Hinweise nimmt die Verkehrspolizei Rosenheim unter der Telefonnummer 08035/90680 entgegen.cav",
+        "headline": "Auf A99 und A8: „Fliegende Holländer“ in getunten BMWs liefern sich wildes Rennen durch Oberbayern"
+      },
+      "ai_generated": {
+        "text": "Rasende Niederländer auf der Autobahn: Staatsanwaltschaft beschlagnahmt zwei BMW M3 nach wildem Rennen südlich von MünchenZwei junge Niederländer haben am Dienstagmorgen, dem 24. März 2026, mit halsbrecherischen Fahrmanövern auf der A99 und der A8 südlich von München für gefährliche Situationen im Berufsverkehr gesorgt. Die Fahrer zweier hochmotorisierter BMW M3 mit niederländischen Kennzeichen fielen durch aggressives Auffahren, verbotenes Rechtsüberholen und Geschwindigkeiten von teils weit über 220 Stundenkilometern auf. Erst im Bereich Rosenheim gelang es Beamten der Verkehrspolizeiinspektion Rosenheim gemeinsam mit weiteren Polizeikräften, die beiden Männer im Alter von 24 und 25 Jahren zu stoppen. Die Staatsanwaltschaft ordnete die Beschlagnahme der Fahrzeuge sowie der Führerscheine an.Der Vorfall begann gegen 07:45 Uhr im Bereich der Anschlussstelle Haar auf der A99, wo ein aufmerksamer Zeuge die beiden Fahrzeuge bereits dem Polizeinotruf meldete. Die Fahrer, die in Anlehnung an die bekannte Redewendung von Polizei und Medien bereits als fliegende Holländer bezeichnet werden dürften, fuhren anderen Verkehrsteilnehmern wiederholt stark auf und beschleunigten ihre Fahrzeuge immer wieder auf extreme Geschwindigkeiten. Genau diese hohen Tempi erschwerten es den Einsatzkräften zunächst erheblich, die Fahrzeuge zu stoppen.Eine nachfahrende Streifenbesatzung konnte die gefährliche Fahrweise der beiden kurz vor dem Anhalten dokumentieren, was für das weitere Verfahren von entscheidender Bedeutung sein dürfte. Die Verfolgung zog sich dabei über eine erhebliche Strecke von der A99 bis in den Raum Rosenheim hin.Bei der anschließenden Kontrolle stellten die Beamten fest, dass beide BMW M3 augenscheinlich unerlaubte technische Manipulationen aufwiesen. Die Staatsanwaltschaft ordnete daraufhin die Beschlagnahme beider Fahrzeuge sowie der Führerscheine der beiden Fahrer an. Die Niederländer müssen sich nun wegen des Verdachts eines verbotenen Kraftfahrzeugrennens sowie diverser weiterer Delikte verantworten.Die Verkehrspolizeiinspektion Rosenheim sucht nun Zeugen, die zwischen 07:45 Uhr und 08:20 Uhr auf der A99 in Richtung München-Ost oder der A8 in Richtung Salzburg unterwegs waren und von einem weißen oder schwarzen BMW mit gelbem niederländischem Kennzeichen gefährdet oder genötigt wurden. Besonders gesucht wird der Fahrer eines Pkw Mini, der laut vorliegenden Zeugenaussagen im Bereich Haar von den beiden Fahrzeugen gefährdet worden sein soll.Hinweise nimmt die Verkehrspolizeiinspektion Rosenheim unter der Telefonnummer 08035/9068-0 entgegen.",
+        "headline": "Illegales Autorennen auf A99 Niederlaender verlieren BMW M3 und Fuehrerscheine"
+      }
+    },
+    {
+      "sequence_index": 4,
+      "csv_row_number": 11,
+      "content_id": 20805676,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20805676",
+        "Schreibzeit für Artikeltext": "6,3",
+        "Schreibzeit für weitere Felder": "2",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "1",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "1",
+        "Kommentar": "Promt nicht wie gewünscht umgesetzt"
+      },
+      "cms_article": {
+        "headline": "Nach Vandalismus: Trinkwasser in Tattenhausen und Umgebung muss nicht mehr abgekocht werden"
+      },
+      "ai_generated": {
+        "headline": "Abkochpflicht für Trinkwasser in Tattenhausen aufgehoben"
+      }
+    },
+    {
+      "sequence_index": 5,
+      "csv_row_number": 12,
+      "content_id": 20809603,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20809603",
+        "Schreibzeit für Artikeltext": "4",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": "Aus Stichpunkten schön zusammengefasst; nur 1. Absatz habe ich umformuliert."
+      },
+      "cms_article": {
+        "text": "Zahlreiche Einsatzkräfte, darunter mehrere Fahrzeuge der Feuerwehr, sind am Donnerstagabend zum Bahnhaltepunkt Morellstraße in Augsburg ausgerückt. Dort war ein Brand an einem Güterzug befürchtet worden. Am Ende stellte sich alles als komplett harmlos heraus.  Gegen 20.30 Uhr sei leichter Rauch an einem Waggon gemeldet worden, der am Bahnhaltepunkt Morellstraße stand, berichtet ein Sprecher der Bundespolizei Augsburg auf DK-Nachfrage. Wie sich vor Ort herausstellte, war die Ursache harmlos: Nieselregen sei auf die im Waggon gelagerte Metallspäne gefallen. Durch den Temperaturunterschied – die Metallspäne hatten laut Polizei etwa eine Temperatur von 20 Grad – begann die Ladung an zu dampfen. Löschmaßnahmen waren nicht erforderlich, betonte die Polizei. Die Einsatzkräfte stellten fest, dass von dem Güterzug keine Gefahr ausging und kein weiteres Eingreifen notwendig war.Neben der Feuerwehr waren auch der Notfallmanager der Bahn, ein Vertreter der Lokalbahn als verantwortliches Unternehmen für den Güterzug sowie Beamte der Bundes- und Landespolizei vor Ort. Der Einsatz endete gegen 21.30 Uhr, rund eine Stunde nach der ersten Alarmierung.cav"
+      },
+      "ai_generated": {
+        "text": "Feuerwehreinsatz an Bahnhaltepunkt Morellstraße: Metallspäne im Güterzug sorgten für RauchentwicklungEin abgestellter Güterzug hat am Abend an der Morellstraße einen Feuerwehreinsatz ausgelöst. Gegen 20.30 Uhr wurde leichter Rauch an einem Waggon gemeldet, der am Bahnhaltepunkt Morellstraße stand. Wie sich vor Ort herausstellte, war die Ursache harmlos: Nieselregen war auf im Waggon gelagerte Metallspäne gefallen, die noch eine Temperatur von rund 20 Grad aufwiesen, was zu einer leichten Rauchentwicklung geführt hatte.Löschmaßnahmen waren nicht erforderlich. Die Einsatzkräfte stellten fest, dass von dem Güterzug keine Gefahr ausging und kein weiteres Eingreifen notwendig war.Neben der Feuerwehr waren auch der Notfallmanager der Bahn, ein Vertreter der Lokalbahn als verantwortliches Unternehmen für den Güterzug sowie Beamte der Bundes- und Landespolizei vor Ort. Der Einsatz endete gegen 21.30 Uhr, rund eine Stunde nach der ersten Alarmierung."
+      }
+    },
+    {
+      "sequence_index": 6,
+      "csv_row_number": 13,
+      "content_id": 20810236,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20810236",
+        "Schreibzeit für Artikeltext": "11",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein 48-jähriger Mann aus Trostberg (Landkreis Traunstein) ist am Abend mit einem sogenannten Pocketbike gestürzt und dabei schwer verletzt worden.  Der Unfall ereignete sich kurz vor 21 Uhr in Heiligkreuz bei Trostberg. Der Mann sei mit dem Mini-Motorrad herumgefahren, als er alleinbeteiligt die Kontrolle über das Pocketbike verlor. Bei dem Sturz sei er mit dem Kopf gegen eine Steinmauer geprallt, berichtet ein Polizeisprecher auf PNP-Nachfrage. Dadurch habe sich der Mann schwer verletzt. Er wurde ins Klinikum Traunstein gebracht, wo er medizinisch versorgt wurde. Der Polizeisprecher erklärt gegenüber der PNP, dass Pocketbikes nicht für den Straßenverkehr zugelassen sind. Die Polizei prüft nun, ob im Zusammenhang mit dem Vorfall Straftaten begangen wurden. cav"
+      },
+      "ai_generated": {
+        "text": "Ein 48-jähriger Mann aus Trostberg ist am Abend mit einem Pocketbike gestürzt und dabei schwer verletzt worden. Der Unfall ereignete sich kurz vor 21 Uhr im Stadtteil Heiligkreuz in Trostberg, als der Mann alleinbeteiligt die Kontrolle über sein Kleinstmotorrad verlor. Bei dem Sturz prallte er mit dem Kopf gegen eine Steinmauer und zog sich dabei schwere Verletzungen zu.Der verletzte Mann wurde nach dem Unfall in das Klinikum Traunstein gebracht, wo er medizinisch versorgt wurde. Über den genauen Zustand des 48-Jährigen nach seiner Einlieferung liegen derzeit keine weiteren Angaben vor.Im Zuge der Unfallaufnahme stellten die Einsatzkräfte fest, dass das verwendete Pocketbike nicht für den Straßenverkehr zugelassen ist. Solche Kleinstfahrzeuge dürfen in Deutschland grundsätzlich nicht auf öffentlichen Straßen, Wegen oder Plätzen betrieben werden, da sie weder über eine Betriebserlaubnis noch über die notwendigen Sicherheitsausstattungen für den öffentlichen Verkehr verfügen.Die Polizei prüft nun, ob im Zusammenhang mit dem Vorfall Straftaten begangen wurden. Dabei dürfte insbesondere der unerlaubte Betrieb des nicht straßenzugelassenen Fahrzeugs im öffentlichen Verkehrsraum im Fokus der Ermittlungen stehen."
+      }
+    },
+    {
+      "sequence_index": 7,
+      "csv_row_number": 14,
+      "content_id": 20812345,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20812345",
+        "Schreibzeit für Artikeltext": "3,28",
+        "Schreibzeit für weitere Felder": "0,25",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Zu einem Verkehrsunfall mit zwei Verletzten ist es am Freitagvormittag auf der B299 bei Vilsbiburg (Landkreis Landshut) gekommen.  Nach bisherigen Erkenntnissen der Polizei missachtete ein Autofahrer die Vorfahrt eines anderen Autos, als er von der Kreisstraße LA13 auf die Bundesstraße auffahren wollte. Es kam zur Kollision. Eines der beiden Autos wurde in einen Graben geschleudert. Beide Autos waren jeweils mit zwei Personen besetzt. Zwei der vier Beteiligten erlitten nach Angaben eines Polizeisprechers bei dem Zusammenstoß leichte Verletzungen. Der bei dem Unfall entstandene Schaden wird auf 12.000 Euro geschätzt. Im Einsatz waren die Feuerwehren aus Gaindorf und Vilsbiburg. cav",
+        "headline": "Vorfahrt missachtet: Zwei Verletzte bei Unfall auf der B299 bei Vilsbiburg"
+      },
+      "ai_generated": {
+        "text": "Unfall auf der B300 bei Aichach: Zwei Verletzte nach Kollision mehrerer FahrzeugeAuf der Bundesstraße 300 bei Aichach hat sich am frühen Morgen ein Verkehrsunfall ereignet, bei dem mindestens zwei Personenkraftwagen beteiligt waren und zwei Personen verletzt wurden. Der Unfall ereignete sich gegen 6.15 Uhr im Abschnitt zwischen den Anschlussstellen Aichach-West und Aichach-Süd. Die Bundesstraße musste in beiden Fahrtrichtungen vorübergehend vollständig gesperrt werden.Bei dem Zusammenstoß wurden nach ersten Erkenntnissen beide Fahrer der beteiligten Fahrzeuge verletzt. Angaben zur Schwere der Verletzungen lagen zunächst nicht vor.Der genaue Unfallhergang war zum Zeitpunkt der Meldung noch unklar. Die beteiligten Fahrzeuge mussten abgeschleppt werden.Die B300 war kurzzeitig in beide Richtungen gesperrt. Verkehrsteilnehmer mussten in dem Bereich zwischen Aichach-West und Aichach-Süd mit Behinderungen rechnen.",
+        "headline": "Unfall auf B300 bei Aichach Zwei Verletzte nach Kollision"
+      }
+    },
+    {
+      "sequence_index": 8,
+      "csv_row_number": 15,
+      "content_id": 20812612,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20812612",
+        "Schreibzeit für Artikeltext": "2",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "bisschen zu viel dazugeschrieben für meinen Geschmack und teils Doppelungen, aber war an sich nix Falsch"
+      },
+      "cms_article": {
+        "text": "Ein 64-jähriger Landwirt aus dem Bezirk Rohrbach im Mühlviertel (Oberösterreich) ist am frühen Freitagmorgen bei einem Arbeitsunfall auf einem Bauernhof ums Leben gekommen. Der Mann war im Betrieb seines Sohnes mit Stallarbeiten beschäftigt, als er von einem Stier attackiert wurde. Die dabei erlittenen Verletzungen waren so schwer, dass der alarmierte Notarzt nur noch den Tod des Mannes feststellen konnte, berichtet die Landespolizei. Die Benachrichtigung der Angehörigen erfolgte unter Begleitung des Kriseninterventionsteams. Weitere Details zum Vorfall nannte die Polizei nicht. red",
+        "headline": "Mann (64) im Mühlviertel von Stier attackiert und tödlich verletzt",
+        "roofline": "Unfall auf Bauernhof"
+      },
+      "ai_generated": {
+        "text": "Schwerer Unfall auf der Kreisstraße PAF 13: Fahrer in Fahrzeug eingeklemmtEin 26-jähriger Autofahrer ist in der Nacht von Samstag auf Sonntag auf der Kreisstraße PAF 13 zwischen Freinhausen und Hohenwart im Landkreis Pfaffenhofen an der Ilm schwer verunglückt. Der Mann verlor gegen 23:42 Uhr aufgrund nicht angepasster Geschwindigkeit in einer Rechtskurve die Kontrolle über seinen VW und kam nach links von der Fahrbahn ab. Das Fahrzeug kollidierte mit mehreren Verkehrszeichen sowie einem Baum.Der deutsche Staatsangehörige wurde durch den Aufprall in seinem Fahrzeug eingeklemmt und konnte sich nicht selbst befreien. Die alarmierten Feuerwehren aus Hohenwart und Weichenried rückten umgehend aus und befreiten den Fahrer aus dem Wrack.Der 26-Jährige, der im Landkreis wohnhaft ist, wurde mit schweren Verletzungen in eine Klinik eingeliefert. Angaben zu seinem genauen Gesundheitszustand liegen derzeit nicht vor.An dem VW entstand Totalschaden, das Fahrzeug musste abgeschleppt werden. Der Gesamtschaden beläuft sich nach ersten Schätzungen auf rund 16.500 Euro.Den Fahrer erwartet infolge des Unfalls eine Verkehrsordnungswidrigkeitenanzeige wegen nicht angepasster Geschwindigkeit.",
+        "headline": "Fahrer nach Unfall auf PAF 13 schwer verletzt in Klinik eingeliefert",
+        "roofline": "Unfall im Landkreis Pfaffenhofen"
+      }
+    },
+    {
+      "sequence_index": 9,
+      "csv_row_number": 16,
+      "content_id": 20812894,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20812894",
+        "Schreibzeit für Artikeltext": "6,3",
+        "Schreibzeit für weitere Felder": "2",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Gleich zwei Unfälle haben am Freitagnachmittag auf der A93 im Bereich der Anschlussstelle Wernberg-Köblitz im Landkreis Schwandorf ereignet. Das sorgt für Verkehrsbehinderungen in Fahrtrichtung Weiden. Der erste Unfall passierte laut eines Sprechers der Einsatzzentrale Oberpfalz kurz vor 13 Uhr direkt an der Anschlussstelle Wernberg-Köblitz. Mehrere Fahrzeuge seien daran beteiligt gewesen, aber glücklicherweise sei niemand verletzt worden. Die Unfallstelle wurde inzwischen auch wieder geräumt. Im Stau, der sich wegen des ersten Unfalls bildete, kam es kurz vor 14 Uhr dann zu einem Auffahrunfall zwischen den Anschlussstellen Wernberg-Köblitz und Luhe-Wildenau, so der Sprecher gegenüber der MZ. Dabei sei eine Person verletzt worden – ersten Erkenntnissen zufolge aber nicht schwer. Aktuell (Stand: 14.25 Uhr) ist auf der A93 zwischen Wernberg-Köblitz und Luhe-Wildenau in Fahrtrichtung Weiden die linke Fahrspur gesperrt. Der Verkehr wird an der Unfallstelle vorbeigeleitet. cav",
+        "headline": "Zwei Unfälle auf der A93 bei Wernberg-Köblitz sorgen für Stau",
+        "roofline": "Eine Person verletzt"
+      },
+      "ai_generated": {
+        "text": "Auffahrunfall auf der Autobahn bei Wernberg-Köblitz fordert VerletztenGleich zwei Unfälle haben am Dienstag auf der Autobahn im Bereich der Anschlussstelle Wernberg-Köblitz im Landkreis Schwandorf für Behinderungen gesorgt. Zunächst ereignete sich gegen 12.56 Uhr ein Unfall mit mehreren Fahrzeugen, der einen Stau verursachte. Dabei wurde niemand verletzt.Nachdem die erste Unfallstelle zwischen der Anschlussstelle Wernberg-Köblitz und der Anschlussstelle Luhe-Wildenau geräumt worden war, kam es im Staubereich zu einem weiteren Zwischenfall. Gegen 13.50 Uhr fuhr ein Fahrzeug auf ein anderes auf, wobei eine Person verletzt wurde. Die Verletzungen sollen nach ersten Erkenntnissen jedoch nicht schwerwiegend sein.Die Unfallserie verdeutlicht die typische Gefahr, die in Staubereichen auf Autobahnen lauert. Auffahrunfälle im stockenden Verkehr zählen zu den häufigsten Unfallursachen auf deutschen Autobahnen.",
+        "headline": "Zwei Unfälle auf A93 bei Wernberg-Köblitz fordern Verletzten",
+        "roofline": "Arbeitsunfall in Oberösterreich"
+      }
+    },
+    {
+      "sequence_index": 10,
+      "csv_row_number": 17,
+      "content_id": 20814565,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20814565",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Auf der A8 zwischen den Anschlussstellen Adelzhausen (Landkreis Aichach-Friedberg) und Odelzhausen (Landkreis Dachau) ist es am Freitagnachmittag zu einem Unfall mit fünf Fahrzeuge gekommen. Auch ein Rettungshubschrauber rückte zur Unfallstelle aus. In Fahrtrichtung München kommt es zu massiven Verkehrsbehinderungen. Nach aktuellem Stand gegen 16.15 Uhr wurde dabei mindestens eine Person leicht verletzt, berichtet eine Sprecherin der Verkehrspolizei Fürstenfeldbruck auf DK-Nachfrage. Weitere Details zum Unfallhergang und möglichen weiteren Verletzten waren zunächst nicht bekannt. Im Zuge der Unfallaufnahme und der Rettungsmaßnahmen wurde mindestens ein Fahrstreifen gesperrt. Autofahrer auf der A8 Richtung München müssen im betroffenen Abschnitt mit erheblichen Verkehrsbehinderungen und Stau rechnen. Gegen 16.15 Uhr betrug die Stauzeitmessung auf dem Verkehrsportal Bayerninfo eine Stunde und 40 Minuten an. cav"
+      },
+      "ai_generated": {
+        "text": "Unfall auf der A8 bei Odelzhausen: Fünf Fahrzeuge beteiligt, Hubschrauber im EinsatzAuf der Autobahn A8 in Richtung München kam es am Freitagnachmittag zwischen den Anschlussstellen Adelzhausen und Odelzhausen zu einem Verkehrsunfall, bei dem fünf Fahrzeuge beteiligt waren. Nach aktuellem Stand gegen 16.15 Uhr wurde dabei mindestens eine Person leicht verletzt. Zur Versorgung der verletzten Person wurde ein Rettungshubschrauber an die Unfallstelle gerufen.Im Zuge der Unfallaufnahme und der Rettungsmaßnahmen wurde mindestens ein Fahrstreifen gesperrt. Autofahrer auf der A8 Stuttgart Richtung München mussten im betroffenen Abschnitt mit erheblichen Verkehrsbehinderungen und Stau rechnen.Die genaue Unfallursache war zum Zeitpunkt der Meldung noch nicht bekannt. Weitere Details zu den beteiligten Fahrzeugen und zum genauen Unfallhergang lagen zunächst nicht vor. Reisende auf der A8 wurden gebeten, den Bereich nach Möglichkeit weiträumig zu umfahren."
+      }
+    },
+    {
+      "sequence_index": 12,
+      "csv_row_number": 19,
+      "content_id": 20822149,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20822149",
+        "Schreibzeit für Artikeltext": "7,04",
+        "Schreibzeit für weitere Felder": "1,23",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Text in Ordnung, Überschrift noch nicht ausgereift"
+      },
+      "cms_article": {
+        "text": "Ein 26-jähriger Autofahrer ist in der Nacht auf Sonntag bei Hohenwart im Landkreis Pfaffenhofen schwer verunglückt.  Wie die Polizei berichtet, war er am Samstag gegen 23.40 Uhr zwischen Freinhausen und Hohenwart unterwegs, als er wegen nicht angepasster Geschwindigkeit in einer Rechtskurve die Kontrolle über seinen VW verlor. Er sei nach links von der Fahrbahn abgekommen und kollidierte mit mehreren Verkehrszeichen sowie einem Baum.Autofahrer eingeklemmtDurch den Aufprall wurde der 26-Jährige Polizeiangaben zufolge in seinem Fahrzeug eingeklemmt und konnte sich nicht selbst befreien. Die alarmierten Feuerwehren aus Hohenwart und Weichenried rückten aus und befreiten den Fahrer aus dem Wrack.Ermittlungen gegen Autofahrer nach UnfallDer 26-Jährige, der aus dem Landkreis Pfaffenhofen stammt, wurde laut Polizei mit schweren Verletzungen in eine Klinik gebracht. Ihn erwartet infolge des Unfalls eine Verkehrsordnungswidrigkeitenanzeige wegen nicht angepasster Geschwindigkeit. Zum Unfallzeitpunkt gab es Schneeregen. Ob auch die Straßenverhältnisse zum Unfall beitrugen, dazu hatte die Polizei zunächst keine Erkenntnisse. An dem VW entstand Totalschaden, das Auto wurde abgeschleppt. Der Gesamtschaden beläuft sich nach ersten Schätzungen auf 16.500 Euro. cav",
+        "headline": "Aus Kurve geschleudert: Autofahrer (26) bei Unfall bei Hohenwart schwer verletzt"
+      },
+      "ai_generated": {
+        "text": "Unfall bei Osterhofen: Betrunkener Fahrer landet mit Audi in GartenEin Autofahrer ist am Donnerstagabend zwischen Wisselsing und Osterhofen von der Fahrbahn abgekommen und mit seinem Fahrzeug in einem Garten gelandet. Der Unfall ereignete sich gegen 19.15 Uhr auf Höhe von Neu-Wisselsing. Verletzt wurde bei dem Vorfall niemand.Der Fahrer, ein Mann Anfang 30, war mit einem schwarzen Audi unterwegs, als er die Kontrolle über sein Fahrzeug verlor. Das Auto kam von der Straße ab und kam schließlich in einem angrenzenden Garten zum Stillstand.Der Audi wurde bei dem Unfall so schwer beschädigt, dass er als Totalschaden gilt. Der entstandene Sachschaden beläuft sich insgesamt auf einen unteren fünfstelligen Betrag.Die Ermittlungen der Polizei ergaben, dass der Fahrer nicht unerheblich unter Alkoholeinfluss stand. Ihm wurde eine Blutprobe entnommen, zudem stellten die Beamten seinen Führerschein sicher. Den Mann erwartet nun eine Strafanzeige.",
+        "headline": "Betrunkener Audi Fahrer landet nach Unfall bei Osterhofen in Garten"
+      }
+    },
+    {
+      "sequence_index": 13,
+      "csv_row_number": 20,
+      "content_id": 20822173,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20822173",
+        "Schreibzeit für Artikeltext": "4,18",
+        "Schreibzeit für weitere Felder": "1,14",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "1",
+        "Qualitative Artikeleinschätzung (1-5)": "2",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Auf der B300 bei Aichach hat sich am Sonntagmorgen ein Unfall ereignet, bei dem zwei Personen verletzt wurden – eine davon schwer. Verursacht wurde der Unfall laut Polizei von einem alkoholisierten Autofahrer, der in den Gegenverkehr geriet. Kurz nach 6 Uhr war demnach ein 44-jähriger Autofahrer auf der B300 zwischen den Anschlussstellen Aichach-Süd und Aichach-West in Richtung Schrobenhausen unterwegs, als er in den Gegenverkehr geriet. Dort sei er frontal mit einem entgegenkommenden Auto zusammengestoßen. Die Fahrerin des anderen Fahrzeugs, eine 34-jährige Frau, sei dabei schwer verletzt worden. Der 44-Jährige habe sich leichte Verletzungen zugezogen und wurde wie die 34-Jährige ins Krankenhaus gebracht.Atemalkoholwert von knapp 1,2 Promille gemessenIm Zuge der Unfallaufnahme ergab ein freiwillig durchgeführter Atemalkoholtest bei dem 44-jährigen Fahrer einen Wert von knapp 1,2 Promille, berichtet die Polizei. Diese ordnete daraufhin eine Blutentnahme an, um den Alkoholgehalt gerichtsverwertbar festzustellen. Der Führerschein des Mannes wurde noch an der Unfallstelle beschlagnahmt.Beide Fahrzeuge waren nach dem Aufprall nicht mehr fahrbereit und wurden abgeschleppt. Der entstandene Schaden an den beiden Autos wird auf einen Betrag im niedrigen bis mittleren fünfstelligen Bereich geschätzt. Für die Dauer der Unfallaufnahme wurde die B300 in beiden Fahrtrichtungen gesperrt werden. Gegen 8 Uhr wurden die Fahrbahnen wieder für den Verkehr freigegeben. Gegen den 44-Jährigen wird nun wegen Gefährdung des Straßenverkehrs ermittelt. cav",
+        "headline": "Autofahrer kollidiert auf der B300 bei Aichach mit Gegenverkehr: Eine Schwerverletzte"
+      },
+      "ai_generated": {
+        "text": "Verkehrsunfall auf der Bundesstraße 299: Vier Verletzte nach Kollision bei GarchingAm Samstagnachmittag kam es gegen 14:40 Uhr im Bereich der Einmündung der Kreisstraße AÖ-6 auf die Bundesstraße 299 bei Garching zu einem schweren Verkehrsunfall, bei dem vier Personen verletzt wurden und ein Sachschaden von rund 35.000 Euro entstand.Ein 24-jähriger Fahrer aus Halsbach wollte mit seinem Audi von der Kreisstraße AÖ-6 nach links auf die Bundesstraße 299 auffahren. Dabei übersah er den vorfahrtsberechtigten Ford eines 23-jährigen Garchiners, der auf der Bundesstraße 299 in Richtung Altötting unterwegs war. Es kam zum Zusammenstoß beider Fahrzeuge.Durch den Aufprall wurden beide Fahrzeugführer sowie die zwei Insassen des Ford verletzt. Die Verletzungen werden als teils mittelschwer beschrieben. Rettungsdienste und ein Rettungshubschrauber brachten die Verletzten in umliegende Krankenhäuser.Beide Fahrzeuge waren nach dem Unfall nicht mehr fahrbereit und mussten abgeschleppt werden. Der Gesamtschaden an den beiden Pkw wird auf 35.000 Euro geschätzt.Die Bundesstraße 299 war für die Dauer der Unfallaufnahme rund eine Stunde gesperrt. Die Feuerwehr Unterneukirchen war vor Ort und übernahm dabei insbesondere Verkehrsmaßnahmen zur Absicherung der Unfallstelle.",
+        "headline": "Vier Verletzte bei Kollision auf Bundesstraße 299 bei Garching"
+      }
+    },
+    {
+      "sequence_index": 14,
+      "csv_row_number": 21,
+      "content_id": 20822272,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20822272",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "0,4",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": "schöne Erklärung zum Fettbrand"
+      },
+      "cms_article": {
+        "text": "Acht Menschen sind am Samstagabend in einer Wohnung in Eichstätt verletzt worden. Ursache dafür war ein Fettbrand. Gegen 18.15 Uhr wurden die Einsatzkräfte zu der Wohnung im Seidlkreuz in Eichstätt alarmiert. Eine 33-jährige Bewohnerin habe den Fettbrand verursacht. Zum Zeitpunkt des Brandes befanden sich Polizeiangaben zufolge neben der Verursacherin noch sieben weitere Personen in der Wohnung. Alle acht seien durch den Fettbrand leicht verletzt worden.Die Freiwillige Feuerwehr Eichstätt rückte mit 18 Einsatzkräften aus und konnte das Feuer erfolgreich löschen. Der durch den Brand entstandene Schaden wird auf 10.000 Euro geschätzt. Ein Fettbrand entsteht typischerweise beim Erhitzen von Speisefett oder Speiseöl und kann sich rasch ausbreiten, wenn er nicht sachgemäß bekämpft wird.cav",
+        "headline": "Acht Menschen bei Fettbrand in Eichstätter Wohnung verletzt"
+      },
+      "ai_generated": {
+        "text": "Fettbrand in Eichstätter Wohnung verletzt acht PersonenAm frühen Samstagabend kam es im Seidlkreuz in Eichstätt zu einem Feuerwehreinsatz, nachdem eine 33-jährige Bewohnerin einen Fettbrand verursacht hatte. Der Vorfall ereignete sich um 18:16 Uhr und forderte den Einsatz der Freiwilligen Feuerwehr Eichstätt.Zum Zeitpunkt des Brandes befanden sich neben der Verursacherin noch sieben weitere Personen in der Wohnung. Alle acht Anwesenden wurden durch den Fettbrand leicht verletzt.Die Freiwillige Feuerwehr Eichstätt rückte mit 18 Einsatzkräften aus und konnte das Feuer erfolgreich löschen. Ein Fettbrand entsteht typischerweise beim Erhitzen von Speisefett oder Speiseöl und kann sich rasch ausbreiten, wenn er nicht sachgemäß bekämpft wird.Der durch den Brand entstandene Sachschaden wird auf rund 10.000 Euro geschätzt. Über den genauen Hergang des Vorfalls sowie den Zustand der verletzten Personen liegen derzeit keine weiteren Informationen vor.",
+        "headline": "Fettbrand in Eichstätter Wohnung verletzt acht Personen"
+      }
+    },
+    {
+      "sequence_index": 15,
+      "csv_row_number": 22,
+      "content_id": 20822434,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20822434",
+        "Schreibzeit für Artikeltext": "4,3",
+        "Schreibzeit für weitere Felder": "1,5",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein aggressiver Randalierer in einem Zug bei Schwandorf hat am Samstag die Polizei auf den Plan gerufen. Der Tag endete für den Mann in der Haftzelle. Die Polizei Schwandorf wurde gegen 17.30 Uhr zum Schwandorfer Bahnhof gerufen, nachdem ein 25-Jähriger in einem Zug in Richtung Regensburg randaliert hatte. „Mehrere Zeugen konnten beobachten, wie der betrunkene Amerikaner während der Fahrt herumschrie, mehrfach auf den Boden spuckte und stehend auf Sitzplätze urinierte“, schildert die Polizei den Vorfall.Als die Beamten den 25-Jährigen aus dem Zug entfernen wollten, habe sich der Randalierer unkooperativ und zunehmend aggressiv gegenüber den Einsatzkräften gezeigt. Die Beamten fesselten den Mann und brachten ihn in die Haftzelle. Einen Alkoholtest habe der 25-Jährige verweigert. Auf ihn wartet nun ein Strafverfahren wegen Sachbeschädigung.cav",
+        "headline": "Er schrie, spuckte und urinierte: Mann (25) landet von Zug in Schwandorfer Haftzelle",
+        "roofline": "Aggressiver Randalierer"
+      },
+      "ai_generated": {
+        "text": "Betrunkener Amerikaner randaliert in Zug und landet in HaftzelleBeamte der Polizeiinspektion Schwandorf wurden am Freitag, dem 28. März 2026, gegen 17:30 Uhr zum Schwandorfer Bahnhof gerufen, nachdem ein 25-jähriger amerikanischer Staatsangehöriger in einem Zug in Richtung Regensburg randaliert hatte. Mehrere Zeugen beobachteten, wie der offensichtlich stark alkoholisierte Mann während der Fahrt lautstark herumschrie, wiederholt auf den Boden spuckte und stehend auf Sitzplätze urinierte.Als die Beamten den 25-Jährigen aus dem Zug verbrachten, zeigte er sich unkooperativ und wurde zunehmend aggressiv gegenüber den Einsatzkräften. Aufgrund seines Verhaltens musste der Mann gefesselt und anschließend in die Haftzelle der Polizeiinspektion Schwandorf gebracht werden.Einen Alkoholtest verweigerte der Randalierer. Auf ihn wartet nun ein Strafverfahren wegen Sachbeschädigung.",
+        "headline": "Betrunkener Amerikaner randaliert in Zug und landet in Haftzelle",
+        "roofline": "Zwischenfall im Zug"
+      }
+    },
+    {
+      "sequence_index": 16,
+      "csv_row_number": 23,
+      "content_id": 20822173,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20822173",
+        "Schreibzeit für Artikeltext": "7",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": "Artikel noch einmal neu geschrieben mit KI mit neuen Infos"
+      },
+      "cms_article": {
+        "text": "Auf der B300 bei Aichach hat sich am Sonntagmorgen ein Unfall ereignet, bei dem zwei Personen verletzt wurden – eine davon schwer. Verursacht wurde der Unfall laut Polizei von einem alkoholisierten Autofahrer, der in den Gegenverkehr geriet. Kurz nach 6 Uhr war demnach ein 44-jähriger Autofahrer auf der B300 zwischen den Anschlussstellen Aichach-Süd und Aichach-West in Richtung Schrobenhausen unterwegs, als er in den Gegenverkehr geriet. Dort sei er frontal mit einem entgegenkommenden Auto zusammengestoßen. Die Fahrerin des anderen Fahrzeugs, eine 34-jährige Frau, sei dabei schwer verletzt worden. Der 44-Jährige habe sich leichte Verletzungen zugezogen und wurde wie die 34-Jährige ins Krankenhaus gebracht.Atemalkoholwert von knapp 1,2 Promille gemessenIm Zuge der Unfallaufnahme ergab ein freiwillig durchgeführter Atemalkoholtest bei dem 44-jährigen Fahrer einen Wert von knapp 1,2 Promille, berichtet die Polizei. Diese ordnete daraufhin eine Blutentnahme an, um den Alkoholgehalt gerichtsverwertbar festzustellen. Der Führerschein des Mannes wurde noch an der Unfallstelle beschlagnahmt.Beide Fahrzeuge waren nach dem Aufprall nicht mehr fahrbereit und wurden abgeschleppt. Der entstandene Schaden an den beiden Autos wird auf einen Betrag im niedrigen bis mittleren fünfstelligen Bereich geschätzt. Für die Dauer der Unfallaufnahme wurde die B300 in beiden Fahrtrichtungen gesperrt werden. Gegen 8 Uhr wurden die Fahrbahnen wieder für den Verkehr freigegeben. Gegen den 44-Jährigen wird nun wegen Gefährdung des Straßenverkehrs ermittelt. cav"
+      },
+      "ai_generated": {
+        "text": "Schwerer Verkehrsunfall auf der B300 bei Aichach: Fahrer unter Alkoholeinfluss gerät in GegenverkehrAm frühen Sonntagmorgen des 29. März 2026 kam es auf der Bundesstraße 300 zwischen den Anschlussstellen Aichach Süd und Aichach West zu einem schweren Verkehrsunfall. Gegen 06:10 Uhr geriet ein 44-jähriger Autofahrer mit seinem Fahrzeug in den Gegenverkehr und stieß frontal mit einem entgegenkommenden Pkw zusammen. Die Fahrerin des anderen Fahrzeugs, eine 34-jährige Frau, wurde dabei schwer verletzt. Als Ursache steht Alkohol am Steuer im Raum.Der 44-jährige Fahrer war zum Zeitpunkt des Unfalls auf der B300 in Richtung Schrobenhausen unterwegs, als er aus bislang ungeklärter Ursache auf die Gegenfahrbahn geriet. Die 34-jährige Pkw-Führerin, die ihm entgegenkam, hatte keine Möglichkeit mehr auszuweichen. Sie wurde durch den Zusammenstoß schwer verletzt und musste in ein Krankenhaus gebracht werden. Auch der 44-Jährige zog sich bei dem Unfall leichte Verletzungen zu und wurde ebenfalls ins Krankenhaus transportiert.Beide Fahrzeuge waren nach dem Aufprall nicht mehr fahrbereit und mussten von der Unfallstelle abgeschleppt werden. Der entstandene Sachschaden an den beiden Pkws wird auf einen Betrag im niedrigen bis mittleren fünfstelligen Bereich geschätzt.Für die Dauer der Unfallaufnahme musste die B300 in beiden Fahrtrichtungen vollständig gesperrt werden. Um 08:00 Uhr wurden die Fahrbahnen wieder für den Verkehr freigegeben.Im Zuge der Unfallaufnahme ergab ein freiwillig durchgeführter Atemalkoholtest bei dem 44-jährigen Fahrer einen Wert von knapp 1,2 Promille. Die Polizei ordnete daraufhin eine Blutentnahme an, um den Alkoholgehalt gerichtsverwertbar festzustellen. Der Führerschein des Mannes wurde noch an der Unfallstelle beschlagnahmt.Gegen den 44-Jährigen wird nun wegen Gefährdung des Straßenverkehrs ermittelt. Alkohol am Steuer gilt als eine der häufigsten Ursachen schwerer Verkehrsunfälle und ist in Deutschland mit empfindlichen Strafen belegt. Bei einem Blutalkoholwert ab 1,6 Promille oder bei Unfällen infolge von Trunkenheit drohen neben dem Führerscheinentzug auch Geld- oder Freiheitsstrafen."
+      }
+    },
+    {
+      "sequence_index": 17,
+      "csv_row_number": 24,
+      "content_id": 20823103,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20823103",
+        "Schreibzeit für Artikeltext": "7",
+        "Schreibzeit für weitere Felder": "1,3",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Artikelanfang meist sehr eintönig; Überschriften auch"
+      },
+      "cms_article": {
+        "text": "Eine wilde Fahrt über die A9 endete für einen 25-jährigen Autofahrer bei Greding (Landkreis Roth) in der Leitplanke. Vergeblich versuchte er danach zu flüchten – bei Kinding (Landkreis Eichstätt) wurde er gefasst. Der 25-Jährige aus dem Landkreis Roth war laut Polizei am Freitagabend auf der A9 in Fahrtrichtung München unterwegs. Dabei sei er wegen seiner auffälligen Fahrweise aufgefallen. Zeugenaussagen zufolge fuhr der 25-Jährige mit überhöhter Geschwindigkeit und mit einer unsicheren Fahrweise. Gegen 20.45 Uhr krachte es dann auf Höhe Greding: Der 25-Jährige sei von der Fahrbahn abgekommen und mit der Schutzplanke kollidiert, berichtet die Verkehrspolizei Feucht. Polizeistreife spürt flüchtigen Raser aufTrotz der Kollision flüchtete der Fahrer unerlaubt von der Unfallstelle. Eine Streife der Polizei Beilngries konnte ihn kurze Zeit später in Enkering bei Kinding aufspüren. Ein freiwilliger Atemalkoholtest ergab einen Wert von über zwei Promille, was den Verdacht der Trunkenheit am Steuer erhärtete.Die Polizei untersagte dem 25-Jährigen die Weiterfahrt und stellte seinen Führerschein sicher. Der Fahrer selbst sei bei dem Unfall unverletzt geblieben. Am Fahrzeug entstand ein Schaden von rund 10.000 Euro, an der Schutzplanke ein weiterer Schaden von etwa 2000 Euro. Das Auto war nach dem Unfall nicht mehr fahrbereit.Im Einsatz waren insgesamt vier Streifen: zwei Streifen der Verkehrspolizei Feucht, eine Streife der Polizei Beilngries sowie eine Streife der Verkehrspolizei Ingolstadt.cav",
+        "headline": "Betrunkener Raser flüchtet nach Unfall auf der A9 bei Greding – Bei Kinding wird er gefasst"
+      },
+      "ai_generated": {
+        "text": "Betrunkener Fahrer flüchtet nach Unfall auf der A 9 bei GredingEin 25-jähriger Autofahrer aus dem Landkreis Roth hat am Freitagabend auf der Autobahn A 9 bei Greding einen Unfall verursacht und ist anschließend unerlaubt vom Unfallort geflüchtet. Der Vorfall ereignete sich gegen 20:45 Uhr in Fahrtrichtung München, als der junge Mann mit seinem Pkw nach links von der Fahrbahn abkam und mit der Schutzplanke kollidierte.Zeugen hatten den Fahrer zuvor wegen seiner auffälligen Fahrweise bemerkt. Nach ihren Aussagen war der 25-Jährige mit überhöhter Geschwindigkeit und unsicherer Fahrweise auf der A 9 unterwegs, bevor es auf Höhe von Greding zum Unfall kam.Trotz der Kollision entfernte sich der Fahrer unerlaubt von der Unfallstelle. Eine Streife der Polizeiinspektion Beilngries konnte ihn kurze Zeit später in Enkering aufspüren. Ein freiwilliger Atemalkoholtest ergab einen Wert von über zwei Promille, was den Verdacht der Trunkenheit am Steuer erhärtete.Die Polizei untersagte dem 25-Jährigen die Weiterfahrt und stellte seinen Führerschein sicher. Der Fahrer selbst blieb bei dem Unfall unverletzt.Der Sachschaden fiel jedoch erheblich aus. Am Fahrzeug entstand ein Schaden von rund 10.000 Euro, an der Schutzplanke ein weiterer Schaden von etwa 2.000 Euro. Der Pkw war nach dem Unfall nicht mehr fahrbereit.Im Einsatz waren insgesamt vier Streifen: zwei Streifen der Verkehrspolizeiinspektion Feucht, eine Streife der Polizeiinspektion Beilngries sowie eine Streife der Verkehrspolizeiinspektion Ingolstadt.",
+        "headline": "Betrunkener Fahrer flüchtet nach Unfall auf A9 bei Greding"
+      }
+    },
+    {
+      "sequence_index": 18,
+      "csv_row_number": 25,
+      "content_id": 20857384,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20857384",
+        "Schreibzeit für Artikeltext": "8",
+        "Schreibzeit für weitere Felder": "2,17",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Motorräder von Zündapp gelten als sehr selten, dass zwei Zündapps die exakt gleiche Fahrgestellnummer haben, gilt als unmöglich – oder illegal. So einen Fall ist nun im Landkreis Rottal-Inn aufgedeckt worden, wie die Polizei Simbach am Inn am Donnerstag berichtet.Mitarbeiterinnen der Zulassungsstelle Pfarrkirchen hatten demnach im Februar 2026 bei einer routinemäßigen Überprüfung die auffällige Unregelmäßigkeit entdeckt: Zwei Zündapps KS 50 TT Watercooled, beide Baujahr 1977, waren mit identischer Fahrgestellnummer registriert. Die Kfz-Fahndung der Grenzpolizei Simbach am Inn übernahmen die weiteren Ermittlungen. Originalfahrzeug gehört einem SammlerDie Beamten konnten im nördlichen Landkreis zunächst das Originalfahrzeug bei einem 46-jährigen deutschen Sammler sicherstellen. Dieser verfügte Polizeiangaben zufolge über die originalen Fahrzeugdokumente sowie das historische DIN-Kennzeichen, womit die Echtheit seines Exemplars zweifelsfrei belegt war.Zweiter Zündapp „eine vollständige Fälschung“Das zweite Fahrzeug, das die Beamten ebenfalls im Landkreis Rottal-Inn feststellten, habe sich hingegen als sogenannte Dublette erwiesen, „also eine vollständige Fälschung“, berichtet die Polizei. Neben der Fahrgestellnummer seien auch die Motornummer sowie das Typenschild manipuliert worden. Da keine verwertbaren Datenträger mehr vorhanden waren, konnten die Ermittler die ursprüngliche Identität des Fahrzeugs nicht mehr zweifelsfrei rekonstruieren. Zusätzlich stellten sie Unstimmigkeiten bei typischen Ausstattungsmerkmalen der Modellvariante TT fest.Ermittlungen wegen UrkundenfälschungGegen den 42-jährigen Besitzer des gefälschten Motorrads wurde ein Ermittlungsverfahren wegen Urkundenfälschung eingeleitet. Der Mann machte gegenüber der Polizei keine weiteren Angaben. Wie ein Kfz-Fahnder der Grenzpolizei Simbach am Inn auf PNP-Nachfrage mitteilte, kannten sich die beiden Zündapp-Besitzer trotz ihres gemeinsamen Wohnorts im Landkreis Rottal-Inn ersten Erkenntnissen zufolge nicht.Lesen Sie auch: Ehepaar sammelt und restauriert alte Motorräder für eigenes Museum im Bayerischen WaldPolizei warnt vor gefälschten OldtimernDer Fall wirft ein Schlaglicht auf ein wachsendes Problem im Oldtimermarkt. Die Polizei weist ausdrücklich darauf hin, dass aufgrund des hohen Sammlerwertes begehrter Fahrzeuge wie der Zündapp KS 50 TT Watercooled vermehrt manipulierte oder gefälschte Exemplare in den Umlauf gelangen. Kaufinteressenten wird daher geraten, beim Erwerb solcher Fahrzeuge besondere Vorsicht walten zu lassen und eine gründliche Prüfung aller Fahrzeugdokumente sowie Identifikationsmerkmale vorzunehmen.cav",
+        "headline": "Zündapp-Fälschung im Landkreis Rottal-Inn aufgedeckt – Ermittlungen gegen 42-Jährigen",
+        "roofline": "Illegale Dublette"
+      },
+      "ai_generated": {
+        "text": "Zündapp-Fälschung im Landkreis Rottal-Inn aufgedeckt: Ermittlungen wegen UrkundenfälschungMitarbeiterinnen der Zulassungsstelle Pfarrkirchen haben im Februar 2026 bei einer routinemäßigen Überprüfung eine auffällige Unregelmäßigkeit entdeckt: Zwei Fahrzeuge des Typs Zündapp KS 50 TT Watercooled, beide Baujahr 1977, waren mit identischer Fahrgestellnummer registriert. Die anschließenden Ermittlungen der Grenzpolizeiinspektion Simbach am Inn führten in den Landkreis Rottal-Inn, wo sich der Fall als gezielte Urkundenfälschung herausstellte.Die Beamten der Kfz-Fahndung konnten im nördlichen Landkreis zunächst das Originalfahrzeug bei einem 46-jährigen deutschen Sammler sicherstellen. Dieser verfügte über die originalen Fahrzeugdokumente sowie das historische DIN-Kennzeichen, womit die Echtheit seines Exemplars zweifelsfrei belegt war.Das zweite Fahrzeug, ebenfalls im Landkreis Rottal-Inn lokalisiert, erwies sich hingegen als sogenannte Dublette, also eine vollständige Fälschung. Neben der Fahrgestellnummer waren auch die Motornummer sowie das Typenschild manipuliert worden. Da keine verwertbaren Datenträger mehr vorhanden waren, ließ sich die ursprüngliche Identität des Fahrzeugs nicht mehr zweifelsfrei rekonstruieren. Zusätzlich stellten die Ermittler Unstimmigkeiten bei typischen Ausstattungsmerkmalen der Modellvariante TT fest.Gegen den 42-jährigen Besitzer des gefälschten Motorrads wurde ein Ermittlungsverfahren wegen Urkundenfälschung eingeleitet. Der Mann machte gegenüber der Polizei keine weiteren Angaben. Wie ein Sprecher der Grenzpolizei Simbach am Inn auf PNP-Nachfrage mitteilte, dürften sich die beiden Zündapp-Besitzer trotz ihres gemeinsamen Wohnorts im Landkreis Rottal-Inn nicht gekannt haben.Der Fall wirft ein Schlaglicht auf ein wachsendes Problem im Oldtimermarkt. Die Polizei weist ausdrücklich darauf hin, dass aufgrund des hohen Sammlerwertes begehrter Fahrzeuge wie der Zündapp KS 50 TT Watercooled vermehrt manipulierte oder gefälschte Exemplare in den Umlauf gelangen. Kaufinteressenten wird daher geraten, beim Erwerb solcher Fahrzeuge besondere Vorsicht walten zu lassen und eine gründliche Prüfung aller Fahrzeugdokumente sowie Identifikationsmerkmale vorzunehmen.",
+        "headline": "Zündapp-Fälschung im Landkreis Rottal-Inn enttarnt Urkundenbetrug im Oldtimermarkt",
+        "roofline": "Oldtimerbetrug im Landkreis Rottal-Inn"
+      }
+    },
+    {
+      "sequence_index": 19,
+      "csv_row_number": 26,
+      "content_id": 20857708,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20857708",
+        "Schreibzeit für Artikeltext": "4,54",
+        "Schreibzeit für weitere Felder": "1,5",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Am Donnerstagabend hat die Polizei in Landau an der Isar nach einem neunjährigen Buben aus Pilsting gesucht. Auch ein Polizeihubschrauber war im Einsatz.Der Junge sei am Donnerstag gegen 17.20 Uhr am Bahnhof in Landau verschwunden, nachdem er gemeinsam mit seiner Familie mit dem Zug dort angekommen war, berichtet das Polizeipräsidium Niederbayern. Aus bislang ungeklärter Ursache habe sich der Bub von seinen Angehörigen entfernt. Dann fehlte zunächst jede Spur von ihm.Die Polizei leitete umfangreiche Suchmaßnahmen ein. Dabei wurde auch ein Hubschrauber eingesetzt, um das Gebiet rund um den Bahnhof und die umliegenden Bereiche abzusuchen. Im Laufe des Abends gingen mehrere Mitteilungen zum möglichen Aufenthaltsort des Buben bei der Polizei ein. Kurz vor Mitternacht folgte dann die gute Nachricht: Der Bub wurde wohlbehalten wiedergefunden – in seinem Heimatort Pilsting. cav",
+        "headline": "Große Suchaktion in Landau nach vermisstem Buben (9) aus Pilsting"
+      },
+      "ai_generated": {
+        "text": "Vermisstensuche in Landau an der Isar: Neunjähriger Emanuel Assfaw wird seit Donnerstagabend gesuchtSeit dem frühen Abend sucht die Polizei in Landau an der Isar nach dem neunjährigen Emanuel Assfaw aus Pilsting. Der eritreische Junge verschwand am Donnerstag gegen 17.20 Uhr am dortigen Bahnhof, nachdem er gemeinsam mit seiner Familie mit dem Zug angekommen war. Aus bislang ungeklärter Ursache entfernte er sich von seinen Angehörigen und ist seitdem nicht mehr auffindbar.Die Polizei hat umfangreiche Suchmaßnahmen eingeleitet. Dabei wird auch ein Hubschrauber eingesetzt, um das Gebiet rund um den Bahnhof und die umliegenden Bereiche abzusuchen.Emanuel Assfaw ist etwa 130 Zentimeter groß, hat eine schlanke Figur und dunkle Haut. Er ist bekleidet mit einer dunklen Hose sowie einer dunklen Jacke.Die Polizei bittet die Bevölkerung dringend um Mithilfe. Wer den Jungen gesehen hat oder Hinweise zu seinem Aufenthaltsort geben kann, wird gebeten, sich umgehend bei der Polizeiinspektion Landau an der Isar unter der Telefonnummer 09951/9834-0 zu melden. Alternativ kann auch jede andere Polizeidienststelle kontaktiert werden.",
+        "headline": "Vermisstensuche in Landau an der Isar Neunjähriger Emanuel wird gesucht"
+      }
+    },
+    {
+      "sequence_index": 20,
+      "csv_row_number": 27,
+      "content_id": 20857717,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20857717",
+        "Schreibzeit für Artikeltext": "8,52",
+        "Schreibzeit für weitere Felder": "2",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Als am Donnerstagabend eine Alarmierung mit dem Stichwort „Tierrettung am Stausee“ bei der Berufsfeuerwehr Ingolstadt einging, erwarteten die Einsatzkräfte zunächst einen in Not geratenen Wasservogel – stattdessen bekamen sie es mit etwas deutlich Größerem und Schwererem zu tun: Ein Kalb trieb im Wasser. Als die Feuerwehrler gegen 19 Uhr am Stausee in Ingolstadt eintrafen, folgte zunächst eine kurze Lagebesprechung mit dem Tierbesitzer sowie dem zuständigen Jagdpächter. Parallel dazu sei ein Rettungsboot zu Wasser gelassen, um das Tier zu erreichen, berichtet die Feuerwehr. Die Einsatzkräfte sicherten das Kalb zunächst mit einer Leine im Uferbereich. Tatkräftige Unterstützung erhielten sie dabei von Ruderern eines örtlichen Segelklubs, die die Rettungsmaßnahmen auf dem Wasser begleiteten.200 Kilo schweres Kalb aus dem Wasser gerettetMit vereinten Kräften sei es schließlich gelungen, das bereits entkräftete Tier an einer Treppe an Land zu ziehen. Das Kalb brachte Angaben der Feuerwehr zufolge rund 200 Kilo auf die Waage.Nach einer kurzen Begutachtung konnte Entwarnung gegeben werden: „Das Tier blieb unverletzt“, meldet die Berufsfeuerwehr. Der Besitzer brachte das Kalb mit einem Anhänger wohlbehalten zurück in seinen Stall.An dem Einsatz beteiligt war neben der Berufsfeuerwehr auch die Freiwillige Feuerwehr Haunwöhr. Die Kameraden der Freiwilligen Feuerwehr Stadtmitte rückten mit ihrem Mehrzweckboot an, konnten den Einsatz jedoch abbrechen, nachdem die Rettung bereits erfolgreich abgeschlossen worden war.cav",
+        "headline": "Kalb im Wasser: Ungewöhnlicher Rettungseinsatz am Stausee in Ingolstadt",
+        "roofline": "Jungtier in Not"
+      },
+      "ai_generated": {
+        "text": "Tierrettung der besonderen Art am Ingolstädter Stausee: Feuerwehr rettet erschöpftes Kalb aus dem WasserEin ungewöhnlicher Einsatz beschäftigte die Feuerwehr Ingolstadt am Gründonnerstagabend am Stausee. Nicht wie sonst üblich ein in Not geratener Wasservogel, sondern ein im Wasser treibendes Kalb rief die Einsatzkräfte auf den Plan.Nach dem Eintreffen der Berufsfeuerwehr Ingolstadt folgte zunächst eine kurze Lagebesprechung mit dem Tierbesitzer sowie dem zuständigen Jagdpächter. Parallel dazu wurde ein Rettungsboot zu Wasser gelassen, um das Tier zu erreichen.Die Einsatzkräfte sicherten das Kalb zunächst mit einer Leine im Uferbereich. Tatkräftige Unterstützung erhielten sie dabei von Ruderern eines örtlichen Segelclubs, die die Rettungsmaßnahmen auf dem Wasser begleiteten.Mit vereinten Kräften gelang es schließlich, das bereits entkräftete Tier an einer Treppe an Land zu ziehen. Das Kalb brachte dabei rund 200 Kilogramm auf die Waage.Nach einer kurzen Begutachtung konnte Entwarnung gegeben werden: Das Tier blieb trotz des Zwischenfalls unverletzt. Der Besitzer transportierte das Kalb anschließend mit einem geeigneten Anhänger wohlbehalten zurück in seinen Stall.An dem Einsatz beteiligt war neben der Berufsfeuerwehr auch die Freiwillige Feuerwehr Haunwöhr, die mit zusätzlicher Manpower zur Stelle war. Die Kameraden der Freiwilligen Feuerwehr Stadtmitte rückten mit ihrem Mehrzweckboot an, konnten den Einsatz jedoch abbrechen, nachdem die Rettung bereits erfolgreich abgeschlossen worden war.",
+        "headline": "Feuerwehr Ingolstadt rettet erschöpftes Kalb aus Stausee",
+        "roofline": "Tierrettung in Ingolstadt",
+        "teaser": "Am Gründonnerstagabend rückte die Feuerwehr Ingolstadt zu einem ungewöhnlichen Einsatz an den Stausee aus: Nicht ein in Not geratener Wasservogel, sondern ein im Wasser treibendes Kalb erforderte den Einsatz von Rettungsboot, mehreren Feuerwehreinheiten und der Unterstützung eines örtlichen Segelclubs – wie das rund 200 Kilogramm schwere Tier schließlich gerettet wurde."
+      }
+    },
+    {
+      "sequence_index": 21,
+      "csv_row_number": 28,
+      "content_id": 20857783,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20857783",
+        "Schreibzeit für Artikeltext": "5,4",
+        "Schreibzeit für weitere Felder": "1,5",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "leichte inhaltliche Doppelung"
+      },
+      "cms_article": {
+        "text": "Offenbar stark alkoholisiert ist ein Autofahrer am Donnerstagabend bei Osterhofen (Landkreis Deggendorf) mit einem Audi in einem Garten gelandet.Der Unfall ereignete sich gegen 19.15 Uhr zwischen Wisselsing und Osterhofen, wie ein Sprecher der Polizei Plattling auf PNP-Nachfrage berichtet. Der Fahrer – er ist Anfang 30 – sei auf Höhe Neuwisselsing mit einem schwarzen Audi aus zunächst unbekannter Ursache von der Fahrbahn abgekommen und zwischen ein paar Bäumen hindurch in einem Garten gelandet. Verletzt worden wurde laut Polizei glücklicherweise niemand. Totalschaden am AudiDer Audi wurde bei dem Unfall so schwer beschädigt, dass er als Totalschaden gilt. Auch am Garten sei Schaden entstanden. Die Polizei schätzte den Gesamtschaden am Abend auf einen unteren fünfstelligen Betrag.Autofahrer bei Unfall „nicht unerheblich alkoholisiert“Die Ermittlungen der Polizei ergaben, dass der Fahrer „nicht unerheblich alkoholisiert“ gewesen sei. Ihm wurde eine Blutprobe entnommen, zudem stellten die Beamten seinen Führerschein sicher. Den Mann erwartet nun eine Strafanzeige. cav",
+        "headline": "Offenbar stark alkoholisiert: Audi-Fahrer landet bei Osterhofen in einem Garten",
+        "roofline": "Schadensträchtiger Unfall"
+      },
+      "ai_generated": {
+        "text": "Rosenheim: Betrunkener Radfahrer greift Passanten und Polizisten anEin 36-jähriger Mann aus Raubling hat am Mittwoch in Rosenheim nach einem Fahrradsturz zunächst einen hilfsbereiten Passanten angegriffen und anschließend Polizeibeamte gebissen, getreten und bedroht. Der stark alkoholisierte Radfahrer, bei dem ein Atemalkoholtest rund drei Promille ergab, fuhr zuvor die Weinstraße entlang, bevor er stürzte und durch sein aggressives Verhalten mehrere Personen verletzte.Nachdem der Mann gestürzt war, kurz liegen blieb und wieder aufstand, sprach ihn ein 58-jähriger Passant aus Rosenheim an und fragte, ob er Hilfe benötige. Der Raublinger reagierte darauf sofort mit Schreien und schlug dem Mann unvermittelt mit der Faust ins Gesicht. Der Passant erlitt Prellungen und Rötungen im Gesichtsbereich, eine medizinische Versorgung war vor Ort jedoch nicht erforderlich.Die alarmierte Rosenheimer Polizei traf den 36-Jährigen wenig später am Boden sitzend an. Als die Beamten ihm Handfesseln anlegen wollten, eskalierte die Situation erheblich: Der Mann schlug mit den Füßen auf einen 27-jährigen Polizeibeamten ein und biss einer 21-jährigen Beamtin in die Beine.Begleitet wurden die Angriffe von einer Flut an Beleidigungen und Bedrohungen gegenüber den Einsatzkräften. Der Raublinger schrie unter anderem: \"Fick dich, Motherfucker, Arschloch, Scheiß Wichser, fickt's Euch alle\" sowie Drohungen wie \"Ich bring Euch um und erschieß Euch alle\".Beide verletzten Polizeibeamten mussten ambulant behandelt werden. Die 21-jährige Beamtin ist aufgrund ihrer Bissverletzungen derzeit nicht dienstfähig.Der Mann wurde in Gewahrsam genommen. Beim Verbringen in den Zellenraum setzte er seine Beleidigungen und Gewaltausbrüche gegenüber den Beamten fort. Weite Teile des Vorfalls wurden durch eingesetzte BodyCams aufgezeichnet und dokumentiert.Gegen den 36-jährigen Raublinger wurde ein Ermittlungsverfahren wegen Körperverletzung, Trunkenheit im Verkehr, tätlichen Angriffs auf Vollstreckungsbeamte sowie Beleidigung und Bedrohung eingeleitet.",
+        "headline": "Betrunkener Radfahrer beißt Polizistin und greift Passanten an"
+      }
+    },
+    {
+      "sequence_index": 22,
+      "csv_row_number": 29,
+      "content_id": 20939914,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "subline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20939914",
+        "Schreibzeit für Artikeltext": "4,4",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, UT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein 79-jähriger Mann aus einer Seniorenresidenz in Lalling (Landkreis Deggendorf) war seit dem 11. April vermisst worden Am 25. April fand ein Passant in einem Waldstück eine tote Person, bei der es sich laut Polizei um den Vermissten handelt. Die Kriminalpolizei hat die Ermittlungen übernommen.Seit dem Verschwinden des 79-Jährigen gab es laut Polizei umfangreiche Suchmaßnahmen. Am Samstagnachmittag fand ein Passant den Leichnam eines Mannes in einem Waldstück bei Lalling, unweit des letzten Wohnortes des Vermissten. Die Polizei geht davon aus, dass es sich dabei um den vermissten Mann handelt. Zunächst lagen laut Polizei keine Hinweise auf eine Gewalt- oder Fremdeinwirkung vor. Die Ermittlungen zum Todesfall übernahm die Kripo aus Straubing.cav/bli",
+        "headline": "Vermisster Mann (79) aus Lalling tot in Waldstück gefunden",
+        "subline": null
+      },
+      "ai_generated": {
+        "text": "Vermisstensuche in Lalling: Polizei Deggendorf bittet um Hinweise zu 79-JährigemSeit dem Morgen des 11. April 2026 wird der 79-jährige Richard Pfeffer aus einer Seniorenresidenz in Lalling vermisst. Die Polizeiinspektion Deggendorf hat eine Öffentlichkeitsfahndung eingeleitet und bittet die Bevölkerung dringend um Mithilfe bei der Suche nach dem Senior.Richard Pfeffer verließ seinen Wohnort am Samstag, 11. April 2026, gegen 09:00 Uhr mit unbekanntem Ziel. Trotz intensiver Nachforschungen konnte der Aufenthaltsort des Mannes bislang nicht ermittelt werden.Die Suche nach dem Vermissten ist besonders dringlich, da Herr Pfeffer sowohl körperlich als auch geistig beeinträchtigt ist. Darüber hinaus hat er sich zuletzt einer größeren Operation unterzogen, weshalb eine ärztliche Wundversorgung medizinisch notwendig ist.Es ist davon auszugehen, dass der 79-Jährige zu Fuß unterwegs ist. Ein Mobiltelefon oder andere persönliche Gegenstände führt er nicht mit sich, was die Kontaktaufnahme erheblich erschwert.Richard Pfeffer wird wie folgt beschrieben: Er ist etwa 170 Zentimeter groß, hat eine schlanke und eher gebrechliche Statur sowie grau-braune, zerzauste Haare. Bekleidet ist er vermutlich mit einer grauen Hose, einem braunen Pullover und einem Hut.Wer den Vermissten gesehen hat oder Hinweise zu seinem Aufenthaltsort geben kann, wird gebeten, sich umgehend bei der Polizeiinspektion Deggendorf, Hans-Krämer-Straße 65, 94469 Deggendorf, unter der Telefonnummer 0991/3896-0 zu melden. Alternativ kann jede andere Polizeidienststelle kontaktiert werden.",
+        "headline": "Vermisster Senior aus Lalling Polizei Deggendorf sucht 79-Jährigen",
+        "subline": "Der demenzkranke Senior verließ am Samstagmorgen eine Seniorenresidenz in Lalling und ist seitdem spurlos verschwunden. Aufgrund einer kürzlich erfolgten Operation ist der 79-Jährige dringend auf medizinische Versorgung angewiesen – Hinweise nimmt die Polizeiinspektion Deggendorf unter 0991/3896-0 entgegen."
+      }
+    },
+    {
+      "sequence_index": 23,
+      "csv_row_number": 30,
+      "content_id": 20957914,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20957914",
+        "Schreibzeit für Artikeltext": "7",
+        "Schreibzeit für weitere Felder": "1,3",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "langweiliger Artikeleinstieg"
+      },
+      "cms_article": {
+        "text": "Einen Raser mit einem illegal getunten Auto hat die Verkehrspolizei Rosenheim am Samstagabend auf der A8 bei Raubling aus dem Verkehr gezogen.Den Beamten eines ziviles Einsatzfahrzeugs der Verkehrspolizei sei der VW Golf gegen 18 Uhr auf der A8 zwischen Irschenberg und dem Inntaldreieck aufgefallen, da es bei erlaubten 100 Stundenkilometern mit mehr als 160 km/h unterwegs gewesen sei. Die Polizei kontrollierte das Auto daraufhin. VW Golf zu sehr tiefergelegt: Reifen schliffen an der Karosserie Am Steuer des VW saß ein 30-Jähriger aus dem Landkreis Miesbach. An dem VW Golf stellten die Verkehrspolizisten „erhebliche technische Veränderungen“ fest. Der VW Golf sei unter anderem derart stark tiefergelegt worden, dass die Reifen der Hinterachse an der Karosserie schliffen, berichtet die Polizei. Darüber hinaus seien weitere schwerwiegende Mängel festgestellt worden, die das Fahrzeug als nicht verkehrstauglich auswiesen.Aufgrund der festgestellten Mängel wurde dem Fahrer die Weiterfahrt untersagt. Gegen den 30-Jährigen wurde ein Bußgeldverfahren eingeleitet. Neben einem Bußgeld im vierstelligen Bereich drohen ihm zwei Punkte im Fahreignungsregister in Flensburg sowie ein einmonatiges Fahrverbot.cav"
+      },
+      "ai_generated": {
+        "text": "Raubling: Raser auf der A8 mit illegalem Tuning-Fahrzeug gestopptEin ziviles Einsatzfahrzeug der Verkehrspolizeiinspektion Rosenheim hat am Samstag, den 18. April 2026, auf der Autobahn A8 zwischen Irschenberg und dem Inntaldreieck einen 30-jährigen Autofahrer aus dem Landkreis Miesbach gestoppt, der mit deutlich überhöhter Geschwindigkeit und einem technisch schwer manipulierten Fahrzeug unterwegs war.Die Beamten registrierten den VW Golf gegen 18:00 Uhr, als der Fahrer bei erlaubten 100 Stundenkilometern mit mehr als 160 Stundenkilometern über die Autobahn fuhr. Das Fahrzeug wurde daraufhin einer Geschwindigkeitsmessung unterzogen und der Fahrer anschließend einer Kontrolle unterzogen.Bei der Überprüfung des Fahrzeugs stellten die Polizisten erhebliche technische Veränderungen fest. Der VW Golf war derart stark tiefergelegt worden, dass die Reifen der Hinterachse an der Karosserie schliffen. Darüber hinaus wurden weitere schwerwiegende Mängel festgestellt, die das Fahrzeug als nicht verkehrstauglich auswiesen.Aufgrund der festgestellten Mängel wurde dem Fahrer die Weiterfahrt sofort untersagt. Gegen den 30-Jährigen wurde ein Bußgeldverfahren eingeleitet.Der Mann muss nun mit empfindlichen Konsequenzen rechnen. Neben einem Bußgeld im vierstelligen Bereich drohen ihm zwei Punkte im Fahreignungsregister in Flensburg sowie ein einmonatiges Fahrverbot."
+      }
+    },
+    {
+      "sequence_index": 24,
+      "csv_row_number": 31,
+      "content_id": 20957950,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "subline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20957950",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, UT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein achtlos zurückgelassener Einweggrill hat am Samstagabend im Dingolfinger Stadtwald einen Brand auf verursacht. Gegen 18.40 Uhr habe ein Passant eine Rauchentwicklung indem Waldstück zwischen dem Fußballstadion und dem Heizkraftwerk festgestellt und die Feuerwehr alarmiert. Das Feuer breitete sich Polizeiangaben zufolge auf einer Fläche von rund 100 Quadratmetern aus. Die Einsatzkräfte konnten das Feuer letztlich löschen und eine weitere Ausbreitung des Brandes verhindern.Als Ursache des Feuers stellte sich ein im Waldgebiet zurückgelassener Einweggrill heraus. Der Verursacher des Brandes ist bislang unbekannt. Die Polizei Dingolfing hat die Ermittlungen aufgenommen und bittet mögliche Zeugen, die Beobachtungen im Bereich des Waldstücks zwischen Fußballstadion und Heizkraftwerk gemacht haben, sich unter der Telefonnummer 08731/31440 zu melden.cav",
+        "subline": null
+      },
+      "ai_generated": {
+        "text": "Waldbrand in Dingolfing durch weggeworfenen Einweggrill ausgelöstEin achtlos zurückgelassener Einweggrill hat am Samstagabend in Dingolfing einen Waldbrand verursacht. Gegen 18:40 Uhr bemerkte ein Passant eine Rauchentwicklung in einem Waldstück zwischen dem Fußballstadion und dem Heizkraftwerk im Stadtgebiet und alarmierte die Feuerwehr.Die eingesetzten Einsatzkräfte konnten das Feuer, das sich zu diesem Zeitpunkt bereits auf einer Fläche von rund 100 Quadratmetern ausgebreitet hatte, löschen und eine weitere Ausbreitung des Brandes verhindern.Als Ursache des Feuers stellte sich ein im Waldgebiet zurückgelassener Einweggrill heraus. Solche Grills stellen besonders in trockenen Sommermonaten eine erhebliche Brandgefahr dar, da sie nach dem Gebrauch noch lange Zeit Wärme abstrahlen.Der Verursacher des Brandes ist bislang unbekannt. Die Polizei Dingolfing hat die Ermittlungen aufgenommen und bittet mögliche Zeugen, die Beobachtungen im Bereich des Waldstücks zwischen Fußballstadion und Heizkraftwerk gemacht haben, sich unter der Telefonnummer 08731-31440 zu melden.",
+        "subline": "Die Feuerwehr konnte die Flammen, die sich bereits auf rund 100 Quadratmetern ausgebreitet hatten, rechtzeitig unter Kontrolle bringen. Der Verursacher ist noch unbekannt – die Polizei Dingolfing sucht unter der Nummer 08731-31440 nach Zeugen."
+      }
+    },
+    {
+      "sequence_index": 26,
+      "csv_row_number": 33,
+      "content_id": 20958013,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "subline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20958013",
+        "Schreibzeit für Artikeltext": "5,4",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, UT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Zwei Polizisten sind am frühen Sonntagmorgen bei einem Einsatz wegen häuslicher Gewalt in Passau verletzt worden. Beide kamen ins Krankenhaus. Gegen 5 Uhr wurden Kräfte der Polizei Passau wegen eines Falls der häuslichen Gewalt in die Große Klingergasse gerufen. Als die Polizisten die Anzeige vor Ort aufnahmen, sei ein 30-Jähriger „äußerst aggressiv“ gegenüber den Beamten, berichtet die Polizei. „Er ging sofort auf einen Polizisten los und zeigte fortwährend Drohgebärden.“Polizisten bringen Mann zu Boden – und werden verletztUm die Situation unter Kontrolle zu bringen, brachten die Polizisten den 30-Jährigen zu Boden. Dabei sei eine Polizistin mittelschwer verletzt worden, ein weiterer Beamter habe leichte Verletzungen erlitten. Beide wurden in einem umliegenden Krankenhaus ärztlich behandelt.Der 30-jährige Rumäne war zum Zeitpunkt des Vorfalls laut Polizei erheblich alkoholisiert. Er wurde in polizeiliches Gewahrsam genommen.cav",
+        "subline": null
+      },
+      "ai_generated": {
+        "text": "Polizeibeamte in Passau bei Einsatz wegen Häuslicher Gewalt verletztIn den frühen Morgenstunden des Sonntags sind in Passau zwei Polizeibeamte bei einem Einsatz wegen häuslicher Gewalt verletzt worden. Gegen 05 Uhr wurden Kräfte der Polizeiinspektion Passau in die Große Klingergasse gerufen, wo ein 30-jähriger rumänischer Staatsangehöriger im Zuge der Anzeigenaufnahme unvermittelt aggressiv gegenüber den eingesetzten Beamten wurde.Der Mann ging sofort auf einen Polizisten los und zeigte fortlaufend Drohgebärden. Um die Situation unter Kontrolle zu bringen, sahen sich die Beamten gezwungen, den Aggressor zu Boden zu bringen.Bei diesem Einsatz wurde eine Polizeibeamtin mittelschwer verletzt, ein weiterer Beamter erlitt leichte Verletzungen. Beide wurden anschließend in einem umliegenden Krankenhaus ärztlich behandelt.Der 30-Jährige stand zum Zeitpunkt des Vorfalls erheblich unter Alkoholeinfluss. Er wurde daraufhin in polizeiliches Gewahrsam genommen.",
+        "subline": "Beim Einsatz in der Großen Klingergasse griff ein stark alkoholisierter 30-jähriger Rumäne die Beamten unvermittelt an, sodass diese ihn zu Boden bringen mussten. Eine Polizeibeamtin wurde mittelschwer verletzt und musste im Krankenhaus behandelt werden, der Angreifer kam in Gewahrsam."
+      }
+    },
+    {
+      "sequence_index": 27,
+      "csv_row_number": 34,
+      "content_id": 20958082,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "subline",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20958082",
+        "Schreibzeit für Artikeltext": "11",
+        "Schreibzeit für weitere Felder": "1,3",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, UT, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Nach mehrtägiger intensiver Suche im Landkreis Mühldorf ist eine vermisste 24-jährige Frau am frühen Sonntagmorgen im Bereich Niederbergkirchen wohlbehalten gefunden worden. Das sei vor allem dank der guten Mithilfe aus der Bevölkerung gelungen. Rettungskräfte entdeckten die 24-Jährige gegen 5 Uhr früh. Laut einem Sprecher der Polizei Mühldorf blieb die junge Frau körperlich unversehrt. Die Suchaktion hatte sich in den Stunden zuvor weiter intensiviert, nachdem neue Hinweise auf den Aufenthaltsort der Vermissten eingegangen waren. Von Bauernhof in Mühldorf verschwundenZuletzt war die 24-Jährige aus Baden-Württemberg auf einem Bauernhof im Mühldorfer Ortsteil Mößling gesehen worden. Seitdem galt sie als vermisst. Die Polizei war in den vergangenen Tagen davon ausgegangen, dass sich die junge Frau in hilfloser Lage befinden könnte. Am Samstag stellte die Polizei fest, dass die Vermisste in der Nähe von Stetten bei Niedertaufkirchen ihr Handy aufgeladen hatte. Großes Lob für Einsatzkräfte und für BürgerAm Sonntag wurde sie nun im Bereich Niederbergkirchen gefunden. Die Polizei Mühldorf lobte in einer Pressemitteilung den Einsatz der zahlreichen Rettungs- und Hilfsorganisationen sowie die Bürger. „Ohne deren Engagement über die letzten Tage und den Bevölkerungshinweisen wäre dieser Erfolg kaum denkbar gewesen.“cav",
+        "headline": "Vermisste 24-Jährige nach tagelanger Suche bei Niederbergkirchen gefunden",
+        "subline": null
+      },
+      "ai_generated": {
+        "text": "Vermisste Larissa L. nach tagelanger Suche lebend gefundenNach mehrtägiger intensiver Suche ist die seit Mittwoch vermisste Larissa L. in der Nacht von Samstag auf Sonntag, den 19. April 2026, im Bereich Niederbergkirchen wohlbehalten aufgefunden worden. Rettungskräfte entdeckten die 24-Jährige gegen 05:00 Uhr früh. Laut einem Sprecher der Polizei Mühldorf blieb die junge Frau körperlich unversehrt.Die Suchaktion hatte sich in den Stunden zuvor weiter intensiviert, nachdem neue Hinweise auf den Aufenthaltsort der Vermissten eingegangen waren. Zuletzt war Larissa L., die aus Baden-Württemberg stammt, auf einem Bauernhof im Mühldorfer Ortsteil Mößling gesehen worden. Die Polizei war in den vergangenen Tagen davon ausgegangen, dass sich die junge Frau in hilfloser Lage befinden könnte.Ein entscheidender Hinweis gelang den Ermittlern noch am Samstag: Die Polizei konnte feststellen, dass Larissa L. in der Nähe von Stetten bei Niedertaufkirchen ihr Mobiltelefon aufgeladen hatte. Dieser Umstand ermöglichte es den Einsatzkräften, die Suchgebiete gezielter einzugrenzen und die Maßnahmen in der Region Niederbergkirchen zu verstärken.Die Polizei Mühldorf sprach im Anschluss an den erfolgreichen Abschluss der Suchaktion einen ausdrücklichen Dank an alle Beteiligten aus. Ohne den unermüdlichen Einsatz der zahlreichen Rettungs- und Hilfsorganisationen sowie die aktive Mithilfe der Bevölkerung wäre dieser Erfolg nach Einschätzung der Behörden kaum möglich gewesen. Hinweise aus der Bürgerschaft hatten die Ermittlungen über mehrere Tage hinweg maßgeblich unterstützt.",
+        "headline": "Vermisste Larissa L. nach tagelanger Suche lebend gefunden",
+        "subline": "Die 24-Jährige aus Baden-Württemberg war zuletzt auf einem Bauernhof im Mühldorfer Ortsteil Mößling gesehen worden. Ein entscheidender Durchbruch gelang den Einsatzkräften, nachdem Larissa L. ihr Mobiltelefon in der Nähe von Stetten bei Niedertaufkirchen aufgeladen hatte – dieser Hinweis ermöglichte die gezielte Eingrenzung des Suchgebiets rund um Niederbergkirchen.",
+        "teaser": "Die seit Mittwoch vermisste Larissa L. aus Baden-Württemberg ist nach tagelanger Suche in der Nacht auf Sonntag im Bereich Niederbergkirchen lebend und körperlich unversehrt aufgefunden worden. Ein entscheidender Hinweis brachte die Ermittler schließlich auf die richtige Spur und führte zum erfolgreichen Abschluss des Großeinsatzes."
+      }
+    },
+    {
+      "sequence_index": 29,
+      "csv_row_number": 36,
+      "content_id": 20958604,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20958604",
+        "Schreibzeit für Artikeltext": "1,46",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "1",
+        "Qualitative Artikeleinschätzung (1-5)": "2",
+        "Verwendete Felder": "AT, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Wochentag falsch ausgedacht"
+      },
+      "cms_article": {
+        "text": "In der Nacht auf Sonntag hat ein mutmaßlicher Rohrbruch in einer Hauptwasserleitung die Äußere Münchener Straße in Rosenheim überflutet und zu einer weiträumigen Sperrung der vierspurigen Fahrbahn geführt.Gegen ein Uhr nachts alarmierten mehrere Verkehrsteilnehmer die Rosenheimer Polizei, nachdem sie die überflutete Straße bemerkt hatten. Vor Ort stellten die Einsatzkräfte fest, dass weite Teile des Asphalts im Bereich der Einmündung Am Gries aufgeplatzt und aufgebrochen waren. Aus dem Erdreich drang Wasser auf die Fahrbahn, was auf eine geplatzte Hauptwasserleitung als Ursache hindeutet.Neben der Polizei wurden auch die Stadtwerke Rosenheim sowie die Rosenheimer Feuerwehr alarmiert. Der betroffene Bereich wurde für den Fahrzeugverkehr gesperrt, um die Sicherheit der Verkehrsteilnehmer zu gewährleisten.cav"
+      },
+      "ai_generated": {
+        "text": "Wasserrohrbruch legt Hauptstraße in Rosenheim lahmIn der Nacht auf Donnerstag hat ein mutmaßlicher Rohrbruch in einer Hauptwasserleitung die Äußere Münchener Straße in Rosenheim überflutet und zu einer weiträumigen Sperrung der vierspurigen Fahrbahn geführt. Gegen ein Uhr nachts alarmierten mehrere Verkehrsteilnehmer die Rosenheimer Polizei, nachdem sie die überflutete Straße bemerkt hatten.Vor Ort stellten die Einsatzkräfte fest, dass weite Teile des Asphalts im Bereich der Einmündung Am Gries aufgeplatzt und aufgebrochen waren. Aus dem Erdreich dringt Wasser auf die Fahrbahn, was auf eine geplatzte Hauptwasserleitung als Ursache hindeutet.Neben der Polizei wurden auch die Stadtwerke Rosenheim sowie die Rosenheimer Feuerwehr alarmiert. Der betroffene Bereich wurde umgehend für den Fahrzeugverkehr gesperrt, um die Sicherheit der Verkehrsteilnehmer zu gewährleisten.Als Umfahrung steht die Hochgernstraße zur Verfügung. Nach Angaben der Polizei kam es am frühen Morgen gegen sieben Uhr aufgrund des geringen Verkehrsaufkommens zu keinen nennenswerten Stauungen oder Behinderungen.Die Maßnahmen zur Schadensbehebung und Reparatur sind bereits angelaufen. Über die voraussichtliche Dauer der Sperrung konnten die zuständigen Stellen zunächst keine Angaben machen.",
+        "teaser": "Ein mutmaßlicher Rohrbruch in einer Hauptwasserleitung hat in der Nacht auf Donnerstag die Äußere Münchener Straße in Rosenheim überflutet und weiträumig gesperrt. Aufgeplatzter Asphalt und austretendes Wasser im Bereich der Einmündung Am Gries zwangen Polizei, Feuerwehr und Stadtwerke zum Einsatz – wie lange die vierspurige Fahrbahn noch gesperrt bleibt, ist bislang offen."
+      }
+    },
+    {
+      "sequence_index": 30,
+      "csv_row_number": 37,
+      "content_id": 21021388,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21021388",
+        "Schreibzeit für Artikeltext": "5,3",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Artikelteaser zu lang, dadurch inhaltliche Doppelung"
+      },
+      "cms_article": {
+        "text": "Ein Besucher des Deggendorfer Frühlingsfests ist in der Nacht auf Sonntag Opfer eines Raubüberfalls geworden. Die Polizei hat eine Kurzbeschreibung dreier Tatverdächtiger veröffentlicht und bittet um Zeugenhinweise. Drei bislang unbekannte Männer sollen den 36-jährigen Deutschen aus dem Landkreis Regen gegen 23.50 Uhr zu Boden gebracht und ihn festgehalten haben, berichtet das Polizeipräsidium Niederbayern am Montag. Anschließend sollen sie dem 36-Jährigen einen niedrigen dreistelligen Bargeldbetrag gestohlen haben. Der Vorfall habe sich in der Nähe der Toilettenanlage beim Weißbierzelt auf dem Festgelände ereignet. Nach der Tat sei das Trio zu Fuß in unbekannte Richtung geflüchtet. Der 36-Jährige sei bei dem Überfall körperlich unverletzt geblieben. Er habe die Polizei erst im Nachgang verständigt, als er zu Hause war. So werden die Täter beschriebenZu den drei unbekannten Männern langen zunächst nur wenige Hinweise vor. Sie sollen alle etwa 25 Jahre alt und dunkel gekleidet gewesen sein. Einer der Täter fiel durch kurze, gelockte Haare und einen Stoppelbart auf. Dieser habe außerdem gebrochenes Deutsch gesprochen.Die Kriminalpolizei Deggendorf bittet Personen, die in der Tatnacht rund um das Weißbierzelt verdächtige Beobachtungen gemacht haben oder sachdienliche Hinweise zu den Tätern geben können, sich unter der Telefonnummer 0991/38960 zu melden.Hier finden Sie Bilder und Videos vom Auszug und vom Anzapfen am Deggendorfer Frühlingsfestcav",
+        "headline": "Raub auf dem Deggendorfer Frühlingsfest: Bayerwaldler (36) von Trio überfallen"
+      },
+      "ai_generated": {
+        "text": "Raub auf dem Frühlingsfest Deggendorf: Unbekannte überfallen 36-Jährigen und stehlen BargeldIn der Nacht von Samstag auf Sonntag wurde ein Besucher des Frühlingsfestes in Deggendorf Opfer eines Raubüberfalls. Drei bislang unbekannte Männer brachten den 36-jährigen Deutschen aus dem Landkreis Regen gegen 23.50 Uhr zu Boden, hielten ihn fest und entwendeten einen niedrigen dreistelligen Bargeldbetrag. Der Vorfall ereignete sich unweit der Toilettenanlage beim Weißbierzelt auf dem Festgelände. Die Kriminalpolizeistation Deggendorf hat die Ermittlungen übernommen und bittet die Bevölkerung um Zeugenhinweise.Nach derzeitigem Ermittlungsstand wurde der Mann von den drei Tätern unvermittelt angegangen. Diese brachten ihn zu Boden, hielten ihn fest und stahlen das Bargeld, bevor sie zu Fuß in unbekannte Richtung flüchteten. Der 36-Jährige blieb bei dem Überfall körperlich unverletzt.Bemerkenswert ist, dass das Opfer die Polizei nicht unmittelbar vor Ort, sondern erst im Nachgang von zu Hause aus verständigte. Dies könnte die Ermittlungen nach den flüchtigen Tätern erschweren.Zu den drei unbekannten Männern liegen bislang nur wenige Hinweise vor. Sie sollen alle etwa 25 Jahre alt und dunkel gekleidet gewesen sein. Einer der Täter fiel durch kurze, gelockte Haare und einen Stoppelbart auf und sprach gebrochen Deutsch.Die Kriminalpolizeistation Deggendorf bittet Personen, die in der Tatnacht rund um das Weißbierzelt verdächtige Beobachtungen gemacht haben oder sachdienliche Hinweise zu den Tätern geben können, sich unter der Telefonnummer 0991/3896-0 zu melden.",
+        "headline": "Raub auf Deggendorfer Frühlingsfest Trio bestiehlt 36-Jährigen",
+        "teaser": "Auf dem Frühlingsfest in Deggendorf wurde ein 36-jähriger Festbesucher in der Nacht auf Sonntag unweit des Weißbierzelts von drei unbekannten Männern zu Boden gebracht und beraubt. Die Kriminalpolizei Deggendorf ermittelt und sucht nach Zeugen, die Hinweise auf die flüchtigen Täter geben können."
+      }
+    },
+    {
+      "sequence_index": 31,
+      "csv_row_number": 38,
+      "content_id": 21052285,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21052285",
+        "Schreibzeit für Artikeltext": "6",
+        "Schreibzeit für weitere Felder": "3,3",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Teaser zu lang, verrät zu viel."
+      },
+      "cms_article": {
+        "text": "Ein 14-Jähriger, der ohne Führerschein nahe Oberpöring im Landkreis Deggendorf ohne Führerschein mit einem Motorrad unterwegs war, ist am Donnerstag von einem Auto angefahren und schwer verletzt worden. Der Unfall ereignete sich gegen 17.30 Uhr, als der Jugendliche mit einer Offroad-Yamaha einen Feldweg befuhr und die Kreisstraße DEG21 querte. Dabei übersah er laut Polizei eine von rechts kommende Autofahrerin, die Vorfahrt hatte. Durch die Wucht des Aufpralls sei der 14-Jährige vom Motorrad geschleudert worden. Schwerverletzt sei er auf einem Feld liegengeblieben.Trotz der schweren Verletzungen bestand nach Angaben der Polizei keine Lebensgefahr. Aufgrund des Zustands des Jugendlichen wurde er aber per Rettungshubschrauber in ein nahegelegenes Krankenhaus geflogen. Die an dem Unfall beteiligte Autofahrerin sei unverletzt geblieben.Ermittlungen wegen mehrerer Delikte gegen 14-JährigenBei der Unfallaufnahme stellten die Beamten weitere erhebliche Verstöße fest. Das Motorrad sei weder zugelassen noch versichert gewesen – und der 14-Jährige besaß keine Fahrerlaubnis für ein Motorrad dieser Art.Den Jugendlichen erwarten nun mehrere Anzeigen, darunter wegen Gefährdung des Straßenverkehrs, Fahrens ohne Fahrerlaubnis, Fahrens ohne gültigen Versicherungsschutz sowie wegen fehlender Fahrzeugzulassung. Der entstandene Schaden wird auf einen hohen vierstelligen Betrag geschätzt.cav",
+        "headline": "14-Jähriger fährt bei Oberpöring ohne Führerschein Motorrad – und verursacht schweren Unfall"
+      },
+      "ai_generated": {
+        "text": "Schwerer Unfall bei Oberpöring: 14-Jähriger mit nicht zugelassenem Motorrad schwer verletztEin 14-jähriger Kraftradfahrer ist am Donnerstagnachmittag, dem 30. April 2026, bei einem Verkehrsunfall nahe Oberpöring schwer verletzt worden. Der Jugendliche übersah beim Überqueren der Kreisstraße DEG 21 eine vorfahrtsberechtigte Autofahrerin, wurde bei dem Zusammenstoß in ein angrenzendes Feld geschleudert und musste mit einem Rettungshubschrauber in ein Krankenhaus geflogen werden.Der Unfall ereignete sich gegen 17:30 Uhr, als der junge Fahrer mit einer Yamaha YZ 450F einen Feldweg befuhr und die Kreisstraße querte. Dabei übersah er die von rechts kommende Autofahrerin, die Vorfahrt hatte. Durch die Wucht des Aufpralls wurde der 14-Jährige von seinem Motorrad geschleudert und blieb schwerverletzt auf einem Feld liegen.Trotz der schweren Verletzungen bestand nach Angaben der Polizei keine Lebensgefahr. Aufgrund des Zustands des Jugendlichen war jedoch ein Hubschraubertransport in ein nahegelegenes Krankenhaus notwendig. Die an dem Unfall beteiligte Autofahrerin blieb unverletzt.Bei der Unfallaufnahme stellten die Beamten weitere erhebliche Verstöße fest. Das Motorrad war weder zugelassen noch versichert, und der 14-Jährige besitzt naturgemäß keine Fahrerlaubnis für ein Kraftfahrzeug dieser Art.Den Jugendlichen erwarten nun mehrere Anzeigen, darunter wegen Gefährdung des Straßenverkehrs, Fahrens ohne Fahrerlaubnis, Fahrens ohne gültigen Versicherungsschutz sowie wegen fehlender Fahrzeugzulassung. Der entstandene Sachschaden wird auf einen hohen vierstelligen Betrag geschätzt.",
+        "headline": "Schwer verletzter 14-Jähriger nach Unfall mit nicht zugelassenem Motorrad"
+      }
+    },
+    {
+      "sequence_index": 32,
+      "csv_row_number": 39,
+      "content_id": 21052369,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21052369",
+        "Schreibzeit für Artikeltext": "5,19",
+        "Schreibzeit für weitere Felder": "1,22",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": "Unnötige inhaltliche Doppelungen; Verortungen teils inkorrekt bzw durcheinandergebracht"
+      },
+      "cms_article": {
+        "text": "In der sogenannten Dugnacht in Berchtesgaden ist es in der Nacht zum 1. Mai zu mehreren unschönen Streichen gekommen, wie die Polizei berichtet. Eine Bilanz.Im Lacknergäßchen wurden demnach Graffitischmierereien mit rechtsradikalem Inhalt auf Mauern und auf dem Gehweg entdeckt. In der Hanielstraße sei zudem eine Hausfassade durch Eierwürfe beschädigt worden. Lesen Sie auch: Freinacht beschert Polizei im südlichen Oberbayern 38 EinsätzeBesonders gefährlich war ein weiterer Vorfall in Unterau: Dort seien Geschwindigkeitsbegrenzungsschilder an der B305 in Fahrtrichtung Berchtesgaden um 90 Grad aus dem Sichtbereich der Autofahrer weggedreht worden. Eine solche Manipulation von Verkehrszeichen kann schwerwiegende Folgen für die Verkehrssicherheit haben.„Bei all diesen Vorfällen handelt es sich definitiv nicht mehr um Kavaliersdelikte und überspannen den Bogen eines sogenannten Berchtesgadener ,Dugs' bei Weitem“, betont die Polizei in ihrer Pressemitteilung. Hierbei handle es sich um Straftaten die von der Polizei verfolgt werden.cav",
+        "headline": "Unschöne Streiche in der Dugnacht in Berchtesgaden rufen die Polizei auf den Plan"
+      },
+      "ai_generated": {
+        "text": "Vandalismus und Straftaten in der Dugnacht in BerchtesgadenIn der Nacht vom 30. April auf den 1. Mai 2026 kam es in Berchtesgaden und dem Ortsteil Unterau erneut zu mehreren Vorfällen, die weit über harmlose Streiche hinausgehen. Unbekannte Täter hinterließen rechtsradikale Graffiti, beschädigten eine Hausfassade und manipulierten Verkehrszeichen auf einer Bundesstraße. Die Polizeiinspektion Berchtesgaden ermittelt in allen Fällen und bittet die Bevölkerung um Hinweise.Im Lacknergäßchen wurden Graffitischmierereien mit rechtsradikalem Inhalt auf Mauern und auf dem Gehweg entdeckt. Derartige Schmierereien stellen keine Bagatelle dar, sondern erfüllen den Tatbestand einer Straftat, die von den Behörden konsequent verfolgt wird.In der Hanielstraße wurde zudem eine Hausfassade durch Eierwürfe beschädigt. Auch dieser Vorfall geht deutlich über den Rahmen eines traditionellen Dugs hinaus und zieht strafrechtliche Konsequenzen nach sich.Besonders gefährlich war ein weiterer Vorfall in Unterau: Dort wurden Verkehrszeichen zur Geschwindigkeitsbeschränkung an der Bundesstraße 305 in Fahrtrichtung Berchtesgaden um 90 Grad aus dem Sichtbereich der Autofahrer weggedreht. Eine solche Manipulation von Verkehrszeichen kann schwerwiegende Folgen für die Verkehrssicherheit haben und gefährdet Menschenleben.Die Polizei betont ausdrücklich, dass es sich bei allen genannten Vorfällen um Straftaten handelt, die strafrechtlich verfolgt werden. Der sogenannte Dug, eine in der Region traditionsreiche Brauchtumsnacht rund um den Vorabend des 1. Mai, biete keinen Schutzraum für Vandalismus, politisch motivierte Schmierereien oder gefährliche Eingriffe in den Straßenverkehr.Zeugen, die Beobachtungen zu den Vorfällen gemacht haben, werden gebeten, sich mit der Polizeiinspektion Berchtesgaden unter der Telefonnummer 08652/94670 in Verbindung zu setzen.",
+        "headline": "Vandalismus und Rechtsradikale Graffiti in Berchtesgadener Dugnacht"
+      }
+    },
+    {
+      "sequence_index": 33,
+      "csv_row_number": 40,
+      "content_id": 21052393,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21052393",
+        "Schreibzeit für Artikeltext": "3",
+        "Schreibzeit für weitere Felder": "1,16",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein 76-jähriger Segler ist am Mittwoch auf dem Chiemsee in eine gefährliche Situation geraten, nachdem eine Windböe seinen Mast zum Brechen brachte und seine Jolle zum Kentern brachte.Der Unfall ereignete sich gegen 12.30 Uhr. Der Segler war Polizeiangaben zufolge bei sonnigem Wetter alleine auf dem Chiemsee unterwegs, als offenbar eine plötzliche Windböe den Baum der Jolle zum Brechen brachte. Das Boot kenterte daraufhin, sodass der 76-Jährige im Wasser trieb.Der Trockenanzug des Seglers erwies sich in dieser Situation als entscheidend. Er schützte den Mann vor dem kalten Wasser und trug dazu bei, dass er die Bergung unverletzt überstand. Die Wasserwacht Chieming rückte aus und rettete den Segler. Der Schaden am Segelboot wird auf 500 Euro geschätzt und fällt damit vergleichsweise gering aus.cav",
+        "headline": "Unfall auf dem Chiemsee: Segelboot kentert nach Windböe",
+        "roofline": "76-Jähriger gerettet"
+      },
+      "ai_generated": {
+        "text": "Schiffsunfall auf dem Chiemsee: Segelboot kentert nach WindböeEin 76-jähriger Segler ist am Mittwochmittag, 29. April 2026, auf dem Chiemsee in eine gefährliche Situation geraten, nachdem eine Windböe seinen Mast zum Brechen brachte und seine Jolle zum Kentern brachte. Der Unfall ereignete sich gegen 12:30 Uhr bei sonnigem Wetter mit Ostwind und moderatem Wellengang. Dank eines getragenen Trockenanzugs blieb der Mann unverletzt und konnte von der Wasserwacht Chieming geborgen werden.Der Segler war alleine auf dem Chiemsee unterwegs, als offenbar eine plötzliche Windböe den Baum der Jolle zum Brechen brachte. Das Boot kenterte daraufhin, sodass der 76-Jährige im Wasser trieb.Der Trockenanzug des erfahrenen Seglers erwies sich in dieser Situation als entscheidend. Er schützte den Mann vor dem kalten Wasser und trug dazu bei, dass er die Bergung unverletzt überstand.Die Wasserwacht Chieming rückte umgehend aus und barg den Segler sowie sein Boot. Der Sachschaden am Segelboot wird auf rund 500 Euro geschätzt und fällt damit vergleichsweise gering aus.Der Vorfall verdeutlicht, wie schnell sich die Wetterverhältnisse auf dem Chiemsee ändern können und welche Bedeutung geeignete Schutzausrüstung beim Segeln hat.",
+        "roofline": "Unfall auf dem Chiemsee",
+        "teaser": "Ein 76-jähriger Segler geriet am Mittwochmittag auf dem Chiemsee in eine brenzlige Lage, als eine plötzliche Windböe den Mast seiner Jolle zum Brechen brachte und das Boot kenterte. Ein entscheidendes Ausrüstungsdetail bewahrte den Mann vor schlimmeren Folgen."
+      }
+    },
+    {
+      "sequence_index": 34,
+      "csv_row_number": 41,
+      "content_id": 21052483,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21052483",
+        "Schreibzeit für Artikeltext": "12",
+        "Schreibzeit für weitere Felder": "3",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Eine rasante Verfolgungsfahrt von Oberbayern nach Tirol, bei der er zu einem Unfall mit drei Verletzten kam, hat sich ein Autofahrer aus Berlin in der Nacht auf Freitag geliefert – sowohl er als auch sein rabiater Beifahrer aus dem Landkreis Regensburg haben nun Ärger mit der Polizei. Eine zivile Polizeistreife der Bundespolizei Garmisch-Partenkirchen habe gegen 23.30 Uhr zwischen Gerold und Kaltenbrunn ein Auto mit stark überhöhter Geschwindigkeit festgestellt, das den Beamten entgegenkam, berichtet die Landespolizei Tirol. Als die Polizisten versuchten, das Auto zum Anhalten zu bewegen, habe der Fahrer mit weit überhöhter Geschwindigkeit die Flucht ergriffen, zunächst in Richtung Mittenwald und anschließend weiter in Richtung Zirler Berg in Österreich.Unfall bei Flucht vor Polizei: Drei VerletzteAm Beginn des Gefälles des Zirler Berges habe der Fahrer in der ersten Rechtskurve die Kontrolle über sein Fahrzeug verloren. Das Auto sei links von der Fahrbahn abgekommen, gegen eine Böschung geprallt und sei dann zurück auf die Fahrbahn geschleudert worden, wo es mit einem entgegenkommenden Fahrzeug kollidierte.Bei dem Zusammenstoß wurden Polizeiangaben zufolge drei Personen leicht verletzt: die beiden Insassen des entgegenkommenden Autos, ein 30-jähriger und ein 34-jähriger Österreicher, sowie eine 32-jährige rumänische Mitfahrerin im flüchtenden Fahrzeug. Alle drei wurden ins Krankenhaus gebracht. Der 66-jährige Fahrer des flüchtenden Fahrzeuges aus Berlin sowie sein 60-jähriger Beifahrer aus dem Landkreis Regensburg seien unverletzt geblieben.Ein Alkotest sowie ein Drogenvortest seien beim 66-Jährigen negativ verlaufen. Wie sich herausstellte, habe der 66-Jährige keine Fahrerlaubnis besessen. Beifahrer aus dem Kreis Regensburg bedroht PolizistenZu einem weiteren Zwischenfall kam es unmittelbar an der Unfallstelle: Der 60-jährige Beifahrer des habe die Beamten der Bundespolizei aus Garmisch-Partenkirchen „gefährlich“ bedroht, so die Landespolizei Tirol. Sowohl gegen ihn als auch gegen den Fahrer aus Berlin ermitteln die österreichischen Behörden nun.cav"
+      },
+      "ai_generated": {
+        "text": "Verfolgungsjagd auf dem Zirler Berg endet mit schwerem Unfall und Bedrohung von PolizistenIn der Nacht auf den 1. Mai 2026 hat eine gefährliche Verfolgungsjagd auf der Seefelder Straße zu einem schweren Verkehrsunfall am Zirler Berg geführt, bei dem drei Personen verletzt wurden. Eine Zivilstreife der deutschen Bundespolizei Garmisch-Partenkirchen hatte gegen 23:30 Uhr zwischen Gerold und Kaltenbrunn einen Pkw mit stark überhöhter Geschwindigkeit festgestellt, der den Beamten entgegenkam. Als die Polizisten versuchten, das Fahrzeug anzuhalten, flüchtete der Lenker mit weit überhöhter Geschwindigkeit zunächst in Richtung Mittenwald und anschließend weiter in Richtung Zirler Berg.Am Beginn des Gefälles des Zirler Berges verlor der Fahrer in der ersten Rechtskurve die Kontrolle über sein Fahrzeug. Der Pkw kam links von der Fahrbahn ab, prallte gegen eine Böschung und wurde zurück auf die Fahrbahn geschleudert, wo er mit einem entgegenkommenden Fahrzeug kollidierte.Bei dem Zusammenstoß wurden drei Personen leicht verletzt: die beiden Insassen des entgegenkommenden Pkws, ein 30-jähriger und ein 34-jähriger Österreicher, sowie eine 32-jährige rumänische Mitfahrerin im flüchtenden Fahrzeug. Alle drei wurden mit der Rettung in das Krankenhaus Hall eingeliefert. Der 66-jährige deutsche Lenker des flüchtenden Fahrzeuges sowie sein 60-jähriger deutscher Beifahrer blieben nach derzeitigem Ermittlungsstand unverletzt.Ein Alkotest sowie ein Drogenvortest mit dem Fahrzeuglenker verliefen negativ. Wie sich herausstellte, ist der 66-Jährige nicht im Besitz einer gültigen Lenkberechtigung. Er wird auf freiem Fuß bei der Staatsanwaltschaft Innsbruck sowie der Bezirkshauptmannschaft Innsbruck angezeigt.Zu einem weiteren Zwischenfall kam es unmittelbar an der Unfallstelle: Der 60-jährige Beifahrer des flüchtenden Fahrzeuges bedrohte die eingesetzten Beamten der deutschen Bundespolizei gefährlich. Auch er wird auf freiem Fuß an die Staatsanwaltschaft Innsbruck sowie die zuständige Bezirksverwaltungsbehörde angezeigt.An beiden am Unfall beteiligten Fahrzeugen entstand schwerer Sachschaden. Die Seefelder Straße musste von 23:40 Uhr bis etwa 02:00 Uhr vollständig gesperrt werden. Im Einsatz standen neben der deutschen und der österreichischen Bundespolizei auch die Feuerwehr Zirl sowie Rettungskräfte.",
+        "teaser": "Eine Verfolgungsjagd auf der Seefelder Straße endete in der Nacht auf den 1. Mai 2026 am Zirler Berg mit einem schweren Unfall und drei Verletzten. Ein 66-jähriger Deutscher ohne gültige Lenkberechtigung war einer Zivilstreife der deutschen Bundespolizei davongeflüchtet, bevor er die Kontrolle über sein Fahrzeug verlor und mit einem entgegenkommenden Auto kollidierte. Was danach an der Unfallstelle zwischen den Beteiligten und den eingesetzten Beamten geschah, sorgte für einen weiteren Einsatz der Behörden."
+      }
+    },
+    {
+      "sequence_index": 35,
+      "csv_row_number": 42,
+      "content_id": 21052603,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21052603",
+        "Schreibzeit für Artikeltext": "4",
+        "Schreibzeit für weitere Felder": "2",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein Motorradfahrer aus dem Kreis Deggendorf und seine Sozia sind bei einem Unfall mit einem Auto am Freitag bei Mamming (Landkreis Dingolfing-Landau) schwer verletzt worden. Der Unfallverursacher war erheblich alkoholisiert und hatte bei einem plötzliche Wendemanöver das hinter ihm fahrende Motorrad übersehen. Ein Sprecher der Polizei Dingolfing berichtet auf Nachfrage, dass ein Autofahrer aus dem Landkreis Dingolfing-Landau gegen 15.15 Uhr auf der Brückenstraße in Mammingerschwaigen fuhr, als er ersten Ermittlungen zufolge plötzlich ein Wendemanöver startete. Ein dahinter fahrender Motorradfahrer – ein 47-Jähriger aus Plattling – habe nicht mehr rechtzeitig bremsen können und sei mit dem Auto kollidiert. Sowohl der Motorradfahrer als auch seine Sozia wurden schwer verletzt. Sie kamen mit mehreren Brüchen in die Kliniken nach Straubing und Deggendorf. Der Autofahrer sei unverletzt geblieben. Alkoholisiert „im strafrechtlichen Bereich“Allerdings wurde bei ihm eine erhebliche Alkoholisierung „im strafrechtlichen Bereich über 1,1 Promille“ festgestellt , weshalb sich der 37-jährige Fahrzeugführer in der Folge einer Blutentnahme unterziehen musste. Ferner wurde der Führerschein sichergestellt. Die Polizeiinspektion Dingolfing hat ein Ermittlungsverfahren wegen Gefährdung des Straßenverkehrs sowie fahrlässiger Körperverletzung eingeleitet.cav",
+        "headline": "Betrunkener Autofahrer will plötzlich wenden und übersieht Motorrad: Zwei Schwerverletzte"
+      },
+      "ai_generated": {
+        "text": "Unfall in Mammingerschwaige: Motorradfahrer und Sozia nach Kollision mit Pkw leicht verletztAm Freitagnachmittag kam es gegen 15.15 Uhr in Mammingerschwaige auf der Brückenstraße zu einem Verkehrsunfall zwischen einem Pkw und einem Motorrad. Nach ersten Ermittlungen der zuständigen Behörden fuhr der Pkw-Fahrer plötzlich vor das Motorrad und versuchte zu wenden, woraufhin der Motorradfahrer nicht mehr rechtzeitig bremsen konnte und in das Auto fuhr.Bei dem Zusammenstoß wurden der Motorradfahrer sowie seine Sozia leicht verletzt. Beide Personen sind nach Angaben der Einsatzkräfte im Landkreis Dingolfing-Landau ansässig, ebenso wie der Fahrer des beteiligten Pkw.Die genauen Umstände des Unfalls sowie die Schadenshöhe sind derzeit noch Gegenstand der laufenden Ermittlungen. Über den Hergang und mögliche Konsequenzen für den Pkw-Fahrer liegen bislang keine weiteren Informationen vor.",
+        "headline": "Motorradfahrer und Sozia bei Kollision in Mammingerschwaige leicht verletzt"
+      }
+    },
+    {
+      "sequence_index": 36,
+      "csv_row_number": 43,
+      "content_id": 21053182,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21053182",
+        "Schreibzeit für Artikeltext": "2",
+        "Schreibzeit für weitere Felder": "0,45",
+        "Genauigkeit der Schreibzeit": "4",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": "Artikel später aktualisiert, als Vermisster wiedergefunden"
+      },
+      "cms_article": {
+        "text": "Ein 82-jähriger Rentner wird seit Freitagnachmittag aus dem Bürgerheim in Berchtesgaden vermisst. Die Polizei hat am Abend ein Foto des Mannes veröffentlicht und bittet um Hinweise aus der Bevölkerung. Der Senior wurde demnach zuletzt gegen 16.30 Uhr gesehen. Aufgrund seines Gesundheitszustandes gehen die Behörden davon aus, dass sich der Vermisste in einer hilflosen Lage befindet. Die Polizei vermutet, dass der 82-Jährige zu Fuß im Bereich Berchtesgaden oder Bischofswiesen unterwegs ist. Beschreibung und Foto des VermisstenDer Vermisste Bernd K. wird wie folgt beschrieben: Er ist etwa 1,75 Meter groß und trägt vermutlich eine dreiviertellange graue Jogginghose sowie eine dunkelblaue Sportjacke.Die Polizei Berchtesgaden bittet die Bevölkerung um Mithilfe. Wer den Mann gesehen hat oder Hinweise zu seinem Aufenthaltsort geben kann, wird gebeten, sich unter der Telefonnummer 08652/94670 zu melden.cav",
+        "headline": "Vermisstensuche in und um Berchtesgaden: Rentner aus Bürgerheim verschwunden"
+      },
+      "ai_generated": {
+        "text": "Vermisstensuche in Berchtesgaden: 82-jähriger Rentner aus Bürgerheim verschwundenSeit Freitagnachmittag, dem 1. Mai 2026, wird ein 82-jähriger Rentner aus dem Bürgerheim in Berchtesgaden vermisst. Der Mann, der nur als Bernd K. bekannt ist, wurde zuletzt gegen 16.30 Uhr gesehen. Aufgrund seines Gesundheitszustandes gehen die Behörden davon aus, dass sich der Vermisste in einer hilflosen Lage befindet.Die Polizei geht davon aus, dass der Senior zu Fuß im Bereich Berchtesgaden oder der Nachbargemeinde Bischofswiesen unterwegs ist. Angesichts des Alters und des Gesundheitszustandes des Mannes wird die Suche als dringend eingestuft.Der Vermisste wird wie folgt beschrieben: Er ist etwa 175 Zentimeter groß und trägt vermutlich eine dreiviertellange graue Jogginghose sowie eine dunkelblauе Sportjacke.Die Polizeiinspektion Berchtesgaden bittet die Bevölkerung um Mithilfe. Wer den Mann gesehen hat oder Hinweise zu seinem Aufenthaltsort geben kann, wird gebeten, sich unter der Telefonnummer 08652/9467-0 zu melden."
+      }
+    },
+    {
+      "sequence_index": 37,
+      "csv_row_number": 44,
+      "content_id": 21053188,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21053188",
+        "Schreibzeit für Artikeltext": "5,3",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "etwas zu viel \"Polizeisprache\" übernommen"
+      },
+      "cms_article": {
+        "text": "Schleierfahnder der Grenzpolizei Passau haben innerhalb von 24 Stunden auf der A3 im Raum Passau zwei gestohlene Fahrzeuge aus dem Verkehr gezogen. Im ersten Fall kontrollierten Schleierfahnder am Donnerstag gegen 8.15 Uhr auf dem Parkplatz Hammerbach an der A3 einen VW-Multivan mit niederländischer Zulassung. Bei der Überprüfung des Fahrzeugs stellten die Beamten Unstimmigkeiten fest. Diverse Datenträger seien manipuliert beziehungsweise verfälscht worden.Den Polizisten gelang es jedoch, die Originalfahrgestellnummer zu ermitteln. Es stellte sich heraus, dass der Multivan im Jahr 2012 in Berlin gestohlen worden war. Den aktuellen Zeitwert des Fahrzeugs schätzte die Polizei auf 22.000 Euro.Vermeintlicher Hehler kann Unwissenheit belegenDer 44-jährige niederländische Fahrer wurde vernommen. Dabei konnte er laut Polizei belegen, dass er den VW-Multivan gutgläubig erworben hatte. Nach Abschluss der polizeilichen Maßnahmen und der Sicherstellung des Fahrzeugs wurde er entlassen.In der darauffolgenden Nacht auf Freitag gegen 3.20 Uhr stoppten Beamte der Grenzpolizei auf der A3 in Fahrtrichtung Österreich einen Kleintransporter mit französischer Zulassung. Auch hier führte die Überprüfung der Fahrgestellnummer zu einem Treffer, diesmal aus Belgien. Die Ermittlungen ergaben, dass der VW Crafter bereits im Jahr 2015 in Belgien gestohlen worden war. Der Zeitwert des Fahrzeugs belaufe sich auf rund 8000 Euro.Ermittlungen gegen 60-Jährigen wegen HehlereiGegen den 60-jährigen rumänischen Fahrer wurde ein Strafverfahren wegen Kraftfahrzeughehlerei eingeleitet. Nach Abschluss der Sachbearbeitung wurde auch er entlassen. Der VW Crafter wurde sichergestellt.cav",
+        "headline": "Innerhalb von 24 Stunden zwei gestohlene Fahrzeuge auf der A3 bei Passau sichergestellt"
+      },
+      "ai_generated": {
+        "text": "Grenzpolizei Passau stellt zwei gestohlene Fahrzeuge auf der A3 sicherSchleierfahnder der Grenzpolizeiinspektion Passau haben innerhalb von weniger als 24 Stunden auf der Autobahn A3 im Raum Passau zwei gestohlene Kleintransporter aus dem Verkehr gezogen. Bei Kontrollen am 30. April und 1. Mai 2026 entdeckten die Beamten manipulierte Fahrzeugdaten und leiteten in beiden Fällen Strafverfahren wegen Hehlerei ein.Im ersten Fall kontrollierten Schleierfahnder am 30. April 2026 gegen 08.15 Uhr auf dem Parkplatz Hammerbach an der A3 einen VW-Multivan mit niederländischer Zulassung. Bei der Überprüfung des Fahrzeugs stellten die Beamten Unstimmigkeiten hinsichtlich der Fahrzeugidentität fest. Diverse Datenträger waren manipuliert beziehungsweise verfälscht worden.Durch aufwendige Ermittlungen gelang es den Polizisten dennoch, die Originalfahrgestellnummer zu ermitteln. Ein Abgleich mit dem polizeilichen Fahndungsbestand ergab, dass der Transporter im Jahr 2012 in Berlin gestohlen worden war. Der aktuelle Zeitwert des Fahrzeugs wird auf rund 22.000 Euro geschätzt.Der 44-jährige niederländische Fahrer wurde als Beschuldigter wegen des Verdachts der Kraftfahrzeughehlerei vernommen. In seiner Vernehmung konnte er jedoch belegen, dass er den VW-Multivan gutgläubig erworben hatte. Nach Abschluss der polizeilichen Maßnahmen und der Sicherstellung des Fahrzeugs wurde er entlassen.Nur wenige Stunden später, in der Nacht zum 1. Mai 2026 gegen 03.20 Uhr, stoppten Beamte der Grenzpolizeiinspektion Passau auf der A3 in Fahrtrichtung Österreich einen weiteren Kleintransporter. Bei dem Fahrzeug handelte es sich um einen VW Crafter mit französischer Zulassung.Die Überprüfung der Fahrgestellnummer im internationalen Fahndungsbestand führte diesmal unmittelbar zu einem Treffer aus Belgien. Die Ermittlungen ergaben, dass der Kleintransporter bereits im Jahr 2015 in Belgien entwendet worden war. Der Zeitwert des Fahrzeugs beläuft sich auf rund 8.000 Euro.Gegen den 60-jährigen rumänischen Fahrzeugführer wurde ein Strafverfahren wegen Kraftfahrzeughehlerei eingeleitet. Nach Abschluss der Sachbearbeitung wurde auch er entlassen. Der VW Crafter wurde sichergestellt.Die beiden Fälle unterstreichen die Bedeutung der Schleierfahndung entlang der Grenzregion bei Passau, die trotz offener Binnengrenzen regelmäßig Fahrzeuge mit manipulierten Identitäten aufdeckt.",
+        "headline": "Grenzpolizei Passau zieht zwei gestohlene Transporter aus dem Verkehr"
+      }
+    },
+    {
+      "sequence_index": 38,
+      "csv_row_number": 45,
+      "content_id": 21053209,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21053209",
+        "Schreibzeit für Artikeltext": "6",
+        "Schreibzeit für weitere Felder": "1,3",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "„Der Samstagnachmittag hatte es im wahrsten Sinne des Wortes in sich“, bilanziert die Verkehrspolizei Rosenheim. Eine Übersicht über alles, was am Maifeiertag auf der A8 los war. Gegen Mittag meldeten demnach aufmerksame Verkehrsteilnehmer der Polizei ein Auto, das auf der A8 in Richtung Salzburg in auffälligen Schlangenlinien unterwegs war. Eine Streife der Verkehrspolizei machte den Wagen nach kurzer Fahndung ausfindig und kontrollierte es. Die Ursache für die gefährliche Fahrweise war schnell ermittelt: „Die 66-jährige Fahrerin wies eine deutliche Atemalkoholkonzentration auf“, so die Polizei. Ihre Weiterfahrt wurde umgehend unterbunden und ein Strafverfahren gegen die Frau eingeleitet.Unfall mit Lkw bei Rosenheim – Fahrer hatte keinen FührerscheinKurze Zeit später kam es auf demselben Streckenabschnitt zwischen der Anschlussstelle Rosenheim West und dem Dreieck Inntal zu einem Verkehrsunfall zwischen einem Auto und einem Sattelzug. Die Autofahrerin wurde Polizeiangaben zufolge leicht verletzt und in ein nahegelegenes Krankenhaus gebracht. Im Zuge der Unfallaufnahme stellte sich heraus, dass der 72-jährige italienische Fahrer des Sattelzugs keine gültige Fahrerlaubnis für sein Fahrzeug besaß.Auch für ihn war die Fahrt damit beendet. Nach Rücksprache mit der Staatsanwaltschaft und der Bezahlung einer Sicherheitsleistung wurde der Fahrer zwar entlassen, den Sattelzug musste er jedoch zurücklassen. Gegen den Mann wurde ebenfalls ein Strafverfahren eröffnet. In beiden Fällen sucht die Verkehrspolizei Rosenheim nach Zeugen, die sachdienliche Beobachtungen gemacht haben. Hinweise werden unter der Telefonnummer 08035/9068110 entgegengenommen. Viele HilfsleistungenAbseits dieser beiden Vorfälle räumten die Streifen im Laufe des Nachmittags auch Fahrräder von der Fahrbahn und sicherten liegengebliebene Fahrzeuge ab. Das schöne Wetter hatte für regen Reise- und Ausflugsverkehr auf der A8 und A93 gesorgt.cav"
+      },
+      "ai_generated": {
+        "text": "Turbulenter Samstagnachmittag auf der A8: Betrunkene Fahrerin und Lkw-Fahrer ohne gültige FahrerlaubnisDie Verkehrspolizei Rosenheim hatte am vergangenen Samstagnachmittag auf der Autobahn A8 zwischen München und Salzburg gleich mehrfach alle Hände voll zu tun. Innerhalb kurzer Zeit stoppten die Beamten eine alkoholisierte Autofahrerin und nahmen einen Lkw-Fahrer ohne gültige Fahrerlaubnis aus dem Verkehr. Zudem ereignete sich ein Verkehrsunfall mit einer leicht verletzten Person.Gegen Mittag meldeten aufmerksame Verkehrsteilnehmer der Polizei einen Pkw, der auf der A8 in Richtung Salzburg in auffälligen Schlangenlinien unterwegs war. Eine Streife der Verkehrspolizei Rosenheim konnte das Fahrzeug nach kurzer Fahndung ausfindig machen und einer Kontrolle unterziehen. Die Ursache für die gefährliche Fahrweise war schnell ermittelt: Die 66-jährige Fahrerin wies eine deutliche Atemalkoholkonzentration auf. Die Weiterfahrt wurde umgehend unterbunden und ein Strafverfahren gegen die Frau eingeleitet.Kurze Zeit später kam es auf demselben Streckenabschnitt zwischen der Anschlussstelle Rosenheim West und dem Dreieck Inntal zu einem Verkehrsunfall zwischen einem Pkw und einem Sattelzug. Die Fahrerin des Pkw wurde dabei leicht verletzt und in ein nahegelegenes Krankenhaus gebracht. Im Zuge der Unfallaufnahme stellte sich heraus, dass der 72-jährige italienische Fahrer des Sattelzugs keine gültige Fahrerlaubnis für sein Fahrzeug besaß.Auch für ihn war die Fahrt damit beendet. Nach Rücksprache mit der Staatsanwaltschaft und der Bezahlung einer Sicherheitsleistung wurde der Fahrer zwar entlassen, seinen Sattelzug musste er jedoch zurücklassen. Gegen den Mann wurde ebenfalls ein Strafverfahren eröffnet.In beiden Fällen sucht die Verkehrspolizei Rosenheim nach Zeugen, die sachdienliche Beobachtungen gemacht haben. Hinweise werden unter der Telefonnummer 08035/9068-110 entgegengenommen.Abseits dieser beiden Vorfälle räumten die Streifen im Laufe des Nachmittags auch Fahrräder von der Fahrbahn und sicherten liegengebliebene Fahrzeuge ab. Das schöne Wetter hatte für regen Reise- und Ausflugsverkehr auf beiden Autobahnen im Dienstbereich der Verkehrspolizei Rosenheim gesorgt."
+      }
+    },
+    {
+      "sequence_index": 39,
+      "csv_row_number": 46,
+      "content_id": 21054097,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "teaser"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21054097",
+        "Schreibzeit für Artikeltext": "9",
+        "Schreibzeit für weitere Felder": "1,3",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, PT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Messerstich erfunden in Überschrift (ist falsch); Detail zu \"Der Vorfall ereignete sich nach Polizeiangaben inmitten des Festgeschehens\" auch."
+      },
+      "cms_article": {
+        "text": "Beim Maibaumfest in Erlstätt im Gemeindebereich Grabenstätt (Landkreis Traunstein) ist es am Freitagabend zu einem gewaltsamen Zwischenfall gekommen. Ein Mann erlitt dabei eine Stichverletzung. Gegen 19 Uhr gerieten Polizeiangaben zufolge zwei alkoholisierte Besucher des Festes in eine Rangelei, in deren Verlauf ein 42-Jähriger eine Stichverletzung durch einen spitzen Gegenstand erlitt. Der Verletzte sei zwar schwerer verletzt worden, befinde sich aber nicht in Lebensgefahr, berichtet ein Sprecher der Polizei Traunstein auf PNP-Nachfrage. Die Polizeiinspektion Traunstein ermittelt nun gegen einen 35-jährigen Tatverdächtigen wegen des Verdachts der gefährlichen Körperverletzung. Laut Polizei war zunächst nicht bekannt, um welchen Gegenstand es sich bei der Tatwaffe handelte. Die Ermittlungen werden unter der Sachleitung der Staatsanwaltschaft Traunstein geführt. Lesen Sie auch: Plötzlich fallen Schüsse: Maifest in Aresing endet mit Polizeieinsatz – Fahndung nach VermummtemPolizei sucht Zeugen nach Angriff auf MaibaumfestDie Polizei Traunstein richtet nun einen Zeugenaufruf an alle Personen, die am Freitagabend auf dem Maibaumfest in Erlstätt anwesend waren. Gesucht werden insbesondere Personen, die gegen 19 Uhr Beobachtungen gemacht haben, die mit dem Vorfall in Zusammenhang stehen könnten. Auch sonstige verdächtige Wahrnehmungen aus dem Umfeld des Festes könnten zur Aufklärung des Sachverhalts beitragen. Hinweise werden unter der Telefonnummer 0861/98730 entgegengenommen. Alternativ kann jede andere Polizeidienststelle kontaktiert werden.cav",
+        "headline": "Gewaltsamer Streit auf Maibaumfest in Erlstätt: Mann (42) erleidet Stichverletzung"
+      },
+      "ai_generated": {
+        "text": "Messerangriff auf Maibaumfest in Erlstätt: 42-Jähriger verletzt, Polizei sucht ZeugenEin Maibaumfest im oberbayerischen Erlstätt ist am Freitagabend von einem gewaltsamen Zwischenfall überschattet worden. Gegen 19:00 Uhr des 1. Mai 2026 gerieten zwei alkoholisierte Besucher des Festes in eine Rangelei, in deren Verlauf ein 42-Jähriger eine Stichverletzung durch einen spitzen Gegenstand erlitt. Der Verletzte befindet sich nach aktuellem Stand nicht in Lebensgefahr. Die Polizeiinspektion Traunstein ermittelt nun gegen einen 35-jährigen Tatverdächtigen wegen des Verdachts der gefährlichen Körperverletzung und bittet die Bevölkerung um Hinweise.Der 42-Jährige wurde bei dem Vorfall schwer verletzt, wie die Polizei mitteilte. Ein Sprecher der Polizeiinspektion Traunstein erklärte, der Mann habe Glück gehabt, da trotz der Schwere der Verletzung keine Lebensgefahr bestehe.Die Ermittlungen werden unter der Sachleitung der Staatsanwaltschaft Traunstein geführt. Ob es sich bei dem verwendeten spitzen Gegenstand um ein Messer handelte, ist nach aktuellem Ermittlungsstand nicht abschließend geklärt.Das traditionelle Maibaumfest, das jährlich in vielen bayerischen Gemeinden gefeiert wird, zieht in der Regel zahlreiche Besucher aus der Region an. Der Vorfall ereignete sich nach Polizeiangaben inmitten des Festgeschehens.Die Polizeiinspektion Traunstein richtet nun einen Zeugenaufruf an alle Personen, die am Freitagabend auf dem Maibaumfest in Erlstätt anwesend waren. Gesucht werden insbesondere Personen, die gegen 19:00 Uhr Beobachtungen gemacht haben, die mit dem Vorfall in Zusammenhang stehen könnten. Auch sonstige verdächtige Wahrnehmungen aus dem Umfeld des Festes könnten zur Aufklärung des Sachverhalts beitragen.Hinweise nimmt die Polizeiinspektion Traunstein unter der Telefonnummer 0861/9873-0 entgegen. Alternativ kann jede andere Polizeidienststelle kontaktiert werden.",
+        "headline": "Messerangriff auf Maibaumfest in Erlstätt Polizei sucht Zeugen",
+        "teaser": "Auf dem Maibaumfest im oberbayerischen Erlstätt kam es am Freitagabend zu einem gewaltsamen Zwischenfall: Ein 42-Jähriger erlitt dabei eine Stichverletzung und wurde schwer verletzt. Die Polizeiinspektion Traunstein ermittelt gegen einen 35-jährigen Tatverdächtigen und sucht nun Zeugen, die Beobachtungen rund um den Vorfall gemacht haben."
+      }
+    },
+    {
+      "sequence_index": 40,
+      "csv_row_number": 47,
+      "content_id": 21054253,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21054253",
+        "Schreibzeit für Artikeltext": "6",
+        "Schreibzeit für weitere Felder": "1,45",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": "wieder zu viel inhaltliche Doppelung durch langen Teaser, Titel und DZ zu langweilig"
+      },
+      "cms_article": {
+        "text": "Eine rasante Bergabfahrt mit dem Fahrrad endete für einen 12-jährigen Buben in Arnbruck (Landkreis Regen) mit einem Unfall.  Der Bub aus dem Landkreis Regen war laut Polizei am Freitagabend gegen 19 Uhr in der Waldschmidtstraße in Arnbruck bergab in Richtung Schulstraße unterwegs. In einer Kurve habe es der 12-Jährige wegen des Gefälles nicht mehr rechtzeitig geschafft, seine Geschwindigkeit auf dem Fahrrad zu reduzieren, um die Kurve sicher zu durchfahren. So kollidierte er in der Kurve mit dem entgegenkommenden Auto eines 71-Jährigen – ebenfalls aus dem Landkreis Regen. Der Bub hatte Glück im Unglück: Laut Polizei zog er sich durch den Aufprall nur leichte Verletzungen zu. Den entstandenen Schaden schätzte die Polizei auf einen unteren dreistelligen Betrag. cav",
+        "headline": "Bub (12) rast in Arnbruck mit Fahrrad bergab – und kollidiert mit entgegenkommendem Auto",
+        "roofline": "Kurve nicht gekriegt"
+      },
+      "ai_generated": {
+        "text": "Verkehrsunfall in Arnbruck: Zwölfjähriger Radfahrer kollidiert mit PkwIn Arnbruck im Landkreis Regen ist es am Freitagabend, dem 1. Mai 2026, zu einem Verkehrsunfall zwischen einem zwölfjährigen Fahrradfahrer und einem 71-jährigen Autofahrer gekommen. Der Zusammenstoß ereignete sich gegen 19:00 Uhr in der Waldschmidtstraße, als der Junge bergab in Richtung Schulstraße unterwegs war und in einer Kurve mit dem entgegenkommenden Fahrzeug kollidierte.Der zwölfjährige Radfahrer aus dem Landkreis Regen fuhr die Waldschmidtstraße in Richtung Schulstraße hinunter, als er in einer Kurve auf den Pkw des 71-jährigen Mannes, ebenfalls aus dem Landkreis Regen, traf. Aufgrund des Gefälles war es dem Jungen nicht möglich, seine Geschwindigkeit rechtzeitig zu reduzieren, um die Kurve sicher zu durchfahren.Durch den Aufprall zog sich der jugendliche Radfahrer leichte Verletzungen zu. Der entstandene Sachschaden am Fahrzeug wird nach ersten Schätzungen im unteren dreistelligen Bereich angegeben.",
+        "headline": "Zwölfjähriger Radfahrer kollidiert in Arnbruck mit Pkw",
+        "roofline": "Unfall im Landkreis Regen"
+      }
+    },
+    {
+      "sequence_index": 41,
+      "csv_row_number": 48,
+      "content_id": 21054274,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline",
+        "roofline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21054274",
+        "Schreibzeit für Artikeltext": "4,3",
+        "Schreibzeit für weitere Felder": "1",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT, TT, DZ",
+        "Zufriedenheit mit KI-Tool (1-5)": "5",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Ein verirrtes Reh hat am Freitag auf der B12 bei Simbach am Inn im Landkreis Rottal-Inn für erhebliche Verkehrsbehinderungen gesorgt. Am Ende bezahlte das Tier das mit dem Leben. Mehrere Verkehrsteilnehmer hatten gegen 8.50 Uhr der Polizei gemeldet, dass sich das Wildtier innerhalb eines installierten Wildschutzzauns befand und immer wieder auf die Fahrbahn laufe. Dadurch staute sich der Verkehr auf der viel befahrenen Bundesstraße. Eine Polizeistreife rückte aus und sicherte die Gefahrenstelle ab, um Unfälle zu verhindern. Alle Versuche, das Tier aus dem eingezäunten Bereich zu treiben und sicher von der Straße zu leiten, scheiterten, berichtet die Polizei Simbach. Schließlich wurde ein Jäger hinzugezogen, der das Tier gegen 9.15 Uhr erlegte, um eine weitere Gefährdung des Straßenverkehrs zu verhindern.cav",
+        "headline": "Reh sorgt auf der B12 bei Simbach am Inn für Stau – Jäger erlegt es",
+        "roofline": "Tier auf der Bundesstraße"
+      },
+      "ai_generated": {
+        "text": "Reh auf Bundesstraße sorgt für Verkehrsstau bei Simbach am InnEin verirrtes Reh hat am Donnerstagmorgen, dem 1. Mai 2026, auf der Bundesstraße 12 bei Simbach am Inn im Landkreis Rottal-Inn für erhebliche Verkehrsbehinderungen gesorgt. Mehrere Verkehrsteilnehmer meldeten gegen 08:50 Uhr der Polizei, dass sich das Wildtier innerhalb eines installierten Wildschutzzauns auf der Fahrbahn befand und damit eine ernsthafte Gefahr für den fließenden Verkehr darstellte.Das Reh lief laut Polizeiangaben immer wieder auf die Fahrbahn, woraufhin sich der Verkehr auf der viel befahrenen Bundesstraße bereits merklich staute. Eine Polizeistreife rückte umgehend aus und sicherte die Gefahrenstelle ab, um Unfälle zu verhindern.Alle Versuche, das Tier aus dem eingezäunten Bereich zu treiben und sicher von der Straße zu leiten, scheiterten. Da das Reh aufgrund der Zaunanlage nicht eigenständig entkommen konnte und die Verkehrsgefahr anhielt, wurde schließlich ein Jäger hinzugezogen.Gegen 09:15 Uhr erlegte der Jäger das Tier, um eine weitere Gefährdung des Straßenverkehrs zu unterbinden. Der Vorfall auf der B12 war damit nach rund 25 Minuten beendet.",
+        "headline": "Reh auf B12 bei Simbach verursacht Stau und wird erlegt",
+        "roofline": "Wildunfall Niederbayern"
+      }
+    },
+    {
+      "sequence_index": 42,
+      "csv_row_number": 49,
+      "content_id": 21054409,
+      "participant_username": "P17",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21054409",
+        "Schreibzeit für Artikeltext": "4,16",
+        "Schreibzeit für weitere Felder": "1,26",
+        "Genauigkeit der Schreibzeit": "5",
+        "Recheche": "ER",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "3",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "bisschen zu viel geschwafelt/erfunden"
+      },
+      "cms_article": {
+        "text": "Ein größerer Waldbrand ist am späten Samstagnachmittag bei Eggstätt im Landkreis Rosenheim ausgebrochen. Die Feuerwehr war im Großeinsatz. Ein Sprecher der Polizei Prien am Chiemsee berichtet auf PNP-Nachfrage, dass der Brand gegen 16 Uhr in einem Waldstück beim Eschenauer See ausbrach. Die dortige Schilflandschaft habe schnell Feuer gefangen. Seitens der Polizei hieß es, dass eine Fläche von rund 20.000 Quadratmetern betroffen gewesen sei – das entspricht in etwa der Fläche von drei Fußballfeldern.Menschen oder Wohngebäude seien nicht in Gefahr gewesen, betont der Polizeisprecher gegenüber der PNP. Die Feuerwehr rückte mit einem Großaufgebot aus, um den Brand zu bekämpfen. Gegen 18 Uhr hatten die Einsatzkräfte das Feuer unter Kontrolle, für Nachlöscharbeiten und für eine Brandwache blieb die Feuerwehr am Abend zunächst weiter vor Ort.Nach ersten Erkenntnissen der Einsatzkräfte gibt es keine Hinweise auf Fremdverschulden. Die Behörden gehen davon aus, dass sich das Schilf aufgrund der warmen Witterungsbedingungen selbst entzündet hat."
+      },
+      "ai_generated": {
+        "text": "Waldbrand bei Eggstätt: Schilf und Waldstück am Eschenauer See in FlammenAm Nachmittag ist es bei Eggstätt im Landkreis Rosenheim zu einem größeren Brand in einer Schilf- und Waldlandschaft am Eschenauer See gekommen. Gegen 16 Uhr wurde das Feuer gemeldet, das sich auf einer Fläche von rund 20.000 Quadratmetern ausbreitete, was etwa drei Fußballfeldern entspricht. Menschen oder Wohngebäude waren zu keinem Zeitpunkt in Gefahr.Die Freiwillige Feuerwehr rückte mit mehreren Kräften aus, um den Brand in dem schwer zugänglichen Gelände zu bekämpfen. Das Feuer erfasste sowohl Schilfbestände als auch angrenzende Waldteile der charakteristischen Seenlandschaft.Nach ersten Erkenntnissen der Einsatzkräfte gibt es keine Hinweise auf Fremdverschulden. Die Behörden gehen davon aus, dass sich das Schilf aufgrund der Witterungsbedingungen selbst entzündet hat, was bei trockenem und warmem Wetter in solchen Landschaften vorkommen kann.Wie groß der entstandene Schaden an der Natur- und Schilflandschaft rund um den Eschenauer See letztlich ist, war zunächst nicht bekannt. Weitere Details zum Einsatzverlauf lagen zum Zeitpunkt der Meldung noch nicht vor."
+      }
+    }
+  ]
+}

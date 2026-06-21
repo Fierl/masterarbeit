@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "participant_username": "P19",
+    "csv_entry_count": 16,
+    "db_article_count_for_user": 15,
+    "matched_count": 11,
+    "filtered_low_score_count": 5,
+    "unmatched_csv_entry_count": 0,
+    "min_score": 1.0,
+    "unmatched_db_article_count": 4,
+    "generated_chat_count": 54,
+    "csv_headers": [
+      "CREATE-ID ( / NGEN-ID)",
+      "Schreibzeit für Artikeltext",
+      "Schreibzeit für weitere Felder",
+      "Genauigkeit der Schreibzeit",
+      "Recheche",
+      "Komplexität des Artikels (1-5)",
+      "Qualitative Artikeleinschätzung (1-5)",
+      "Verwendete Felder",
+      "Zufriedenheit mit KI-Tool (1-5)",
+      "Kommentar"
+    ],
+    "csv_path": "masterthesis/excel/phase2/Fallstudie_KI_p19.csv",
+    "cms_json_path": "masterthesis/extracted/phase_2_articles_output_p19.json",
+    "sql_dump_path": "prod_new.sql",
+    "output_path": "masterthesis/excel/phase2/Fallstudie_KI_p19_matched.json"
+  },
+  "items": [
+    {
+      "sequence_index": 1,
+      "csv_row_number": 8,
+      "content_id": "29-136792024",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-136792024",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "1",
+        "Qualitative Artikeleinschätzung (1-5)": "1",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": "Text auf vernünftige Länge zusammengefasst, Überschrift nicht verwendet. Kürzen auf eine bestimmte Anzahl von Wörter ist oft unbrauchbar, wenn man um z.B. 10 Wörter küzren möchte"
+      },
+      "cms_article": {
+        "text": "Deggendorf. Das Comenius-Gymnasium öffnete am Samstag seine Türen für zahlreiche interessierte Familien und zukünftige Schülerinnen und Schüler. Schulleiter Peter Scharnagl begrüßte die Besucher in der überfüllten Aula und gab gemeinsam mit seinem Team einen umfassenden Einblick in das breite Bildungs- und Förderangebot der Schule.Scharnagl stellte dabei seine Stellvertreterin Ingrid Bauer, Internatsleiterin Patrizia Gillner sowie Beratungslehrerin Nicole Dressler vor. Ein besonderer Schwerpunkt seiner Ausführungen lag auf der individuellen Förderung der Schülerinnen und Schüler, zu der auch ein eigenes Lerncoaching-Angebot gehört. Beratungslehrerin Nicole Dressler informierte anschließend über die formalen Übertrittsvoraussetzungen, die verschiedenen Ausbildungszweige sowie weitere Angebote der Schule.Besonders authentische Einblicke lieferten vier Schülerinnen und Schüler der Klasse 5a, die von ihrem Übertritt von der Grundschule ans Comenius berichteten und aus dem Nähkästchen plauderten, was Hausaufgaben, neue Fächer und neue Lehrkräfte betrifft. Auch die drei Schülersprecher Michael Schwabauer, Luca Arndt und Sara Weinberger kamen zu Wort und schilderten, was ihre Schule für sie so besonders macht. Die musikalische Umrahmung der Aulafeier übernahm die Streicherklasse unter der Leitung von Max Deml.Nach dem offiziellen Programm hatten die Besucherinnen und Besucher die Möglichkeit, die Schule eigenständig zu erkunden oder sich von Lehrkräften führen zu lassen. Besonders großen Zuspruch fanden dabei die naturwissenschaftlichen Stationen: Die Fachschaft Chemie begeisterte mit einer Chemie-Show, in der ein neuer Super-Chemiker gesucht wurde. Bei weiteren Experimenten in Natur und Technik durften die Besucher selbst Hand anlegen, unterstützt von Schülerinnen und Schülern verschiedener Jahrgangsstufen.Die Fachschaft Biologie lud zum Mikroskopieren ein, während in der Physik Experimente aus der Welt der Physik präsentiert wurden. In der Geographie-Fachschaft konnten die Besucher rätseln, ob in Eierschalen, Sandstein und Granit Kalk enthalten ist, und damit Geographie zum Anfassen erleben. Im Fach Mathematik stand das Thema Körperwelten im Mittelpunkt eines Bastelangebots, und die Fachschaft Englisch zeigte den künftigen Comenianerinnen und Comenianer, dass Englisch Spaß machen kann.Die modernen Sprachen Französisch und Spanisch präsentierten sich gemeinsam in einem Raum und verwöhnten die Gäste mit französischen Crepes. Im Bereich der Alten Sprachen und Geschichte konnten Lesezeichen auf Papyrus gestaltet werden. Die Theatergruppe der Unterstufe brachte Szenen aus Büchern auf die Bühne und ließ literarische Figuren lebendig werden.Die Fachschaft Informatik informierte über Unterrichtsinhalte und bot Demonstrationen des 3D-Drucks sowie die Möglichkeit, Roboter mit Bots zu steuern und VR-Brillen auszuprobieren. Im Fach Kunst konnten Lesezeichen und Buttons gebastelt werden, ergänzt durch eine Ausstellung der im Unterricht entstandenen Arbeiten. Die neu gestaltete Bibliothek im Altbau lud ebenfalls zum Verweilen ein und präsentierte sich als einer der schönsten Räume des Schulgebäudes.Einen weiteren Schwerpunkt bildete das Thema Sport: In der Comeniushalle informierten Lehrkräfte und Schülerinnen und Schüler über die Sportklasse sowie zahlreiche Wahlfächer. Das Comenius stellte zudem sein umfangreiches Sportprogramm im Rahmen der Stützpunkte Leichtathletik und Triathlon vor. Die Gerätturngruppe unter der Leitung von Susanne Sikora sorgte für Begeisterung, und bei einem Parcours konnten sich die jungen Besucher selbst sportlich austoben.Das Kompetenzzentrum gab Einblicke in die Arbeit der Begabtenklassen und das Enrichmentangebot, zu dem etwa das Programm Comenius on tour oder die Projektmesse gehören. Mittelstufenbetreuer Wolfgang Sedlmeier und Schülerinnen und Schüler zeigten mit einer Reihe von Kennenlernspielen, dass Werteerziehung am Comenius-Gymnasium einen hohen Stellenwert genießt.Die große freiwillige Beteiligung der Schülerinnen und Schüler am Tag der offenen Tür unterstrich das ausgeprägte Gemeinschaftsgefühl an der Schule. Viele Schüler und Lehrkräfte trugen als sichtbares Zeichen der Schulfamilie Schulpullis und Schul-T-Shirts. Neben dem Elternbeirat und dem Förderverein war auch die Schülermitverwaltung mit einem eigenen Infostand vertreten. Tutoren der zehnten Klassen informierten darüber, wie sie neuen Schülerinnen und Schülern durch Spielenachmittage und Schulhausübernachtungen den Einstieg erleichtern.Internatsleiterin Patrizia Gillner und ihr Team standen im Tagesheim und im Internat für alle Fragen rund um die Nachmittagsbetreuung zur Verfügung. Den Abschluss des ereignisreichen Tages bildete ein geselliges Beisammensein bei Kaffee und Kuchen, Pizzaschnitten sowie Getränken, bei dem die Besucher die vielfältigen Eindrücke des Comenius-Gymnasiums nachklingen lassen konnten. − nd"
+      },
+      "ai_generated": {
+        "text": "Tag der offenen Tür am Comenius-Gymnasium: Schule präsentiert vielfältiges BildungsangebotDas Comenius-Gymnasium öffnete am vergangenen Samstag seine Türen für zahlreiche interessierte Familien und zukünftige Schülerinnen und Schüler. Schulleiter Peter Scharnagl begrüßte die Besucher in der überfüllten Aula und gab gemeinsam mit seinem Team einen umfassenden Einblick in das breite Bildungs- und Förderangebot der Schule.Scharnagl stellte dabei seine Stellvertreterin Ingrid Bauer, Internatsleiterin Patrizia Gillner sowie Beratungslehrerin Nicole Dressler vor. Ein besonderer Schwerpunkt seiner Ausführungen lag auf der individuellen Förderung der Schülerinnen und Schüler, zu der auch ein eigenes Lerncoaching-Angebot gehört. Beratungslehrerin Nicole Dressler informierte anschließend über die formalen Übertrittsvoraussetzungen, die verschiedenen Ausbildungszweige sowie weitere Angebote der Schule.Besonders authentische Einblicke lieferten vier Schülerinnen und Schüler der Klasse 5a, die von ihrem Übertritt von der Grundschule ans Comenius berichteten und aus dem Nähkästchen plauderten, was Hausaufgaben, neue Fächer und neue Lehrkräfte betrifft. Auch die drei Schülersprecher Michael Schwabauer, Luca Arndt und Sara Weinberger kamen zu Wort und schilderten, was ihre Schule für sie so besonders macht. Die musikalische Umrahmung der Aulafeier übernahm die Streicherklasse unter der Leitung von Max Deml.Nach dem offiziellen Programm hatten die Besucherinnen und Besucher die Möglichkeit, die Schule eigenständig zu erkunden oder sich von Lehrkräften führen zu lassen. Besonders großen Zuspruch fanden dabei die naturwissenschaftlichen Stationen: Die Fachschaft Chemie begeisterte mit einer Chemie-Show, in der ein neuer Super-Chemiker gesucht wurde. Bei weiteren Experimenten in Natur und Technik durften die Besucher selbst Hand anlegen, unterstützt von Schülerinnen und Schülern verschiedener Jahrgangsstufen.Die Fachschaft Biologie lud zum Mikroskopieren ein, während in der Physik Experimente aus der Welt der Physik präsentiert wurden. In der Geographie-Fachschaft konnten die Besucher rätseln, ob in Eierschalen, Sandstein und Granit Kalk enthalten ist, und damit Geographie zum Anfassen erleben. Im Fach Mathematik stand das Thema Körperwelten im Mittelpunkt eines Bastelange bots, und die Fachschaft Englisch zeigte den künftigen Comenianerinnen und Comenianer, dass Englisch Spaß machen kann.Die modernen Sprachen Französisch und Spanisch präsentierten sich gemeinsam in einem Raum und verwöhnten die Gäste mit französischen Crepes. Im Bereich der Alten Sprachen und Geschichte konnten Lesezeichen auf Papyrus gestaltet werden. Die Theatergruppe der Unterstufe brachte Szenen aus Büchern auf die Bühne und ließ literarische Figuren lebendig werden.Die Fachschaft Informatik informierte über Unterrichtsinhalte und bot Demonstrationen des 3D-Drucks sowie die Möglichkeit, Roboter mit mBots zu steuern und VR-Brillen auszuprobieren. Im Fach Kunst konnten Lesezeichen und Buttons gebastelt werden, ergänzt durch eine Ausstellung der im Unterricht entstandenen Arbeiten. Die neu gestaltete Bibliothek im Altbau lud ebenfalls zum Verweilen ein und präsentierte sich als einer der schönsten Räume des Schulgebäudes.Einen weiteren Schwerpunkt bildete das Thema Sport: In der Comeniushalle informierten Lehrkräfte und Schülerinnen und Schüler über die Sportklasse sowie zahlreiche Wahlfächer. Das Comenius stellte zudem sein umfangreiches Sportprogramm im Rahmen der Stützpunkte Leichtathletik und Triathlon vor. Die Gerätturngruppe unter der Leitung von Susanne Sikora sorgte für Begeisterung, und bei einem Parcours konnten sich die jungen Besucher selbst sportlich austoben.Das Kompetenzzentrum gab Einblicke in die Arbeit der Begabtenklassen und das Enrichmentangebot, zu dem etwa das Programm Comenius on tour oder die Projektmesse gehören. Mittelstufenbetreuer Wolfgang Sedlmeier und Schülerinnen und Schüler zeigten mit einer Reihe von Kennenlernspielen, dass Werteerziehung am Comenius-Gymnasium einen hohen Stellenwert genießt.Die große freiwillige Beteiligung der Schülerinnen und Schüler am Tag der offenen Tür unterstrich das ausgeprägte Gemeinschaftsgefühl an der Schule. Viele Schüler und Lehrkräfte trugen als sichtbares Zeichen der Schulfamilie Schulpullis und Schul-T-Shirts. Neben dem Elternbeirat und dem Förderverein war auch die Schülermitverwaltung mit einem eigenen Infostand vertreten. Tutoren der zehnten Klassen informierten darüber, wie sie neuen Schülerinnen und Schülern durch Spielenachmittage und Schulhausübernachtungen den Einstieg erleichtern.Internatsleiterin Patrizia Gillner und ihr Team standen im Tagesheim und im Internat für alle Fragen rund um die Nachmittagsbetreuung zur Verfügung. Den Abschluss des ereignisreichen Tages bildete ein geselliges Beisammensein bei Kaffee und Kuchen, Pizzaschnitten sowie Getränken, bei dem die Besucher die vielfältigen Eindrücke des Comenius-Gymnasiums nachklingen lassen konnten."
+      }
+    },
+    {
+      "sequence_index": 2,
+      "csv_row_number": 9,
+      "content_id": "20782072",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text",
+        "headline"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20782072",
+        "Schreibzeit für Artikeltext": "11",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "E",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "2",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT,TT",
+        "Zufriedenheit mit KI-Tool (1-5)": "3",
+        "Kommentar": "Dachzeile und Teil der Hauptzeile identisch. Zwischentitel nicht verwendet"
+      },
+      "cms_article": {
+        "text": "Vor dem Landgericht Deggendorf beginnt am Dienstag, den 31. März, der Mordprozess gegen eine 53-jährige Frau, die ihren Lebensgefährten mit dem seltenen Schwermetall Thallium-Sulfat getötet haben soll — einem farb-, geruch- und geschmacklosen Gift, das sie laut Anklage über das Internet beschaffte. Die behandelnden Ärzte erkannten die Vergiftung nicht, der Mann starb nach wochenlangem Krankenhausaufenthalt an Multiorganversagen. Was die Staatsanwaltschaft als Tatmotiv benennt. Vor der Großen Strafkammer als Schwurgericht des Landgerichts Deggendorf muss sich ab ab Ende März eine 53-jährige Frau aus Deggendorf wegen Mordes verantworten. Die Staatsanwaltschaft Deggendorf wirft ihr vor, ihren Lebensgefährten im Januar 2025 mit einer tödlichen Dosis Thallium-Sulfat vergiftet zu haben, um ihn wegen einer Affäre im Jahr 2024 zu töten.Laut Anklage soll die Beschuldigte das hochgiftige Schwermetall bereits im November 2024 über das Internet bei einer in der Ukraine ansässigen Firma bestellt haben. Das Thallium-Sulfat gilt als besonders heimtückisch, da es farb-, geruch- und geschmacklos ist und sich damit unbemerkt in Speisen oder Getränke mischen lässt. Genau das soll die Angeklagte getan haben, indem sie ihrem Lebensgefährten die tödliche Substanz vermutlich durch Untermischen in Nahrung oder Getränke verabreichte. Das berichtet das Landgericht Deggendorf in einer Pressemitteilung zum bevorstehenden Prozess. Mit Grippe-Symptomen ins KrankenhausDas Opfer zeigte demnach zunächst grippeähnliche Symptome, bevor sich sein Zustand rapide verschlechterte. Ab dem 22. Januar 2025 wurde der Mann in zwei verschiedenen Krankenhäusern stationär behandelt, musste intubiert, sediert und beatmet werden und befand sich zuletzt in einem komatösen Zustand. Am 29. Januar 2025 verstarb er an Multiorganversagen.Das könnte Sie auch interessieren: Prozess um Pay-TV-Betrug: Deggendorfer Paar bis 2027 vor GerichtBesonders tragisch ist der Umstand, dass die behandelnden Ärzte zu keinem Zeitpunkt eine Vergiftung als Ursache in Betracht zogen. Der Verdacht auf eine Thalliumvergiftung entstand erst nach dem Tod des Mannes, sodass die Mediziner mangels zutreffender Diagnose vergeblich um sein Leben kämpften.Tochter des Opfers ist NebenklägerinDie Angeklagte befindet sich seit März 2025 in Untersuchungshaft. Die Tochter des Verstorbenen hat sich dem Verfahren als Nebenklägerin angeschlossen.Der Prozess beginnt am Dienstag, 31. März, um 9 Uhr. Weitere sechs weitere Verhandlungstage sind bis Anfang Mai angesetzt. Im Laufe des Verfahrens sollen 48 Zeugen vernommen und fünf Sachverständige gehört werden.",
+        "headline": "Mordprozess in Deggendorf: 53-Jährige soll Lebensgefährten mit Thallium vergiftet haben"
+      },
+      "ai_generated": {
+        "text": "Mordprozess in Deggendorf: Frau soll Lebensgefährten mit Thallium vergiftet habenVor der Großen Strafkammer als Schwurgericht des Landgerichts Deggendorf muss sich ab Dienstag, dem 31. März 2026, eine 53-jährige Frau wegen Mordes verantworten. Die Staatsanwaltschaft Deggendorf wirft ihr vor, ihren Lebensgefährten im Januar 2025 mit einer tödlichen Dosis Thallium-Sulfat vergiftet zu haben, um ihn wegen einer Affäre im Jahr 2024 zu töten.Laut Anklage soll die Beschuldigte das hochgiftige Schwermetall bereits im November 2024 über das Internet bei einer in der Ukraine ansässigen Firma bestellt haben. Das Thallium-Sulfat gilt als besonders heimtückisch, da es farb-, geruch- und geschmacklos ist und sich damit unbemerkt in Speisen oder Getränke mischen lässt. Genau das soll die Angeklagte getan haben, indem sie ihrem Lebensgefährten die tödliche Substanz vermutlich durch Untermischen in Nahrung oder Getränke verabreichte.Das Opfer zeigte zunächst grippeähnliche Symptome, bevor sich sein Zustand rapide verschlechterte. Ab dem 22. Januar 2025 wurde er in zwei verschiedenen Krankenhäusern stationär behandelt, musste intubiert, sediert und beatmet werden und befand sich zuletzt in einem komatösen Zustand. Am 29. Januar 2025 verstarb er an Multiorganversagen.Besonders tragisch ist der Umstand, dass die behandelnden Ärzte zu keinem Zeitpunkt eine Vergiftung als Ursache in Betracht zogen. Der Verdacht auf eine Thalliumvergiftung entstand erst nach dem Tod des Mannes, sodass die Mediziner mangels zutreffender Diagnose vergeblich um sein Leben kämpften.Die Angeklagte befindet sich seit März 2025 in Untersuchungshaft. Die Tochter des Verstorbenen hat sich dem Verfahren als Nebenklägerin angeschlossen.Der Prozess ist auf insgesamt sieben Verhandlungstage ausgelegt. Fortsetzungstermine sind für den 14., 16. und 21. April sowie den 23. April, den 5. Mai und den 7. Mai 2026 angesetzt, jeweils mit Sitzungsbeginn um 9 Uhr. Im Laufe des Verfahrens sollen 48 Zeugen vernommen und fünf Sachverständige gehört werden.",
+        "headline": "Mordprozess in Deggendorf Frau soll Lebensgefährten mit Thallium vergiftet haben"
+      }
+    },
+    {
+      "sequence_index": 4,
+      "csv_row_number": 11,
+      "content_id": "29-137073863",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-137073863",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": "Zufriedenheit gilt jeweils nur für die erzeugten Felder!!"
+      },
+      "cms_article": {
+        "text": "Hengersberg. Die Bauinnung Deggendorf-Regen blickt trotz bestehender Unsicherheiten in der Baubranche auf eine sich abzeichnende konjunkturelle Erholung und stellt sich zugleich auf eine weitreichende Reform der Berufsausbildung ein. Diese Entwicklungen standen im Mittelpunkt der Jahreshauptversammlung am vergangenen Donnerstag im Nothaft Gewölbe in Hengersberg.Wie die Innung mitteilt, begrüßte Obermeister Karl-Heinz Hau dazu neben seiner Stellvertreterin Claudia Vogl und Geschäftsführerin Petra Weinberger zahlreiche Mitglieder, Vertreter der Vorstandschaft, Rechnungsprüfer sowie Jungunternehmer. Zu Beginn der Versammlung gedachten die Anwesenden der verstorbenen Mitglieder. Dabei hob die Innung den im Juli verstorbenen Ehrenobermeister und Baugewerberat Horst Schaffer hervor, dessen jahrzehntelanges Engagement die Innung nachhaltig geprägt habe. Zudem wurde an Rosemarie Hau und Elfriede Vogl erinnert.In seinem Rückblick verwies der Obermeister auf die Aktivitäten des vergangenen Jahres, darunter zwei Vorstandssitzungen, die vorangegangene Jahreshauptversammlung und ein dreitägiger Ausflug nach Mainz. Ein wichtiges Thema bleibt laut dem Bericht die handwerkliche Ausbildung: 20 von 23 Prüflingen hätten ihre Gesellenprüfung erfolgreich abgelegt. Zum Schuljahresbeginn traten 47 neue Berufsschüler ihre Lehre an. Diese Zahl sei jedoch rückläufig und spiegle damit den bundesweiten Trend wider. Die Innung beteiligte sich außerdem mit mehreren Mitgliedsbetrieben an der Jobmesse in Deggendorf und ehrte Mitarbeiter für 25- sowie 40-jährige Betriebszugehörigkeit. Der Zusammenhalt der Mitglieder zeige sich dazu in der Resonanz auf gemeinsame Veranstaltungen. So besuchten 96 Teilnehmer die Weihnachtsfeier. Für eine anstehende fünftägige Reise in die schottische Hauptstadt Edinburgh und das dortige Umland im Juni gibt es 32 Teilnehmer.Im Hinblick auf die Konjunktur verweist die regionale Innung auf die Einschätzungen des Zentralverbands Deutsches Baugewerbe (ZDB). Zu Jahresbeginn hatte der Verband erklärt, die Talsohle sei überwunden. Für das laufende Jahr werde ein Umsatzwachstum von 2,5 Prozent erwartet, ausgehend von einem niedrigen Niveau vor zwei Jahren. Besonders der Tiefbau entwickle sich positiv, im Wohnungsbau zeigten sich erste Erholungen. Dennoch warne der Verband vor Risiken durch steigende Energie- und Materialpreise, zu wenige Baugenehmigungen sowie die Belastung der wirtschaftlichen Rahmenbedingungen durch geopolitische Konflikte wie den anhaltenden Irankrieg. „Entscheidend wird nun sein, die geopolitischen Konflikte schnell zu beenden und zur Normalität zurückzukehren, damit unsere Baubranche die sich abzeichnende Erholung tatsächlich erfährt“, betonte Hau.Ein weiteres zentrales Thema des Treffens war die neue Ausbildungsordnung, die ab August in Kraft tritt. Wie Geschäftsführerin Petra Weinberger erläuterte, wird die bisherige, mehr als zwei Jahrzehnte alte Regelung grundlegend reformiert. Bei allen 19 Ausbildungsberufen im Bauhandwerk liege das Augenmerk künftig auf mehr Praxisbezug, einer stärkeren Gewichtung der Zwischenprüfung sowie auf verbindlichen digitalen Kompetenzen, Klimaschutz und Nachhaltigkeit. − dz"
+      },
+      "ai_generated": {
+        "text": "Jahreshauptversammlung der Bauinnung Deggendorf Regen: Zuversicht trotz anhaltender Herausforderungen im BaugewerbeDie Bauinnung Deggendorf Regen hat sich bei ihrer diesjährigen Jahreshauptversammlung im Nothaft Gewölbe in Hengersberg trotz schwieriger wirtschaftlicher Rahmenbedingungen optimistisch gezeigt. Obermeister Karl-Heinz Hau begrüßte am vergangenen Donnerstag zahlreiche Mitglieder, darunter die stellvertretende Obermeisterin Claudia Vogl, Vertreter der Vorstandschaft, Rechnungsprüfer, Geschäftsführerin Petra Weinberger sowie viele Jungunternehmer.Zu Beginn der Versammlung wurde der verstorbenen Mitglieder gedacht. Besonders hervorgehoben wurde der im Juli verstorbene Ehrenobermeister und Baugewerberat Dipl.-Ing. (univ.) Horst Schaffer, dessen jahrzehntelanges Engagement die Innung nachhaltig geprägt hat. Auch Rosemarie Hau und Elfriede Vogl wurden in das Totengedenken eingeschlossen.Rückblick auf ein aktives InnungsjahrObermeister Hau berichtete über ein ereignisreiches Jahr. Neben zwei Vorstandssitzungen und der Jahreshauptversammlung 2025 stand ein dreitägiger Innungsausflug nach Mainz auf dem Programm.Im Ausbildungsbereich verzeichnete die Innung erfreuliche Ergebnisse: 20 von 23 Prüflingen bestanden erfolgreich ihre Gesellenprüfung. Zum Schuljahresbeginn wurden 47 neue Berufsschüler aufgenommen, wobei Hau auf eine rückläufige Tendenz hinwies, die den bundesweiten Trend im Bauhandwerk widerspiegelt.Mehrere Mitgliedsbetriebe beteiligten sich erneut an der Jobmesse in Deggendorf. Darüber hinaus ehrte die Innung langjährige Mitarbeiter für 25 und 40 Jahre Betriebszugehörigkeit.Die Weihnachtsfeier mit 96 Teilnehmern unterstrich den starken Zusammenhalt innerhalb der Innung. Dieser Gemeinschaftsgeist zeigt sich auch im großen Interesse an der diesjährigen Innungsreise nach Edinburgh, an der 32 Teilnehmer im Juni fünf Tage lang Schottlands Hauptstadt und ihr Umland erkunden werden.Wirtschaftliche Lage: Talsohle durchschritten, aber Unsicherheiten bleibenZur wirtschaftlichen Situation im Baugewerbe verwies Hau auf die Einschätzung des Zentralverbands Deutsches Baugewerbe. Der ZDB erklärte noch Anfang 2026, die Talsohle sei überwunden, und erwartet für das laufende Jahr ein Umsatzwachstum von 2,5 Prozent, allerdings ausgehend vom niedrigen Niveau des Jahres 2024.Besonders der Tiefbau entwickle sich positiv, während der Wohnungsbau erste Erholungstendenzen zeige. Gleichzeitig warnte der Verband vor anhaltenden Unsicherheiten, darunter steigende Energie- und Materialpreise, geopolitische Konflikte sowie weiterhin zu niedrige Baugenehmigungszahlen.Hau betonte in diesem Zusammenhang: \"Entscheidend wird nun sein, die geopolitischen Konflikte schnell zu beenden und zur Normalität zurückzukehren, damit unsere Baubranche die sich abzeichnende Erholung tatsächlich erfährt.\"Neue Ausbildungsordnung ab August 2026Ein zentrales Thema des Abends war die Vorstellung der neuen Ausbildungsordnung im Bauhandwerk, die ab August 2026 in Kraft tritt. Die bestehende Ordnung aus dem Jahr 1999 wurde grundlegend reformiert und umfasst alle 19 Ausbildungsberufe im Bauhandwerk.Geschäftsführerin Petra Weinberger erläuterte die wichtigsten Änderungen. Künftig stehen mehr Praxisbezug, eine stärkere Gewichtung der Zwischenprüfung, verbindliche digitale Kompetenzen sowie Klimaschutz und Nachhaltigkeit im Mittelpunkt der Ausbildung.Zum Abschluss der Versammlung dankte Obermeister Hau allen Mitgliedern für ihr Engagement und die gute Zusammenarbeit im vergangenen Jahr."
+      }
+    },
+    {
+      "sequence_index": 5,
+      "csv_row_number": 12,
+      "content_id": "29-136966964",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-136966964",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Bernried. Die Deutsche Telekom hat mit einem symbolischen Spatenstich den offiziellen Startschuss für den geförderten Glasfaserausbau in der Gemeinde Bernried gegeben. Rund 1800 Haushalte und Unternehmen sollen künftig Internetgeschwindigkeiten von bis zu 1000 Megabit pro Sekunde erhalten.Für das geplante Netz will das Unternehmen mehr als 249 Kilometer Glasfaserkabel verlegen und 49 neue Netzverteiler aufstellen, wie aus einer Pressemitteilung des Konzerns hervorgeht. Die ersten Anschlüsse sollen demnach bereits in wenigen Wochen verfügbar sein.Bürgermeister Stefan Achatz wird in der Mitteilung zitiert: „Ich freue mich, dass die Arbeiten in Bernried jetzt starten. Schnelles Internet gehört zum Leben dazu – privat und geschäftlich. Es ist ein digitaler Standortvorteil und heute so wichtig wie Gas, Wasser und Strom. Das moderne Netz gewährleistet langfristig unsere Lebensqualität sowie die wirtschaftliche Entwicklung in Bernried. Darüber hinaus erhöht ein Glasfaseranschluss den Wert einer Immobilie.“ Achatz rief die Bürgerinnen und Bürger zudem auf, einen Anschluss zu beauftragen, da Glasfaser auch den Wert einer Immobilie steigere.Hausanschluss gibt es nur bei AnmeldungWer bislang noch keine Zustimmung für einen Hausanschluss erteilt hat, kann dies laut Telekom noch nachholen. Carmen Wiedemann, Kommunalberaterin des Unternehmens, wird zitiert: „Wer seine Zustimmung für den Hausanschluss seiner Immobilie bisher nicht gegeben hat, kann das jetzt nachholen. Sonst kommt die Glasfaser nicht ins Haus, sondern führt lediglich daran vorbei.“ Der Ausbau soll in einzelnen Bauabschnitten erfolgen, um Beeinträchtigungen für Anwohnerinnen und Anwohner zu begrenzen. − dz"
+      },
+      "ai_generated": {
+        "text": "Telekom startet Glasfaserausbau in Bernried: 1.800 Haushalte profitieren von schnellem InternetMit einem symbolischen Spatenstich hat die Deutsche Telekom den offiziellen Startschuss für den geförderten Glasfaserausbau in Bernried gegeben. Rund 1.800 Haushalte und Unternehmen in der Gemeinde sollen künftig von Internetgeschwindigkeiten bis zu 1.000 Megabit pro Sekunde profitieren. Für das neue Hochgeschwindigkeitsnetz verlegt die Telekom mehr als 249 Kilometer Glasfaser und stellt 49 neue Netzverteiler auf. Die ersten Anschlüsse sollen bereits in wenigen Wochen zur Verfügung stehen.Der Glasfaserausbau in Bernried ist Teil der wachsenden Bemühungen, ländliche Regionen mit leistungsfähiger digitaler Infrastruktur zu versorgen. Ein stabiles und schnelles Glasfasernetz ermöglicht es mehreren Personen gleichzeitig, digital zu arbeiten, zu lernen, zu streamen und zu spielen, ohne dass die Verbindungsqualität leidet.Bürgermeister Stefan Achatz betonte die Bedeutung des Projekts für die gesamte Gemeinde: „Schnelles Internet gehört zum Leben dazu – privat und geschäftlich. Es ist ein digitaler Standortvorteil und heute so wichtig wie Gas, Wasser und Strom. Das moderne Netz gewährleistet langfristig unsere Lebensqualität sowie die wirtschaftliche Entwicklung in Bernried.\" Achatz appellierte zudem an die Bürgerinnen und Bürger, nicht zu warten und einen Anschluss zu beauftragen, da ein Glasfaseranschluss auch den Wert einer Immobilie steigere.Wer bislang noch keine Zustimmung für den Hausanschluss erteilt hat, kann dies noch nachholen. Carmen Wiedemann, Kommunalberaterin der Telekom, weist ausdrücklich darauf hin: „Wer seine Zustimmung für den Hausanschluss seiner Immobilie bisher nicht gegeben hat, kann das jetzt nachholen. Sonst kommt die Glasfaser nicht ins Haus, sondern führt lediglich daran vorbei.\" Interessierte können sich unter www.telekom.de/glasfaser über einen kostenfreien Hausanschluss informieren und diesen beauftragen.Die Relevanz eines leistungsfähigen Glasfasernetzes zeigt sich auch im Alltag: Durchschnittlich verfügt jeder Haushalt heute über mehr als zehn internetfähige Geräte. Neben Smartphones, Tablets und Smart-TVs zählen dazu zunehmend auch Saugroboter, Wechselrichter von Solaranlagen und Alarmanlagen. Auch für Betriebe bietet der Glasfaseranschluss die Möglichkeit, auf die stetig wachsenden digitalen Anforderungen flexibel zu reagieren.Gemeinde Bernried und Telekom arbeiten beim Ausbau eng zusammen. Um die Beeinträchtigungen für Anwohnerinnen und Anwohner so gering wie möglich zu halten, wird der Ausbau in einzelnen Bauabschnitten durchgeführt. Transparenz und professionelles Baustellenmanagement stehen dabei laut Telekom an oberster Stelle."
+      }
+    },
+    {
+      "sequence_index": 6,
+      "csv_row_number": 13,
+      "content_id": "29-136960235",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-136960235",
+        "Schreibzeit für Artikeltext": "10",
+        "Schreibzeit für weitere Felder": "",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Schöllnach. Die Theatergruppe der Realschule Schöllnach hat in der gut besuchten Turnhalle der Schule das Stück „Erzähl doch keine Märchen“ von Sina Adler aufgeführt und dabei mit Witz, Tempo und sichtbarer Spielfreude das Publikum begeistert. Die Inszenierung unter der Leitung von Ramona Schwarzhuber stellte bekannte Märchenfiguren in völlig neuem Licht dar und bot dem Publikum einen Abend voller überraschender Wendungen.Im Mittelpunkt der Geschichte steht Chris, gespielt von Mia Roider (Klasse 10c), deren Versetzung gefährdet ist und die deshalb von ihrer Mutter mit Hausarrest belegt wird. Statt auf eine Party zu gehen und dort ihren Schwarm Julian zu beeindrucken, muss sie ihrer kleinen Schwester Steffi, dargestellt von Valeria Egorov (8a), vorlesen. Wütend auf ihre Mutter, ihren Lehrer und auf Jasmin, ihre vermeintliche Rivalin um Julians Zuneigung, liest Chris eher frei aus dem Märchenbuch vor und schleust damit unversehens genau diese Personen in die Märchenwelt hinein.So stolpern der allwissende Lehrer Müller-Schröder, gespielt von Tim Schlager (10a), die vegane Jasmin, dargestellt von Sophia Sperlich (10c), sowie der stets hungrige Julian, gespielt von Tobias Pompl (10a), gemeinsam mit Chris’ Mutter in die Märchenwelt. Auf der Suche nach einem Ausweg wirbeln sie die Märchenwelt und ihre Bewohner gehörig durcheinander.Dabei verwischen sie versehentlich die Leberwurstbrotspur von Hänsel, gespielt von Fabian Kais (8a), und Gretel, dargestellt von Eva Zitzelsberger (8c), die sich daraufhin streiten, wer an der Misere schuld ist. Am Knusperhäuschen bringen die unerwarteten Besucher die Hexe, gespielt von Hannah Roider (8c), völlig aus dem Konzept.Der Froschkönig, dargestellt von Adrian Oswald (9c), findet bei der Prinzessin, gespielt von Emilia Freisinger (8a), und ihrem Vater, dem König, dargestellt von Dominik Himmelreich (7d), wenig Begeisterung. Die vier Besucher aus der Menschenwelt helfen der Prinzessin schließlich, dem rauchenden Frosch per SMS den Laufpass zu geben.Bei Schneewittchen, gespielt von Magdalena Gammel (8c), soll mithilfe des Spiegels, dargestellt von Stella Schade (9a), endlich ein Ausweg aus der Märchenwelt gefunden werden. Doch der Spiegel ist gerade mit der bösen Stiefmutter, gespielt von Johanna Zeintl (8c), beschäftigt, und seine besänftigenden Ausflüchte sorgten im Publikum für laute Lacher.Auch Rotkäppchen, dargestellt von Kira Schwarz (8e), mischt sich ein: Frustriert über ihr Leben und ihren Freund, den Wolf, gespielt von Felix Wiesenberg (5b), ertränkt sie ihren Kummer im Rotwein der Großmutter. Aschenputtels Schwester, gespielt von Tamara Obermüller (8d), animiert Julian mit ihren Influencer-Aktivitäten dazu, laut nach Hilfe zu rufen, woraufhin der gestiefelte Kater, dargestellt von Emilia Gombos (9a), erscheint und Julian als Besitzer des goldenen Schuhs identifiziert.Rumpelstilzchen, gespielt von Sofia Hies (8d), und die Müllerstochter, dargestellt von Vanessa Hermann (7d), schicken die vier schließlich kurzerhand wieder nach Hause. Den Weg zurück in die Realität finden Chris und ihre unfreiwilligen Märchenreisenden, als sie in Dornröschens Spindel fassen und in einen tiefen Schlaf fallen, aus dem sie direkt in die Wirklichkeit erwachen.In der Pause sorgten die Schulband unter der Leitung von Martin Candussio sowie eine Hip-Hop-Gruppe unter der Leitung von Selina Blach (10e) und Mira Fixl (9c) für musikalische und tänzerische Unterhaltung. Für das leibliche Wohl sorgten die SMV, das Schülercafé unter der Leitung von Sandra Denk-Uhrmann und Daniel Schröder sowie das Fair-Trade-Team unter Leitung von Michaela Bredl.Das Technikteam unter der Leitung von Georg Wötzel, dem Bastian Wenzel, Fabian Huber, Darian Biallas, Libor Muransky, Felix Duschl, Lena Müller und Teresa Grandner angehörten, sorgte mit reibungsloser Licht- und Tontechnik für einen professionellen Rahmen. Theaterleiterin Ramona Schwarzhuber gelang es einmal mehr, aus einer großen und vielfältigen Schülergruppe ein harmonisches Ensemble zu formen und ein turbulentes, modernes Märchenabenteuer auf die Bühne zu bringen. − dz"
+      },
+      "ai_generated": {
+        "text": "Die Theatergruppe der Realschule Schöllnach hat in der gut besuchten Turnhalle der Schule das Stück \"Erzähl doch keine Märchen\" von Sina Adler aufgeführt und dabei mit Witz, Tempo und sichtbarer Spielfreude das Publikum begeistert. Die Inszenierung unter der Leitung von Ramona Schwarzhuber stellte bekannte Märchenfiguren in völlig neuem Licht dar und bot dem Publikum einen Abend voller überraschender Wendungen.Im Mittelpunkt der Geschichte steht Chris, gespielt von Mia Roider (Klasse 10c), deren Versetzung gefährdet ist und die deshalb von ihrer Mutter mit Hausarrest belegt wird. Statt auf eine Party zu gehen und dort ihren Schwarm Julian zu beeindrucken, muss sie ihrer kleinen Schwester Steffi, dargestellt von Valeria Egorov (8a), vorlesen. Wütend auf ihre Mutter, ihren Lehrer und auf Jasmin, ihre vermeintliche Rivalin um Julians Zuneigung, liest Chris eher frei aus dem Märchenbuch vor und schleust damit unversehens genau diese Personen in die Märchenwelt hinein.So stolpern der allwissende Lehrer Müller-Schröder, gespielt von Tim Schlager (10a), die vegane Jasmin, dargestellt von Sophia Sperlich (10c), sowie der stets hungrige Julian, gespielt von Tobias Pompl (10a), gemeinsam mit Chris Mutter in die Märchenwelt. Auf der Suche nach einem Ausweg wirbeln sie die Märchenwelt und ihre Bewohner gehörig durcheinander.Dabei verwischen sie versehentlich die Leberwurstbrotspur von Hänsel, gespielt von Fabian Kais (8a), und Gretel, dargestellt von Eva Zitzelsberger (8c), die sich daraufhin streiten, wer an der Misere schuld ist. Am Knusperhäuschen bringen die unerwarteten Besucher die Hexe, gespielt von Hannah Roider (8c), völlig aus dem Konzept.Der Froschkönig, dargestellt von Adrian Oswald (9c), findet bei der Prinzessin, gespielt von Emilia Freisinger (8a), und ihrem Vater, dem König, dargestellt von Dominik Himmelreich (7d), wenig Begeisterung. Die vier Besucher aus der Menschenwelt helfen der Prinzessin schließlich, dem rauchenden Frosch per SMS den Laufpass zu geben.Bei Schneewittchen, gespielt von Magdalena Gammel (8c), soll mithilfe des Spiegels, dargestellt von Stella Schade (9a), endlich ein Ausweg aus der Märchenwelt gefunden werden. Doch der Spiegel ist gerade mit der bösen Stiefmutter, gespielt von Johanna Zeintl (8c), beschäftigt, und seine besänftigenden Ausflüchte sorgten im Publikum für laute Lacher.Auch Rotkäppchen, dargestellt von Kira Schwarz (8e), mischt sich ein: Frustriert über ihr Leben und ihren Freund, den Wolf, gespielt von Felix Wiesenberg (5b), ertränkt sie ihren Kummer im Rotwein der Großmutter. Aschenputtels Schwester, gespielt von Tamara Obermüller (8d), animiert Julian mit ihren Influencer-Aktivitäten dazu, laut nach Hilfe zu rufen, woraufhin der gestiefelte Kater, dargestellt von Emilia Gombos (9a), erscheint und Julian als Besitzer des goldenen Schuhs identifiziert.Rumpelstilzchen, gespielt von Sofia Hies (8d), und die Müllerstochter, dargestellt von Vanessa Hermann (7d), schicken die vier schließlich kurzerhand wieder nach Hause. Den Weg zurück in die Realität finden Chris und ihre unfreiwilligen Märchenreisenden, als sie in Dornröschens Spindel fassen und in einen tiefen Schlaf fallen, aus dem sie direkt in die Wirklichkeit erwachen.In der Pause sorgten die Schulband unter der Leitung von Martin Candussio sowie eine Hip-Hop-Gruppe unter der Leitung von Selina Blach (10e) und Mira Fixl (9c) für musikalische und tänzerische Unterhaltung. Für das leibliche Wohl sorgten die SMV, das Schülercafé unter der Leitung von Sandra Denk-Uhrmann und Daniel Schröder sowie das Fair-Trade-Team unter Leitung von Michaela Bredl.Das Technikteam unter der Leitung von Georg Wötzel, dem Bastian Wenzel, Fabian Huber, Darian Biallas, Libor Muransky, Felix Duschl, Lena Müller und Teresa Grandner angehörten, sorgte mit reibungsloser Licht- und Tontechnik für einen professionellen Rahmen. Theaterleiterin Ramona Schwarzhuber gelang es einmal mehr, aus einer großen und vielfältigen Schülergruppe ein harmonisches Ensemble zu formen und ein turbulentes, modernes Märchenabenteuer auf die Bühne zu bringen."
+      }
+    },
+    {
+      "sequence_index": 7,
+      "csv_row_number": 14,
+      "content_id": "29-137227452",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-137227452",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Deggendorf. Die Sparda-Bank Ostbayern eG hat diese Woche ihre Geschäftszahlen für das Jahr 2025 vorgestellt. Die Vorstandsvorsitzender Michael Gruber, sein Stellvertreter Werner Dollinger sowie Vorstand Dietmar Breu präsentierten Bilanz und Vertriebsergebnisse des abgelaufenen Geschäftsjahres. Das Fazit des Vorstands fiel dabei positiv aus: 2025 sei erneut ein zufriedenstellendes Geschäftsjahr für die Genossenschaftsbank gewesen.Besonders das Baufinanzierungsgeschäft entwickelte sich laut einer Pressemitteilung der Bank erfreulich. Mit neu vergebenen Krediten in Höhe von 209,7 Millionen Euro wurde der Vorjahreswert von 136,0 Millionen Euro deutlich übertroffen, was einem erheblichen Zuwachs entspricht.Die Kundeneinlagen stiegen den Angaben zufolge leicht um 0,4 Prozent auf 2820,3 Millionen Euro, das Kreditvolumen legte um 0,3 Prozent auf 1772,7 Millionen Euro zu. Die Bilanzsumme verringerte sich zum 31. Dezember 2025 geringfügig um 0,6 Prozent und belief sich auf 3202,4 Millionen Euro.Die Eigenkapitalausstattung der Bank wurde aufgrund der soliden Ertragslage erneut gestärkt. Der Jahresüberschuss für 2025 belief sich auf 2,106 Millionen Euro, nach 2,062 Millionen Euro im Vorjahr.Auch im Fondsgeschäft verzeichnete die Sparda-Bank Ostbayern ein deutliches Wachstum. Kundinnen und Kunden schlossen im vergangenen Jahr 2112 neue Fondssparpläne ab, verglichen mit 1472 im Jahr 2024. Als Einmalanlage flossen 72,7 Millionen Euro in Fonds, nach 51,8 Millionen Euro im Vorjahr. Der betreute Fondsbestand wuchs, begünstigt auch durch eine freundliche Marktentwicklung, auf 845,9 Millionen Euro, gegenüber 808,5 Millionen Euro im Jahr zuvor.Für den Standort Deggendorf unter der Leitung von Thomas Gegenfurtner meldet die Bank besonders positive Ergebnisse. Die Einlagen stiegen dort um 1,8 Prozent auf 165,0 Millionen Euro, während die Neukreditvergabe mit 14,4 Millionen Euro ein Plus von 60,2 Prozent im Vergleich zum Vorjahr verzeichnete. Das betreute Fondsvolumen in Deggendorf legte um 5,2 Prozent auf 37,0 Millionen Euro zu.Neben den wirtschaftlichen Kennzahlen betont die Sparda-Bank Ostbayern in ihrer Mitteilung auch ihr gesellschaftliches Engagement. Dieses wird über den Gewinnsparverein der Sparda-Bank Ostbayern finanziert und genieße auch im Jahr 2026 hohe Priorität. Unter anderem werde erneut der Ostbayerische Feuerwehrpreis ausgeschrieben. − dz"
+      },
+      "ai_generated": {
+        "text": "Sparda-Bank Ostbayern eG blickt auf zufriedenstellendes Geschäftsjahr 2025 zurückDie Sparda-Bank Ostbayern eG hat am Dienstag ihre Geschäftszahlen für das Jahr 2025 vorgestellt. Wie aus einer Pressemitteilung des Regensburger Kreditinstituts hervorgeht, präsentierten Vorstandsvorsitzender Michael Gruber, sein Stellvertreter Werner Dollinger sowie Vorstand Dietmar Breu Bilanz und Vertriebsergebnisse des abgelaufenen Geschäftsjahres. Das Fazit des Vorstands fiel dabei positiv aus: 2025 sei erneut ein zufriedenstellendes Geschäftsjahr für die Genossenschaftsbank gewesen.Besonders das Baufinanzierungsgeschäft entwickelte sich laut Pressemitteilung erfreulich. Mit neu vergebenen Krediten in Höhe von 209,7 Millionen Euro wurde der Vorjahreswert von 136,0 Millionen Euro deutlich übertroffen, was einem erheblichen Zuwachs entspricht.Die Kundeneinlagen stiegen leicht um 0,4 Prozent auf 2.820,3 Millionen Euro, das Kreditvolumen legte um 0,3 Prozent auf 1.772,7 Millionen Euro zu. Die Bilanzsumme verringerte sich zum 31. Dezember 2025 geringfügig um 0,6 Prozent und belief sich auf 3.202,4 Millionen Euro.Die Eigenkapitalausstattung der Bank wurde aufgrund der soliden Ertragslage erneut gestärkt. Der Jahresüberschuss für 2025 belief sich auf 2,106 Millionen Euro, nach 2,062 Millionen Euro im Vorjahr.Auch im Fondsgeschäft verzeichnete die Sparda-Bank Ostbayern ein deutliches Wachstum. Kundinnen und Kunden schlossen im vergangenen Jahr 2.112 neue Fondssparpläne ab, verglichen mit 1.472 im Jahr 2024. Als Einmalanlage flossen 72,7 Millionen Euro in Fonds, nach 51,8 Millionen Euro im Vorjahr. Der betreute Fondsbestand wuchs, begünstigt auch durch eine freundliche Marktentwicklung, auf 845,9 Millionen Euro, gegenüber 808,5 Millionen Euro im Jahr zuvor.Für den Standort Deggendorf unter der Leitung von Thomas Gegenfurtner meldet die Bank besonders positive Ergebnisse. Die Einlagen stiegen dort um 1,8 Prozent auf 165,0 Millionen Euro, während die Neukreditvergabe mit 14,4 Millionen Euro ein Plus von 60,2 Prozent im Vergleich zum Vorjahr verzeichnete. Das betreute Fondsvolumen in Deggendorf legte um 5,2 Prozent auf 37,0 Millionen Euro zu.Neben den wirtschaftlichen Kennzahlen betont die Sparda-Bank Ostbayern in ihrer Mitteilung auch ihr gesellschaftliches Engagement. Dieses wird über den Gewinnsparverein der Sparda-Bank Ostbayern e.V. finanziert und genieße auch im Jahr 2026 hohe Priorität. Unter anderem werde erneut der Ostbayerische Feuerwehrpreis ausgeschrieben."
+      }
+    },
+    {
+      "sequence_index": 8,
+      "csv_row_number": 15,
+      "content_id": "29-137231048",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-137231048",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Deggendorf/Straubing. Der Kreisverband Niederbayern-Mitte der Partei Die Linke hat eine neue Führungsspitze gewählt. An der Doppelspitze steht künftig neben dem im Amt bestätigten Maximilian Spielbauer die künftige Deggendorfer Kreisrätin Melanie Falkowski, die bei der jüngsten Kommunalwahl als Landratskandidatin im Landkreis Deggendorf angetreten war.Wie die Partei in einer Pressemitteilung berichtet, wählten die Mitglieder bei ihrer Versammlung zudem Yvonne Kirmess-Dorfmeister zur Schriftführerin. Sie wird künftig dem Deggendorfer Stadtrat angehören. Damit sind zwei Deggendorfer Kommunalpolitikerinnen in dem Vorstand vertreten, dessen Zuständigkeitsgebiet neben dem Landkreis Deggendorf auch die Landkreise Regen und Straubing-Bogen sowie die Stadt Straubing umfasst.Unterstützt wird das Führungsduo von den stellvertretenden Kreisvorsitzenden Tanja Schmidt und Sara Zwack sowie dem Schatzmeister Tobias Bachmeier. Als Beisitzer wählten die Anwesenden Jutta Heibel, Rebekka Holland, Kevin Keller, Johannes Spielbauer und Franz Xaver Thurl in das Gremium. Die Positionen der jugendpolitischen Sprecher übernehmen Chrissy H. und Dustin K. Die Partei hat in ihrer Pressemitteilung darauf verzichtet, ihre Nachnamen zu nennen.Neben den Neuwahlen standen organisatorische Änderungen auf der Tagesordnung. Den Angaben zufolge beschlossen die Mitglieder eine überarbeitete Satzung sowie eine neue Geschäftsordnung für den Kreisverband. Ein Schwerpunkt der künftigen Arbeit solle darauf liegen, die Zusammenarbeit zwischen dem Kreisverband und den im vergangenen Jahr gegründeten Ortsverbänden zu verbessern, heißt es.Darüber hinaus habe man die Grundlagen für die künftige Arbeit in den kommunalen Gremien diskutiert. Die Linke wolle nun vor Ort Fraktions- und Ausschussgemeinschaften bilden. Ziel sei es laut dem neu gewählten Vorstand, die Mandate wirksam einzubringen und die Interessen der Bürger in den Stadträten und Kreistagen zu vertreten. − dz"
+      },
+      "ai_generated": {
+        "text": "DIE LINKE wählt neuen Kreisvorstand in Niederbayern-MitteDer Kreisverband Niederbayern-Mitte von DIE LINKE hat bei einer gut besuchten Kreismitgliederversammlung einen neuen Vorstand gewählt und damit die Weichen für die künftige politische Arbeit in der Region gestellt. Neben den Landkreisen Straubing-Bogen, Deggendorf und Regen gehört auch die kreisfreie Stadt Straubing zum Verbandsgebiet. Wie aus einer Pressemitteilung des Kreisverbandes hervorgeht, standen neben den Neuwahlen auch strukturelle und inhaltliche Themen auf der Tagesordnung.Die Versammlungsleitung übernahmen Maximilian Spielbauer und Johannes Spielbauer. Beschlossen wurden unter anderem eine überarbeitete Satzung des Kreisverbandes sowie eine Geschäftsordnung für die Kreismitgliederversammlung.Als neue Kreisvorsitzende wurden Melanie Falkowski und Maximilian Spielbauer gewählt, wobei Spielbauer in dieser Funktion wiedergewählt wurde. Falkowski ist für den Landkreis Deggendorf keine Unbekannte: Sie trat bei der vergangenen Kommunalwahl als Landratskandidatin an und wird künftig dem Deggendorfer Kreistag angehören.Dem Vorstand gehören als stellvertretende Kreisvorsitzende Tanja Schmidt und Sara Zwack an. Als Schatzmeister fungiert Tobias Bachmeier, als Schriftführerin Yvonne Kirmess-Dorfmeister, die bei der Kommunalwahl in den Deggendorfer Stadtrat gewählt wurde.Als jugendpolitische Sprecherinnen und Sprecher wurden Chrissy H. und Dustin K. benannt. Der Kreisverband nennt in seiner Pressemitteilung bewusst nur die Vornamen der beiden.Zu den Beisitzerinnen und Beisitzern zählen Jutta Heibel, Rebekka Holland, Kevin Keller, Johannes Spielbauer und Franz Xaver Thurl.Laut Pressemitteilung blickt der Kreisverband auf eine insgesamt erfolgreiche Kommunalwahl zurück. Ein Schwerpunkt der Versammlung lag demnach auf der Bildung von Fraktions- und Ausschussgemeinschaften in den kommunalen Gremien, um die neu gewonnenen Mandate wirksam einzubringen und soziale Politik vor Ort zu gestalten.Der neu gewählte Vorstand sieht seine zentrale Aufgabe darin, die politische Arbeit in der Region weiter zu stärken und die aufgebauten Strukturen nachhaltig zu festigen. Ausdrücklich gedankt wurde den scheidenden Vorstandsmitgliedern Rebecca Pummer, Leonie Graf, Manuela Spielbauer, Verena Ostermeier und Robert Baranovski für ihr Engagement im Kommunalwahlkampf."
+      }
+    },
+    {
+      "sequence_index": 9,
+      "csv_row_number": 16,
+      "content_id": "29-137105369",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "text"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "29-137105369",
+        "Schreibzeit für Artikeltext": "5",
+        "Schreibzeit für weitere Felder": "",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "PM (Pressemitteilung)",
+        "Komplexität des Artikels (1-5)": "3",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "AT",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "text": "Deggendorf. Wie Eltern von Kindern mit Behinderung für die Zukunft ihrer Angehörigen rechtlich vorsorgen können, stand im Mittelpunkt des dritten Fachabends für Teilhabeleistungen im Deggendorfer Landratsamt. Zu der Veranstaltung im Sitzungssaal kamen rund 70 Zuhörer, um sich über juristische und praktische Möglichkeiten zu informieren.Laut einer Pressemitteilung des Landratsamts Deggendorf widmete sich die Veranstaltung zwei zentralen Themen: der Vorsorgevollmacht und dem sogenannten Behindertentestament. Organisiert wurde der Abend von Tobias Zitzelsberger und Diana Jäger, die mit dem Format gezielt Eltern ansprechen wollen, die sich fragen, wie es mit ihrem Kind nach ihrem Tod weitergehen soll.Landrat Bernd Sibler begrüßte die Gäste und eröffnete den Abend mit einem persönlichen Gedanken: Sorge und somit Vorsorge um die eigenen Kinder gehören im Leben einfach dazu, so der Landrat.Den Einstieg in die Fachthemen übernahm Simone von der Sitt, Diplom-Pädagogin beim Betreuungsverein, mit einem Überblick zur Vorsorgevollmacht. Sie erläuterte Aufbau und Inhalt des Dokuments und betonte, dass alle Aufgabenbereiche darin präzise benannt werden müssen. Damit die Vollmacht rechtsverbindlich wird, muss sie schriftlich mit Ort, Datum und Unterschrift ausgestellt sein.Von der Sitt wies zudem darauf hin, dass auch mehrere Bevollmächtigte eingesetzt werden können und dass die gesamte Regelung auf dem Vertrauen gegenüber der bevollmächtigten Person beruht. Das fertige Dokument sollte an einem bekannten Ort oder bei der Bundesnotarkammer hinterlegt werden. Als praktische Vorlagen empfahl die Referentin die Broschüre Vorsorge für Unfall, Krankheit, Verlag C.H.Beck sowie die Notfallmappe des Landkreises Deggendorf.Im zweiten Teil des Abends sprach Alban Westenberger, Fachanwalt für Sozialrecht, über das Behindertentestament. Er erklärte, dass es bei dieser Testamentsform darum geht, das Kind mit Behinderung langfristig abzusichern und erworbene Lebensstandards bestmöglich zu erhalten. Westenberger führte juristische Grundbegriffe wie Vorerbe, Nacherbe und Vollerbe ein und veranschaulichte anhand konkreter Fallkonstellationen, welche Stolpersteine bei der Abfassung eines solchen Testaments zu vermeiden sind. Darüber hinaus gab der Fachanwalt Einblicke in den Einsatz von Einkommen und Vermögen, der je nach Kostenträger unterschiedlich geregelt ist. So dürfen Leistungsempfänger der Eingliederungshilfe in diesem Zusammenhang mehr Schonvermögen behalten als Empfänger von Sozialhilfe. − dz"
+      },
+      "ai_generated": {
+        "text": "Wenn Eltern nicht mehr da sind: Fachabend im Landkreis Deggendorf informiert über Vorsorge für Kinder mit BehinderungRund 70 Teilnehmer kamen zum dritten Fachabend für Teilhabeleistungen im Landratsamt Deggendorf zusammen, um sich über rechtliche und finanzielle Vorsorgemöglichkeiten für Kinder mit Behinderung zu informieren. Die Veranstaltung, die im Rahmen des Sommers der Gemeinsamkeiten stattfand, widmete sich zwei zentralen Themen: der Vorsorgevollmacht und dem sogenannten Behindertentestament. Organisiert wurde der Abend von Tobias Zitzelsberger und Diana Jäger, die mit dem Format gezielt Eltern ansprechen wollen, die sich fragen, wie es mit ihrem Kind nach ihrem Tod weitergehen soll.Landrat Bernd Sibler begrüßte die Gäste im Sitzungssaal des Landratsamtes und eröffnete den Abend mit einem persönlichen Gedanken: Sorge und somit Vorsorge um die eigenen Kinder gehören im Leben einfach dazu, so der Landrat.Den Einstieg in die Fachthemen übernahm Simone von der Sitt, Diplom-Pädagogin beim Betreuungsverein, mit einem Überblick zur Vorsorgevollmacht. Sie erläuterte Aufbau und Inhalt des Dokuments und betonte, dass alle Aufgabenbereiche darin präzise benannt werden müssen. Damit die Vollmacht rechtsverbindlich wird, muss sie schriftlich mit Ort, Datum und Unterschrift ausgestellt sein.Von der Sitt wies zudem darauf hin, dass auch mehrere Bevollmächtigte eingesetzt werden können und dass die gesamte Regelung auf dem Vertrauen gegenüber der bevollmächtigten Person beruht. Das fertige Dokument sollte an einem bekannten Ort oder bei der Bundesnotarkammer hinterlegt werden. Als praktische Vorlagen empfahl die Referentin die Broschüre Vorsorge für Unfall, Krankheit, Alter des Verlags C.H.Beck sowie die Notfallmappe des Landkreises Deggendorf.Im zweiten Teil des Abends sprach Alban Westenberger, Fachanwalt für Sozialrecht, über das Behindertentestament. Er erklärte, dass es bei dieser Testamentsform darum geht, das Kind mit Behinderung langfristig abzusichern und erworbene Lebensstandards bestmöglich zu erhalten. Westenberger führte juristische Grundbegriffe wie Vorerbe, Nacherbe und Vollerbe ein und veranschaulichte anhand konkreter Fallkonstellationen, welche Stolpersteine bei der Abfassung eines solchen Testaments zu vermeiden sind.Darüber hinaus gab der Fachanwalt Einblicke in den Einsatz von Einkommen und Vermögen, der je nach Kostenträger unterschiedlich geregelt ist. So dürfen Leistungsempfänger der Eingliederungshilfe in diesem Zusammenhang mehr Schonvermögen behalten als Empfänger von Sozialhilfe.Gegen Ende der Veranstaltung nutzten die Teilnehmer ausgiebig die Möglichkeit, den Referenten und den Organisatoren Fragen zu stellen. Die rege Beteiligung zeigte, wie drängend das Thema für viele betroffene Familien ist."
+      }
+    },
+    {
+      "sequence_index": 12,
+      "csv_row_number": 19,
+      "content_id": "20950201",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "roofline",
+        "headline",
+        "subheadings"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20950201",
+        "Schreibzeit für Artikeltext": "0",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "Mitarbeitertext (Print nach Online)",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "4",
+        "Verwendete Felder": "DZ,TT,PZ,ZÜ",
+        "Zufriedenheit mit KI-Tool (1-5)": "4",
+        "Kommentar": ""
+      },
+      "cms_article": {
+        "roofline": "Mentalmagie in Deggendorf",
+        "headline": "Gedankenleser Thorsten Havener verblüfft Publikum mit unerklärlichen Tricks"
+      },
+      "ai_generated": {
+        "roofline": "Mentalmagie in Deggendorf",
+        "headline": "Gedankenleser Havener verblüfft Deggendorfer Publikum mit unerklärlichen Tricks",
+        "subheadings": "Kopfsache: Verblüffung garantiertDonnernder Empfang für GedankenleserHochzeitstag per Gedankenlesen enthülltTraumberufe auf den Kopf getroffenStammgast rätselt über Haveners GeheimnisQ-Experiment enthüllt PersönlichkeitenFuß und Hand im WiderspruchUnterbewusstsein täuscht die SinneSpieluhr krönt magischen Abend"
+      }
+    },
+    {
+      "sequence_index": 13,
+      "csv_row_number": 20,
+      "content_id": "20978356",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "roofline",
+        "headline",
+        "subheadings"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "20978356",
+        "Schreibzeit für Artikeltext": "0",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "Text von Print nach Online",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "2",
+        "Verwendete Felder": "DZ,TT,PZ,ZÜ",
+        "Zufriedenheit mit KI-Tool (1-5)": "2",
+        "Kommentar": "Textvorschläge nicht (bzw. Teaser sehr abgewandelt) verwendet"
+      },
+      "cms_article": {
+        "roofline": "Neuer Deggendorfer Stadtrat",
+        "headline": "Wahl der OB-Stellvertreter: Hat die CSU Chancen auf beide Bürgermeisterposten?"
+      },
+      "ai_generated": {
+        "roofline": "Kommunalpolitik Deggendorf",
+        "headline": "CSU Deggendorf sichert sich wohl beide Bürgermeisterposten"
+      }
+    },
+    {
+      "sequence_index": 14,
+      "csv_row_number": 21,
+      "content_id": "21002962",
+      "participant_username": "P19",
+      "match_status": "matched",
+      "used_db_fields": [
+        "roofline",
+        "headline",
+        "subheadings"
+      ],
+      "csv": {
+        "CREATE-ID ( / NGEN-ID)": "21002962",
+        "Schreibzeit für Artikeltext": "0",
+        "Schreibzeit für weitere Felder": "5",
+        "Genauigkeit der Schreibzeit": "I",
+        "Recheche": "eigenes Interview nach Online",
+        "Komplexität des Artikels (1-5)": "4",
+        "Qualitative Artikeleinschätzung (1-5)": "2",
+        "Verwendete Felder": "DZ,TT,PZ,ZÜ",
+        "Zufriedenheit mit KI-Tool (1-5)": "2",
+        "Kommentar": "Nur Teaser sehr stark abgewandelt übernommen"
+      },
+      "cms_article": {
+        "roofline": "Bernhard Weeber von den „Bergratzn“",
+        "headline": "Fünf Stunden Vollgas: Ein Musiker erklärt den Reiz der Bierzelt-Auftritte"
+      },
+      "ai_generated": {
+        "roofline": "Musik und Beruf",
+        "headline": "Stadtbeamter Weeber rockt seit 25 Jahren die Bierzelte Ostbayerns"
+      }
+    }
+  ]
+}

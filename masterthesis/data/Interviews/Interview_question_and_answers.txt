@@ -1,0 +1,127 @@
+Block Working with the Tool:
+1. Welche Aspekte des Tools wurden verwedet? (Wie wurde es verwendet? wurde generiert und drübergeschaut oder editiert)
+
+P17: Ich habe sowohl die Funktion genutzt, anhand von Stichworten.
+Also nochmal, ich habe sowohl die Funktion genutzt, anhand von Stichworten, Stichpunkten, einen Text zu generieren, als auch also bereits bestehende Texte einzukürzen. Das waren so die 2 Hauptpunkte, die ich hatte und ich habe dann eben zum Teil
+Auch so etwas wie Überschriften generieren oder Dachzeilen generieren und so weiter habe ich auch hergenommen.
+
+P19:Was ich glaube, ich habe glaube ich schon relativ viel verwendet, was ich, weil du das Stichwort "kürzen" gesagt hast, was ich nicht gemacht habe, ist "kürzen", weil es kürzen irgendwie so ein.
+ja, von der unser, von unserer Logik her, genau andersrum war. Also ich, ich hätte also eher, wir waren das genau beim, ich hab es, ich hab es, das ist jetzt schon relativ lang her, dass ich das Kürzen mal hergenommen gehabt hab,
+
+P20:Das Generieren von Text hab ich versucht, da ist aber das Problem tatsächlich, das kommt in meiner Realität nicht vor. Also ich schreib mir 10 Sätze auf und sag dann jetzt generiere mir einen Text dazu. Das hätte fär mich auch so nicht funktioniert, tatsächlich. Also sprich, das ist bis auf den ersten Eindruck zwar das stärkste Tool, ist fär mich aber am wenigsten zu gebrauchen.
+
+
+
+
+2.Wie angenehm war das Arbeiten mit dem Tool? (prototy aspekt ausblenden)
+
+P17: Also, ich fand das vor allem für so Sachen, wenn ich Stichpunkte mir mit notiert hab aus einem Gespräch und er daraus ein einen Text generieren sollte. Das hab ich dann schon sehr gerne verwendet, weil das schon ziemlich gut funktioniert hat. und man dann relativ schnell dann eben einen ausgeschriebenen Text hatte. Ich bin ja so ein Typ, allerdings bei, wenn ich jetzt schon einen eine Pressemitteilung zum Beispiel habe und daraus dann einen Artikel mach, hab ich oft das Gefühl, dass wenn ich das jetzt erst in die K.I. pack, und dann das Ergebnis noch mal kontrollieren muss mit der Original-Pressemitteilung. Das fühl ich mich irgendwie unproduktiver, als wenn ich den die Pressemitteilung schnell selber umformuliere. Da war es dann natürlich schon ein bisschen nervig, aber an sich war das auch in Ordnung.
+
+P19: Na ja, es hat eigentlich alles funktioniert.
+
+P20: Ja, Workflow. Ah, also das ist, ich glaube so wie Sie das gebaut haben, ist es genau das, was man braucht. Ich glaube, wir müssen das integrieren in Create, also in unser System, so dass das automatisiert da drin ist und dann ist es sozusagen etwas, was hervorragend funktioniert. Also die Nutzbarkeit war sehr gut. Mir hat das Tool sehr gut gefallen. Es ist einfach konzipiert, aber es ist schlüssig. Also man versteht leicht, wie es funktioniert oder was man alles benutzen kann. Fand ich sehr, sehr gut. Ich würde jetzt aber auch genau davor warnen, wenn man es in unser System integriert. Also, so der Aspekt, so nach dem Motto, man lässt sich da einen Artikel schreiben, man muss glaube ich Journalisten auch ein bisschen davor abhalten von den Möglichkeiten, die es gibt. Aber das jetzt bitte nur am Rande, ja.
+
+
+
+3. War etwas besonders gut? Etwas besonders schlecht?
+
+P17: Also, wie gesagt, das Artikel generieren von Stichpunkten hat mir mit am besten gefallen, weil es einfach schon sehr gut funktioniert hat, fand ich. Und er hat auch schon, also das Tool, ich sag ja, das Tool hat auch schon Ja, insgesamt sprachlich hat das auch sehr gut funktioniert. Also, dass es dann relativ natürlich geklungen hat und natürlich mit ein paar Ausnahmen. Was, wie ich finde, weniger gut in meinen Fällen funktioniert hatte, war jetzt so etwas wie Überschriften generieren. Weil ich dann doch sehr unzufrieden war mit den Überschriftsvorschlägen. Aber es lag natürlich auch vielleicht daran, dass ich keine, ich hab keine Anpassungen im Tool selber hergenommen. Also hat sich einfach bei mir zeitlich dann auch nicht ergeben, mich näher damit zu befassen, dass ich das noch irgendwie nachprompte. Ich fand halt schade, dass dass man halt wirklich nur diesen einen Vorschlag dann hatte und er dann auch bei mehrmaligen Reihen, also wenn man das mehrmals irgendwie angestoßen hat, dass er dann immer das Gleiche ausgespuckt hat. Also, dass er dann nicht irgendwie mehrere Überschriftenvorschläge gemacht hat, sondern wirklich immer nur den einen.
+
+P19: Also, ich finde, die Texte waren gut, die waren also das, das hat hingehaut, der Artikeltext selber.
+Bei der Überschrift oder überhaupt bei den bei der Möglichkeiten, Überschriften zu generieren.
+Ist so, also ich hab bei sowohl wenn ich irgendwie bei gepromptet hab, also in so einer normalen Chat Oberfläche, also jetzt so bei meine Standard prompt. Ich hab immer 5 nach Kriterien zur Auswahl und ich Ja, es ist so ähnlich, beziehungsweise du musst ja irgendwie, wenn es einfach nur prompt, also du musst ja irgendwie schon wissen, in welche Richtung du möchtest, wenn es dann noch prompt und dann hast es ja eigentlich schon da, also jetzt speziell bei Überschriften, bei einem längeren Text ist es ja was anderes.
+
+P20:
+Also, für mich ist das Tool Paywall Teaser im Prinzip das Stärkste. hat damit was zu tun, dass ich oftmals, dass das sozusagen der Unterschied zwischen unserem Printartikel und den Onlineartikeln ist. Inhaltlich sind es ja dieselben. Ja, also ich Übertrage sozusagen einen Printartikel in einen Onlineartikel. Hab dann aber das Problem, dass ich verschiedene Felder neu denken muss und der Payball Teaser ist der, der sozusagen vor der Bezahlschranke ist und der ist für mich sehr gut. Meine Erfahrung mit diesem Tool ist, wenn es ein sehr sachlicher Bericht ist, dann ist der Teaser. Also ich schreib zum Beispiel auch Kolumnen, die sehr meinungsorientiert sind. Ja, Meinungskolumnen, das kann er nicht so gut, weil er mit Ironie einfach nicht so gut umgehen kann. Wenn ich es jetzt mal personalisieren wollte auf die K. I., ja also sprich. Sachliche Zusammenfassungen, die auch ein bisschen einen Cliffhanger haben, der ist auch wichtig. Das funktioniert gut bei Berichten. Umso meinungslastiger das Ganze wird, umso schwieriger wird es. Aber trotzdem würde ich sagen, der Paywall Teaser war für mich der Beste. Den konnte ich am häufigsten tatsächlich verwenden.
+
+
+
+Wie viel Vertraun hattest du am Ende in die Ergebnisse, wie viel wurde überprüft?
+
+P17: bezüglich den Ergebnissen. Da hast du ja davor schon gesagt, man muss noch mal drüber schauen, wie war das Vertrauen. Dann kann man sagen, O. K., am Anfang skeptischer, am Ende besser oder durchgängig, O. K., man muss ja drüber schauen, er macht oft, oft dumme Fehler. Also, wo er dann irgendwelche Zusatzinfos noch mit reingepackt hat, die dann einfach auch nicht gestimmt hatten. Manchmal, das fand ich dann allerdings auch wieder gut, hat er auch allgemeine erklärende Sätze dann mit reingemacht.
+
+P19: Also immer so das Gefühl, du musst irgendwie das noch mal anschauen. Aber dass das Vertrauen in die in die Fakten, das muss ich sagen, ist bei mir eigentlich, sagen wir mal so, seit einem halben Jahr oder so schon. Seitdem ich mich ein bisschen intensiver damit befasst hab, wie man, wie man vernünftig promptet, um solche Sachen ein wenig in den Griff zu kriegen, bin ich jetzt keiner mehr, der so ganz extrem panisch ist. Also kommt immer darauf an, wofür man sie hernimmt, für das Verarbeiten von Pressemitteilungen oder so was da. Da habe ich auch keine großen Skrupel, die Texte dann so, wie sie ausgespuckt werden, zum Nimmer und zum Veröffentlichen. Wenn es jetzt ein ein Text ist zu einer eigenen Recherche, dann hat man einfach immer drüber geschaut.
+
+P20: Also, nachdem ja meine Vorlage immer der Artikel war, der schon geschrieben war, hab ich zwar natürlich noch mal überprüft und auch abgeändert, aber das Ergebnis war sehr, sehr gut. Also, er findet nichts dazu, wenn man ihm einen festen Text als Vorlage gibt und sagt bezieh dich darauf. Manchmal hab ich die, die die Stoßrichtung auch beim Paywall Teaser 'n bisschen verändert. Es lag dann aber daran, dass die Zusammenfassung einfach auf Aspekte eingegangen ist, die ich jetzt nicht so interessant fand.
+
+
+Block impact on work:
+
+5. Wie wirkte sich das Tool auf den Workflow aus, wurde dadurch etwas verändert?
+
+P17: Ja, hab ich das eigentlich dann halt umgesetzt, halt 1 zu 1 genauso, nur eben mit dem Unterschied, dass ich dann nicht immer alles selber umformuliert habe und nicht alles selber, genau den Text komplett selber geschrieben habe. Nur ich hab dann ja, ja also die, ich glaub die K.I. hat ja dann auch den Quelltext, die Quellstichpunkte genommen und hat daraus einen verständlichen Text formuliert. Also das war dann, glaub ich, ähnliche Arbeitsweise. Ich habe mir natürlich dann in meiner täglichen Arbeit dann den Zwischenschritt gehabt, dass ich die Ergebnisse der KI noch mal nachprüfen musste.
+
+P19: (Outside of my tool) die Beschlussvorlage einfach fotografiert und dann ins Jam reingeschmissen und gesagt, sag mir da die wichtigsten Punkte draus und das wiederum h�tte ich dann als Grundlage noch mal f�r den Text.
+den ich dann im Tool also plus meine Notizen praktisch dazugeschrieben und da arbeite ich dann eigentlich an Dings, ein ein Text raus und irgendwie bin ich aber an dem Tag dann an einem rein technischen Fehler gescheitert. Das war irgendwie eine von den ersten Sachen, die ich machen wollte.
+
+P20: Also, meine These ist, dass im vor allem im Bereich der Online-Redaktion, aber auch für Print-Leute, die es sozusagen brauchen, wenn sie ihre Artikel online stellen sollen, glaube ich, dass man bestimmt 10% effizienter arbeiten k�nnte aufgrund dessen, dass ich glaube, dass diese
+zusätzlichen Arbeiten bei der Übertragung quasi eigentlich 'ne Art von, wie soll ich sagen, das ist quasi keine Arbeit, wo man so viel drüber nachdenken muss. Also da ist nicht so viel Kreativität gefordert und das würd es glaub ich schneller machen. Also grundsätzlich würde die Arbeit an und für sich gleich bleiben. Man würde bloß schneller werden, um jetzt ja.
+
+6. Hat das Tool bei den Feldern X,Y geholfen? Warst du schneller in diesem Aspekt?
+
+P17: Artikeltext Ja, also da war ich dann, würde ich sagen, gefühlt schon auf jeden Fall schneller. Besser weiß ich jetzt nicht unbedingt, aber doch hin und wieder hat dann die KI auch zum Beispiel irgendeinen Einstieg gewählt oder irgendwelche Formulierungen verwendet, wo ich gesagt habe: "Hey, super, da wäre ich jetzt gerade auf dem beim."
+Auf also in der ersten Reaktion jetzt auch nicht drauf gekommen, wo mir das dann positiv aufgefallen ist, also von der Qualität her doch eigentlich ja gut bis sehr gut in manchen Fällen. Bei der Überschrift eher dann das Gegenteil. Da kamen Sachen raus, die man umschreiben musste. Es wäre grundsätzlich schneller gegangen, wenn du das ohne Tool schnell geschrieben hättest. Ja, also da bei �berschriften war ich, da hab ich glaub ich so gut wie nie was hergenommen von der K.I. Jetzt weiß ich nicht, ob das da mit reinpasst. Ich hab manchmal auch Paywall Teaser oder sowas hergenommen, aber ich hab das halt nicht für Paywall Teaser verwendet, sondern für Bildunterschriften.
+
+
+P19:Artikeltext  Also, was ich wirklich, wo ich wirklich keine abschließende Meinung hab, ist, wenn ich selber Texte schreibe und immer vorher muss ich ja dann irgendwie Stichwortlistenmacher und dann mach ich, lass mal 'n Text erstellen und dann redigier ich den aber eigentlich nach meiner Vorstellung, ob das ganze tatsächlich irgendwie Zeitlichenvorteil hat gegenüber, ich fang einfach an, einen ausformulierten Text hinzuschreiben. Da bin ich mir nicht sicher. Da gibt es wahrscheinlich Tage und Fälle, da ist es ein bisschen günstiger und es gibt Tage und Fälle, da ist eigentlich wurscht. Was natürlich Also dann, wenn man halt sich einfach verschiedene Varianten erstellen lässt, wo es manchmal schon eine gute Unterstützung ist. 
+
+P20: Also, ich wage zu behaupten, dass meine Paywall-Teaser und Überschriften sowieso besser sind als die, die von der KI kommen. Das liegt einfach daran, dass ich seit 25 Jahren Überschriften mache. Ob die immer gleich funktionieren, hängt tatsächlich mittlerweile von anderen Faktoren ab. Also, wir wissen alle nicht, warum der eine Artikel plötzlich sozusagen ewig viele Zugriffe bekommt, der andere weniger. Liegt einfach an den Algorithmen von Google, aber ich glaube, dass meine Überschriften und meine Paywall Teaser interessanter und besser sind. Ich bin aber schneller, wenn ich sozusagen diese diesen Teil der Kreativität auslagern kann.
+
+
+7. Hat sich die Qualität der verändert, wenn ja wie?
+
+P17: Dass es relativ gleich geblieben ist, unterm Strich. Ich hab allerdings auch bei mir den Fall, ich find bei so kleinen Polizeimeldungen, da hab ich ja meistens eh immer eine durchschnittliche Qualität genommen, weil da gibt es nicht so viel.
+
+P19: Eben, also ich bin der Meinung, dass gerade bei so Pressemitteilungen, wie es Polizeimeldungen sind, oder auch von von der Stadt oder von der Kommune, vom Landkreis und so weiter, wo man halt schon sehr viel oder auch so aus dem politischen Bereich, so von, also im Lokalen halt bei Abgeordneten oder Parteien oder so, wo man halt, dem man nach meinem Gefühl eigentlich bei der P. N. P. alle eher zu lang beziehungsweise Gerade bei der Polizei zu nah am Original, was so Polizei, Beamtensprache angeht, in der Zeitung haben und da, da glaube ich, dass sich die Qualität wirklich verbessert, ohne dass man jetzt sich da groß drum bemühen müsste, im Sinn, dass man mehr Zeit ins Religieren steckt.
+
+P20: Also, ich wage zu behaupten, dass meine Paywall-Teaser und Überschriften sowieso besser sind als die, die von der KI kommen. Das liegt einfach daran, dass ich seit 25 Jahren Überschriften mache. Ob die immer gleich funktionieren, hängt tatsächlich mittlerweile von anderen Faktoren ab. Also, wir wissen alle nicht, warum der eine Artikel plötzlich sozusagen ewig viele Zugriffe bekommt, der andere weniger. Liegt einfach an den Algorithmen von Google, aber ich glaube, dass meine Überschriften und meine Paywall Teaser interessanter und besser sind. Ich bin aber schneller, wenn ich sozusagen diese diesen Teil der Kreativität auslagern kann.
+
+
+8. Falls mit Text erstellen :Hat sich das Tool an deinen Schreibstil angepasst?
+
+P17: Ja, finde ich auch schwierig, jetzt in dem Fall, weil es halt sehr sachliche Polizeimitteilungen sind und jetzt keine, ja keine szenischen Sachen. Ich glaub, hätt ich jetzt wirklich 1 zu 1 die K.I. Inhalte genommen, dann hätt man es glaub ich schon bemerkt,  vielleicht nicht unbedingt, dass es von der KI geschrieben wurde, aber dass es doch sehr protokollhaft geschrieben ist, weil ich habe meistens also die Artikel Teaser noch angepasst, also die ersten Absätze. Die habe ich meistens noch ein bisschen schöner, ein bisschen. Das ist ja die die Abwägung, dass ich sag, ist es wert, dass ich jetzt da diesen Text von der Partei XY da, dass ich da halbe Stund reinsteck, damit er dann, damit er dann sich besser liest.
+
+P19: Beim eigenen hast hast einfach einen eigenen Stil, denkst glaube ich, also wo ich jetzt noch keinen Weg gefunden hab, dass ich den jetzt wirklich aus so einer K. I. rauskriege, also wobei jetzt einer nicht irgendwie so Hergegangen bin und versucht hab, dass ihr einfach mal 200 Texte von mir da als irgendwo einspeise oder hinterlege oder so und sag so, ich weiß gar nicht, ob es gang, aber das ist einfach da, da kommt halt schon was her.
+
+P20: In meiner Wahrnehmung wurden die durch andere Wörter ersetzt.
+
+
+
+Block future prospects:
+
+9. Glaubst du, generative KI wird sich in deinem Feld durchsetzen, wenn ja wie?
+
+P17: Also ich glaub also dadurch, dass wir es ja auch schon verwenden in der Onlineredaktion zum Teil zumindest auf freiwilliger Basis, dass das sich schon ja zum Teil durchgesetzt hat. dass man so generative generative K. I. verwendet. hat natürlich aber auch seine Grenzen. Also ich glaube nicht, dass jetzt ein eine K. I. einen Redakteur natürlich ersetzen kann, weil eben auch für diesen vielen Kleinigkeiten, es gibt einfach
+Bei ja, bei ausführlicher recherchierten Geschichten kommt ja die K.I. da sicherlich auch an ihre Grenzen. Ich find aber doch bei so, sag ich mal, sachlicheren Geschichten, Blaulichtartikeln.
+
+P19: Also, es wird sich auf jeden Fall durchsetzen, ihm für das Ganze Bearbeiten von fremden Texten, die ja, das ist ja, glaube ich, auch die große Hoffnung, die eigentlich alle haben, dass das jetzt dieses ganze Thema.
+
+P20: Ich glaub, dass das eher kurz als lang ist und ich glaub, dass das automatisiert in den die Meinung hab ich aber schon seit diesem berühmten Chat G. P. T. Moment. Ich glaub, dass das in dem Programm einfach automatisch hinterlegt sein wird. Es wird kein Redaktionssystem mehr ohne solche Lösungen geben, In ein, zwei, drei Jahren genauso wenig wie es heute Redaktionssysteme ohne Rechtschreibprüfung gibt. Und für mich ist das, über was wir jetzt auch sprechen, nichts anderes als die Fortsetzung eines Rechtschreibprogramms. Das Problem ist tatsächlich, dass nicht differenziert wird. Das hat man an Ihrem Tool auch gesehen, wenn ich das mal so.
+kritisch sagen darf. Es gibt einen Riesenunterschied, ob ich einen Text generieren lasse oder ob ich einen Text bearbeite.
+
+10. Glaubst du, dass dadurch die Arbeit schneller wird? Welche Vor und Nachteile siehst du?
+
+P17: Also, ich glaube, dass erfahrene Journalisten da durchaus profitieren können. Also, ich rede jetzt von meinem Fall von so normalen, relativ einfachen Artikeln, Blaulichtgeschichten, die basierend auf Pressemitteilungen oder ersten Presseinfos basieren. Weil also, wenn man jetzt das Beispiel nimmt, dass anhand von Stichpunkten ein Artikel generiert, einen sachlichen Artikel generiert, dann erspart man sich dadurch ein bisschen, dass man jetzt bei jedem Stichwort jetzt einen Satz voll formulieren muss, sondern man bekommt die Sätze dann schon. Vorgeschlagen und man kann ja hier und da noch was ausbessern, wenn einem was nicht passt von der Formulierung her. Also, das ging ja schon ziemlich schnell, finde ich, beim bei mir. Ich sehe die Gefahr, wenn das jetzt Journalisten nutzen, also junge Journalisten, die jetzt erst gerade in den Beruf einsteigen.
+
+P19: -
+
+P20: - 
+
+11. Glaubst du, dass sich der schreibstil verändern wird bzw, einheitlicher wird.
+
+P17: Ja, ich weiß, ich weiß noch nicht, ob ich das wirklich beantworten kann, weil ich das ja eigentlich nicht verwende für solche, für solche Autorentexte, sag ich mal. Ich glaub, ich ja hätt jetzt aber gesagt, zumindest aktuell, wie es ja bei uns auch. Oder anhand von Stichpunkten, von eigenen Stichpunkten, was generieren. Ich glaub, das ist in Ordnung. Aber jetzt komplette Artikel erstellen lassen nur von K.I. und dann ja, Autorennamen drüber klatschen, das ist ja so in der Form. auch gar nicht erlaubt, also ich
+Könnte ich jetzt nicht sagen, wie das jetzt jemand anderes machen würde.
+
+P19: Ja, das also, das wird natürlich.
+
+P20: Vereinheitlichung, sozusagen auch das Ziel. Also, man möchte ja, dass die Nachricht immer gleich erzählt wird. Sprich, eine DPA-Meldung, also eine Agenturmeldung, die kommt, ist immer im gleichen Stil geschrieben. Wichtigstes zuerst und so weiter. Das lernt man, Journalisten sogar. Das ist für mich quasi die, das, wie soll ich sagen. das kleine Einmaleins, wie das, was ein Schreiner lernt, wenn er, ich sag mal, 'ne Bank macht. Ja, wenn ich aber individuelle Texte, umso individueller der Text sein soll, umso kritischer sehe ich das. Also sprich, 'ne Seite 3 Reportage, die sehr reportagehaft ist, mit Eindr�cken, mit Beschreibungen, würde sozusagen schlechter gemacht, wenn man so eine standardisierte KI drüber laufen lassen würde, die sozusagen vereinheitlichen würde. Ja, wenn man das bei Nachrichten machen würde, dann möchte man ja immer das gleiche Ergebnis haben.
+
+12. Abgesehen vom Prototypaspekt: Welche Features fehlen?
+
+P17: Ja, OK, jetzt weiß ich nicht, ob das also man könnt ja theoretisch das auch so einstellen, dass dass da vielleicht dann automatisch Überschriften, Vorschläge, Dachzeilen, Vorschläge und so weiter generiert, dass man da diesen extra Schritt nicht gehen muss, dass man das manuell macht.
+
+P19: Also ich glaub, dass man, dass man für  Print schon noch einfach eine Reihe von so Features bauen kann, die jetzt bei dir gar nicht da waren. Also einfach das normale
+Den normalen Printablauf mit "Ich habe einen freien Mitarbeitertext, der zum Redigieren ist, nach bestimmten Kriterien, die jetzt nicht unbedingt die gleichen sind wie die für eine gute Online-Meldung."
+
+P20: Also tatsächlich weniger was für Create, sondern etwas, was ich tatsächlich in selber sehr intensiv nutze, Zusammenfassung von komplexen Texten. Also wenn ich zum Beispiel 'ne 20 nee, 'ne zwanzigseitige Studie hab, hau ich die gerne natürlich in die K. I. und sag, nenne mir die wichtigsten Punkte mit Quellenangaben, also mit der Seitenangabe, damit ich schneller und 'ne Art von Diskussionsfunktion, also sprich Rechtschreibung, Grammatik, aber auch Fakten. Viertens, vielleicht sogar 'ne Art von, das wär jetzt aber die Kür. Ich glaub nicht, dass man das 'create' sagen sollte, weil sonst kommen die ja nur auf die Idee.
+Ich glaube, dass in Zukunft Texte auch juristisch überprüft werden.

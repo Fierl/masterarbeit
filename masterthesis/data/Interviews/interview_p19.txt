@@ -1,0 +1,752 @@
+Interview f�r Masterarbeit-20260610_143131-Besprechungstranskript
+10. Juni 2026, 12:31PM
+42 Min. 0 Sek.
+
+Fierbeck Simon Transkription gestartet
+
+Fierbeck Simon   0:25
+M�sstest irgendwo noch 'Annehmen' klicken k�nnen oder so, ansonsten sie und ah ja, ja.
+
+P19   0:30
+Okay, ja, okay.
+
+Fierbeck Simon   0:35
+OK, dann starten wir gleich los. Welche Aspekte des Tools hast du verwendet? Also zum Beispiel wurde generiert, wurde editiert, wurde gek�rzt.
+
+P19   0:48
+As about the.
+Was ich glaube, ich habe glaube ich schon relativ viel verwendet, was ich, weil du das Stichwort "k�rzen" gesagt hast, was ich nicht gemacht habe, ist "k�rzen", weil es k�rzen irgendwie so ein.
+ja, von der unser, von unserer Logik her, genau andersrum war. Also ich, ich h�tte also eher, wir waren das genau beim, ich hab es, ich hab es, das ist jetzt schon relativ lang her, dass ich das K�rzen mal hergenommen gehabt hab,
+
+Fierbeck Simon   1:25
+Yep.
+
+P19   1:25
+Aber es ist genau, also es war irgendwie so, dass ich gesagt hab, mit dieser Vorgabe, die da machen kann, kann ich eigentlich nichts anfangen. Die sagt, die, die entspricht nicht dem, was sie, die entspricht nicht meinen Bed�rfnissen, sondern ist genau irgendwie andersrum gewesen. Deswegen hab ich es k�rzlich
+Essen eigentlich komplett bleiben lassen.
+
+Fierbeck Simon   1:48
+Mhm.
+
+P19   1:49
+Ich kann es jetzt nur ich m�sste es mir noch mal anschauen, um zum genau zum erkl�ren, wie rum es braucht h�tt und wie rum es war.
+
+Fierbeck Simon   2:00
+OK, ja, die Seite ist leider nicht mehr erreichbar und ja, bl�derweise liegt alles schon ein bisschen l�nger hier.
+Aber das hilft nichts. Da m�ssen wir jetzt durch. Dann mal davon abgesehen, also wie angenehm war das Arbeiten? Ich h�re schon raus eher so Semi. Mal den Prototypenaspekten weglassen, dass das halt nicht integriert ist in unsere Systemlandschaft.
+
+P19   2:22
+Na ja.
+Nenner, es hat also im es hat eigentlich alles funktioniert, wobei.
+Also, wobei ich dazu sagen muss, �h, ich habe.
+Ein eigenes Tool am Start, mit dem ich im Alltag arbeite, wo ich also genau meine Prompts drin habe und insgesamt 4 Kn�pfe f�r 4 verschiedene Modelle.
+
+Fierbeck Simon   2:47
+Mhm.
+Mhm, mhm.
+
+P19   3:00
+Und nat�rlich ist dann irgendwie, wenn man dann irgendwie so auf irgendwas anders festgelegt ist, wenn man eigentlich seinen eigenen Modus hat, ist immer irgendwie ein wenig holpert es immer wenig st�rker, als man sich wohlf�hlt. Aber.
+Vom Ablauf her finde ich, war es eigentlich schl�ssig.
+
+Fierbeck Simon   3:21
+Mhm, mhm.
+
+P19   3:22
+Yeah.
+
+Fierbeck Simon   3:24
+Hast du System Prompts hinterlegt bei meinem Tool, damit ein bisschen gespielt oder ja, ja, hat keiner der Probanden?
+
+P19   3:29
+Hab i net.
+
+Fierbeck Simon   3:35
+War vielleicht nicht so pr�sent, k�nnte ja sein. Waren welche Features waren denn besonders gut oder besonders schlecht? Also vor dem, wie das Modell dahinter was ausgespuckt hat.
+
+P19   3:52
+Also, ich finde, die Texte waren.
+waren gut, die waren also das, das hat hingehaut, der der Artikeltext selber, nein, der Artikeltext selber.
+
+Fierbeck Simon   3:59
+Mhm.
+Also der Artikeltext oder die Dachzeile OK Mhm Mhm.
+
+P19   4:09
+Bill.
+Bei der �berschrift oder �berhaupt bei den bei der M�glichkeiten, �berschriften zu generieren.
+Ist so, also ich hab bei sowohl wenn ich irgendwie bei gepromptet hab, also in so einer normalen Chat Oberfl�che, also jetzt so bei meine Standard prompt. Ich hab immer 5 nach Kriterien zur Auswahl und ich
+
+Fierbeck Simon   4:29
+Mhm.
+
+P19   4:37
+Also, ich brauche das auch. Also, das, dass da genau eine ist und dass man die dann gef�llt, da ist die Wahrscheinlichkeit schon sehr gering.
+
+Fierbeck Simon   4:47
+Mhm, mhm.
+
+P19   4:48
+Also, da ist dann, da ist dann eher so, dass sie dann sagt, O. K., jetzt vielleicht ich nehm die mal und dann fang ich aber an, da drunter zu basteln.
+
+Fierbeck Simon   4:58
+OK, also als Ausgangsmaterial verwendet. Mhm.
+
+P19   5:00
+Als Ausgangsmaterial, aber aber das, dass ich da sag ja genau das ist das ist das trifft es, wenn nur eine vorgeschlagen wird, eher eher selten.
+
+Fierbeck Simon   5:11
+Mhm, mhm.
+
+P19   5:13
+Und da prompt es dann aber auch nicht nach, weil es irgendwie, also deswegen die 5, wo es der Vorgaben hast, dass sie dir ja wirklich, dann hast du ja irgendwie, dann kannst du sagen, OK, das ist eher die Richtung, wem interessiert wir die dagegen, wenn es nur eine hast, dann aber irgendwie zum Prompt.
+Nachbrannten und zu sagen, die gef�llt mir aber nicht und.
+Dann kann ich selber auch hinfahren, wenn ich wei�, was ich mag. Also wei�t du, was ich meine.
+
+Fierbeck Simon   5:38
+Fairer Punkt. Ja, beim mehrmaligen Generieren war das dann immer zu �hnlich, oder?
+
+P19   5:40
+Ja.
+Ja, es ist so �hnlich, beziehungsweise du musst ja irgendwie, wenn es einfach nur prompt, also du musst ja irgendwie schon wissen, in welche Richtung du m�chtest, wenn es dann noch prompt und dann hast es ja eigentlich schon da, also jetzt speziell bei �berschriften, bei einem l�ngeren Text ist es ja was anderes.
+
+Fierbeck Simon   5:59
+Mhm.
+
+P19   6:00
+Aber jetzt bei der �berschrift, wo es ja eigentlich nur um einen Satz geht, bevor ich dann noch mal sage: "Aber jetzt �berleg noch mal, ob es in die Richtung nicht gehen kannst. Schreib ihn einfach hin."
+
+Fierbeck Simon   6:07
+Yep.
+Ja, ja, fairer Punkt auf jeden Fall, wenn man die Expertise hat oder einfach die, die F�higkeit, dass man 'ne gute �berschrift hinkriegt, ist nat�rlich dann immer Abw�gung, wie lang dauert das, mir das mal schnell lassen im Vergleich dazu, wie schnell ich das halt selber machen kann, ist ein guter Punkt.
+
+P19   6:23
+OK.
+
+Fierbeck Simon   6:27
+Wie viel Vertrauen waren in die Ergebnisse drin? Heute das Vertrauen �ber die Zeit ver�ndert? Ich benutze nat�rlich selbst schon K.I.s, aber grunds�tzlich mal die Frage.
+
+P19   6:37
+Also ich muss sagen mit in in dem.
+War das Vertrauen eigentlich von Anfang an OK? Also nat�rlich musst du es immer hast nat�rlich.
+Immer so das Gef�hl, du musst irgendwie das noch mal anschauen, aber.
+
+Fierbeck Simon   6:55
+Mhm.
+
+P19   6:57
+Aber dass das Vertrauen in die in die Fakten.
+das muss ich sagen, ist bei mir eigentlich, sagen wir mal so, seit einem halben Jahr oder so schon. Seitdem ich mich ein bisschen intensiver damit befasst hab, wie man, wie man vern�nftig promptet, um solche Sachen ein wenig in den Griff zu kriegen, bin ich jetzt keiner mehr, der so ganz extrem panisch ist.
+
+Fierbeck Simon   7:17
+Mhm.
+
+P19   7:23
+Was halt immer noch so eine Sache ist, wenn du.
+Also kommt immer darauf an, wof�r man sie hernimmt, f�r das Verarbeiten von Pressemitteilungen oder so was da.
+Da habe ich auch keine gro�en Skrupel, die Texte dann so, wie sie ausgespuckt werden, zum Nimmer und zum Ver�ffentlichen. Wenn es jetzt ein ein Text ist zu einer eigenen Recherche, dann hat man einfach immer
+
+Fierbeck Simon   7:47
+Mhm.
+
+P19   7:55
+Noch also.
+das hat man tief drin, dass wir da dann eine genaue Vorstellung hab, wie der Text es sein hat und und dann letztlich redigiert man dann doch so hin, wie wenn man es selber geschrieben h�tte.
+
+Fierbeck Simon   8:03
+Ja.
+Ja, nat�rlich ist ja auch, glaub ich, schon der Sinn dahinter, sich Sachen generieren zu lassen, aber dann zu editieren ist, glaube die der normale Workflow und
+
+P19   8:14
+bis
+Ja.
+
+Fierbeck Simon   8:28
+es w�re ja verr�ckt oder wahrscheinlich wenigstens jetzt den Stand der Technik, den Text einfach 1 zu 1 nehmen zu k�nnen und zusammen, das ist ja der Hammer. Aber bez�glich Workflow, du hast ja ebenfalls ein Tool, hast du ja erw�hnt, wie wirkt sich
+dein Tool oder mein Tool, in dem Fall glaub ich, ist das relativ egal, auf den Workflow aus. Also verglichen mit dem, wie man vor K.I. gearbeitet hat, kannst du das ein bisschen beschreiben.
+
+P19   8:55
+Also.
+�hm.
+Was sich eigentlich am st�rksten auswirkt, das habe ich jetzt in meinem Tool nicht drin, das ist das Thema Transkribieren von Interviews.
+
+Fierbeck Simon   9:13
+Mhm.
+
+P19   9:14
+und auch dann diesen Text, diesen Interviewtext, einfach mal sprachlich zu zu gl�tten. Und das mach ich einfach ganz normal in so einer, also ich mach es beim Seminar in der normalen Chatoberfl�che.
+Da also wir haben ja auch als im Verlag da dieses Audioindex, aber da ist das verliert gegen�ber Gemini. Also das Gemini ist verarbeiteter bayrisch und und zwar perfekt.
+
+Fierbeck Simon   9:38
+Hm.
+Mhm.
+
+P19   9:48
+also wie wenn ich es selber abtippen w�rde. Und das ist, also das kann ich gar nicht hoch genug einsch�tzen, was das an Arbeits-, also an die dieses stupide Abtippen, das man
+mit das mit Interviews immer verbunden war und dann noch mal dr�ber gehe und diese S�tze noch mal in Deutsch zu verwandeln, die gesprochenen, dass ich das erledigen lassen kann.
+
+Fierbeck Simon   10:07
+Mhm, mhm.
+
+P19   10:19
+das ist, das ist f�r mich das, die gr��te Arbeitserleichterung, die ich bisher �berhaupt festgestellt hab bei K.I., wie gesagt, das habe ich weder in noch in deinem drin gehabt, aber das ist, das ist f�r mich das
+
+Fierbeck Simon   10:26
+Yep.
+
+P19   10:34
+was sie am am st�rksten auswirkt, was sich, was ich auch gemacht hab, eigentlich mal als Vorarbeiter, habe ich da irgendwann noch mal geschrieben, dass er mal mit einer Fehlermeldung abgebrochen hat. Da wollte ich eigentlich aus einer Stadtratsberichterstattung einen Text machen.
+
+Fierbeck Simon   10:52
+Mhm.
+
+P19   10:52
+die Beschlussvorlage einfach fotografiert und dann ins Jam reingeschmissen und gesagt, sag mir da die wichtigsten Punkte draus und das wiederum h�tte ich dann als Grundlage noch mal f�r den Text.
+den ich dann im Tool also plus meine Notizen praktisch dazugeschrieben und da arbeite ich dann eigentlich an Dings, ein ein Text raus und irgendwie bin ich aber an dem Tag dann an einem rein technischen Fehler gescheitert. Das war irgendwie eine von den ersten Sachen, die ich machen wollte.
+
+Fierbeck Simon   11:09
+Mhm, mhm.
+
+P19   11:26
+Also das sind so, das sind so Sachen, so wenn man irgendwie was anderes erfassen muss, das man einfach zusammenfassen oder transkribieren m�chte, das ist
+
+Fierbeck Simon   11:26
+Mhm.
+
+P19   11:41
+Uh.
+Finde eine deutlich gr��ere Hilfe als das Reine.
+Text bearbeiten, wie man so eben oder Text schreiben, wie man das, also so ein, so ein Zwischending zwischen Recherche und
+und Text und und Text erstellen, so da zwischendrin in dem Bereich finde ich eigentlich die Arbeitserleichterung am gr��ten. Ansonsten, wie gesagt, eben vor allem bei dem Fremd, also das ist das, wenn man die eigenen Texte macht und ansonsten beim Bearbeiten von Fremdtexten
+
+Fierbeck Simon   12:05
+Mhm.
+
+P19   12:17
+Polizeimeldungen. Da das sind so Geschichten im Gegensatz, glaube ich, zu meine Kollegen, glaub das kann in der Reaktion sonst bei uns in Deggendorf macht, eine Polizeimeldung
+mit der mit einer mit einem gescheiten K. I. prompt, das ist immer der die Herausforderung, wenn ich einfach nur sagt, das ist eine Polizei, mach mal Meldung im Chat G. P. T. und dann kopiere ich es rein, dass ich dann vielleicht nicht gl�cklich werde, aber wenn ich einen gescheiten Prompt hinterlegt habe, werden die
+Ergebnisse besser als dieses halbherzige Redigieren von diesem Polizei-Deutsch, weil dann werden sie mir n�mlich wirklich noch mal vern�nftig reingeschrieben. Sie sind ja in der Regel auch so kurz, dass ich da irgendwie merk, stimmt das oder stimmt das nicht, was man da schreibt von den Fakten her.
+
+Fierbeck Simon   12:59
+Mhm.
+Yep.
+
+P19   13:10
+Pressemitteilungen ist dasselbe. Ich glaub, dass man da wirklich eigentlich die Qualit�t steigert, weil die die Pressemitteilung wirklich aufs auf einen journalistischen Gehalt hin.
+reduzier und nicht einfach dann kopier und dann so halbherzig redigier und dann ist doch letztlich dieses ganze Unternehmensgew�sch noch drin, das eigentlich rausgeschmissen geh�rt. Also das sind so, ja,
+
+Fierbeck Simon   13:35
+Mhm, mhm.
+
+P19   13:41
+Es ist das, was glaube ich im Augenblick schon sehr gut funktioniert und was nicht nur leichter macht, sondern auch glaube ich sogar die Qualit�t erh�ht.
+
+Fierbeck Simon   13:53
+Mhm.
+
+P19   13:54
+nicht nur gleich bleibt, sondern erh�ht.
+
+Fierbeck Simon   13:58
+OK, weil einfach bei diesen T�tigkeiten, da wie soll ich sagen.
+
+P19   14:06
+Ja, weil man da nicht viel Energie reinh�ngt im im normalen Alltag und da brauch ich jetzt auch keine Energie reinh�ngen, aber sie wird dann halt einfach besser ausgef�hrt nach h�heren Standards.
+
+Fierbeck Simon   14:08
+Mhm.
+Mhm, mhm.
+Ja, ja, ein interessanter Punkt, also.
+ich w�rde jetzt im Folgenden mein Tool und dein Tool gleichsetzen. Also es geht nicht jetzt spezifisch Mind Tool, welche bei welchen Feldern des Artikels ist das Tool, hat es geholfen und w�rdest du sagen, du warst schneller, dann
+
+P19   14:28
+Yeah.
+
+Fierbeck Simon   14:43
+In diesen Feldern oder warst du gleich schnell mit besserer Qualit�t? Wie sch�tzt du das ein?
+
+P19   14:53
+Also, was ich wirklich, wo ich wirklich keine abschlie�ende Meinung hab, ist, wenn ich selber Texte schreibe und immer vorher muss ich ja dann irgendwie Stichel
+Stichwortlistenmacher und dann mach ich, lass mal 'n Text erstellen und dann redigier ich den aber eigentlich nach meiner Vorstellung, ob das ganze tats�chlich irgendwie
+
+Fierbeck Simon   15:10
+Mhm.
+
+P19   15:23
+Zeitlichen.
+Vorteil hat gegen�ber, ich fang einfach an, einen ausformulierten Text hinzuschreiben. Da bin ich mir nicht sicher. Da gibt es wahrscheinlich Tage und F�lle, da ist es ein bisschen g�nstiger und es gibt.
+
+Fierbeck Simon   15:36
+Yep.
+
+P19   15:43
+Tage und F�lle, da ist eigentlich wurscht. Was nat�rlich
+Also dann, wenn man halt sich einfach verschiedene Varianten erstellen l�sst, wo es manchmal schon eine gute Unterst�tzung ist. Es ist beim bei den �berschriften auch mal bei den Zwischentiteln, also halt so bei diesen Sachen, wo man jetzt nicht einfach mal schnell.
+Ja.
+aber eher, eher halt bei nicht eigenen Texten. Also wenn ihr, wenn ihr, wenn es hat, also mit nicht eigenen, meine nicht selber recherchierten Texten, sondern irgendwie bei der Verarbeitung, also bei der Polizeimeldung, bei der Pressemitteilung oder was man.
+
+Fierbeck Simon   16:19
+Mhm, mhm.
+Yep.
+
+P19   16:30
+F�r Print mehr haben als f�r online halt diese die Mitarbeitertexte, die ja.
+Die ein bisschen kritisch sind, dass man es.
+redigieren lasst, weil man halt schon irgendwie aufpassen muss, dass der Stil nicht zu sehr sich unterscheidet vom Stil des Mitarbeiters, weil die sonst, wenn das oft passiert, halt sagen, was soll denn der Cast, das hab ich doch nicht
+
+Fierbeck Simon   17:00
+Mhm, mhm.
+
+P19   17:05
+rum, aber aber gerade also �berschriftenmacher, Zwischentitelmacher, einen Vorspann erstellen lassen oder auch so einen Text einmal f�r online aufbereiten. Also
+gerade bei den Fremdtexte ist ist eben gerade so Vorsparen, �berschrift und so weiter, schon eine Hilfe und bei Texte, wo man sich jetzt nicht verpflichtet f�hlt, wie eben bei einer Pressemitteilung oder so, ist auch einfach das Text zu edigieren lassen.
+das sind f�r mich so die, die St�rken, das Schreiben im Sinn von, ich habe etwas recherchiert, was ich selber zu Papier bringe, wie gesagt, da ist, da hat man zu konkrete Vorstellung, wie dann der Text ausschauen soll, als dass man dann.
+
+Fierbeck Simon   17:35
+Mhm.
+Ja, ja.
+
+P19   17:53
+Dass man da einfach was ausgespucktes nimmt und ob es dann tats�chlich ein zeitlicher Vorteil ist, ist dann da bin ich mir nicht ganz sicher.
+
+Fierbeck Simon   18:01
+Mhm.
+�hm.
+dann ja der Punkt, hat sich die Qualit�t ver�ndert, du hast doch vorher schon angef�hrt, dass f�r manche Bereiche des Journalismus sich die Qualit�t verbessert, f�r andere m�glicherweise nicht.
+
+P19   18:21
+Eben, also ich bin der Meinung, dass gerade bei so Pressemitteilungen, wie es Polizeimeldungen sind, oder auch von von der Stadt oder von der Kommune, vom Landkreis und so weiter, wo man halt schon sehr viel oder auch so aus dem
+
+Fierbeck Simon   18:33
+Mhm.
+
+P19   18:38
+politischen Bereich, so von, also im Lokalen halt bei Abgeordneten oder Parteien oder so, wo man halt, dem man nach meinem Gef�hl eigentlich bei der P. N. P. alle eher zu lang beziehungsweise
+Gerade bei der Polizei zu nah am Original, was so.
+was so Polizei, Beamtensprache angeht, in der Zeitung haben und da, da glaube ich, dass sich die Qualit�t wirklich verbessert, ohne dass man jetzt sich da gro� drum bem�hen m�sste, im Sinn, dass man mehr Zeit ins Religieren steckt.
+
+Fierbeck Simon   19:02
+Mhm, mhm.
+
+P19   19:18
+Das ist ja die die Abw�gung, dass ich sag, ist es wert, dass ich jetzt da diesen Text von der Partei XY da, dass ich da halbe Stund reinsteck, damit er dann, damit er dann sich besser liest.
+
+Fierbeck Simon   19:34
+Ja.
+
+P19   19:35
+Und um irgendwas entr�mpelt wird.
+Die steht ja normalerweise nicht daf�r, aber wenn du es einfach machen lassen kannst, ohne dass du jetzt zur Zeit investierst, dann ist es nat�rlich ein Vorteil f�r die Qualit�t.
+
+Fierbeck Simon   19:50
+Mhm, mhm.
+
+P19   19:52
+Wie gesagt, und bei die Sachen, wo sich die Qualit�t nicht verbessert, da nimmt man sie ja dann letztlich hin und her. Also deswegen und die, also die Frage ist, die die gro�e Frage ist, die noch die Fehler?
+Das w�re nat�rlich so ein Punkt, wo sie die nat�rlich ganz massiv w�re f�rs f�rs Thema Qualit�t. Also meine Beobachtung ist schon, dass Fehler passieren, selbst wenn es.
+Wenn man es unbedingt prompte, dass nicht passieren d�rfen, ich glaube aber.
+Das
+Es ist aber jetzt nur so ein Bauchgef�hl, dass nicht mehr sind, als man selber auch macht beim Bearbeiten von Texten, Wochentag vertauschen oder irgendsowas, das macht man selber auch dauernd oder irgendeine Formulierung, ja, nicht mehr, die eigentlich nicht passt oder so. Also
+
+Fierbeck Simon   20:44
+Ja.
+
+P19   20:56
+Oder also.
+Es passieren auch Rechtschreibfehler. Also, es ist ja nicht so, dass die, dass das komplett die Rechtschreibung immer komplett richtig ist. Es ist auch mal irgendein Wort klar geschrieben, das eigentlich gro� geh�rt oder so, aber das passiert die Kollegen.
+
+Fierbeck Simon   21:06
+Ja.
+
+P19   21:14
+Und mir.
+�fter, sag ich mal.
+
+Fierbeck Simon   21:18
+Mhm, mhm.
+Ja, guter Punkt. Man ist nat�rlich auch nicht fehlbar und es muss auch das in Relation setzen.
+
+P19   21:24
+Also, das ist, man darf ja, man darf jetzt nicht sagen, oh Gott, die K.I. macht Fehler und selber machst das nicht, sondern es ist halt die, also in der Praxis ist ja, ist glaube ich der der Grad eher andersrum.
+
+Fierbeck Simon   21:31
+Ja.
+Mhm, mhm, ja, m�glicherweise die Schwere der Fehler ist dann auch unterschiedlich.
+
+P19   21:40
+It.
+Ja, das ist, ich mein, es sind so, es sind eher so die Kleine, ist jetzt ein Beispiel, das ist schon nach der Phase jetzt gewesen, aber ich hab Maib�ume, sind ja so, was du kriegst,
+
+Fierbeck Simon   21:51
+Mhm.
+
+P19   21:57
+du wirst nach dem 1. Mai zugesch�ttet, im Lokalteil, das stellst du alle nicht online, aber im Lokalteil, aus jedem Dorf, wo ein Maibaum aufgestellt worden ist, kriegst du irgendwas. Und das ist was, was nat�rlich irgendwie in Serie raushaust. Es geh�rt, die einen schreiben so viel, die anderen schreiben, schreiben wenig und es geh�rt alles irgendwie ein wenig
+auf einen Rahmen hin macht und das sind so Sachen, da ist K.I. eigentlich super daf�r, dass das dann da alles zusammenhaust. Und dann habe ich also immer irgend so einen Maibaumtext gehabt und dann schreibt es
+
+Fierbeck Simon   22:25
+Mhm.
+
+P19   22:31
+Also.
+Irgendwas von der Fichte und dann habe ich also das war eben.
+Einfach im Chat und habe dann nachgeprompt. Da habe ich gesagt: "Wo ist da eigentlich gestanden, dass das eine Fichte ist?" Dann sagt er: "Stimmt war Verletzung der Regel."
+
+Fierbeck Simon   22:48
+Mhm.
+
+P19   22:54
+�h.
+Aber er hat halt nach einem Synonym gesucht f�r Baum, dass er nicht immer Baum schreibt. Also hat er irgendwann Fichte geschrieben, obwohl nicht klar war, ob also wahrscheinlich war es ja Fichte, aber es ist im Original der Fichte gestanden. Also nat�rlich passieren solche Sachen, die die kriegst nicht.
+
+Fierbeck Simon   23:01
+Mhm.
+
+P19   23:12
+die kriegst nicht weg und nat�rlich kann es ja sein, dass du das ver�ffentlichst und dass die Anrufer dann sagen, wer kippst denn du drauf, spinnst du, das war eine Tonne. Also sowas kannst, das kannst du nie ausschlie�en, das kann da aber, wenn das, wenn du das selber machst und dann denkst du irgendwie mal, muss ich nicht immer Baum schreiben, dann kann dir das auch passieren. Also.
+
+Fierbeck Simon   23:12
+Yep.
+Mhm.
+
+P19   23:32
+Ja, die ganz schwerer Sachen, glaube ich, fallen da beim Lesen auf, die, die, die wirklich dramatisch sind, die fallen da beim Vergleichen.
+Auf sonst haben eher so die.
+Diese unterschwelligen Sachen eben.
+
+Fierbeck Simon   23:48
+Mhm, mhm.
+
+P19   23:50
+Die gef�hrlich sind, aber.
+Ich w�rde sagen, das ist es wert. Das ist die Arbeitserleichterung wert, dass man dieses Risiko eingeht.
+
+Fierbeck Simon   24:02
+Du hast davor angesprochen mit dem, dass du von Mitarbeitern die Sachen �berpr�fst und bez�glich dem Schreibstil. Wie hast du da das Gef�hl gehabt mit KI? Wenn du ihm Stichpunkte gibst in deinem Schreibstil, wird
+Dies dann auch einigerma�en gut �bernommen oder entfernt sie dir sehr stark von dem, wie du Sachen schreiben w�rdest?
+
+P19   24:24
+Also bei meinem eigenen, das also der Unterschied ist ja, bei den Mitarbeitern ist es ja fertiger Text, der halt nur einfach, wo ich halt einfach nur sag, O. K., entweder der ist lang oder der die haben halt irgendwie sprachliche Marotten.
+
+Fierbeck Simon   24:33
+Mhm.
+
+P19   24:41
+die, die halt irgendwie die Kletterkern oder der Aufbau passt nicht, weil es rein chronologisch ist und das Wichtigste steht dann ganz zum Schluss oder so. Also das sind so Gr�nde, warum ich die Verein dran gebe. Beim eigenen hast nat�rlich irgendwie ein relativ klaren
+hast einfach einen eigenen Stil, denkst glaube ich, also wo ich jetzt noch keinen Weg gefunden hab, dass ich den jetzt wirklich aus so einer K. I. rauskriege, also wobei jetzt einer nicht irgendwie so
+
+Fierbeck Simon   25:01
+Ja.
+Mhm, mhm.
+
+P19   25:16
+Hergegangen bin und.
+versucht hab, dass ihr einfach mal 200 Texte von mir da als irgendwo einspeise oder hinterlege oder so und sag so, ich wei� gar nicht, ob es gang, aber das ist einfach da, da kommt halt schon was her.
+
+Fierbeck Simon   25:27
+Mhm.
+
+P19   25:35
+sehr durchschnittlicher journalistischer Text raus, der der, wie gesagt, f�r viele F�lle O. K. ist. Aber wenn es dann sagst, ich m�chte jetzt das mit meinem Namen ver�ffentlichen, dann
+Gen�gt Zeit nicht.
+
+Fierbeck Simon   25:53
+Mhm, mhm, wie w�rde man das vielleicht als Leser erkennen, dass es nicht der Schreibstil ist, den man gewohnt ist?
+
+P19   25:58
+Ja, kann sein, aber es ist zumindest mir, sind wir zumindest. Also da ist das �u�ere zu frisch, als dass man sagt, das w�rde man so machen. Also ich hab schon Texte, Texte.
+Machen lassen, aber die da steckt halt dann eigentlich, also insbesondere.
+So, Vorspannen und so weiter und da, also der Aufbau, den kann man ja noch ein bisschen steuern mit den Stichpunkten, aber.
+Aber.
+Da redigiere dann so viel dr�ber, dass er eigentlich sagt, das ist dann, das ist dann irgendwie anderer Text.
+
+Fierbeck Simon   26:37
+Mhm, mhm, ja.
+
+P19   26:38
+Uh.
+Ja.
+
+Fierbeck Simon   26:43
+OK, dann zu den Ausblick in die Zukunft Sektion. Glaubst du, generative KI wird sich in deinem Feld durchsetzen? Und wenn ja, wie?
+
+P19   26:54
+Ja.
+Also, es wird sich auf jeden Fall durchsetzen, ihm f�r das Ganze.
+Bearbeiten von.
+fremden Texten, die ja, das ist ja, glaube ich, auch die gro�e Hoffnung, die eigentlich alle haben, dass das jetzt dieses ganze Thema
+
+Fierbeck Simon   27:08
+Mhm.
+
+P19   27:19
+das ja bei uns im Haus noch viel intensiver gelebt wird, wie in anderen H�usern eben dieses, dieses, was von den freien Mitarbeitern und so weiter kommt, das ist ja die gro�e Hoffnung, dass das da
+immer mehr die K.I. das abnimmt und da bin ich mir auch ganz sicher, dass das geht. Da muss man halt
+
+Fierbeck Simon   27:41
+Mhm.
+
+P19   27:50
+Also wir waren mal, ja mal mit Martin Wanninger bei den N�rnberger, die die da in in ihrem Erfassungsportal im Prinzip die K. I. schon f�r die, also die haben so ein Erfassungsportal wie wir auch f�r die freien Mitarbeiter, nur haben die dann halt dann
+
+Fierbeck Simon   27:57
+OK.
+
+P19   28:09
+Knopf zum Verbessern vom Text per K.I. und dann spuckt die K.I. den Vorschlag aus und der Mitarbeiter kann dann da noch mal dr�ber gehen. Das hei�t, ich habe dann auch diese dieses Thema, das ich eben gehabt habe, dass die dann sagen, was soll denn das eigentlich, was macht sie aus meinem Text oder so.
+dass die das selber erleben und eigentlich selber machen und dann selber abschicken und und dann tats�chlich bei der Redaktionsschau auch vom Mitarbeiter ein ordentlicher, brauchbarer, sofort druckbarer Text ankommt, der vom Mitarbeiter aber auch schon abgesegnet ist und der gesagt hat, OK, da steht das drin.
+
+Fierbeck Simon   28:32
+Mhm, mhm.
+
+P19   28:46
+Was?
+Was ich mitteilen wollte, es ist.
+
+Fierbeck Simon   28:50
+Sehr smart, den Schritt auszulagern zu dem Typen, der das eine schreibt, ja.
+
+P19   28:52
+Das ist, das ist, glaube ich, eigentlich ein Weg, der.
+Der sehr hilfreich w�re, wenn wir denn gehen w�rden.
+
+Fierbeck Simon   29:02
+Ja, ja, ja.
+Mhm, mhm.
+Okay, um jetzt da vielleicht gleich ein bisschen zu bleiben, weil welche Vor und Nachteile siehst du bei dem Ganzen? Jetzt sagen wir mal, freie Mitarbeiter sind ja jetzt deutlich weniger erfahren wie du in der Arbeit.
+Sechst du das m�glicherweise? Also ist es gut, wenn man diesen, wenn man die harte Schule jetzt weniger geht, sondern sie die Abk�rzungen nimmt oder w�rdest du sagen, das macht keinen Unterschied?
+
+P19   29:39
+was hei�t die harte Schule jetzt vom das das Schreiben lernen oder oder oder na ja, also das ist ja, also wie das in den Redaktionen oder wie oder sagen wir mal bei den Leuten, die also
+
+Fierbeck Simon   29:45
+Genau, genau, genau.
+Mhm, mhm.
+Mhm.
+
+P19   30:16
+Das alles nur von der von der KI machen zu lassen.
+Kann ich mal heute Stand heute?
+Nicht vorstellen, dass das, dass ich dann eine vern�nftige Redaktion zusammen krieg, wenn ich nur Leute hab, die die eigentlich wissen, wie man prompt.
+
+Fierbeck Simon   30:32
+Mhm.
+Ja.
+
+P19   30:42
+bei den, bei den jetzt bei irgendjemanden, der also wir engagieren ja Leute in erster Linie, weil das f�r uns �berhaupt auf die Termine gingen und dann, wenn man die, da sind ja viele dabei, die man nie wirklich beigebracht hat, wie man schreibt,
+Insofern geht da nichts verloren, wenn man die dann das einfach mit der KI machen l�sst. Also da h�tte jetzt.
+
+Fierbeck Simon   31:01
+Mhm.
+
+P19   31:10
+Ich merk grad, ich hab Kamera aus, oder aber das wollt ich gar nicht.
+
+Fierbeck Simon   31:10
+OK.
+Ja, du hast Kamera.
+
+P19   31:14
+Was st�rt dich das? Na, das glaube ich war wie du die Dings, wie du diese Aufzeichnung.
+
+Fierbeck Simon   31:18
+Ja, ja.
+
+P19   31:23
+Also.
+Wie gesagt, f�r alle, die hauptberuflich im Journalismus arbeiten, kann man es.
+heute noch nicht vorstellen, dass man denen nicht ganz klassisch den Umgang mit der Sprache und mit Texten und so weiter beibringt. Ansonsten muss ich sagen, das das viel Kritischere
+
+Fierbeck Simon   31:39
+Mhm, mhm.
+
+P19   31:46
+Thema, aber das ist jetzt zumindest, was dein Tool angeht, �berhaupt nicht.
+Bei Baustelle sind Fotos, also die sind die, glaube ich, sind.
+Also auch was, was eben so, was uns da wahrscheinlich �ber kurz oder lang untergejubelt werden wird und so weiter, das glaube ich, ist eigentlich die die akute Herausforderung.
+
+Fierbeck Simon   32:15
+Mhm, mhm, ja, also Deepfakes, gehe ich mal davon aus.
+
+P19   32:21
+Ja, also einfach.
+Das halt, das halt einfach, dass dass du irgendein Foto kriegst und dann, ich mein, das ist ja schon, ist ja schon mit Photoshop ab und zu mal probiert worden, dass so einer nicht da war und dann hat man aber irgendwen das Foto montiert und das und solche Sachen, wo man dann irgendwem meint, ah,
+
+Fierbeck Simon   32:38
+Mhm.
+Mhm.
+
+P19   32:47
+Das passt so nicht. Das w�re so sch�ner, dass man das dann irgendwie einfach so Fotos machen l�sst.
+Und uns dann schickt und die Frage ist, was.
+bemerkt man da �berhaupt und und nat�rlich, dass man auch selber nicht auf die Idee kommt, irgendwas zu �ndern an Fotos oder �ndern zu lassen, das
+
+Fierbeck Simon   33:01
+Yep, yep.
+
+P19   33:13
+Das ist glaube ich schon das schwierigere Thema.
+
+Fierbeck Simon   33:16
+Ja, das ist auf jeden Fall eine Herausforderung. Das sehe ich auch immer, dass man nicht mehr wei�, was man glauben kann, wenn man es noch auf dem Bild sieht.
+
+P19   33:23
+Ja, und wenn man es ihm, aber wir, also wenn wir es mir dann ver�ffentlichen, adelt man es doch irgendwie ein bisschen, ohne dass man jetzt dann wirklich immer, ohne dass man es wirklich immer
+
+Fierbeck Simon   33:28
+Ja.
+Auf jeden Fall, dann steht eure Reputation dahinter. Ja, und schon.
+
+P19   33:40
+Also die Frage ist wie wie pr�ft man es? Also ich meine, es hat ja wir haben ja voriges Jahr haben wir ja mal so ein Rundschreiben dann rauslassen auf.
+Das die Chefredaktion formuliert hat, aber ja, auf wie lang das f�llt, sowas.
+
+Fierbeck Simon   33:56
+Mhm, mhm.
+
+P19   33:57
+Wenn es, wenn es immer einfacher wird.
+
+Fierbeck Simon   34:00
+Ja, ja, wenn vielleicht jemand das ja aktiv mag, aber das ist ein Thema, der ist auf jeden Fall sehr interessant, geiles Thema, muss ich sagen, aber nicht jetzt unbedingt in dem Interview, richtig. Genau, dann noch, ja, wenn jetzt
+
+P19   34:05
+I like this is out.
+Yeah.
+
+Fierbeck Simon   34:17
+viele Leute K.I. hernehmen, ist dann davon glaubst du, dass dann h�lt der Schreibstil nicht mehr so eindeutig wird, wenn nat�rlich man ver�ndert Sachen, aber grunds�tzlich ist schon 'n Unterschied da zwischen Text selber schreiben und ver�ndern.
+
+P19   34:28
+Ja, ja, das ist.
+Ja, das also, das wird nat�rlich.
+Also, das hat gerade, wenn man.
+�h.
+Wenn man es halt auch f�r die eigenen Texte hernimmt, dass man halt irgendwie keine Ahnung sehr.
+wo ich versuch, den schnell selber zu machen. Mir f�llt jetzt gerade kein Beispiel ein, wof�r ist jetzt ein, wof�r wo ich sag, das ist jetzt was, das w�rde ich selber schreiben und ansonsten. Mei, sagen wir mal, gr��ere Polizeimeldungen oder so.
+
+Fierbeck Simon   34:56
+Mhm.
+
+P19   35:09
+Die, die jetzt sind, also nicht nicht so der kleine Standard-Unfall, sondern irgendein gr��eres Thema von der Polizei, wo ich vielleicht da irgendwas zusammenfasse und so und was ich nat�rlich auch vielleicht von der K. I. sehr schnell machen lassen kann, das wird sich halt das.
+
+Fierbeck Simon   35:19
+Mhm.
+
+P19   35:26
+vielleicht sie an, das ist ein bisschen, glaube ich, so wie wie beim Mantelteil mit den Agenturen, nachdem alle D. P. A. haben, schauen sie auch alle gleich aus, so die die Regionalzeitungspolitik Teile oder oder.
+
+Fierbeck Simon   35:28
+Mhm.
+
+P19   35:44
+Mantelteile so so ein bisschen so diesen Effekt wird das nat�rlich haben.
+
+Fierbeck Simon   35:45
+Mhm, mhm, ja.
+Mhm.
+Und die letzte Frage noch: Abgesehen von dem Prototyp-Aspekt meines Tools, welche Features w�ren denn noch gut gewesen?
+
+P19   36:01
+Also.
+Wie gesagt.
+Also ich glaub, dass man, dass man f�r f�r Print schon noch einfach eine Reihe von so Features bauen kann, die jetzt bei dir gar nicht da waren. Also einfach das normale
+Den normalen Printablauf mit "Ich habe einen freien Mitarbeitertext, der zum Redigieren ist, nach bestimmten Kriterien, die jetzt nicht unbedingt die gleichen sind wie die f�r eine gute Online-Meldung."
+
+Fierbeck Simon   36:37
+Mhm.
+
+P19   36:38
+Und wo ich immer ein bisschen R�cksicht nehmen muss, dass der, dass ich den jetzt auch nicht vor den Kopf sto� und und dann.
+
+Fierbeck Simon   36:45
+Mhm.
+
+P19   36:51
+�berschriften, Vorschl�ge, wo ich dann vielleicht ein bisschen eine Bandbreite habe, wo ich dann aber relativ schnell sagen kann, O. K., die Richtung gehe und dann also das ist das, dieser, das ist unser.
+Workflow, wo ich solange wir es noch nicht so weit haben, dass die freien Mitarbeiter das selber irgendwo in einem Portal machen k�nnen, der uns schon stark helfen w�rde. Und dann habe ich auch noch, haben wir so Sonderf�lle,
+also Post jetzt, wir haben ja diese Rubrik in der A. Horst Personen und Notizen oder bei uns hei�t es namentlich, wo man also so, sagen wir mal so, so M�ll, der der schon gar nicht f�r einen eigenen Dreispalter oder so reicht.
+So Kinderg�rten, Schulen oder mal irgendein irgendein Vereinsausflug, wo die keine Ahnung, die sind am Nachmittag irgendwo hingefahren, haben sich irgendein Museum abgeschaltet und sind dann noch ins Wirtshaus gegangen und dann schicken sie ein Foto, was alle vom Bus st�ngen.
+
+Fierbeck Simon   37:39
+Mhm.
+
+P19   37:51
+und wo man, wo man also eigentlich eine relativ standardisierte Gr��e hat und so weiter und wo ich, wo ich dann eigentlich, wenn ich, wenn ich diesen diesen Text dann hentisch
+zusammenhauen muss, dann trotzdem irgendwie wieder relativ lange Zeit braucht und das l�sst sich super mit der K.I. erledigen. Da ist egal, ob der jetzt 200 Zeilen schickt oder 25 am Schluss kommt genau die L�nge raus, die kommt wohl nicht mehr und.
+
+Fierbeck Simon   38:14
+Mhm.
+Ja, ja.
+
+P19   38:25
+Da habe ich auch keine Skrupel, nicht was da alles weggeschmissen wird oder so, sondern klar ist, was wer ist, wann, wo hingefahren und war sch�n. Ja, nat�rlich, und das war es dann also.
+
+Fierbeck Simon   38:40
+Yeah, yeah.
+
+P19   38:40
+F�r solche Sachen ist super.
+
+Fierbeck Simon   38:43
+Mhm, mhm, ja.
+
+P19   38:44
+Und solche, aber das ist nat�rlich, da hat ja jede Redaktion, das ist bei uns ein bisschen so schwierig, da hat ja jede Redaktion oder jeder Landkreis, irgendwie wenigstens seine eigenen Traditionen. Und der Tool, das da, das das da vom Haus aus zur Verf�gung gestellt wird,
+Kann die fast nicht alle Abdecker, sondern da muss man schon irgendwie was machen, wo man vielleicht da jemanden, der es jetzt nicht so kann, einmal begleitet, dass man sagt "OK, ihr erstellt da die Prompts daf�r" und.
+Ja.
+
+Fierbeck Simon   39:15
+Ja, ja, aber du hast ja schon recht. Also mich hat sehr stark der Matthias Adam unterst�tzt bei dem ganzen Erstellen von dem, weil ich bin kein Journalist und dementsprechend auch wirklich stark bewandert in eurem Vorgehen und der kam auch aus der Onlinewelt und dann ist das nat�rlich auch st�rker abgebildet worden, deutlich st�rker,
+
+P19   39:30
+Mhm.
+
+Fierbeck Simon   39:32
+Grunds�tzlich, wenn man sowas dann fl�chendeckend einf�hrt, muss man halt die Leute auch mal fragen, wie sie arbeiten. Und das durfte ich aber nicht, weil ich nicht mit den Teilnehmenden sowas besprechen sollte, weil das Auswirkungen darauf hat. Aber ja.
+Da ist nat�rlich dann jemanden, der im Printbereich ist, deutlich benachteiligt im Vergleich zu den anderen Leuten. Na ja, Buyer Anschluss als Prototyp f�r Masterarbeit, dementsprechend.
+
+P19   39:56
+Ja, is good.
+
+Fierbeck Simon   40:17
+Mhm.
+
+P19   40:18
+das noch mal ausprobiert, haben gemacht und ich, ich pers�nlich finde, dass dieses Thema nachprompten.
+Eigentlich glaube die meisten eher �berfordert. Also, ich glaub, dass dass man ein Tool braucht, das eigentlich so aufgestellt ist, dass dass klar ist, ich hab das und das hier au�er Komma.
+
+Fierbeck Simon   40:35
+Mhm.
+
+P19   40:47
+und oder ich hab da meinen Input und ich muss, ich muss auf einen Knopfdrucker, was ich haben m�cht oder ausw�hlen, was ich haben m�cht. es Nachprompten, ob es Nachprompten tats�chlich
+
+Fierbeck Simon   40:56
+Mhm.
+
+P19   41:06
+F�r die f�r die Masse, wenn ich mir jetzt so einfach so meine Kollegen vorstelle, die jetzt hier nicht mehr so ein ob es nachprompt f�r die Masse ja so eine gute Idee ist, bin ich mir nicht so sicher.
+
+Fierbeck Simon   41:11
+Mhm.
+Ja, ja, ja, das kommt auf jeden Fall noch in die Toolevaluation rein f�r Masterarbeit und ja, damit w�r es jetzt auch, das Interview vorbei, haben wir eh 'ne Viertelstunde �berzogen. Stefan, vielen, vielen, vielen, vielen Dank.
+Dass du da als Proband dabei warst, dass du mir die Daten geliefert hast und dass du dir die Zeit genommen hast, hilft mir sehr. Und ich hoffe, es war jetzt nicht zu l�stig oder sowas.
+
+P19   41:42
+Nein, nein, alles gut. Wie gesagt, das ist ein Thema, das mich selbst besch�ftigt. Und ja, dann auf jeden Fall viel Erfolg f�r die Arbeit.
+
+Fierbeck Simon   41:48
+Mhm, mhm.
+Dankesch�n, dankesch�n. Noch einen sch�nen Tag und wir h�ren voneinander.
+
+P19   41:55
+Ja.
+Ja, OK, dann ciao.
+
+Fierbeck Simon   41:59
+Tsch�ss.
+
+Fierbeck Simon Transkription beendet
